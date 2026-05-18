@@ -30,6 +30,21 @@ OUT <- file.path(ROOT, "reference")
 
 # ---- config -----------------------------------------------------------------
 
+normalize_extra_vignettes <- function(raw) {
+    if (is.null(raw)) return(list())
+    lapply(raw, function(e) {
+        if (is.character(e)) {
+            list(repo = e, ref = NULL, path = "vignettes")
+        } else {
+            list(
+                repo = e$repo,
+                ref = e$ref,  # NULL → clone the repo's default branch
+                path = e$path %||% "vignettes"
+            )
+        }
+    })
+}
+
 read_packages <- function() {
     cfg <- yaml.load_file(file.path(ROOT, "packages.yml"))
     default_org <- cfg$org %||% "giotto-suite"
@@ -38,13 +53,15 @@ read_packages <- function() {
     pkgs <- lapply(cfg$packages, function(p) {
         if (is.character(p)) {
             list(name = p, org = default_org, ref = default_ref,
-                 include_internal = default_internal)
+                 include_internal = default_internal,
+                 extra_vignettes = list())
         } else {
             list(
                 name = p$name,
                 org = p$org %||% default_org,
                 ref = p$ref %||% default_ref,
-                include_internal = isTRUE(p$include_internal) || default_internal
+                include_internal = isTRUE(p$include_internal) || default_internal,
+                extra_vignettes = normalize_extra_vignettes(p$extra_vignettes)
             )
         }
     })
@@ -408,8 +425,51 @@ build_package <- function(pkg) {
         vg_index[[length(vg_index) + 1]] <- list(
             package = pkg$name,
             file = sub(paste0("^", ROOT, "/"), "", out_file),
-            name = tools::file_path_sans_ext(basename(vg))
+            name = tools::file_path_sans_ext(basename(vg)),
+            source = sprintf("%s/%s", pkg$org, pkg$name)
         )
+    }
+
+    # extra vignette sources (e.g. companion website repos)
+    for (extra in pkg$extra_vignettes) {
+        sub_name <- gsub(".*/", "", extra$repo)
+        extra_dest <- file.path(CACHE, paste0("__extra_", pkg$name, "_", sub_name))
+        if (dir.exists(extra_dest)) unlink(extra_dest, recursive = TRUE)
+        url <- sprintf("https://github.com/%s.git", extra$repo)
+        ref_desc <- extra$ref %||% "<default>"
+        msg("  %s: clone extra vignettes %s @ %s", pkg$name, url, ref_desc)
+        clone_args <- c("clone", "--depth", "1")
+        if (!is.null(extra$ref)) clone_args <- c(clone_args, "--branch", extra$ref)
+        clone_args <- c(clone_args, url, extra_dest)
+        status <- system2("git", clone_args, stdout = FALSE, stderr = FALSE)
+        if (status != 0) {
+            msg("    warn: clone failed, skipping extra source")
+            next
+        }
+        src_path <- file.path(extra_dest, extra$path)
+        if (!dir.exists(src_path)) {
+            msg("    warn: path '%s' not found in %s", extra$path, extra$repo)
+            next
+        }
+        extra_files <- list.files(
+            src_path, pattern = "\\.(Rmd|md|qmd)$",
+            ignore.case = TRUE, full.names = TRUE
+        )
+        if (!length(extra_files)) next
+        sub_out <- file.path(vg_out, sub_name)
+        dir.create(sub_out, showWarnings = FALSE, recursive = TRUE)
+        for (vg in extra_files) {
+            out_file <- file.path(sub_out, basename(vg))
+            file.copy(vg, out_file, overwrite = TRUE)
+            vg_index[[length(vg_index) + 1]] <- list(
+                package = pkg$name,
+                file = sub(paste0("^", ROOT, "/"), "", out_file),
+                name = paste(sub_name,
+                             tools::file_path_sans_ext(basename(vg)), sep = "/"),
+                source = extra$repo
+            )
+        }
+        msg("    +%d vignette(s) from %s", length(extra_files), extra$repo)
     }
 
     # per-package README

@@ -15,6 +15,11 @@ include_internal: false
 packages:
   - name: Giotto
     ref: suite
+    # Additional vignette-only sources. Each entry may be a string
+    # "<owner>/<repo>" (defaults: ref=main, path=vignettes) or an object
+    # with explicit fields. Copied into reference/<pkg>/vignettes/<repo>/.
+    extra_vignettes:
+      - giotto-suite/Giotto_website
   - GiottoClass
   - GiottoUtils
   - GiottoVisuals

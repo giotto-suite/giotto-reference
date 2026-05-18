@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-18T21:12:32Z",
+  "generated_at": "2026-05-18T21:31:06Z",
   "packages": [
     {
       "name": "Giotto",
       "title": "Spatial Single-Cell Transcriptomics Toolbox",
       "version": "4.2.3",
       "n_functions": 234,
-      "n_vignettes": 2
+      "n_vignettes": 102
     },
     {
       "name": "GiottoClass",
@@ -4845,27 +4845,632 @@
     {
       "package": "Giotto",
       "file": "reference/Giotto/vignettes/dbMatrix.Rmd",
-      "name": "dbMatrix"
+      "name": "dbMatrix",
+      "source": "giotto-suite/Giotto"
     },
     {
       "package": "Giotto",
       "file": "reference/Giotto/vignettes/intro_to_giotto.Rmd",
-      "name": "intro_to_giotto"
+      "name": "intro_to_giotto",
+      "source": "giotto-suite/Giotto"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/affine_registration.Rmd",
+      "name": "Giotto_website/affine_registration",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/bento.Rmd",
+      "name": "Giotto_website/bento",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/branches.Rmd",
+      "name": "Giotto_website/branches",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/codex_mouse_spleen.Rmd",
+      "name": "Giotto_website/codex_mouse_spleen",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/coding_style.Rmd",
+      "name": "Giotto_website/coding_style",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/configuration.Rmd",
+      "name": "Giotto_website/configuration",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/contributing_tutorials.Rmd",
+      "name": "Giotto_website/contributing_tutorials",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/core_functions.Rmd",
+      "name": "Giotto_website/core_functions",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/cosmx_pancreas.Rmd",
+      "name": "Giotto_website/cosmx_pancreas",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/create_simulated_object.Rmd",
+      "name": "Giotto_website/create_simulated_object",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/creating_a_pull_request.Rmd",
+      "name": "Giotto_website/creating_a_pull_request",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/cross_section.Rmd",
+      "name": "Giotto_website/cross_section",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/deconvolution.Rmd",
+      "name": "Giotto_website/deconvolution",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/dimension_reduction.Rmd",
+      "name": "Giotto_website/dimension_reduction",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/dispatch_functions.Rmd",
+      "name": "Giotto_website/dispatch_functions",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/docker.Rmd",
+      "name": "Giotto_website/docker",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/ecosystem.Rmd",
+      "name": "Giotto_website/ecosystem",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/faqs.Rmd",
+      "name": "Giotto_website/faqs",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/feature_aggregation.Rmd",
+      "name": "Giotto_website/feature_aggregation",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/filtering.Rmd",
+      "name": "Giotto_website/filtering",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/find_degs.Rmd",
+      "name": "Giotto_website/find_degs",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/general_workflow.Rmd",
+      "name": "Giotto_website/general_workflow",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/getters_setters.Rmd",
+      "name": "Giotto_website/getters_setters",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/github_issues.Rmd",
+      "name": "Giotto_website/github_issues",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/harmony.Rmd",
+      "name": "Giotto_website/harmony",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/hmrf.Rmd",
+      "name": "Giotto_website/hmrf",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/hvf.Rmd",
+      "name": "Giotto_website/hvf",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/import_utilities.Rmd",
+      "name": "Giotto_website/import_utilities",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/installation.Rmd",
+      "name": "Giotto_website/installation",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/instructions.Rmd",
+      "name": "Giotto_website/instructions",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/integrate_misty_analysis.Rmd",
+      "name": "Giotto_website/integrate_misty_analysis",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interactive_giotto_vitessceR.Rmd",
+      "name": "Giotto_website/interactive_giotto_vitessceR",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interactive_selection_cosmx.Rmd",
+      "name": "Giotto_website/interactive_selection_cosmx",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interactive_selection.Rmd",
+      "name": "Giotto_website/interactive_selection",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interoperability_anndata.Rmd",
+      "name": "Giotto_website/interoperability_anndata",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interoperability_seurat.Rmd",
+      "name": "Giotto_website/interoperability_seurat",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interoperability_spatialdata.Rmd",
+      "name": "Giotto_website/interoperability_spatialdata",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/interoperability_spatialexperiment.Rmd",
+      "name": "Giotto_website/interoperability_spatialexperiment",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/kriging.Rmd",
+      "name": "Giotto_website/kriging",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/merfish_mouse_hypothalamic.Rmd",
+      "name": "Giotto_website/merfish_mouse_hypothalamic",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/merfish_mouse_sagittal_bil.Rmd",
+      "name": "Giotto_website/merfish_mouse_sagittal_bil",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/metafeatures.Rmd",
+      "name": "Giotto_website/metafeatures",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/mini_seqfish.Rmd",
+      "name": "Giotto_website/mini_seqfish",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/mouse_embryo_dbitseq.Rmd",
+      "name": "Giotto_website/mouse_embryo_dbitseq",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/multiomics_rna_atac_me13.Rmd",
+      "name": "Giotto_website/multiomics_rna_atac_me13",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/nanostring_cosmx_lung_cancer.Rmd",
+      "name": "Giotto_website/nanostring_cosmx_lung_cancer",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/nemo_slideseq.Rmd",
+      "name": "Giotto_website/nemo_slideseq",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/networks.Rmd",
+      "name": "Giotto_website/networks",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/normalization.Rmd",
+      "name": "Giotto_website/normalization",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/obj_create_agg.Rmd",
+      "name": "Giotto_website/obj_create_agg",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/obj_create_img.Rmd",
+      "name": "Giotto_website/obj_create_img",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/obj_create_mod.Rmd",
+      "name": "Giotto_website/obj_create_mod",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/obj_create_pnts.Rmd",
+      "name": "Giotto_website/obj_create_pnts",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/obj_create_sc.Rmd",
+      "name": "Giotto_website/obj_create_sc",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/object_creation.Rmd",
+      "name": "Giotto_website/object_creation",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/ontrac.Rmd",
+      "name": "Giotto_website/ontrac",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/openst_mouse_hippocampus.Rmd",
+      "name": "Giotto_website/openst_mouse_hippocampus",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/osmfish_mouse_ss_cortex.Rmd",
+      "name": "Giotto_website/osmfish_mouse_ss_cortex",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/package_imports.Rmd",
+      "name": "Giotto_website/package_imports",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/page_rank_enrichment.Rmd",
+      "name": "Giotto_website/page_rank_enrichment",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/presentations.Rmd",
+      "name": "Giotto_website/presentations",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/process_giotto.Rmd",
+      "name": "Giotto_website/process_giotto",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/python_code.Rmd",
+      "name": "Giotto_website/python_code",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/resolve_biosciences_human_lung.Rmd",
+      "name": "Giotto_website/resolve_biosciences_human_lung",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/resolve_biosciences.Rmd",
+      "name": "Giotto_website/resolve_biosciences",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/saving_object.Rmd",
+      "name": "Giotto_website/saving_object",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/saving_plots.Rmd",
+      "name": "Giotto_website/saving_plots",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/seqfish_cortex.Rmd",
+      "name": "Giotto_website/seqfish_cortex",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/seqscope_mouse_liver.rmd",
+      "name": "Giotto_website/seqscope_mouse_liver",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/singlecell_lung_adenocarcinoma.Rmd",
+      "name": "Giotto_website/singlecell_lung_adenocarcinoma",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/singlecell_prostate_integration.Rmd",
+      "name": "Giotto_website/singlecell_prostate_integration",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/singlecell_prostate_standard.Rmd",
+      "name": "Giotto_website/singlecell_prostate_standard",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/singularity.Rmd",
+      "name": "Giotto_website/singularity",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/slideseq_mouse_brain.Rmd",
+      "name": "Giotto_website/slideseq_mouse_brain",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_citeseq_human_skin.Rmd",
+      "name": "Giotto_website/spatial_citeseq_human_skin",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_coexpression_modules.Rmd",
+      "name": "Giotto_website/spatial_coexpression_modules",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_genes.Rmd",
+      "name": "Giotto_website/spatial_genes",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_genomics_mouse_kidney.Rmd",
+      "name": "Giotto_website/spatial_genomics_mouse_kidney",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_informed_clusters.Rmd",
+      "name": "Giotto_website/spatial_informed_clusters",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/spatial_transformations.Rmd",
+      "name": "Giotto_website/spatial_transformations",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/split_join.Rmd",
+      "name": "Giotto_website/split_join",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/starmap_mouse_cortex.Rmd",
+      "name": "Giotto_website/starmap_mouse_cortex",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/stereoseq_importer.Rmd",
+      "name": "Giotto_website/stereoseq_importer",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/stereoseq_mouse_eyeball.Rmd",
+      "name": "Giotto_website/stereoseq_mouse_eyeball",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/structure.Rmd",
+      "name": "Giotto_website/structure",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/team.Rmd",
+      "name": "Giotto_website/team",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/terra.Rmd",
+      "name": "Giotto_website/terra",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/tesselation.Rmd",
+      "name": "Giotto_website/tesselation",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/tma.Rmd",
+      "name": "Giotto_website/tma",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/troubleshooting.Rmd",
+      "name": "Giotto_website/troubleshooting",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visium_cytassist_human_glioblastoma.Rmd",
+      "name": "Giotto_website/visium_cytassist_human_glioblastoma",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visium_cytassist_lungcancer.Rmd",
+      "name": "Giotto_website/visium_cytassist_lungcancer",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visium_mouse_brain.Rmd",
+      "name": "Giotto_website/visium_mouse_brain",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visium_mouse_kidney.Rmd",
+      "name": "Giotto_website/visium_mouse_kidney",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visium_prostate_integration.Rmd",
+      "name": "Giotto_website/visium_prostate_integration",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/VisiumHD_Convenience_Function_Kidney.Rmd",
+      "name": "Giotto_website/VisiumHD_Convenience_Function_Kidney",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/VisiumHD_Human_Colorectal_Cancer.Rmd",
+      "name": "Giotto_website/VisiumHD_Human_Colorectal_Cancer",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/visualizations.Rmd",
+      "name": "Giotto_website/visualizations",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/vizgen_mouse_brain.Rmd",
+      "name": "Giotto_website/vizgen_mouse_brain",
+      "source": "giotto-suite/Giotto_website"
+    },
+    {
+      "package": "Giotto",
+      "file": "reference/Giotto/vignettes/Giotto_website/xenium_breast_cancer.rmd",
+      "name": "Giotto_website/xenium_breast_cancer",
+      "source": "giotto-suite/Giotto_website"
     },
     {
       "package": "GiottoClass",
       "file": "reference/GiottoClass/vignettes/overview.Rmd",
-      "name": "overview"
+      "name": "overview",
+      "source": "giotto-suite/GiottoClass"
     },
     {
       "package": "GiottoUtils",
       "file": "reference/GiottoUtils/vignettes/print_formatting.Rmd",
-      "name": "print_formatting"
+      "name": "print_formatting",
+      "source": "giotto-suite/GiottoUtils"
     },
     {
       "package": "GiottoVisuals",
       "file": "reference/GiottoVisuals/vignettes/intro_to_GiottoVisuals.Rmd",
-      "name": "intro_to_GiottoVisuals"
+      "name": "intro_to_GiottoVisuals",
+      "source": "giotto-suite/GiottoVisuals"
     }
   ]
 }
