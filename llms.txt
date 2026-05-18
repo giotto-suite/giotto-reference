@@ -1,0 +1,955 @@
+# Giotto Reference
+
+> Function and vignette reference for the Giotto spatial-omics R package suite.
+> Auto-generated weekly from each package's man/ and vignettes/ directories.
+
+## Giotto
+- [Package README](reference/Giotto/README.md)
+- [Vignette: dbMatrix](reference/Giotto/vignettes/dbMatrix.Rmd)
+- [Vignette: intro_to_giotto](reference/Giotto/vignettes/intro_to_giotto.Rmd)
+- [adapt_aspect_ratio](reference/Giotto/functions/adapt_aspect_ratio.md): adapt_aspect_ratio
+- [addCellIntMetadata](reference/Giotto/functions/addCellIntMetadata.md): addCellIntMetadata
+- [addCellStatistics](reference/Giotto/functions/addCellStatistics.md): addCellStatistics
+- [addFeatsPerc](reference/Giotto/functions/addFeatsPerc.md): addFeatsPerc
+- [addFeatStatistics](reference/Giotto/functions/addFeatStatistics.md): Add feature statistics
+- [addHMRF_V2](reference/Giotto/functions/addHMRF_V2.md): addHMRF_V2
+- [addHMRF](reference/Giotto/functions/addHMRF.md): addHMRF
+- [addPolygonCells](reference/Giotto/functions/addPolygonCells.md): Add corresponding polygon IDs to cell metadata
+- [addStatistics](reference/Giotto/functions/addStatistics.md): addStatistics
+- [addVisiumPolygons](reference/Giotto/functions/addVisiumPolygons.md): Add Visium Polygons to Giotto Object
+- [adjust_limma](reference/Giotto/functions/adjust_limma.md): Limma Batch Correction
+- [adjustGiottoMatrix](reference/Giotto/functions/adjustGiottoMatrix.md): Adjust expression values
+- [binSpect](reference/Giotto/functions/binSpect.md): binSpect
+- [binSpectMultiMatrix](reference/Giotto/functions/binSpectMultiMatrix.md): binSpectMultiMatrix
+- [cal_cell_niche_cluster_bin](reference/Giotto/functions/cal_cell_niche_cluster_bin.md): cal_cell_niche_cluster_bin
+- [calculate_spatial_enrichment](reference/Giotto/functions/calculate_spatial_enrichment.md): Calculate spatial enrichment
+- [calculateAffineMatrixFromLandmarks](reference/Giotto/functions/calculateAffineMatrixFromLandmarks.md): Calculate an affine transformation matrix from two sets of landmarks
+- [calculateHVF](reference/Giotto/functions/calculateHVF.md): calculateHVF
+- [callSpdep](reference/Giotto/functions/callSpdep.md): Call the spdep function with required parameters
+- [cell_proximity_spots](reference/Giotto/functions/cell_proximity_spots.md): Cell type proximity for spots
+- [cell_proximity_tests](reference/Giotto/functions/cell_proximity_tests.md): Interaction changed features test methods
+- [cellProximityBarplot](reference/Giotto/functions/cellProximityBarplot.md): cellProximityBarplot
+- [cellProximityEnrichment](reference/Giotto/functions/cellProximityEnrichment.md): cellProximityEnrichment
+- [cellProximityEnrichmentEachSpot](reference/Giotto/functions/cellProximityEnrichmentEachSpot.md): cellProximityEnrichmentEachSpot
+- [cellProximityEnrichmentSpots](reference/Giotto/functions/cellProximityEnrichmentSpots.md): cellProximityEnrichmentSpots
+- [cellProximityHeatmap](reference/Giotto/functions/cellProximityHeatmap.md): cellProximityHeatmap
+- [cellProximityNetwork](reference/Giotto/functions/cellProximityNetwork.md): cellProximityNetwork
+- [cellProximitySpatPlot](reference/Giotto/functions/cellProximitySpatPlot.md): cellProximitySpatPlot
+- [cellProximitySpatPlot2D](reference/Giotto/functions/cellProximitySpatPlot2D.md): cellProximitySpatPlot2D
+- [cellProximitySpatPlot3D](reference/Giotto/functions/cellProximitySpatPlot3D.md): cellProximitySpatPlot3D
+- [cellProximityVisPlot_internals](reference/Giotto/functions/cellProximityVisPlot_internals.md): cellProximityVisPlot internals
+- [cellProximityVisPlot](reference/Giotto/functions/cellProximityVisPlot.md): cellProximityVisPlot
+- [checkAndFixSpatialGenes](reference/Giotto/functions/checkAndFixSpatialGenes.md): checkAndFixSpatialGenes
+- [chooseAvailableSpatialGenes](reference/Giotto/functions/chooseAvailableSpatialGenes.md): chooseAvailableSpatialGenes
+- [cluster_enrich_analysis](reference/Giotto/functions/cluster_enrich_analysis.md): cluster_enrich_analysis
+- [clusterCells](reference/Giotto/functions/clusterCells.md): clusterCells
+- [clusterData](reference/Giotto/functions/clusterData.md): Data clustering
+- [clusterParam](reference/Giotto/functions/clusterParam.md): Clustering Parameter Classes
+- [clusterSpatialCorFeats](reference/Giotto/functions/clusterSpatialCorFeats.md): clusterSpatialCorFeats
+- [clusterSpatialCorGenes](reference/Giotto/functions/clusterSpatialCorGenes.md): clusterSpatialCorGenes
+- [combCCcom](reference/Giotto/functions/combCCcom.md): Combine cell cell communication tables
+- [combineCellProximityGenes](reference/Giotto/functions/combineCellProximityGenes.md): deprecated
+- [combineCPG](reference/Giotto/functions/combineCPG.md): deprecated
+- [combineICG](reference/Giotto/functions/combineICG.md): deprecated
+- [combineInteractionChangedFeats](reference/Giotto/functions/combineInteractionChangedFeats.md): combineInteractionChangedFeats
+- [combineInteractionChangedGenes](reference/Giotto/functions/combineInteractionChangedGenes.md): deprecated
+- [compareCellAbundance](reference/Giotto/functions/compareCellAbundance.md): Compare cell types percent per polygon
+- [comparePolygonExpression](reference/Giotto/functions/comparePolygonExpression.md): Compare gene expression between polygon areas
+- [convertEnsemblToGeneSymbol](reference/Giotto/functions/convertEnsemblToGeneSymbol.md): convertEnsemblToGeneSymbol
+- [create_2d_mesh_grid_line_obj](reference/Giotto/functions/create_2d_mesh_grid_line_obj.md): create_2d_mesh_grid_line_obj
+- [create_crossSection_object](reference/Giotto/functions/create_crossSection_object.md): create_crossSection_object
+- [create_mesh_grid_lines](reference/Giotto/functions/create_mesh_grid_lines.md): create_mesh_grid_lines
+- [create_screeplot](reference/Giotto/functions/create_screeplot.md): create_screeplot
+- [createArchRProj](reference/Giotto/functions/createArchRProj.md): Create an ArchR project and run LSI dimension reduction
+- [createCrossSection](reference/Giotto/functions/createCrossSection.md): createCrossSection
+- [createGiottoCosMxObject](reference/Giotto/functions/createGiottoCosMxObject.md): Create Nanostring CosMx Giotto Object
+- [createGiottoMerscopeObject](reference/Giotto/functions/createGiottoMerscopeObject.md): Create Vizgen MERSCOPE Giotto Object
+- [createGiottoObjectfromArchR](reference/Giotto/functions/createGiottoObjectfromArchR.md): Create a Giotto object from an ArchR project
+- [createGiottoStereoSeqObject](reference/Giotto/functions/createGiottoStereoSeqObject.md): Create Stereo-seq Giotto Object
+- [createGiottoStereoSeqObjectBin](reference/Giotto/functions/createGiottoStereoSeqObjectBin.md): Create Stereo-seq Giotto Object from Square Bin Data
+- [createGiottoStereoSeqObjectCell](reference/Giotto/functions/createGiottoStereoSeqObjectCell.md): Create Stereo-seq Giotto Object from Cell Bin Data
+- [createGiottoVisiumHDObject](reference/Giotto/functions/createGiottoVisiumHDObject.md): deprecated
+- [createGiottoVisiumHDObjectBin](reference/Giotto/functions/createGiottoVisiumHDObjectBin.md): Create 10x VisiumHD Giotto Object from Binned Outputs
+- [createGiottoVisiumHDObjectCell](reference/Giotto/functions/createGiottoVisiumHDObjectCell.md): Create 10x VisiumHD Giotto Object from Segmented Outputs
+- [createGiottoVisiumObject](reference/Giotto/functions/createGiottoVisiumObject.md): Create a giotto object from 10x visium data
+- [createGiottoXeniumObject](reference/Giotto/functions/createGiottoXeniumObject.md): Create 10x Xenium Giotto Object
+- [createMerscopeLargeImage](reference/Giotto/functions/createMerscopeLargeImage.md): Create Vizgen MERSCOPE largeImage
+- [createSpatialGenomicsObject](reference/Giotto/functions/createSpatialGenomicsObject.md): Create Spatial Genomics Giotto Object
+- [crossSectionFeatPlot](reference/Giotto/functions/crossSectionFeatPlot.md): crossSectionFeatPlot
+- [crossSectionFeatPlot3D](reference/Giotto/functions/crossSectionFeatPlot3D.md): crossSectionFeatPlot3D
+- [crossSectionPlot](reference/Giotto/functions/crossSectionPlot.md): crossSectionPlot
+- [crossSectionPlot3D](reference/Giotto/functions/crossSectionPlot3D.md): crossSectionPlot3D
+- [data_access_params](reference/Giotto/functions/data_access_params.md): data_access_params
+- [detectSpatialCorFeats](reference/Giotto/functions/detectSpatialCorFeats.md): Detect spatially correlated features
+- [detectSpatialPatterns](reference/Giotto/functions/detectSpatialPatterns.md): detectSpatialPatterns
+- [do_permuttest_spot](reference/Giotto/functions/do_permuttest_spot.md): Spot permutation testing
+- [do_spatial_grid_averaging](reference/Giotto/functions/do_spatial_grid_averaging.md): do_spatial_grid_averaging
+- [do_spatial_knn_smoothing](reference/Giotto/functions/do_spatial_knn_smoothing.md): do_spatial_knn_smoothing
+- [doCellposeSegmentation](reference/Giotto/functions/doCellposeSegmentation.md): perform cellpose segmentation
+- [doCellSegmentation](reference/Giotto/functions/doCellSegmentation.md): doCellSegmentation
+- [doClusterProjection](reference/Giotto/functions/doClusterProjection.md): Projection of cluster labels
+- [doFeatureSetEnrichment](reference/Giotto/functions/doFeatureSetEnrichment.md): doFeatureSetEnrichment
+- [doGiottoClustree](reference/Giotto/functions/doGiottoClustree.md): doGiottoClustree
+- [doHclust](reference/Giotto/functions/doHclust.md): doHclust
+- [doHMRF_V2](reference/Giotto/functions/doHMRF_V2.md): doHMRF_V2
+- [doHMRF](reference/Giotto/functions/doHMRF.md): doHMRF
+- [doKmeans](reference/Giotto/functions/doKmeans.md): doKmeans
+- [doLeidenCluster](reference/Giotto/functions/doLeidenCluster.md): doLeidenCluster
+- [doLeidenClusterPython](reference/Giotto/functions/doLeidenClusterPython.md): doLeidenClusterPython
+- [doLouvainCluster](reference/Giotto/functions/doLouvainCluster.md): doLouvainCluster
+- [doMesmerSegmentation](reference/Giotto/functions/doMesmerSegmentation.md): perform Mesmer(Deepcell) segmentation
+- [doRandomWalkCluster](reference/Giotto/functions/doRandomWalkCluster.md): doRandomWalkCluster
+- [doScrubletDetect](reference/Giotto/functions/doScrubletDetect.md): doScrubletDetect
+- [doSNNCluster](reference/Giotto/functions/doSNNCluster.md): doSNNCluster
+- [doStardistSegmentation](reference/Giotto/functions/doStardistSegmentation.md): perform Stardist segmentation
+- [.average_feat_feat_expression_in_groups](reference/Giotto/functions/.average_feat_feat_expression_in_groups.md): average_feat_feat_expression_in_groups
+- [.cal_diff_per_interaction](reference/Giotto/functions/.cal_diff_per_interaction.md): Calculate difference per interaction
+- [.cal_expr_residual](reference/Giotto/functions/.cal_expr_residual.md): Calculate feature expression residual
+- [.combineInteractionChangedFeatures_per_interaction](reference/Giotto/functions/.combineInteractionChangedFeatures_per_interaction.md): Combine ICF scores per interaction
+- [.cosmx_infer_fov_shifts](reference/Giotto/functions/.cosmx_infer_fov_shifts.md): Infer CosMx local to global shifts
+- [.create_cell_type_random_cell_IDs](reference/Giotto/functions/.create_cell_type_random_cell_IDs.md): Create randomized cell IDs within a selection of cell types
+- [.create_switch_string_unequal](reference/Giotto/functions/.create_switch_string_unequal.md): Create switch string unequal
+- [.determine_switch_string_equal](reference/Giotto/functions/.determine_switch_string_equal.md): Determine switch string equal
+- [.determine_switch_string_unequal](reference/Giotto/functions/.determine_switch_string_unequal.md): Determine switch string unequal
+- [.do_cell_proximity_test_spot](reference/Giotto/functions/.do_cell_proximity_test_spot.md): Cell proximity testing for spot data
+- [.do_cell_proximity_test](reference/Giotto/functions/.do_cell_proximity_test.md): Do cell proximity test
+- [.do_page_permutation](reference/Giotto/functions/.do_page_permutation.md): PAGE permutation
+- [.do_rank_permutation](reference/Giotto/functions/.do_rank_permutation.md): Rank permutation
+- [.doLouvainCluster_community](reference/Giotto/functions/.doLouvainCluster_community.md): doLouvainCluster community
+- [.doLouvainCluster_multinet](reference/Giotto/functions/.doLouvainCluster_multinet.md): doLouvainCluster multinet
+- [.estimate_transform_from_matched_descriptor](reference/Giotto/functions/.estimate_transform_from_matched_descriptor.md): Estimate affine transformation from matched descriptor
+- [.findCellProximityFeats_per_interaction](reference/Giotto/functions/.findCellProximityFeats_per_interaction.md): Find cell proximity features per interaction
+- [.findICF_per_interaction_spot](reference/Giotto/functions/.findICF_per_interaction_spot.md): Find ICF per interaction for spot data
+- [.get_img_corners](reference/Giotto/functions/.get_img_corners.md): Get image corners
+- [.h5_read_bare](reference/Giotto/functions/.h5_read_bare.md): Read dataset from opened HDF5 with C functions
+- [.kmeans_arma_binarize](reference/Giotto/functions/.kmeans_arma_binarize.md): .kmeans_arma_binarize
+- [.kmeans_arma_subset_binarize](reference/Giotto/functions/.kmeans_arma_subset_binarize.md): .kmeans_arma_subset_binarize
+- [.kmeans_binarize](reference/Giotto/functions/.kmeans_binarize.md): .kmeans_binarize
+- [.match_descriptor](reference/Giotto/functions/.match_descriptor.md): Match image descriptors
+- [.node_clusters](reference/Giotto/functions/.node_clusters.md): Node clusters
+- [.or_test_func](reference/Giotto/functions/.or_test_func.md): Odds ratio test
+- [.page_dt_method](reference/Giotto/functions/.page_dt_method.md): PAGE data.table method
+- [.plot_matched_descriptors](reference/Giotto/functions/.plot_matched_descriptors.md): plot matched descriptors
+- [.plotRecovery_sub](reference/Giotto/functions/.plotRecovery_sub.md): Create recovery plot
+- [.rank_binarize](reference/Giotto/functions/.rank_binarize.md): Rank binarize
+- [.reg_img_minmax_finder](reference/Giotto/functions/.reg_img_minmax_finder.md): Find minmax of registered image
+- [.rigid_transform_spatial_locations](reference/Giotto/functions/.rigid_transform_spatial_locations.md): Rigid transform spatial locations
+- [.run_pca_biocsingular_irlba_projection](reference/Giotto/functions/.run_pca_biocsingular_irlba_projection.md): Run PCA - BiocSingular irlba projection
+- [.run_pca_biocsingular](reference/Giotto/functions/.run_pca_biocsingular.md): Run PCA - BiocSingular
+- [.run_pca_factominer](reference/Giotto/functions/.run_pca_factominer.md): Run PCA - factominer
+- [.run_spat_autocor_global](reference/Giotto/functions/.run_spat_autocor_global.md): .run_spat_autocor_global
+- [.run_spat_autocor_local](reference/Giotto/functions/.run_spat_autocor_local.md): .run_spat_autocor_local
+- [.sift_detect](reference/Giotto/functions/.sift_detect.md): Run SIFT feature detector and descriptor extractor
+- [.specific_CCCScores_spots](reference/Giotto/functions/.specific_CCCScores_spots.md): Specific cell-cell communication scores for spot data
+- [.split_dendrogram_in_two](reference/Giotto/functions/.split_dendrogram_in_two.md): Split dendrogram in two
+- [.trakem2_rigid_transforms](reference/Giotto/functions/.trakem2_rigid_transforms.md): Read trakem2 rigid transforms
+- [.visium_read_scalefactors](reference/Giotto/functions/.visium_read_scalefactors.md): Read Visium ScaleFactors
+- [.visium_spot_poly](reference/Giotto/functions/.visium_spot_poly.md): Create Polygons for Visium Data
+- [.warp_transformed_image](reference/Giotto/functions/.warp_transformed_image.md): Warp transformed images from estimated transformation
+- [enrich_analysis](reference/Giotto/functions/enrich_analysis.md): enrich_analysis
+- [enrich_deconvolution](reference/Giotto/functions/enrich_deconvolution.md): enrich_deconvolution
+- [enrichment_PAGE](reference/Giotto/functions/enrichment_PAGE.md): PAGE feature enrichment
+- [estimateAutomatedImageRegistrationWithSIFT](reference/Giotto/functions/estimateAutomatedImageRegistrationWithSIFT.md): Estimate Automated ImageRegistration With SIFT
+- [evaluate_provided_spatial_locations](reference/Giotto/functions/evaluate_provided_spatial_locations.md): Evaluate provided spatial locations
+- [exportGiottoViewer](reference/Giotto/functions/exportGiottoViewer.md): exportGiottoViewer
+- [exprCellCellcom](reference/Giotto/functions/exprCellCellcom.md): exprCellCellcom
+- [extend_vector](reference/Giotto/functions/extend_vector.md): extend_vector
+- [extended_gini_fun](reference/Giotto/functions/extended_gini_fun.md): extended_gini_fun
+- [featExpDWLS](reference/Giotto/functions/featExpDWLS.md): featExpDWLS
+- [filterCellProximityGenes](reference/Giotto/functions/filterCellProximityGenes.md): deprecated
+- [filterCombinations](reference/Giotto/functions/filterCombinations.md): filterCombinations
+- [filterCPG](reference/Giotto/functions/filterCPG.md): deprecated
+- [filterDistributions](reference/Giotto/functions/filterDistributions.md): filterDistributions
+- [filterGiotto](reference/Giotto/functions/filterGiotto.md): filterGiotto
+- [filterICFSpot](reference/Giotto/functions/filterICFSpot.md): filterICFSpot
+- [filterICG](reference/Giotto/functions/filterICG.md): deprecated
+- [filterInteractionChangedFeats](reference/Giotto/functions/filterInteractionChangedFeats.md): filterInteractionChangedFeats
+- [filterInteractionChangedGenes](reference/Giotto/functions/filterInteractionChangedGenes.md): deprecated
+- [filterSpatialGenes](reference/Giotto/functions/filterSpatialGenes.md): filterSpatialGenes
+- [find_dampening_constant](reference/Giotto/functions/find_dampening_constant.md): find_dampening_constant
+- [find_x_y_ranges](reference/Giotto/functions/find_x_y_ranges.md): find_x_y_ranges
+- [findCellProximityGenes](reference/Giotto/functions/findCellProximityGenes.md): deprecated
+- [findCellTypesFromEnrichment](reference/Giotto/functions/findCellTypesFromEnrichment.md): findCellTypesFromEnrichment
+- [findCPG](reference/Giotto/functions/findCPG.md): deprecated
+- [findGiniMarkers_one_vs_all](reference/Giotto/functions/findGiniMarkers_one_vs_all.md): findGiniMarkers_one_vs_all
+- [findGiniMarkers](reference/Giotto/functions/findGiniMarkers.md): findGiniMarkers
+- [findICFSpot](reference/Giotto/functions/findICFSpot.md): findICFSpot
+- [findICG](reference/Giotto/functions/findICG.md): deprecated
+- [findInteractionChangedFeats](reference/Giotto/functions/findInteractionChangedFeats.md): findInteractionChangedFeats
+- [findInteractionChangedGenes](reference/Giotto/functions/findInteractionChangedGenes.md): deprecated
+- [findMarkers_one_vs_all](reference/Giotto/functions/findMarkers_one_vs_all.md): findMarkers_one_vs_all
+- [findMarkers](reference/Giotto/functions/findMarkers.md): findMarkers
+- [findMastMarkers_one_vs_all](reference/Giotto/functions/findMastMarkers_one_vs_all.md): findMastMarkers_one_vs_all
+- [findMastMarkers](reference/Giotto/functions/findMastMarkers.md): findMastMarkers
+- [findNetworkNeighbors](reference/Giotto/functions/findNetworkNeighbors.md): Find network neighbors
+- [findScranMarkers_one_vs_all](reference/Giotto/functions/findScranMarkers_one_vs_all.md): findScranMarkers_one_vs_all
+- [findScranMarkers](reference/Giotto/functions/findScranMarkers.md): findScranMarkers
+- [FSV_show](reference/Giotto/functions/FSV_show.md): FSV_show
+- [get_cross_section_coordinates](reference/Giotto/functions/get_cross_section_coordinates.md): get_cross_section_coordinates
+- [get10Xmatrix_h5](reference/Giotto/functions/get10Xmatrix_h5.md): get10Xmatrix_h5
+- [get10Xmatrix](reference/Giotto/functions/get10Xmatrix.md): get10Xmatrix
+- [getBalancedSpatCoexpressionFeats](reference/Giotto/functions/getBalancedSpatCoexpressionFeats.md): Get balanced spatial coexpression features
+- [getCellsFromPolygon](reference/Giotto/functions/getCellsFromPolygon.md): Get cells located within the polygons area
+- [getClusterSimilarity](reference/Giotto/functions/getClusterSimilarity.md): getClusterSimilarity
+- [getDendrogramSplits](reference/Giotto/functions/getDendrogramSplits.md): getDendrogramSplits
+- [getGEFtxCoords](reference/Giotto/functions/getGEFtxCoords.md): getGEFtxCoords
+- [getONTraCv1Input](reference/Giotto/functions/getONTraCv1Input.md): getONTraCv1Input
+- [giottoToAnndataZarr](reference/Giotto/functions/giottoToAnndataZarr.md): Create a local anndata zarr folder
+- [gpoly_from_dfr_smoothed_wrapped](reference/Giotto/functions/gpoly_from_dfr_smoothed_wrapped.md): Polygon creation and smoothing for parallel
+- [heatmSpatialCorFeats](reference/Giotto/functions/heatmSpatialCorFeats.md): heatmSpatialCorFeats
+- [identifyTMAcores](reference/Giotto/functions/identifyTMAcores.md): Split cluster annotations based on a spatial network
+- [importCosMx](reference/Giotto/functions/importCosMx.md): Import a Nanostring CosMx Assay
+- [importStereoSeq](reference/Giotto/functions/importStereoSeq.md): Import a Stereo-seq assay
+- [importVisiumHD](reference/Giotto/functions/importVisiumHD.md): Import a Visium HD assay
+- [importXenium](reference/Giotto/functions/importXenium.md): Import a 10X Xenium Assay
+- [initHMRF_V2](reference/Giotto/functions/initHMRF_V2.md): initHMRF_V2
+- [insertCrossSectionFeatPlot3D](reference/Giotto/functions/insertCrossSectionFeatPlot3D.md): insertCrossSectionFeatPlot3D
+- [insertCrossSectionSpatPlot3D](reference/Giotto/functions/insertCrossSectionSpatPlot3D.md): insertCrossSectionSpatPlot3D
+- [installGiottoONTraCEnvironment](reference/Giotto/functions/installGiottoONTraCEnvironment.md): installGiottoONTraCEnvironment
+- [interactiveLandmarkSelection](reference/Giotto/functions/interactiveLandmarkSelection.md): Record landmarks by interactive selection
+- [interpolateFeature](reference/Giotto/functions/interpolateFeature.md): Spatial feature interpolation
+- [jackstrawPlot](reference/Giotto/functions/jackstrawPlot.md): jackstrawPlot
+- [kmeans_binarize_wrapper](reference/Giotto/functions/kmeans_binarize_wrapper.md): kmeans_binarize_wrapper
+- [labelTransfer](reference/Giotto/functions/labelTransfer.md): Transfer labels/annotations between sets of data via similarity
+voting
+- [LeidenIgraphClusParam-class](reference/Giotto/functions/LeidenIgraphClusParam-class.md): Leiden Clustering
+- [LeidenPythonClusParam-class](reference/Giotto/functions/LeidenPythonClusParam-class.md): Leiden Clustering
+- [load_cell_niche_cluster_prob](reference/Giotto/functions/load_cell_niche_cluster_prob.md): load_cell_niche_cluster_prob
+- [load_cell_NT_score](reference/Giotto/functions/load_cell_NT_score.md): load_cell_NT_score
+- [load_merscope_folder](reference/Giotto/functions/load_merscope_folder.md): Load MERSCOPE data from folder
+- [load_nc_connectivity](reference/Giotto/functions/load_nc_connectivity.md): load_nc_connectivity
+- [load_niche_cluster_nt_score](reference/Giotto/functions/load_niche_cluster_nt_score.md): load_niche_cluster_nt_score
+- [loadHMRF](reference/Giotto/functions/loadHMRF.md): loadHMRF
+- [loadOntraCResults](reference/Giotto/functions/loadOntraCResults.md): loadOntraCResults
+- [LouvainCommunityClusParam-class](reference/Giotto/functions/LouvainCommunityClusParam-class.md): Louvain Clustering
+- [LouvainMultinetClusParam-class](reference/Giotto/functions/LouvainMultinetClusParam-class.md): Louvain Clustering
+- [make_simulated_network](reference/Giotto/functions/make_simulated_network.md): make_simulated_network
+- [makeSignMatrixDWLS](reference/Giotto/functions/makeSignMatrixDWLS.md): makeSignMatrixDWLS
+- [makeSignMatrixDWLSfromMatrix](reference/Giotto/functions/makeSignMatrixDWLSfromMatrix.md): makeSignMatrixDWLSfromMatrix
+- [makeSignMatrixRank](reference/Giotto/functions/makeSignMatrixRank.md): makeSignMatrixRank
+- [mergeClusters](reference/Giotto/functions/mergeClusters.md): mergeClusters
+- [mygini_fun](reference/Giotto/functions/mygini_fun.md): mygini_fun
+- [NNClusParam-class](reference/Giotto/functions/NNClusParam-class.md): NNClusParam
+- [norm_arcsinh](reference/Giotto/functions/norm_arcsinh.md): Arcsinh Normalization
+- [norm_default](reference/Giotto/functions/norm_default.md): Default Giotto Normalization
+- [norm_l2](reference/Giotto/functions/norm_l2.md): L2 Normalization
+- [norm_library](reference/Giotto/functions/norm_library.md): Library Size Normalization
+- [norm_log](reference/Giotto/functions/norm_log.md): Log Normalization
+- [norm_osmfish](reference/Giotto/functions/norm_osmfish.md): osmFISH Normalization
+- [norm_pearson](reference/Giotto/functions/norm_pearson.md): Lause/Kobak Pearson Residuals Normalization
+- [norm_quantile](reference/Giotto/functions/norm_quantile.md): Quantile Normalization
+- [norm_tfidf](reference/Giotto/functions/norm_tfidf.md): TF-IDF Normalization
+- [normalizeGiotto](reference/Giotto/functions/normalizeGiotto.md): normalizeGiotto
+- [numPts_below_line](reference/Giotto/functions/numPts_below_line.md): numPts_below_line
+- [optimize_deconvolute_dwls](reference/Giotto/functions/optimize_deconvolute_dwls.md): optimize_deconvolute_dwls
+- [optimize_solveDampenedWLS](reference/Giotto/functions/optimize_solveDampenedWLS.md): optimize_solveDampenedWLS
+- [pieCellTypesFromEnrichment](reference/Giotto/functions/pieCellTypesFromEnrichment.md): pieCellTypesFromEnrichment
+- [plot_cell_params](reference/Giotto/functions/plot_cell_params.md): Params documentation template: plot_cell_params
+- [plot_cow_params](reference/Giotto/functions/plot_cow_params.md): Params documentation template: plot_cow_params
+- [plot_dimred_params](reference/Giotto/functions/plot_dimred_params.md): Params documentation template: plot_dimred_params
+- [plot_feat_params](reference/Giotto/functions/plot_feat_params.md): Params documentation template: plot_feat_params
+- [plot_image_params](reference/Giotto/functions/plot_image_params.md): Params documentation template: plot_image_params
+- [plot_nn_net_params](reference/Giotto/functions/plot_nn_net_params.md): Params documentation template: plot_nn_net_params
+- [plot_output_params](reference/Giotto/functions/plot_output_params.md): Params documentation template: plot_output_params
+- [plot_params](reference/Giotto/functions/plot_params.md): Params documentation template: plot_params
+- [plot_poly_params](reference/Giotto/functions/plot_poly_params.md): Params documentation template: plot_poly_params
+- [plot_spatenr_params](reference/Giotto/functions/plot_spatenr_params.md): Params documentation template: plot_spatenr_params
+- [plot_spatnet_params](reference/Giotto/functions/plot_spatnet_params.md): Params documentation template: plot_spatnet_params
+- [plotCCcomDotplot](reference/Giotto/functions/plotCCcomDotplot.md): plotCCcomDotplot
+- [plotCCcomHeatmap](reference/Giotto/functions/plotCCcomHeatmap.md): plotCCcomHeatmap
+- [plotCellProximityFeats](reference/Giotto/functions/plotCellProximityFeats.md): plotCellProximityFeats
+- [plotCellProximityFeatSpot](reference/Giotto/functions/plotCellProximityFeatSpot.md): plotCellProximityFeatSpot
+- [plotCellTypeNTScore](reference/Giotto/functions/plotCellTypeNTScore.md): plotCellTypeNTScore
+- [plotCellTypesFromEnrichment](reference/Giotto/functions/plotCellTypesFromEnrichment.md): plotCellTypesFromEnrichment
+- [plotCombineCCcom](reference/Giotto/functions/plotCombineCCcom.md): plotCombineCCcom
+- [plotCombineCellCellCommunication](reference/Giotto/functions/plotCombineCellCellCommunication.md): plotCombineCellCellCommunication
+- [plotCombineICF](reference/Giotto/functions/plotCombineICF.md): plotCombineICF
+- [plotCombineInteractionChangedFeats](reference/Giotto/functions/plotCombineInteractionChangedFeats.md): plotCombineInteractionChangedFeats
+- [plotCPF](reference/Giotto/functions/plotCPF.md): plotCPF
+- [plotCTCompositionInNicheCluster](reference/Giotto/functions/plotCTCompositionInNicheCluster.md): plotCTCompositionInNicheCluster
+- [plotICF](reference/Giotto/functions/plotICF.md): Plot interaction changed features
+- [plotICFSpot](reference/Giotto/functions/plotICFSpot.md): plotICFSpot
+- [plotInteractionChangedFeats](reference/Giotto/functions/plotInteractionChangedFeats.md): Plot interaction changed features
+- [plotInteractive3D](reference/Giotto/functions/plotInteractive3D.md): Plot interactive 3D spatial plot
+- [plotInteractivePolygons](reference/Giotto/functions/plotInteractivePolygons.md): Select image regions by plotting interactive polygons
+- [plotNicheClusterConnectivity](reference/Giotto/functions/plotNicheClusterConnectivity.md): plotNicheClusterConnectivity
+- [plotPolygons](reference/Giotto/functions/plotPolygons.md): Plot stored polygons
+- [plotRankSpatvsExpr](reference/Giotto/functions/plotRankSpatvsExpr.md): plotRankSpatvsExpr
+- [plotRecovery](reference/Giotto/functions/plotRecovery.md): plotRecovery
+- [plotSpatNicheClusterBin](reference/Giotto/functions/plotSpatNicheClusterBin.md): plotSpatNicheClusterBin
+- [plotSpatNicheClusterProb](reference/Giotto/functions/plotSpatNicheClusterProb.md): plotSpatNicheClusterProb
+- [preprocessImageToMatrix](reference/Giotto/functions/preprocessImageToMatrix.md): Preprocess from image directory to the required matrix format for
+Image registration pipeline built on scikit-image
+- [print.combIcfObject](reference/Giotto/functions/print.combIcfObject.md): combIcfObject print method
+- [print.icfObject](reference/Giotto/functions/print.icfObject.md): icfObject print method
+- [process_param](reference/Giotto/functions/process_param.md): Data Processing Parameter Classes
+- [processData](reference/Giotto/functions/processData.md): Composable Data Processing
+- [processExpression](reference/Giotto/functions/processExpression.md): Expression Data Processing
+- [processGiotto](reference/Giotto/functions/processGiotto.md): processGiotto
+- [projection_fun](reference/Giotto/functions/projection_fun.md): projection_fun
+- [rank_binarize_wrapper](reference/Giotto/functions/rank_binarize_wrapper.md): rank_binarize_wrapper
+- [rankSpatialCorGroups](reference/Giotto/functions/rankSpatialCorGroups.md): rankSpatialCorGroups
+- [read_crossSection](reference/Giotto/functions/read_crossSection.md): read_crossSection
+- [read_data_folder](reference/Giotto/functions/read_data_folder.md): Read a structured folder of exported data
+- [read_data_params](reference/Giotto/functions/read_data_params.md): read_data_params
+- [read10xAffineImage](reference/Giotto/functions/read10xAffineImage.md): read10xAffineImage
+- [readPolygonFilesVizgen](reference/Giotto/functions/readPolygonFilesVizgen.md): readPolygonFilesVizgen
+- [readPolygonFilesVizgenHDF5_old](reference/Giotto/functions/readPolygonFilesVizgenHDF5_old.md): readPolygonFilesVizgenHDF5
+- [readPolygonFilesVizgenHDF5](reference/Giotto/functions/readPolygonFilesVizgenHDF5.md): readPolygonFilesVizgenHDF5
+- [readPolygonVizgenParquet](reference/Giotto/functions/readPolygonVizgenParquet.md): Read MERSCOPE polygons from parquet
+- [reduceDims](reference/Giotto/functions/reduceDims.md): Run dimension reduction method
+- [reexports](reference/Giotto/functions/reexports.md): Objects exported from other packages
+- [registerGiottoObjectList](reference/Giotto/functions/registerGiottoObjectList.md): registerGiottoObjectList
+- [registerGiottoObjectListFiji](reference/Giotto/functions/registerGiottoObjectListFiji.md): registerGiottoObjectListFiji
+- [registerGiottoObjectListRvision](reference/Giotto/functions/registerGiottoObjectListRvision.md): registerGiottoObjectListRvision
+- [registerImagesFIJI](reference/Giotto/functions/registerImagesFIJI.md): registerImagesFIJI
+- [reshape_to_data_point](reference/Giotto/functions/reshape_to_data_point.md): reshape_to_data_point
+- [reshape_to_mesh_grid_obj](reference/Giotto/functions/reshape_to_mesh_grid_obj.md): reshape_to_mesh_grid_obj
+- [run_spatial_sim_tests_multi](reference/Giotto/functions/run_spatial_sim_tests_multi.md): run_spatial_sim_tests_multi
+- [run_spatial_sim_tests_one_rep](reference/Giotto/functions/run_spatial_sim_tests_one_rep.md): run_spatial_sim_tests_one_rep
+- [runDWLSDeconv](reference/Giotto/functions/runDWLSDeconv.md): runDWLSDeconv
+- [fiji](reference/Giotto/functions/fiji.md): Find Fiji location
+- [runGiottoHarmony](reference/Giotto/functions/runGiottoHarmony.md): runGiottoHarmony
+- [runHyperGeometricEnrich](reference/Giotto/functions/runHyperGeometricEnrich.md): runHyperGeometricEnrich
+- [runIntegratedUMAP](reference/Giotto/functions/runIntegratedUMAP.md): Run integrated UMAP
+- [runIterativeLSI](reference/Giotto/functions/runIterativeLSI.md): Run Iterative Latent Semantic Indexing (LSI)
+- [runNMF](reference/Giotto/functions/runNMF.md): Run Non-Negative Matrix Factorization
+- [runONTraCV1](reference/Giotto/functions/runONTraCV1.md): runONTraCV1
+- [runPatternSimulation](reference/Giotto/functions/runPatternSimulation.md): runPatternSimulation
+- [runPCA](reference/Giotto/functions/runPCA.md): runPCA
+- [runPCAprojection](reference/Giotto/functions/runPCAprojection.md): runPCAprojection
+- [runPCAprojectionBatch](reference/Giotto/functions/runPCAprojectionBatch.md): runPCAprojectionBatch
+- [runRankEnrich](reference/Giotto/functions/runRankEnrich.md): runRankEnrich
+- [runSpatialDeconv](reference/Giotto/functions/runSpatialDeconv.md): runSpatialDeconv
+- [runSpatialEnrich](reference/Giotto/functions/runSpatialEnrich.md): runSpatialEnrich
+- [runtSNE](reference/Giotto/functions/runtSNE.md): Run tSNE dimensional reduction
+- [runUMAP](reference/Giotto/functions/runUMAP.md): Run UMAP dimension reduction
+- [runUMAPprojection](reference/Giotto/functions/runUMAPprojection.md): Run UMAP dimension reduction
+- [runWNN](reference/Giotto/functions/runWNN.md): Multi omics integration with WNN
+- [sampling_sp_genes](reference/Giotto/functions/sampling_sp_genes.md): sampling_sp_genes
+- [scale_default](reference/Giotto/functions/scale_default.md): Default Giotto Scaling
+- [scale_zscore](reference/Giotto/functions/scale_zscore.md): Z Score Scaling
+- [screePlot](reference/Giotto/functions/screePlot.md): screePlot
+- [selectPatternGenes](reference/Giotto/functions/selectPatternGenes.md): selectPatternGenes
+- [showCellProportionSwitchedPie](reference/Giotto/functions/showCellProportionSwitchedPie.md): showCellProportionSwitchedPie
+- [showCellProportionSwitchedSanKey](reference/Giotto/functions/showCellProportionSwitchedSanKey.md): showCellProportionSwitchedSanKey
+- [showPattern](reference/Giotto/functions/showPattern.md): showPattern
+- [showPattern2D](reference/Giotto/functions/showPattern2D.md): showPattern2D
+- [showPattern3D](reference/Giotto/functions/showPattern3D.md): showPattern3D
+- [showPatternGenes](reference/Giotto/functions/showPatternGenes.md): showPatternGenes
+- [showPolygonSizeInfluence](reference/Giotto/functions/showPolygonSizeInfluence.md): showPolygonSizeInfluence
+- [showSpatialCorFeats](reference/Giotto/functions/showSpatialCorFeats.md): showSpatialCorFeats
+- [showSpatialCorGenes](reference/Giotto/functions/showSpatialCorGenes.md): showSpatialCorGenes
+- [signPCA](reference/Giotto/functions/signPCA.md): signPCA
+- [silhouetteRank](reference/Giotto/functions/silhouetteRank.md): silhouetteRank
+- [silhouetteRankTest](reference/Giotto/functions/silhouetteRankTest.md): silhouetteRankTest
+- [simulateOneGenePatternGiottoObject](reference/Giotto/functions/simulateOneGenePatternGiottoObject.md): simulateOneGenePatternGiottoObject
+- [solve_dampened_WLSj](reference/Giotto/functions/solve_dampened_WLSj.md): solve_dampened_WLSj
+- [solve_OLS_internal](reference/Giotto/functions/solve_OLS_internal.md): solve_OLS_internal
+- [spark](reference/Giotto/functions/spark.md): spark
+- [spat_fisher_exact](reference/Giotto/functions/spat_fisher_exact.md): Fisher exact test
+- [spat_odds_ratio](reference/Giotto/functions/spat_odds_ratio.md): Spatial odds-ratio
+- [spatCellCellcom](reference/Giotto/functions/spatCellCellcom.md): Spatial cell cell communication scoring
+- [spatCellCellcomSpots](reference/Giotto/functions/spatCellCellcomSpots.md): spatCellCellcomSpots
+- [spatialAEH](reference/Giotto/functions/spatialAEH.md): spatialAEH
+- [spatialAutoCor](reference/Giotto/functions/spatialAutoCor.md): Spatial autocorrelation
+- [spatialDE](reference/Giotto/functions/spatialDE.md): spatialDE
+- [spatialSplitCluster](reference/Giotto/functions/spatialSplitCluster.md): Split cluster annotations based on a spatial network
+- [spdepAutoCorr](reference/Giotto/functions/spdepAutoCorr.md): Compute spatial auto correlation using spdep
+- [spot_deconvolution](reference/Giotto/functions/spot_deconvolution.md): spot_deconvolution
+- [subClusterCells](reference/Giotto/functions/subClusterCells.md): Cell subclustering
+- [threshold_binarize](reference/Giotto/functions/threshold_binarize.md): Data Binarization
+- [threshold_minmax](reference/Giotto/functions/threshold_minmax.md): Value MinMax Restriction/Clamping
+- [transform_2d_mesh_to_3d_mesh](reference/Giotto/functions/transform_2d_mesh_to_3d_mesh.md): transform_2d_mesh_to_3d_mesh
+- [trendSceek](reference/Giotto/functions/trendSceek.md): trendSceek
+- [viewHMRFresults_V2](reference/Giotto/functions/viewHMRFresults_V2.md): viewHMRFresults_V2
+- [viewHMRFresults](reference/Giotto/functions/viewHMRFresults.md): viewHMRFresults
+- [viewHMRFresults2D](reference/Giotto/functions/viewHMRFresults2D.md): viewHMRFresults2D
+- [viewHMRFresults3D](reference/Giotto/functions/viewHMRFresults3D.md): viewHMRFresults3D
+- [visium_micron_scalefactor](reference/Giotto/functions/visium_micron_scalefactor.md): Calculate Pixel to Micron Scalefactor
+- [write_giotto_viewer_annotation](reference/Giotto/functions/write_giotto_viewer_annotation.md): write_giotto_viewer_annotation
+- [write_giotto_viewer_dim_reduction](reference/Giotto/functions/write_giotto_viewer_dim_reduction.md): write_giotto_viewer_dim_reduction
+- [write_giotto_viewer_numeric_annotation](reference/Giotto/functions/write_giotto_viewer_numeric_annotation.md): write_giotto_viewer_numeric_annotation
+- [writeChatGPTqueryDEG](reference/Giotto/functions/writeChatGPTqueryDEG.md): writeChatGPTqueryDEG
+- [writeHMRFresults](reference/Giotto/functions/writeHMRFresults.md): writeHMRFresults
+
+## GiottoClass
+- [Package README](reference/GiottoClass/README.md)
+- [Vignette: overview](reference/GiottoClass/vignettes/overview.Rmd)
+- [activeFeatType-generic](reference/GiottoClass/functions/activeFeatType-generic.md): Active feature type
+- [activeSpatUnit-generic](reference/GiottoClass/functions/activeSpatUnit-generic.md): Active spatial unit
+- [add_img_array_alpha](reference/GiottoClass/functions/add_img_array_alpha.md): Add alpha channel to image array
+- [addCellMetadata](reference/GiottoClass/functions/addCellMetadata.md): Add cell metadata
+- [addFeatMetadata](reference/GiottoClass/functions/addFeatMetadata.md): Add feature metadata
+- [addGiottoImage](reference/GiottoClass/functions/addGiottoImage.md): addGiottoImage
+- [addGiottoImageMG](reference/GiottoClass/functions/addGiottoImageMG.md): addGiottoImageMG
+- [addGiottoLargeImage](reference/GiottoClass/functions/addGiottoLargeImage.md): addGiottoLargeImage
+- [addGiottoPoints](reference/GiottoClass/functions/addGiottoPoints.md): Add subcellular giotto points object to giotto object
+- [addGiottoPolygons](reference/GiottoClass/functions/addGiottoPolygons.md): Add giotto polygons to giotto object
+- [addNetworkLayout](reference/GiottoClass/functions/addNetworkLayout.md): addNetworkLayout
+- [addSpatialCentroidLocations](reference/GiottoClass/functions/addSpatialCentroidLocations.md): addSpatialCentroidLocations
+- [addSpatialCentroidLocationsLayer](reference/GiottoClass/functions/addSpatialCentroidLocationsLayer.md): addSpatialCentroidLocationsLayer
+- [affine](reference/GiottoClass/functions/affine.md): Affine transformations
+- [affine2d-class](reference/GiottoClass/functions/affine2d-class.md): Affine Transform Object
+- [aggregateFeatures](reference/GiottoClass/functions/aggregateFeatures.md): Aggregate Spatial Features Covered by Polygon Geometries
+- [aggregateStacks](reference/GiottoClass/functions/aggregateStacks.md): aggregateStacks
+- [aggregateStacksExpression](reference/GiottoClass/functions/aggregateStacksExpression.md): aggregateStacksExpression
+- [aggregateStacksLocations](reference/GiottoClass/functions/aggregateStacksLocations.md): aggregateStacksLocations
+- [aggregateStacksPolygonOverlaps](reference/GiottoClass/functions/aggregateStacksPolygonOverlaps.md): aggregateStacksPolygonOverlaps
+- [aggregateStacksPolygons](reference/GiottoClass/functions/aggregateStacksPolygons.md): aggregateStacksPolygons
+- [anndataToGiotto](reference/GiottoClass/functions/anndataToGiotto.md): Convert anndata to Giotto
+- [annotate_spatlocs_with_spatgrid_2D](reference/GiottoClass/functions/annotate_spatlocs_with_spatgrid_2D.md): annotate_spatlocs_with_spatgrid_2D
+- [annotate_spatlocs_with_spatgrid_3D](reference/GiottoClass/functions/annotate_spatlocs_with_spatgrid_3D.md): annotate_spatlocs_with_spatgrid_3D
+- [annotateGiotto](reference/GiottoClass/functions/annotateGiotto.md): Annotate Giotto object
+- [annotateSpatialGrid](reference/GiottoClass/functions/annotateSpatialGrid.md): annotateSpatialGrid
+- [annotateSpatialNetwork](reference/GiottoClass/functions/annotateSpatialNetwork.md): annotateSpatialNetwork
+- [as.character](reference/GiottoClass/functions/as.character.md): Create a text representation of an object
+- [as.data.table.giottoBinPoints](reference/GiottoClass/functions/as.data.table.giottoBinPoints.md): Coerce to data.table
+- [as.list,giotto-method](reference/GiottoClass/functions/as.list,giotto-method.md): Coerce to a list
+- [as.matrix](reference/GiottoClass/functions/as.matrix.md): Coerce to matrix
+- [as.points](reference/GiottoClass/functions/as.points.md): Coerce to SpatVector points
+- [as.polygons](reference/GiottoClass/functions/as.polygons.md): Coerce to SpatVector polygons
+- [buffer](reference/GiottoClass/functions/buffer.md): Create a buffer around vector geometries
+- [calculateLabelProportions](reference/GiottoClass/functions/calculateLabelProportions.md): Calculate Proportions of Labels Per Observation Group
+- [calculateMetaTable](reference/GiottoClass/functions/calculateMetaTable.md): calculateMetaTable
+- [calculateMetaTableCells](reference/GiottoClass/functions/calculateMetaTableCells.md): calculateMetaTableCells
+- [calculateOverlap](reference/GiottoClass/functions/calculateOverlap.md): Calculate features overlapped by polygons
+- [calculateOverlapParallel](reference/GiottoClass/functions/calculateOverlapParallel.md): calculateOverlapParallel
+- [calculateOverlapPolygonImages](reference/GiottoClass/functions/calculateOverlapPolygonImages.md): calculateOverlapPolygonImages
+- [calculateOverlapRaster](reference/GiottoClass/functions/calculateOverlapRaster.md): calculateOverlapRaster
+- [calculateOverlapSerial](reference/GiottoClass/functions/calculateOverlapSerial.md): calculateOverlapSerial
+- [calculateSpatCellMetadataProportions](reference/GiottoClass/functions/calculateSpatCellMetadataProportions.md): calculateSpatCellMetadataProportions
+- [cellMetaObj-class](reference/GiottoClass/functions/cellMetaObj-class.md): S4 cellMetaObj
+- [centroids-generic](reference/GiottoClass/functions/centroids-generic.md): centroids-generic
+- [changeGiottoInstructions](reference/GiottoClass/functions/changeGiottoInstructions.md): deprecated
+- [changeImageBg](reference/GiottoClass/functions/changeImageBg.md): changeImageBg
+- [check_py_for_scanpy](reference/GiottoClass/functions/check_py_for_scanpy.md): Check Scanpy Installation
+- [checkPythonPackage](reference/GiottoClass/functions/checkPythonPackage.md): Check Python Package Installation
+- [circleVertices](reference/GiottoClass/functions/circleVertices.md): Generate circle polygon vertices
+- [clusterData](reference/GiottoClass/functions/clusterData.md): Data Clustering
+- [colMeans_flex](reference/GiottoClass/functions/colMeans_flex.md): colMeans_flex
+- [colSums_flex](reference/GiottoClass/functions/colSums_flex.md): colSums_flex
+- [combine_split_geoms](reference/GiottoClass/functions/combine_split_geoms.md): Combine or Split Complex Geometries
+- [combineCellData](reference/GiottoClass/functions/combineCellData.md): combineCellData
+- [combineFeatureData](reference/GiottoClass/functions/combineFeatureData.md): combineFeatureData
+- [combineFeatureOverlapData](reference/GiottoClass/functions/combineFeatureOverlapData.md): combineFeatureOverlapData
+- [combineMetadata](reference/GiottoClass/functions/combineMetadata.md): combineMetadata
+- [combineSpatialCellMetadataInfo](reference/GiottoClass/functions/combineSpatialCellMetadataInfo.md): combineSpatialCellMetadataInfo
+- [combineToMultiPolygon](reference/GiottoClass/functions/combineToMultiPolygon.md): Combine giottoPolygon geometries
+- [compatible_spatial_network](reference/GiottoClass/functions/compatible_spatial_network.md): Compatible spatial network
+- [convert_mgImage_to_array_DT](reference/GiottoClass/functions/convert_mgImage_to_array_DT.md): convert_mgImage_to_array_DT
+- [convert_to_full_spatial_network](reference/GiottoClass/functions/convert_to_full_spatial_network.md): convert_to_full_spatial_network
+- [convert_to_reduced_spatial_network](reference/GiottoClass/functions/convert_to_reduced_spatial_network.md): convert_to_reduced_spatial_network
+- [convertGiottoLargeImageToMG](reference/GiottoClass/functions/convertGiottoLargeImageToMG.md): convertGiottoLargeImageToMG
+- [copy](reference/GiottoClass/functions/copy.md): Copy an entire object
+- [cor_flex](reference/GiottoClass/functions/cor_flex.md): cor_flex
+- [create_average_detection_DT](reference/GiottoClass/functions/create_average_detection_DT.md): create_average_detection_DT
+- [create_average_DT](reference/GiottoClass/functions/create_average_DT.md): create_average_DT
+- [create_cell_meta_obj](reference/GiottoClass/functions/create_cell_meta_obj.md): create_cell_meta_obj
+- [create_cluster_matrix](reference/GiottoClass/functions/create_cluster_matrix.md): create_cluster_matrix
+- [create_dim_obj](reference/GiottoClass/functions/create_dim_obj.md): create_dim_obj
+- [create_feat_meta_obj](reference/GiottoClass/functions/create_feat_meta_obj.md): create_feat_meta_obj
+- [create_featureNetwork_object](reference/GiottoClass/functions/create_featureNetwork_object.md): Create feature network object
+- [create_giotto_points_object](reference/GiottoClass/functions/create_giotto_points_object.md): Create giotto points object
+- [create_giotto_polygon_object](reference/GiottoClass/functions/create_giotto_polygon_object.md): Create a giotto polygon object
+- [create_giotto](reference/GiottoClass/functions/create_giotto.md): Create a giotto object
+- [create_KNNnetwork_dbscan](reference/GiottoClass/functions/create_KNNnetwork_dbscan.md): create_KNNnetwork_dbscan
+- [create_nn_net_obj](reference/GiottoClass/functions/create_nn_net_obj.md): create_nn_net_obj
+- [create_spat_enr_obj](reference/GiottoClass/functions/create_spat_enr_obj.md): create_spat_enr_obj
+- [create_spat_grid_obj](reference/GiottoClass/functions/create_spat_grid_obj.md): Create S4 spatialGridObj
+- [create_spat_locs_obj](reference/GiottoClass/functions/create_spat_locs_obj.md): create_spat_locs_obj
+- [create_spat_net_obj](reference/GiottoClass/functions/create_spat_net_obj.md): create_spat_net_obj
+- [createBentoAdata](reference/GiottoClass/functions/createBentoAdata.md): Create bento adata object from gobject
+- [createCellMetaObj](reference/GiottoClass/functions/createCellMetaObj.md): Create S4 cellMetaObj
+- [createDimObj](reference/GiottoClass/functions/createDimObj.md): Create S4 dimObj
+- [createExprObj](reference/GiottoClass/functions/createExprObj.md): Create S4 exprObj
+- [createFeatMetaObj](reference/GiottoClass/functions/createFeatMetaObj.md): Create S4 featMetaObj
+- [createGiottoImage](reference/GiottoClass/functions/createGiottoImage.md): createGiottoImage
+- [createGiottoLargeImage](reference/GiottoClass/functions/createGiottoLargeImage.md): createGiottoLargeImage
+- [createGiottoLargeImageList](reference/GiottoClass/functions/createGiottoLargeImageList.md): createGiottoLargeImageList
+- [createGiottoPoints](reference/GiottoClass/functions/createGiottoPoints.md): Create giotto points object
+- [createGiottoPolygon](reference/GiottoClass/functions/createGiottoPolygon.md): Create giotto polygons object
+- [createMetafeats](reference/GiottoClass/functions/createMetafeats.md): createMetafeats
+- [createNearestNetObj](reference/GiottoClass/functions/createNearestNetObj.md): Create S4 nnNetObj
+- [createNearestNetwork](reference/GiottoClass/functions/createNearestNetwork.md): createNearestNetwork
+- [createNetwork](reference/GiottoClass/functions/createNetwork.md): Create a network
+- [createSpatEnrObj](reference/GiottoClass/functions/createSpatEnrObj.md): Create S4 spatEnrObj
+- [createSpatialDefaultGrid](reference/GiottoClass/functions/createSpatialDefaultGrid.md): createSpatialDefaultGrid
+- [createSpatialDelaunayNetwork](reference/GiottoClass/functions/createSpatialDelaunayNetwork.md): Create a spatial Delaunay network
+- [createSpatialFeaturesKNNnetwork_dbscan](reference/GiottoClass/functions/createSpatialFeaturesKNNnetwork_dbscan.md): Create kNN spatial feature network using dbscan
+- [createSpatialFeaturesKNNnetwork](reference/GiottoClass/functions/createSpatialFeaturesKNNnetwork.md): Create kNN spatial feature network
+- [createSpatialGrid](reference/GiottoClass/functions/createSpatialGrid.md): createSpatialGrid
+- [createSpatialKNNnetwork](reference/GiottoClass/functions/createSpatialKNNnetwork.md): createSpatialKNNnetwork
+- [createSpatialNetwork](reference/GiottoClass/functions/createSpatialNetwork.md): Create spatial network
+- [createSpatialWeightMatrix](reference/GiottoClass/functions/createSpatialWeightMatrix.md): Create a spatial weight matrix
+- [createSpatLocsObj](reference/GiottoClass/functions/createSpatLocsObj.md): Create S4 spatLocsObj
+- [createSpatNetObj](reference/GiottoClass/functions/createSpatNetObj.md): Create S4 spatialNetworkObj
+- [crop,giottoBinPoints,ANY-method](reference/GiottoClass/functions/crop,giottoBinPoints,ANY-method.md): Crop to a spatial subset
+- [cropGiottoLargeImage](reference/GiottoClass/functions/cropGiottoLargeImage.md): Crop a giotto largeImage object
+- [data_access_params](reference/GiottoClass/functions/data_access_params.md): data_access_params
+- [decomp_affine](reference/GiottoClass/functions/decomp_affine.md): Decompose affine matrix into scale, rotation, and shear operations
+- [density_giottoLargeImage](reference/GiottoClass/functions/density_giottoLargeImage.md): Plot smoothed curve of giotto largeImage intensity values
+- [density](reference/GiottoClass/functions/density.md): Density plot
+- [dimnames](reference/GiottoClass/functions/dimnames.md): Dimnames of an object
+- [dimObj-class](reference/GiottoClass/functions/dimObj-class.md): S4 dimObj Class
+- [dims-generic](reference/GiottoClass/functions/dims-generic.md): Dimensions of giotto objects
+- [distGiottoImage](reference/GiottoClass/functions/distGiottoImage.md): Plot distribution of image intensity values
+- [doDeferred](reference/GiottoClass/functions/doDeferred.md): Perform deferred/lazy operations
+- [.abbrev_spatlocs](reference/GiottoClass/functions/.abbrev_spatlocs.md): Print abbreviated spatlocs
+- [.bitdepth](reference/GiottoClass/functions/.bitdepth.md): Guess likely bitdepth from value(s)
+- [.calculate_centroids_polygons](reference/GiottoClass/functions/.calculate_centroids_polygons.md): Calculate polygon centroids
+- [.calculate_distance_and_weight](reference/GiottoClass/functions/.calculate_distance_and_weight.md): Calculate spatial network distance and weight
+- [.calculate_overlap_raster](reference/GiottoClass/functions/.calculate_overlap_raster.md): Find feature points overlapped by rasterized polygon.
+- [.check_cell_meta_obj](reference/GiottoClass/functions/.check_cell_meta_obj.md): Check cell metadata object
+- [.check_dim_obj](reference/GiottoClass/functions/.check_dim_obj.md): Check dimObj
+- [.check_expr_obj](reference/GiottoClass/functions/.check_expr_obj.md): Check exprObj
+- [.check_feat_meta_obj](reference/GiottoClass/functions/.check_feat_meta_obj.md): Check feature metadata object
+- [.check_giotto_python_modules](reference/GiottoClass/functions/.check_giotto_python_modules.md): Check if Giotto python modules are in python environment
+- [.check_spat_grid_obj](reference/GiottoClass/functions/.check_spat_grid_obj.md): Check spatialGridObj
+- [.check_spat_locs_obj](reference/GiottoClass/functions/.check_spat_locs_obj.md): Check spatLocsObj
+- [.check_spat_net_obj](reference/GiottoClass/functions/.check_spat_net_obj.md): Check spatialNetworkObj
+- [.check_spatial_location_data](reference/GiottoClass/functions/.check_spatial_location_data.md): Check spatial location data
+- [.combine_stack_spatvectors](reference/GiottoClass/functions/.combine_stack_spatvectors.md): .combine_stack_spatvectors
+- [.create_delaunaynetwork_2d](reference/GiottoClass/functions/.create_delaunaynetwork_2d.md): .create_delaunaynetwork_2d
+- [.create_delaunaynetwork_3d](reference/GiottoClass/functions/.create_delaunaynetwork_3d.md): .create_delaunaynetwork_3d
+- [.create_delaunaynetwork_deldir](reference/GiottoClass/functions/.create_delaunaynetwork_deldir.md): .create_delaunaynetwork_deldir
+- [.create_delaunaynetwork_geometry_3d](reference/GiottoClass/functions/.create_delaunaynetwork_geometry_3d.md): .create_delaunaynetwork_geometry_3d
+- [.create_delaunaynetwork_geometry](reference/GiottoClass/functions/.create_delaunaynetwork_geometry.md): .create_delaunaynetwork_geometry
+- [.create_delaunaynetwork_RTriangle](reference/GiottoClass/functions/.create_delaunaynetwork_RTriangle.md): .create_delaunaynetwork_RTriangle
+- [.create_spatialgrid_default_2d](reference/GiottoClass/functions/.create_spatialgrid_default_2d.md): .create_spatialgrid_default_2d
+- [.create_spatialgrid_default_3d](reference/GiottoClass/functions/.create_spatialgrid_default_3d.md): .create_spatialgrid_default_3d
+- [.create_spatvector_object_from_dfr](reference/GiottoClass/functions/.create_spatvector_object_from_dfr.md): Create terra spatvector object from a data.frame
+- [.create_terra_spatraster](reference/GiottoClass/functions/.create_terra_spatraster.md): Load image as a terra spatRaster object
+- [.do_gpoly](reference/GiottoClass/functions/.do_gpoly.md): Do giottoPolygon
+- [.dt_to_spatvector_points](reference/GiottoClass/functions/.dt_to_spatvector_points.md): Convert point data data.table to spatVector
+- [.dt_to_spatvector_polygon](reference/GiottoClass/functions/.dt_to_spatvector_polygon.md): Convert data.table to polygon spatVector
+- [.edge_coords_array](reference/GiottoClass/functions/.edge_coords_array.md): Numerical array of edge start and end
+- [.filter_network](reference/GiottoClass/functions/.filter_network.md): Filter spatial network
+- [.find_grid_2d](reference/GiottoClass/functions/.find_grid_2d.md): .find_grid_2d
+- [.find_grid_3d](reference/GiottoClass/functions/.find_grid_3d.md): .find_grid_3d
+- [.find_grid_x](reference/GiottoClass/functions/.find_grid_x.md): .find_grid_x
+- [.find_grid_y](reference/GiottoClass/functions/.find_grid_y.md): .find_grid_y
+- [.find_grid_z](reference/GiottoClass/functions/.find_grid_z.md): .find_grid_z
+- [.fix_multipart_geoms](reference/GiottoClass/functions/.fix_multipart_geoms.md): Split multi-part polygons
+- [.giotto_alloc_dt](reference/GiottoClass/functions/.giotto_alloc_dt.md): Over-allocation for giotto DT-based info
+- [.identify_background_range_polygons](reference/GiottoClass/functions/.identify_background_range_polygons.md): Identify background range polygons
+- [.install_giotto_environment](reference/GiottoClass/functions/.install_giotto_environment.md): .install_giotto_environment
+- [.install_github_link_pip](reference/GiottoClass/functions/.install_github_link_pip.md): Install Package from GitHub Link
+- [.install_py_pkg_reticulate](reference/GiottoClass/functions/.install_py_pkg_reticulate.md): Install Python Package with Reticulate
+- [.merge_spatial_enrich_info](reference/GiottoClass/functions/.merge_spatial_enrich_info.md): .merge_spatial_enrich_info
+- [.overlap_points_per_polygon_wrapped](reference/GiottoClass/functions/.overlap_points_per_polygon_wrapped.md): Overlap points per polygon -- wrapped
+- [.overlap_points_per_polygon](reference/GiottoClass/functions/.overlap_points_per_polygon.md): Overlap points per polgyon
+- [.overlap_points_single_polygon](reference/GiottoClass/functions/.overlap_points_single_polygon.md): Overlap points -- single polygon
+- [.plot_giottoimage_mg](reference/GiottoClass/functions/.plot_giottoimage_mg.md): .plot_giottoimage_mg
+- [.plot_giottolargeimage](reference/GiottoClass/functions/.plot_giottolargeimage.md): .plot_giottolargeimage
+- [.print_leaf](reference/GiottoClass/functions/.print_leaf.md): Hierarchical tree printing
+- [.prov_match](reference/GiottoClass/functions/.prov_match.md): Check provenance info matches across list of S4 subobjects
+- [.py_install_prompt](reference/GiottoClass/functions/.py_install_prompt.md): Prompt User for Python Install
+- [.read_cell_metadata](reference/GiottoClass/functions/.read_cell_metadata.md): Read cell metadata
+- [.rescale_polygons](reference/GiottoClass/functions/.rescale_polygons.md): Rescale polygons
+- [.rotate_spatial_locations](reference/GiottoClass/functions/.rotate_spatial_locations.md): Rotate spatial locations
+- [.scale_spatial_locations](reference/GiottoClass/functions/.scale_spatial_locations.md): Scale spatial locations
+- [.shift_spatial_locations](reference/GiottoClass/functions/.shift_spatial_locations.md): Shift spatial locations
+- [.shift_spatial_network](reference/GiottoClass/functions/.shift_spatial_network.md): Shift spatial network
+- [.spatraster_sample_values](reference/GiottoClass/functions/.spatraster_sample_values.md): Sample values from SpatRaster
+- [.spatvector_to_dt](reference/GiottoClass/functions/.spatvector_to_dt.md): Convert spatVector to data.table
+- [.spline_poly](reference/GiottoClass/functions/.spline_poly.md): Convert spline to polygon
+- [.subset_giotto](reference/GiottoClass/functions/.subset_giotto.md): Subset Giotto
+- [.terra_writeraster_datatype](reference/GiottoClass/functions/.terra_writeraster_datatype.md): .terra_writeraster_datatype
+- [edge_distances](reference/GiottoClass/functions/edge_distances.md): Calculate network edge euclidean distances
+- [estimateImageBg](reference/GiottoClass/functions/estimateImageBg.md): estimateImageBg
+- [evaluate_input](reference/GiottoClass/functions/evaluate_input.md): Evaluate raw inputs to Giotto formatting
+- [expanse](reference/GiottoClass/functions/expanse.md): Get the area of individual polygons
+- [exprObj-class](reference/GiottoClass/functions/exprObj-class.md): S4 exprObj
+- [ext](reference/GiottoClass/functions/ext.md): Get a SpatExtent
+- [fDataDT](reference/GiottoClass/functions/fDataDT.md): fDataDT
+- [featMetaObj-class](reference/GiottoClass/functions/featMetaObj-class.md): S4 featMetaObj
+- [featureNetwork-class](reference/GiottoClass/functions/featureNetwork-class.md): S4 giotto feature network Class
+- [flip](reference/GiottoClass/functions/flip.md): Flip an object
+- [gefToGiotto](reference/GiottoClass/functions/gefToGiotto.md): Convert gef to Giotto
+- [generate_grid](reference/GiottoClass/functions/generate_grid.md): Spatial grids
+- [get_adj_rescale_img](reference/GiottoClass/functions/get_adj_rescale_img.md): get_adj_rescale_img
+- [get_distance](reference/GiottoClass/functions/get_distance.md): get_distance
+- [get_img_minmax](reference/GiottoClass/functions/get_img_minmax.md): get_img_minmax
+- [get_multiomics](reference/GiottoClass/functions/get_multiomics.md): Get multiomics integration results
+- [getCellMetadata](reference/GiottoClass/functions/getCellMetadata.md): getCellMetadata
+- [getDimReduction](reference/GiottoClass/functions/getDimReduction.md): Get dimension reduction
+- [getExpression](reference/GiottoClass/functions/getExpression.md): Get expression values
+- [getFeatureInfo](reference/GiottoClass/functions/getFeatureInfo.md): Get feature info
+- [getFeatureMetadata](reference/GiottoClass/functions/getFeatureMetadata.md): getFeatureMetadata
+- [getGiottoImage](reference/GiottoClass/functions/getGiottoImage.md): Get giotto image object
+- [getMultiomics](reference/GiottoClass/functions/getMultiomics.md): Get multiomics integration results
+- [getNearestNetwork](reference/GiottoClass/functions/getNearestNetwork.md): Get nearest neighbor network
+- [getPolygonInfo](reference/GiottoClass/functions/getPolygonInfo.md): Get polygon info
+- [getSpatialEnrichment](reference/GiottoClass/functions/getSpatialEnrichment.md): Get spatial enrichment
+- [getSpatialGrid](reference/GiottoClass/functions/getSpatialGrid.md): Get spatial grid
+- [getSpatialLocations](reference/GiottoClass/functions/getSpatialLocations.md): Get spatial locations
+- [getSpatialNetwork](reference/GiottoClass/functions/getSpatialNetwork.md): Get spatial network
+- [createGiottoInstructions](reference/GiottoClass/functions/createGiottoInstructions.md): Giotto instructions
+- [giotto_python](reference/GiottoClass/functions/giotto_python.md): Giotto python environment
+- [giotto_schema](reference/GiottoClass/functions/giotto_schema.md): Giotto schema
+- [giotto-class](reference/GiottoClass/functions/giotto-class.md): S4 giotto Class
+- [giottoAffineImage-class](reference/GiottoClass/functions/giottoAffineImage-class.md): S4 giottoAffineImage Class
+- [giottoBinPoints-class](reference/GiottoClass/functions/giottoBinPoints-class.md): Binned point class
+- [giottoImage-class](reference/GiottoClass/functions/giottoImage-class.md): S4 giottoImage Class
+- [giottoLargeImage-class](reference/GiottoClass/functions/giottoLargeImage-class.md): S4 giottoLargeImage Class
+- [giottoMasterToSuite](reference/GiottoClass/functions/giottoMasterToSuite.md): Convert a master Giotto object to suite
+- [giottoPoints-class](reference/GiottoClass/functions/giottoPoints-class.md): S4 giotto points Class
+- [giottoPolygon-class](reference/GiottoClass/functions/giottoPolygon-class.md): S4 giotto polygon Class
+- [giottoToAnnData](reference/GiottoClass/functions/giottoToAnnData.md): Convert Giotto to anndata
+- [giottoToSeurat](reference/GiottoClass/functions/giottoToSeurat.md): Deprecated
+- [giottoToSeuratV4](reference/GiottoClass/functions/giottoToSeuratV4.md): Convert Giotto to Seurat V4
+- [giottoToSeuratV5](reference/GiottoClass/functions/giottoToSeuratV5.md): Convert Giotto to Seurat V5
+- [giottoToSpatialData](reference/GiottoClass/functions/giottoToSpatialData.md): Convert Giotto to SpatialData
+- [giottoToSpatialExperiment](reference/GiottoClass/functions/giottoToSpatialExperiment.md): Utility function to convert a Giotto object to a SpatialExperiment object.
+- [headtail](reference/GiottoClass/functions/headtail.md): Head and tail
+- [hexVertices](reference/GiottoClass/functions/hexVertices.md): Generate regular hexagon vertices
+- [hist](reference/GiottoClass/functions/hist.md): Histogram
+- [hull](reference/GiottoClass/functions/hull.md): Convex, concave, rectangular and circular hulls
+- [init_cell_metadata](reference/GiottoClass/functions/init_cell_metadata.md): Initialize cell metadata slot
+- [init_feat_metadata](reference/GiottoClass/functions/init_feat_metadata.md): Initialize feature metadata slot
+- [joinGiottoObjects](reference/GiottoClass/functions/joinGiottoObjects.md): Join giotto objects
+- [list_cell_id_names](reference/GiottoClass/functions/list_cell_id_names.md): List cell ID names
+- [list_cell_metadata](reference/GiottoClass/functions/list_cell_metadata.md): list_cell_metadata
+- [list_dim_reductions_names](reference/GiottoClass/functions/list_dim_reductions_names.md): list_dim_reductions_names
+- [list_dim_reductions](reference/GiottoClass/functions/list_dim_reductions.md): list_dim_reductions
+- [list_expression_names](reference/GiottoClass/functions/list_expression_names.md): list_expression_names
+- [list_expression](reference/GiottoClass/functions/list_expression.md): list_expression
+- [list_feat_id_names](reference/GiottoClass/functions/list_feat_id_names.md): List feat ID names
+- [list_feat_metadata](reference/GiottoClass/functions/list_feat_metadata.md): list_feat_metadata
+- [list_feature_info_names](reference/GiottoClass/functions/list_feature_info_names.md): list_feature_info_names
+- [list_feature_info](reference/GiottoClass/functions/list_feature_info.md): list_feature_info
+- [list_giotto_data](reference/GiottoClass/functions/list_giotto_data.md): list_giotto_data
+- [list_images_names](reference/GiottoClass/functions/list_images_names.md): list_images_names
+- [list_images](reference/GiottoClass/functions/list_images.md): list_images
+- [list_nearest_networks_names](reference/GiottoClass/functions/list_nearest_networks_names.md): list_nearest_networks_names
+- [list_nearest_networks](reference/GiottoClass/functions/list_nearest_networks.md): list_nearest_networks
+- [list_spatial_enrichments_names](reference/GiottoClass/functions/list_spatial_enrichments_names.md): list_spatial_enrichments_names
+- [list_spatial_enrichments](reference/GiottoClass/functions/list_spatial_enrichments.md): list_spatial_enrichments
+- [list_spatial_grids_names](reference/GiottoClass/functions/list_spatial_grids_names.md): list_spatial_grids_names
+- [list_spatial_grids](reference/GiottoClass/functions/list_spatial_grids.md): list_spatial_grids
+- [list_spatial_info_names](reference/GiottoClass/functions/list_spatial_info_names.md): list_spatial_info_names
+- [list_spatial_info](reference/GiottoClass/functions/list_spatial_info.md): list_spatial_info
+- [list_spatial_locations_names](reference/GiottoClass/functions/list_spatial_locations_names.md): list_spatial_locations_names
+- [list_spatial_locations](reference/GiottoClass/functions/list_spatial_locations.md): list_spatial_locations
+- [list_spatial_networks_names](reference/GiottoClass/functions/list_spatial_networks_names.md): list_spatial_networks_names
+- [list_spatial_networks](reference/GiottoClass/functions/list_spatial_networks.md): list_spatial_networks
+- [loadGiotto](reference/GiottoClass/functions/loadGiotto.md): loadGiotto
+- [makePseudoVisium](reference/GiottoClass/functions/makePseudoVisium.md): makePseudoVisium
+- [mean_flex](reference/GiottoClass/functions/mean_flex.md): mean_flex
+- [miscData-class](reference/GiottoClass/functions/miscData-class.md): Basic class for additional miscellaneous information
+- [my_arowMeans](reference/GiottoClass/functions/my_arowMeans.md): my_arowMeans
+- [my_growMeans](reference/GiottoClass/functions/my_growMeans.md): my_growMeans
+- [my_rowMeans](reference/GiottoClass/functions/my_rowMeans.md): my_rowMeans
+- [names](reference/GiottoClass/functions/names.md): Names of objects
+- [nnDT_to_kNN](reference/GiottoClass/functions/nnDT_to_kNN.md): nnDT_to_kNN
+- [nnNetObj-class](reference/GiottoClass/functions/nnNetObj-class.md): S4 nnNetObj
+- [objectlist_name_utils](reference/GiottoClass/functions/objectlist_name_utils.md): Name wrangling for subobject lists
+- [objHistory](reference/GiottoClass/functions/objHistory.md): Giotto object history
+- [overlapImagesToMatrix](reference/GiottoClass/functions/overlapImagesToMatrix.md): overlapImagesToMatrix
+- [overlapPointDT-class](reference/GiottoClass/functions/overlapPointDT-class.md): Polygon and Point Relationships
+- [overlaps-generic](reference/GiottoClass/functions/overlaps-generic.md): overlaps-generic
+- [overlapToMatrix](reference/GiottoClass/functions/overlapToMatrix.md): overlapToMatrix
+- [overlapToMatrixMultiPoly](reference/GiottoClass/functions/overlapToMatrixMultiPoly.md): overlapToMatrixMultiPoly
+- [pDataDT](reference/GiottoClass/functions/pDataDT.md): pDataDT
+- [plot-generic](reference/GiottoClass/functions/plot-generic.md): Preview a Giotto spatial object
+- [plotGiottoImage](reference/GiottoClass/functions/plotGiottoImage.md): Plot a giotto image object
+- [polygon_to_raster](reference/GiottoClass/functions/polygon_to_raster.md): Convert polygon to raster
+- [polyStamp](reference/GiottoClass/functions/polyStamp.md): Spatial polygons stamp
+- [processData](reference/GiottoClass/functions/processData.md): Data Processing
+- [processParam-class](reference/GiottoClass/functions/processParam-class.md): Parameter Classes for Data Processing Operations
+- [r_spatial_conversions](reference/GiottoClass/functions/r_spatial_conversions.md): R spatial conversions
+- [rbind2,giottoBinPoints,giottoBinPoints-method](reference/GiottoClass/functions/rbind2,giottoBinPoints,giottoBinPoints-method.md): Combine objects by rows (Giotto-related)
+- [rbind2_giotto_polygon_hetero](reference/GiottoClass/functions/rbind2_giotto_polygon_hetero.md): Append giotto polygons of different names
+- [rbind2_giotto_polygon_homo](reference/GiottoClass/functions/rbind2_giotto_polygon_homo.md): Append giotto polygons of the same name
+- [read_data_params](reference/GiottoClass/functions/read_data_params.md): read_data_params
+- [readCellMetadata](reference/GiottoClass/functions/readCellMetadata.md): Read cell metadata
+- [readDimReducData](reference/GiottoClass/functions/readDimReducData.md): Read dimensional reduction data
+- [readExprData](reference/GiottoClass/functions/readExprData.md): Read expression data
+- [readExprMatrix](reference/GiottoClass/functions/readExprMatrix.md): Read expression matrix
+- [readFeatData](reference/GiottoClass/functions/readFeatData.md): Read feature information
+- [readFeatMetadata](reference/GiottoClass/functions/readFeatMetadata.md): Read feature metadata
+- [readGiottoInstructions](reference/GiottoClass/functions/readGiottoInstructions.md): deprecated
+- [readNearestNetData](reference/GiottoClass/functions/readNearestNetData.md): Read nearest neighbor network data
+- [readPolygonData](reference/GiottoClass/functions/readPolygonData.md): Read list of polygons information
+- [readSpatEnrichData](reference/GiottoClass/functions/readSpatEnrichData.md): Read spatial enrichment
+- [readSpatLocsData](reference/GiottoClass/functions/readSpatLocsData.md): Read spatial location data
+- [readSpatNetData](reference/GiottoClass/functions/readSpatNetData.md): Read spatial networks
+- [reconnect_giottoImage_MG](reference/GiottoClass/functions/reconnect_giottoImage_MG.md): reconnect_giottoImage_MG
+- [reconnect_giottoLargeImage](reference/GiottoClass/functions/reconnect_giottoLargeImage.md): reconnect_giottoLargeImage
+- [reconnect_image_object](reference/GiottoClass/functions/reconnect_image_object.md): reconnect_image_object
+- [reconnect](reference/GiottoClass/functions/reconnect.md): Reconnect a GiottoClass object
+- [reconnectGiottoImage](reference/GiottoClass/functions/reconnectGiottoImage.md): Reconnect images with dead pointers
+- [rectVertices](reference/GiottoClass/functions/rectVertices.md): Generate rectangular polygon vertices
+- [reexports](reference/GiottoClass/functions/reexports.md): Objects exported from other packages
+- [relate](reference/GiottoClass/functions/relate.md): Spatial relationships between geometries
+- [removeCellAnnotation](reference/GiottoClass/functions/removeCellAnnotation.md): Remove cell annotation
+- [removeFeatAnnotation](reference/GiottoClass/functions/removeFeatAnnotation.md): Remove feature annotation
+- [replace_bracket](reference/GiottoClass/functions/replace_bracket.md): Replace part of an object with [<-
+- [replace_dollar](reference/GiottoClass/functions/replace_dollar.md): Replace part of an object with $<-
+- [replaceGiottoInstructions](reference/GiottoClass/functions/replaceGiottoInstructions.md): deprecated
+- [rescale](reference/GiottoClass/functions/rescale.md): Rescale an object
+- [rescalePolygons](reference/GiottoClass/functions/rescalePolygons.md): rescalePolygons
+- [row-plus-colnames-generic](reference/GiottoClass/functions/row-plus-colnames-generic.md): Row and column names
+- [rowMeans_flex](reference/GiottoClass/functions/rowMeans_flex.md): rowMeans_flex
+- [rowSums_flex](reference/GiottoClass/functions/rowSums_flex.md): rowSums_flex
+- [S3toS4dimObj](reference/GiottoClass/functions/S3toS4dimObj.md): Dimension reductions
+- [S3toS4spatGridObj](reference/GiottoClass/functions/S3toS4spatGridObj.md): Spatially Binned Data
+- [saveGiotto](reference/GiottoClass/functions/saveGiotto.md): saveGiotto
+- [set_default_feat_type](reference/GiottoClass/functions/set_default_feat_type.md): set_default_feat_type
+- [set_default_spat_unit](reference/GiottoClass/functions/set_default_spat_unit.md): set_default_spat_unit
+- [set_multiomics](reference/GiottoClass/functions/set_multiomics.md): Set multiomics integration results
+- [setCellMetadata](reference/GiottoClass/functions/setCellMetadata.md): Set cell metadata
+- [setDimReduction](reference/GiottoClass/functions/setDimReduction.md): Set dimension reduction data
+- [setExpression](reference/GiottoClass/functions/setExpression.md): Set expression data
+- [setFeatureInfo](reference/GiottoClass/functions/setFeatureInfo.md): Set feature info
+- [setFeatureMetadata](reference/GiottoClass/functions/setFeatureMetadata.md): Set feature metadata
+- [setGiotto,giotto,giottoBinPoints-method](reference/GiottoClass/functions/setGiotto,giotto,giottoBinPoints-method.md): Set giotto subobjects into giotto object
+- [setGiottoImage](reference/GiottoClass/functions/setGiottoImage.md): Set giotto image object
+- [setMultiomics](reference/GiottoClass/functions/setMultiomics.md): Set multiomics integration results
+- [setNearestNetwork](reference/GiottoClass/functions/setNearestNetwork.md): Set nearest neighbor network
+- [setPolygonInfo](reference/GiottoClass/functions/setPolygonInfo.md): Set polygon info
+- [setSpatialEnrichment](reference/GiottoClass/functions/setSpatialEnrichment.md): Set spatial enrichment
+- [setSpatialGrid](reference/GiottoClass/functions/setSpatialGrid.md): Set spatial grid
+- [setSpatialLocations](reference/GiottoClass/functions/setSpatialLocations.md): Set spatial locations
+- [setSpatialNetwork](reference/GiottoClass/functions/setSpatialNetwork.md): Set spatial network
+- [settleGeom](reference/GiottoClass/functions/settleGeom.md): Settle polygon bounds
+- [seuratToGiotto](reference/GiottoClass/functions/seuratToGiotto.md): Deprecated
+- [seuratToGiottoV4](reference/GiottoClass/functions/seuratToGiottoV4.md): Convert a Seurat V4 object to a Giotto object
+- [seuratToGiottoV5](reference/GiottoClass/functions/seuratToGiottoV5.md): Convert a Seurat V5 object to a Giotto object
+- [shear](reference/GiottoClass/functions/shear.md): Apply a shear tranform
+- [show](reference/GiottoClass/functions/show.md): Show methods for Giotto classes
+- [showGiottoCellMetadata](reference/GiottoClass/functions/showGiottoCellMetadata.md): showGiottoCellMetadata
+- [showGiottoDimRed](reference/GiottoClass/functions/showGiottoDimRed.md): showGiottoDimRed
+- [showGiottoExpression](reference/GiottoClass/functions/showGiottoExpression.md): showGiottoExpression
+- [showGiottoFeatInfo](reference/GiottoClass/functions/showGiottoFeatInfo.md): showGiottoFeatInfo
+- [showGiottoFeatMetadata](reference/GiottoClass/functions/showGiottoFeatMetadata.md): showGiottoFeatMetadata
+- [showGiottoImageNames](reference/GiottoClass/functions/showGiottoImageNames.md): showGiottoImageNames
+- [showGiottoInstructions](reference/GiottoClass/functions/showGiottoInstructions.md): deprecated
+- [showGiottoNearestNetworks](reference/GiottoClass/functions/showGiottoNearestNetworks.md): showGiottoNearestNetworks
+- [showGiottoSpatEnrichments](reference/GiottoClass/functions/showGiottoSpatEnrichments.md): showGiottoSpatEnrichments
+- [showGiottoSpatGrids](reference/GiottoClass/functions/showGiottoSpatGrids.md): showGiottoSpatGrids
+- [showGiottoSpatialInfo](reference/GiottoClass/functions/showGiottoSpatialInfo.md): showGiottoSpatialInfo
+- [showGiottoSpatLocs](reference/GiottoClass/functions/showGiottoSpatLocs.md): showGiottoSpatLocs
+- [showGiottoSpatNetworks](reference/GiottoClass/functions/showGiottoSpatNetworks.md): showGiottoSpatNetworks
+- [showGrids](reference/GiottoClass/functions/showGrids.md): Show Spatial Grids
+- [showNetworks](reference/GiottoClass/functions/showNetworks.md): Show networks
+- [showProcessingSteps](reference/GiottoClass/functions/showProcessingSteps.md): showProcessingSteps
+- [sliceGiotto](reference/GiottoClass/functions/sliceGiotto.md): Slice `giotto` object by `spat_unit` and `feat_type`
+- [smoothGiottoPolygons](reference/GiottoClass/functions/smoothGiottoPolygons.md): smoothGiottoPolygons
+- [spat_net_to_igraph](reference/GiottoClass/functions/spat_net_to_igraph.md): Convert spatialNetworkObj to igraph
+- [spatEnrObj-class](reference/GiottoClass/functions/spatEnrObj-class.md): S4 spatEnrObj Class
+- [spatial_binary_ops](reference/GiottoClass/functions/spatial_binary_ops.md): Spatial binary operations
+- [spatialdataToGiotto](reference/GiottoClass/functions/spatialdataToGiotto.md): Convert SpatialData to Giotto
+- [spatialExperimentToGiotto](reference/GiottoClass/functions/spatialExperimentToGiotto.md): Utility function to convert a SpatialExperiment object to a Giotto object
+- [spatialGridObj-class](reference/GiottoClass/functions/spatialGridObj-class.md): S4 spatialGridObj Class
+- [spatialNetworkObj-class](reference/GiottoClass/functions/spatialNetworkObj-class.md): S4 spatialNetworkObj Class
+- [featIDs,giottoBinPoints-method](reference/GiottoClass/functions/featIDs,giottoBinPoints-method.md): Spatial and feature IDs
+- [spatLocsObj-class](reference/GiottoClass/functions/spatLocsObj-class.md): S4 spatLocsObj Class
+- [spatQuery](reference/GiottoClass/functions/spatQuery.md): Spatial Query
+- [spatShift](reference/GiottoClass/functions/spatShift.md): Spatially shift an object
+- [spatValues](reference/GiottoClass/functions/spatValues.md): Giotto object spatial values
+- [spin](reference/GiottoClass/functions/spin.md): Spin an object
+- [splitGiotto](reference/GiottoClass/functions/splitGiotto.md): Split a Giotto Object
+- [standardise_flex](reference/GiottoClass/functions/standardise_flex.md): standardise_flex
+- [stitchFieldCoordinates](reference/GiottoClass/functions/stitchFieldCoordinates.md): stitchFieldCoordinates
+- [stitchGiottoLargeImage](reference/GiottoClass/functions/stitchGiottoLargeImage.md): Stitch multiple giottoLargeImage objects into a single
+giottoLargeImage object
+- [stitchTileCoordinates](reference/GiottoClass/functions/stitchTileCoordinates.md): stitchTileCoordinates
+- [[,giottoBinPoints,logical,missing,missing-method](reference/GiottoClass/functions/[,giottoBinPoints,logical,missing,missing-method.md): Subset part of an object with `[` or `[[`
+- [subset_dollar](reference/GiottoClass/functions/subset_dollar.md): Subset part of an object with `$`
+- [subset_giotto_subobjects](reference/GiottoClass/functions/subset_giotto_subobjects.md): Subset `giotto` subobjects
+- [subset_giotto](reference/GiottoClass/functions/subset_giotto.md): Subset a `giotto` object
+- [subsetGiotto](reference/GiottoClass/functions/subsetGiotto.md): subsetGiotto
+- [subsetGiottoLocs](reference/GiottoClass/functions/subsetGiottoLocs.md): Subset by spatial locations
+- [subsetGiottoLocsMulti](reference/GiottoClass/functions/subsetGiottoLocsMulti.md): deprecated
+- [subsetGiottoLocsSubcellular](reference/GiottoClass/functions/subsetGiottoLocsSubcellular.md): Subset raw subcellular information by location
+- [svkey-class](reference/GiottoClass/functions/svkey-class.md): Spatial Value Key
+- [t_flex](reference/GiottoClass/functions/t_flex.md): t_flex
+- [terraVectData-class](reference/GiottoClass/functions/terraVectData-class.md): Basic class for terra SpatVector-based objects
+- [tessellate](reference/GiottoClass/functions/tessellate.md): Tessellated grid of polygons
+- [tif_metadata](reference/GiottoClass/functions/tif_metadata.md): Read Metadata of a Specialized tif
+- [to_simple_tif](reference/GiottoClass/functions/to_simple_tif.md): Convert Specialized TIF Formats to Basic TIF
+- [transpose](reference/GiottoClass/functions/transpose.md): Transpose
+- [update_giotto_params](reference/GiottoClass/functions/update_giotto_params.md): Update giotto parameters
+- [updateGiottoImage](reference/GiottoClass/functions/updateGiottoImage.md): updateGiottoImage
+- [updateGiottoImageMG](reference/GiottoClass/functions/updateGiottoImageMG.md): updateGiottoImageMG
+- [updateGiottoLargeImage](reference/GiottoClass/functions/updateGiottoLargeImage.md): updateGiottoLargeImage
+- [updateGiottoObject](reference/GiottoClass/functions/updateGiottoObject.md): Update giotto object
+- [updateGiottoPointsObject](reference/GiottoClass/functions/updateGiottoPointsObject.md): Update giotto points object
+- [updateGiottoPolygonObject](reference/GiottoClass/functions/updateGiottoPolygonObject.md): Update giotto polygon object
+- [wrap](reference/GiottoClass/functions/wrap.md): Wrap giotto terra pointer information
+- [writeGiottoLargeImage](reference/GiottoClass/functions/writeGiottoLargeImage.md): writeGiottoLargeImage
+- [XY](reference/GiottoClass/functions/XY.md): Spatial coordinates
+- [zoom](reference/GiottoClass/functions/zoom.md): Zoom a Giotto spatial object
+
+## GiottoUtils
+- [Package README](reference/GiottoUtils/README.md)
+- [Vignette: print_formatting](reference/GiottoUtils/vignettes/print_formatting.Rmd)
+- [check_github_suite_ver](reference/GiottoUtils/functions/check_github_suite_ver.md): Check for updates to Giotto Suite
+- [color_tag](reference/GiottoUtils/functions/color_tag.md): Colorize print text
+- [degrees](reference/GiottoUtils/functions/degrees.md): Radian/degree conversions
+- [deprecate_param](reference/GiottoUtils/functions/deprecate_param.md): Deprecate a parameter
+- [depth](reference/GiottoUtils/functions/depth.md): Find depth of subnesting
+- [determine_cores](reference/GiottoUtils/functions/determine_cores.md): determine_cores
+- [dir_manifest](reference/GiottoUtils/functions/dir_manifest.md): Generate file manifest list from a directory
+- [.log_conn](reference/GiottoUtils/functions/.log_conn.md): Create a logfile connection
+- [.log_create](reference/GiottoUtils/functions/.log_create.md): Create a log file
+- [.log_dir](reference/GiottoUtils/functions/.log_dir.md): Giotto logging directory
+- [dt_dcast_string](reference/GiottoUtils/functions/dt_dcast_string.md): dt_dcast_string
+- [dt_remove_na](reference/GiottoUtils/functions/dt_remove_na.md): dt_remove_na
+- [dt_set_row_order](reference/GiottoUtils/functions/dt_set_row_order.md): Set specific data.table row order
+- [dt_sort_combine_two_columns](reference/GiottoUtils/functions/dt_sort_combine_two_columns.md): dt_sort_combine_two_columns
+- [dt_to_matrix](reference/GiottoUtils/functions/dt_to_matrix.md): dt_to_matrix
+- [file_extension](reference/GiottoUtils/functions/file_extension.md): Get file extension
+- [g_assert](reference/GiottoUtils/functions/g_assert.md): Assertion framework
+- [g_match_arg](reference/GiottoUtils/functions/g_match_arg.md): Partial matching of character choices
+- [get_os](reference/GiottoUtils/functions/get_os.md): get_os
+- [getDistinctColors](reference/GiottoUtils/functions/getDistinctColors.md): getDistinctColors
+- [getMonochromeColors](reference/GiottoUtils/functions/getMonochromeColors.md): Create color scaling for a single color starting from black
+- [getRainbowColors](reference/GiottoUtils/functions/getRainbowColors.md): getRainbowColors
+- [giotto_bpparam](reference/GiottoUtils/functions/giotto_bpparam.md): Giotto Default BiocParallel Param
+- [giottoNewLog](reference/GiottoUtils/functions/giottoNewLog.md): Create a new Giotto log
+- [giottoReadLog](reference/GiottoUtils/functions/giottoReadLog.md): Read from the last generated log file
+- [gstop](reference/GiottoUtils/functions/gstop.md): Module-specific error message
+- [handle_errors](reference/GiottoUtils/functions/handle_errors.md): Error handling
+- [handle_warnings](reference/GiottoUtils/functions/handle_warnings.md): Warning handling
+- [init_option](reference/GiottoUtils/functions/init_option.md): Initialize an option
+- [is_empty_char](reference/GiottoUtils/functions/is_empty_char.md): Test if missing or empty character
+- [lapply_flex](reference/GiottoUtils/functions/lapply_flex.md): lapply_flex
+- [lifecycle_badge](reference/GiottoUtils/functions/lifecycle_badge.md): lifecycle badge
+- [list_element_exists](reference/GiottoUtils/functions/list_element_exists.md): Test if list element exists
+- [local_seed](reference/GiottoUtils/functions/local_seed.md): Set a seed local to a call
+- [log_write](reference/GiottoUtils/functions/log_write.md): Write to log file
+- [melt_matrix](reference/GiottoUtils/functions/melt_matrix.md): Melt a matrix
+- [new_github_ver_avail](reference/GiottoUtils/functions/new_github_ver_avail.md): Check if a package has newer github version
+- [package_check](reference/GiottoUtils/functions/package_check.md): package_check
+- [pbar](reference/GiottoUtils/functions/pbar.md): Create a **progressr** progress tracker.
+- [%>%](reference/GiottoUtils/functions/%>%.md): See `magrittr::[%>%](magrittr)` for details.
+- [prev_call](reference/GiottoUtils/functions/prev_call.md): Previous calls
+- [print_list](reference/GiottoUtils/functions/print_list.md): Pretty print formatting for lists and vectors
+- [py_active_env](reference/GiottoUtils/functions/py_active_env.md): Active python environment
+- [random_seed](reference/GiottoUtils/functions/random_seed.md): Set a random seed
+- [read_colmatch](reference/GiottoUtils/functions/read_colmatch.md): Fread specific rows based on column matches
+- [reexports](reference/GiottoUtils/functions/reexports.md): Objects exported from other packages
+- [require_depth](reference/GiottoUtils/functions/require_depth.md): Coerce to AT LEAST specified nesting depth
+- [scipy_sparse](reference/GiottoUtils/functions/scipy_sparse.md): Convert between Matrix and scipy sparse representations
+- [set_if](reference/GiottoUtils/functions/set_if.md): Set if
+- [special_characters](reference/GiottoUtils/functions/special_characters.md): Special characters
+- [str_abbreviate](reference/GiottoUtils/functions/str_abbreviate.md): Abbreviate a string
+- [str_convenience](reference/GiottoUtils/functions/str_convenience.md): String convenience functions
+- [str_locate2](reference/GiottoUtils/functions/str_locate2.md): Find location of match in string
+- [suite_install](reference/GiottoUtils/functions/suite_install.md): Giotto Suite GitHub Installation
+- [suite_packages](reference/GiottoUtils/functions/suite_packages.md): Giotto Suite Packages
+- [time_format](reference/GiottoUtils/functions/time_format.md): Format time for printing
+- [vmsg](reference/GiottoUtils/functions/vmsg.md): Verbose message handler
+- [with_pbar](reference/GiottoUtils/functions/with_pbar.md): Track progress while evaluating an R expression
+- [with](reference/GiottoUtils/functions/with.md): With utilities
+- [wrap_msg](reference/GiottoUtils/functions/wrap_msg.md): Wrap message
+- [wrap_txt](reference/GiottoUtils/functions/wrap_txt.md): Wrap text
+
+## GiottoVisuals
+- [Package README](reference/GiottoVisuals/README.md)
+- [Vignette: intro_to_GiottoVisuals](reference/GiottoVisuals/vignettes/intro_to_GiottoVisuals.Rmd)
+- [addGiottoImageToSpatPlot](reference/GiottoVisuals/functions/addGiottoImageToSpatPlot.md): addGiottoImageToSpatPlot
+- [aes_string2](reference/GiottoVisuals/functions/aes_string2.md): aes_string2
+- [auto_image_resample](reference/GiottoVisuals/functions/auto_image_resample.md): Optimized image resampling
+- [combine_aes](reference/GiottoVisuals/functions/combine_aes.md): Combine ggplot2 aesthetics
+- [create_cluster_dendrogram](reference/GiottoVisuals/functions/create_cluster_dendrogram.md): Create clustered expression dendrogram
+- [data_access_params](reference/GiottoVisuals/functions/data_access_params.md): Params documentation template: data_access_params
+- [dimCellPlot](reference/GiottoVisuals/functions/dimCellPlot.md): dimCellPlot
+- [dimFeatPlot2D](reference/GiottoVisuals/functions/dimFeatPlot2D.md): dimFeatPlot2D
+- [dimFeatPlot3D](reference/GiottoVisuals/functions/dimFeatPlot3D.md): dimFeatPlot3D
+- [dimPlot2D](reference/GiottoVisuals/functions/dimPlot2D.md): Plot dimension reduction
+- [.create_heatmap_dt](reference/GiottoVisuals/functions/.create_heatmap_dt.md): Create heatmap data.table
+- [.decide_cluster_order](reference/GiottoVisuals/functions/.decide_cluster_order.md): Decide cluster order
+- [.dimPlot_2d_plotly](reference/GiottoVisuals/functions/.dimPlot_2d_plotly.md): .dimPlot_2d_plotly
+- [.dimPlot_3d_plotly](reference/GiottoVisuals/functions/.dimPlot_3d_plotly.md): .dimPlot_3d_plotly
+- [.sankey_compare](reference/GiottoVisuals/functions/.sankey_compare.md): Calculations for a sankey relationship pair
+- [.sankey_networkd3](reference/GiottoVisuals/functions/.sankey_networkd3.md): Create networkd3 sankey
+- [.sankey_relation_pair](reference/GiottoVisuals/functions/.sankey_relation_pair.md): Calculations for a sankey relationship pair
+- [.spatInSituPlotDensity_single](reference/GiottoVisuals/functions/.spatInSituPlotDensity_single.md): Spatial in-situ density plot - single
+- [.spatInSituPlotHex_single](reference/GiottoVisuals/functions/.spatInSituPlotHex_single.md): Spatial in-situ hexbin plot - single
+- [.spatPlot_2d_plotly](reference/GiottoVisuals/functions/.spatPlot_2d_plotly.md): .spatPlot_2d_plotly
+- [.spatPlot_3d_plotly](reference/GiottoVisuals/functions/.spatPlot_3d_plotly.md): .spatPlot_3d_plotly
+- [.spatPlot2D_single](reference/GiottoVisuals/functions/.spatPlot2D_single.md): .spatPlot2D_single
+- [dotPlot](reference/GiottoVisuals/functions/dotPlot.md): Create a dotplot
+- [expand_feature_info](reference/GiottoVisuals/functions/expand_feature_info.md): expand_feature_info
+- [FSV_show](reference/GiottoVisuals/functions/FSV_show.md): FSV_show
+- [get_continuous_colors](reference/GiottoVisuals/functions/get_continuous_colors.md): Generate a continuous set of colors
+- [getColors](reference/GiottoVisuals/functions/getColors.md): getColors
+- [gg_annotation_raster](reference/GiottoVisuals/functions/gg_annotation_raster.md): Append image to ggplot as annotation_raster
+- [gg_param](reference/GiottoVisuals/functions/gg_param.md): Generate ggplot params
+- [gg_simple_scatter](reference/GiottoVisuals/functions/gg_simple_scatter.md): gg_simple_scatter
+- [ggplot_themes](reference/GiottoVisuals/functions/ggplot_themes.md): ggplot2 plotting themes
+- [giottoSankeyPlan](reference/GiottoVisuals/functions/giottoSankeyPlan.md): S4 giottoSankeyPlan class
+- [hidden_aliases](reference/GiottoVisuals/functions/hidden_aliases.md): hidden_aliases
+- [mixHSV](reference/GiottoVisuals/functions/mixHSV.md): Colormixing in HSV space
+- [mixRGB](reference/GiottoVisuals/functions/mixRGB.md): Colormixing in RGB space
+- [pal_names](reference/GiottoVisuals/functions/pal_names.md): Color palette names
+- [plot_cell_params](reference/GiottoVisuals/functions/plot_cell_params.md): Params documentation template: plot_cell_params
+- [plot_cow_params](reference/GiottoVisuals/functions/plot_cow_params.md): Params documentation template: plot_cow_params
+- [plot_dimred_params](reference/GiottoVisuals/functions/plot_dimred_params.md): Params documentation template: plot_dimred_params
+- [plot_feat_params](reference/GiottoVisuals/functions/plot_feat_params.md): Params documentation template: plot_feat_params
+- [plot_image_params](reference/GiottoVisuals/functions/plot_image_params.md): Params documentation template: plot_image_params
+- [plot_nn_net_params](reference/GiottoVisuals/functions/plot_nn_net_params.md): Params documentation template: plot_nn_net_params
+- [plot_output_handler](reference/GiottoVisuals/functions/plot_output_handler.md): Plotting output handler
+- [plot_output_params](reference/GiottoVisuals/functions/plot_output_params.md): Params documentation template: plot_output_params
+- [plot_params](reference/GiottoVisuals/functions/plot_params.md): Params documentation template: plot_params
+- [plot_poly_params](reference/GiottoVisuals/functions/plot_poly_params.md): Params documentation template: plot_poly_params
+- [plot_save](reference/GiottoVisuals/functions/plot_save.md): Plot saving
+- [plot_spatenr_params](reference/GiottoVisuals/functions/plot_spatenr_params.md): Params documentation template: plot_spatenr_params
+- [plot_spatnet_params](reference/GiottoVisuals/functions/plot_spatnet_params.md): Params documentation template: plot_spatnet_params
+- [plotHeatmap](reference/GiottoVisuals/functions/plotHeatmap.md): plotHeatmap
+- [plotly_axis_scale_2D](reference/GiottoVisuals/functions/plotly_axis_scale_2D.md): plotly_axis_scale_2D
+- [plotly_axis_scale_3D](reference/GiottoVisuals/functions/plotly_axis_scale_3D.md): plotly_axis_scale_3D
+- [plotly_grid](reference/GiottoVisuals/functions/plotly_grid.md): plotly_grid
+- [plotly_network](reference/GiottoVisuals/functions/plotly_network.md): plotly_network
+- [plotMetaDataCellsHeatmap](reference/GiottoVisuals/functions/plotMetaDataCellsHeatmap.md): plotMetaDataCellsHeatmap
+- [plotMetaDataHeatmap](reference/GiottoVisuals/functions/plotMetaDataHeatmap.md): plotMetaDataHeatmap
+- [plotPCA_2D](reference/GiottoVisuals/functions/plotPCA_2D.md): plotPCA_2D
+- [plotPCA_3D](reference/GiottoVisuals/functions/plotPCA_3D.md): plotPCA_3D
+- [plotPCA](reference/GiottoVisuals/functions/plotPCA.md): plotPCA
+- [plotStatDelaunayNetwork](reference/GiottoVisuals/functions/plotStatDelaunayNetwork.md): plotStatDelaunayNetwork
+- [plotTSNE_2D](reference/GiottoVisuals/functions/plotTSNE_2D.md): plotTSNE_2D
+- [plotTSNE_3D](reference/GiottoVisuals/functions/plotTSNE_3D.md): plotTSNE_3D
+- [plotTSNE](reference/GiottoVisuals/functions/plotTSNE.md): plotTSNE
+- [plotUMAP_2D](reference/GiottoVisuals/functions/plotUMAP_2D.md): plotUMAP_2D
+- [plotUMAP_3D](reference/GiottoVisuals/functions/plotUMAP_3D.md): plotUMAP_3D
+- [plotUMAP](reference/GiottoVisuals/functions/plotUMAP.md): plotUMAP
+- [reexports](reference/GiottoVisuals/functions/reexports.md): Objects exported from other packages
+- [ridgePlot](reference/GiottoVisuals/functions/ridgePlot.md): Create a ridgeline plot
+- [sankeyLabel](reference/GiottoVisuals/functions/sankeyLabel.md): Get and set the sankey labels information
+- [sankeyPlot](reference/GiottoVisuals/functions/sankeyPlot.md): Create a sankey plot
+- [sankeyRelate](reference/GiottoVisuals/functions/sankeyRelate.md): Set a relation between two sankey sets
+- [sankeySet](reference/GiottoVisuals/functions/sankeySet.md): Create a `giottoSankeyPlan` with one set of annotations
+- [sankeySetAddresses](reference/GiottoVisuals/functions/sankeySetAddresses.md): Data.table of sankey set locations
+- [set_default_color_continuous](reference/GiottoVisuals/functions/set_default_color_continuous.md): Set a default color for continuous values
+- [set_default_color_discrete](reference/GiottoVisuals/functions/set_default_color_discrete.md): Set a discrete coloring scheme
+- [set_default_cow_n_col](reference/GiottoVisuals/functions/set_default_cow_n_col.md): Set default ncols in plotting grid
+- [showClusterDendrogram](reference/GiottoVisuals/functions/showClusterDendrogram.md): showClusterDendrogram
+- [showClusterHeatmap](reference/GiottoVisuals/functions/showClusterHeatmap.md): showClusterHeatmap
+- [showColorInstructions](reference/GiottoVisuals/functions/showColorInstructions.md): Show Giotto color instructions
+- [showSaveParameters](reference/GiottoVisuals/functions/showSaveParameters.md): showSaveParameters
+- [simple_palette_factory](reference/GiottoVisuals/functions/simple_palette_factory.md): Generate a simple palette function
+- [spatCellPlot](reference/GiottoVisuals/functions/spatCellPlot.md): spatCellPlot
+- [spatDeconvPlot](reference/GiottoVisuals/functions/spatDeconvPlot.md): spatDeconvPlot
+- [spatDimCellPlot](reference/GiottoVisuals/functions/spatDimCellPlot.md): spatDimCellPlot
+- [spatDimCellPlot2D](reference/GiottoVisuals/functions/spatDimCellPlot2D.md): spatDimCellPlot2D
+- [spatDimFeatPlot2D](reference/GiottoVisuals/functions/spatDimFeatPlot2D.md): spatDimFeatPlot2D
+- [spatDimFeatPlot3D](reference/GiottoVisuals/functions/spatDimFeatPlot3D.md): spatDimFeatPlot3D
+- [spatDimPlot](reference/GiottoVisuals/functions/spatDimPlot.md): spatDimPlot
+- [spatDimPlot3D](reference/GiottoVisuals/functions/spatDimPlot3D.md): spatDimPlot3D
+- [spatFeatPlot2D_single](reference/GiottoVisuals/functions/spatFeatPlot2D_single.md): spatFeatPlot2D_single
+- [spatFeatPlot2D](reference/GiottoVisuals/functions/spatFeatPlot2D.md): Plot data in physical space 2D
+- [spatFeatPlot3D](reference/GiottoVisuals/functions/spatFeatPlot3D.md): spatFeatPlot3D
+- [spatInSituPlotDensity](reference/GiottoVisuals/functions/spatInSituPlotDensity.md): spatInSituPlotDensity
+- [spatInSituPlotHex](reference/GiottoVisuals/functions/spatInSituPlotHex.md): spatInSituPlotHex
+- [spatInSituPlotPoints](reference/GiottoVisuals/functions/spatInSituPlotPoints.md): spatInSituPlotPoints
+- [spatNetwDistributions](reference/GiottoVisuals/functions/spatNetwDistributions.md): spatNetwDistributions
+- [spatNetwDistributionsDistance](reference/GiottoVisuals/functions/spatNetwDistributionsDistance.md): Plot spatial distance distribution
+- [spatNetwDistributionsKneighbors](reference/GiottoVisuals/functions/spatNetwDistributionsKneighbors.md): spatNetwDistributionsKneighbors
+- [spatPlot2D](reference/GiottoVisuals/functions/spatPlot2D.md): spatPlot
+- [subsetSankeySet](reference/GiottoVisuals/functions/subsetSankeySet.md): Apply subset index on a sankey set
+- [violinPlot](reference/GiottoVisuals/functions/violinPlot.md): violinPlot
+

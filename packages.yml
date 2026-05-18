@@ -1,0 +1,16 @@
+# Packages to index. Edit this list to add/remove packages.
+#
+# Each entry may be:
+#   - a string (short form): repo name under `org`
+#   - an object: { name: <repo>, org: <org>, ref: <branch/tag/sha> }
+#     org/ref are optional and inherit from the defaults below.
+
+org: giotto-suite
+ref: main
+
+packages:
+  - name: Giotto
+    ref: suite
+  - GiottoClass
+  - GiottoUtils
+  - GiottoVisuals

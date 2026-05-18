@@ -1,0 +1,66 @@
+# `getSpatialGrid` {#getSpatialGrid}
+
+*Package:* `GiottoClass`  
+*Title:* Get spatial grid
+
+## Description
+
+Function to get spatial grid
+
+## Usage
+
+```r
+getSpatialGrid(
+  gobject,
+  spat_unit = NULL,
+  feat_type = NULL,
+  name = NULL,
+  return_grid_Obj = FALSE,
+  set_defaults = TRUE
+)
+```
+
+## Arguments
+
+- `gobject`: giotto object
+- `spat_unit`: spatial unit (e.g. "cell")
+- `feat_type`: feature type (e.g. "rna", "dna", "protein")
+- `name`: name of spatial grid
+- `return_grid_Obj`: return grid object (default = FALSE)
+- `set_defaults`: set default spat_unit and feat_type. Change to FALSE
+only when
+expression and spat_info are not expected to exist.
+
+## Value
+
+spatialGridObj
+
+## See Also
+
+Other spatial grid data accessor functions: 
+`[setSpatialGrid]()`
+
+Other functions to get data from giotto object: 
+`[getCellMetadata]()`,
+`[getDimReduction]()`,
+`[getExpression]()`,
+`[getFeatureInfo]()`,
+`[getFeatureMetadata]()`,
+`[getGiottoImage]()`,
+`[getMultiomics]()`,
+`[getNearestNetwork]()`,
+`[getPolygonInfo]()`,
+`[getSpatialEnrichment]()`,
+`[getSpatialLocations]()`,
+`[getSpatialNetwork]()`,
+`[get_multiomics]()`
+
+## Examples
+
+```r
+g <- GiottoData::loadGiottoMini("visium")
+g <- createSpatialGrid(g, sdimx_stepsize = 5, sdimy_stepsize = 5)
+
+getSpatialGrid(g)
+```
+

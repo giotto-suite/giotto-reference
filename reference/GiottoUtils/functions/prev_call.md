@@ -1,0 +1,56 @@
+# `prev_call` {#prev_call}
+
+*Package:* `GiottoUtils`  
+*Title:* Previous calls
+*Aliases:* `get_prev_call`, `get_prev_fname`, `get_args`, `get_args_list`
+
+## Description
+
+Functions to check the call stack and get aspects of previous
+calls. Used in putting together object histories and error handling.
+
+## Usage
+
+```r
+get_prev_call(toplevel = 1L)
+
+get_prev_fname(toplevel = 3L)
+
+get_args(toplevel = 2L, verbose = FALSE)
+
+get_args_list(toplevel = 1L, keep = NULL, ...)
+```
+
+## Arguments
+
+- `toplevel`: integer. Relative stack where the function call was made.
+- `verbose`: be verbose
+- `keep`: character. When NULL, all params are captured. If not NULL,
+specifies which params to capture.
+- `...`: additional params to capture
+
+## Value
+
+character
+
+## Examples
+
+```r
+get_prev_call()
+
+get_prev_fname(1)
+
+# preserve params
+foo <- function(a, b) get_args(toplevel = 1)
+foo(a = 1, b = 2)
+
+bar <- function() get_args() # default toplevel = 2
+baz <- function(x, y) bar()
+baz("a", "b")
+a <- function(x = 1, y = 2, ...) {
+    get_args_list(...)
+}
+
+a(z = 3, keep = "y")
+```
+

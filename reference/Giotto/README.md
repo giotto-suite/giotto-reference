@@ -1,0 +1,380 @@
+# Giotto
+
+*Source:* https://github.com/giotto-suite/Giotto (ref: `suite`)  
+*Title:* Spatial Single-Cell Transcriptomics Toolbox  
+*Version:* 4.2.3
+
+Toolbox to process, analyze and visualize spatial single-cell expression data.
+
+## Vignettes (2)
+
+- [dbMatrix](vignettes/dbMatrix.Rmd)
+- [intro_to_giotto](vignettes/intro_to_giotto.Rmd)
+
+## Functions (363)
+
+- [`adapt_aspect_ratio`](functions/adapt_aspect_ratio.md) — adapt_aspect_ratio
+- [`addCellIntMetadata`](functions/addCellIntMetadata.md) — addCellIntMetadata
+- [`addCellStatistics`](functions/addCellStatistics.md) — addCellStatistics
+- [`addFeatsPerc`](functions/addFeatsPerc.md) — addFeatsPerc
+- [`addFeatStatistics`](functions/addFeatStatistics.md) — Add feature statistics
+- [`addHMRF_V2`](functions/addHMRF_V2.md) — addHMRF_V2
+- [`addHMRF`](functions/addHMRF.md) — addHMRF
+- [`addPolygonCells`](functions/addPolygonCells.md) — Add corresponding polygon IDs to cell metadata
+- [`addStatistics`](functions/addStatistics.md) — addStatistics
+- [`addVisiumPolygons`](functions/addVisiumPolygons.md) — Add Visium Polygons to Giotto Object
+- [`adjust_limma`](functions/adjust_limma.md) — Limma Batch Correction
+- [`adjustGiottoMatrix`](functions/adjustGiottoMatrix.md) — Adjust expression values
+- [`binSpect`](functions/binSpect.md) — binSpect
+- [`binSpectMultiMatrix`](functions/binSpectMultiMatrix.md) — binSpectMultiMatrix
+- [`cal_cell_niche_cluster_bin`](functions/cal_cell_niche_cluster_bin.md) — cal_cell_niche_cluster_bin
+- [`calculate_spatial_enrichment`](functions/calculate_spatial_enrichment.md) — Calculate spatial enrichment
+- [`calculateAffineMatrixFromLandmarks`](functions/calculateAffineMatrixFromLandmarks.md) — Calculate an affine transformation matrix from two sets of landmarks
+- [`calculateHVF`](functions/calculateHVF.md) — calculateHVF
+- [`callSpdep`](functions/callSpdep.md) — Call the spdep function with required parameters
+- [`cell_proximity_spots`](functions/cell_proximity_spots.md) — Cell type proximity for spots
+- [`cell_proximity_tests`](functions/cell_proximity_tests.md) — Interaction changed features test methods
+- [`cellProximityBarplot`](functions/cellProximityBarplot.md) — cellProximityBarplot
+- [`cellProximityEnrichment`](functions/cellProximityEnrichment.md) — cellProximityEnrichment
+- [`cellProximityEnrichmentEachSpot`](functions/cellProximityEnrichmentEachSpot.md) — cellProximityEnrichmentEachSpot
+- [`cellProximityEnrichmentSpots`](functions/cellProximityEnrichmentSpots.md) — cellProximityEnrichmentSpots
+- [`cellProximityHeatmap`](functions/cellProximityHeatmap.md) — cellProximityHeatmap
+- [`cellProximityNetwork`](functions/cellProximityNetwork.md) — cellProximityNetwork
+- [`cellProximitySpatPlot`](functions/cellProximitySpatPlot.md) — cellProximitySpatPlot
+- [`cellProximitySpatPlot2D`](functions/cellProximitySpatPlot2D.md) — cellProximitySpatPlot2D
+- [`cellProximitySpatPlot3D`](functions/cellProximitySpatPlot3D.md) — cellProximitySpatPlot3D
+- [`cellProximityVisPlot_internals`](functions/cellProximityVisPlot_internals.md) — cellProximityVisPlot internals
+- [`cellProximityVisPlot`](functions/cellProximityVisPlot.md) — cellProximityVisPlot
+- [`checkAndFixSpatialGenes`](functions/checkAndFixSpatialGenes.md) — checkAndFixSpatialGenes
+- [`chooseAvailableSpatialGenes`](functions/chooseAvailableSpatialGenes.md) — chooseAvailableSpatialGenes
+- [`cluster_enrich_analysis`](functions/cluster_enrich_analysis.md) — cluster_enrich_analysis
+- [`clusterCells`](functions/clusterCells.md) — clusterCells
+- [`clusterData`](functions/clusterData.md) — Data clustering
+- [`clusterParam`](functions/clusterParam.md) — Clustering Parameter Classes
+- [`clusterSpatialCorFeats`](functions/clusterSpatialCorFeats.md) — clusterSpatialCorFeats
+- [`clusterSpatialCorGenes`](functions/clusterSpatialCorGenes.md) — clusterSpatialCorGenes
+- [`combCCcom`](functions/combCCcom.md) — Combine cell cell communication tables
+- [`combineCellProximityGenes`](functions/combineCellProximityGenes.md) — deprecated
+- [`combineCPG`](functions/combineCPG.md) — deprecated
+- [`combineICG`](functions/combineICG.md) — deprecated
+- [`combineInteractionChangedFeats`](functions/combineInteractionChangedFeats.md) — combineInteractionChangedFeats
+- [`combineInteractionChangedGenes`](functions/combineInteractionChangedGenes.md) — deprecated
+- [`compareCellAbundance`](functions/compareCellAbundance.md) — Compare cell types percent per polygon
+- [`comparePolygonExpression`](functions/comparePolygonExpression.md) — Compare gene expression between polygon areas
+- [`convertEnsemblToGeneSymbol`](functions/convertEnsemblToGeneSymbol.md) — convertEnsemblToGeneSymbol
+- [`create_2d_mesh_grid_line_obj`](functions/create_2d_mesh_grid_line_obj.md) — create_2d_mesh_grid_line_obj
+- [`create_crossSection_object`](functions/create_crossSection_object.md) — create_crossSection_object
+- [`create_mesh_grid_lines`](functions/create_mesh_grid_lines.md) — create_mesh_grid_lines
+- [`create_screeplot`](functions/create_screeplot.md) — create_screeplot
+- [`createArchRProj`](functions/createArchRProj.md) — Create an ArchR project and run LSI dimension reduction
+- [`createCrossSection`](functions/createCrossSection.md) — createCrossSection
+- [`createGiottoCosMxObject`](functions/createGiottoCosMxObject.md) — Create Nanostring CosMx Giotto Object
+- [`createGiottoMerscopeObject`](functions/createGiottoMerscopeObject.md) — Create Vizgen MERSCOPE Giotto Object
+- [`createGiottoObjectfromArchR`](functions/createGiottoObjectfromArchR.md) — Create a Giotto object from an ArchR project
+- [`createGiottoStereoSeqObject`](functions/createGiottoStereoSeqObject.md) — Create Stereo-seq Giotto Object
+- [`createGiottoStereoSeqObjectBin`](functions/createGiottoStereoSeqObjectBin.md) — Create Stereo-seq Giotto Object from Square Bin Data
+- [`createGiottoStereoSeqObjectCell`](functions/createGiottoStereoSeqObjectCell.md) — Create Stereo-seq Giotto Object from Cell Bin Data
+- [`createGiottoVisiumHDObject`](functions/createGiottoVisiumHDObject.md) — deprecated
+- [`createGiottoVisiumHDObjectBin`](functions/createGiottoVisiumHDObjectBin.md) — Create 10x VisiumHD Giotto Object from Binned Outputs
+- [`createGiottoVisiumHDObjectCell`](functions/createGiottoVisiumHDObjectCell.md) — Create 10x VisiumHD Giotto Object from Segmented Outputs
+- [`createGiottoVisiumObject`](functions/createGiottoVisiumObject.md) — Create a giotto object from 10x visium data
+- [`createGiottoXeniumObject`](functions/createGiottoXeniumObject.md) — Create 10x Xenium Giotto Object
+- [`createMerscopeLargeImage`](functions/createMerscopeLargeImage.md) — Create Vizgen MERSCOPE largeImage
+- [`createSpatialGenomicsObject`](functions/createSpatialGenomicsObject.md) — Create Spatial Genomics Giotto Object
+- [`crossSectionFeatPlot`](functions/crossSectionFeatPlot.md) — crossSectionFeatPlot
+- [`crossSectionFeatPlot3D`](functions/crossSectionFeatPlot3D.md) — crossSectionFeatPlot3D
+- [`crossSectionPlot`](functions/crossSectionPlot.md) — crossSectionPlot
+- [`crossSectionPlot3D`](functions/crossSectionPlot3D.md) — crossSectionPlot3D
+- [`data_access_params`](functions/data_access_params.md) — data_access_params
+- [`detectSpatialCorFeats`](functions/detectSpatialCorFeats.md) — Detect spatially correlated features
+- [`detectSpatialPatterns`](functions/detectSpatialPatterns.md) — detectSpatialPatterns
+- [`do_permuttest_spot`](functions/do_permuttest_spot.md) — Spot permutation testing
+- [`do_spatial_grid_averaging`](functions/do_spatial_grid_averaging.md) — do_spatial_grid_averaging
+- [`do_spatial_knn_smoothing`](functions/do_spatial_knn_smoothing.md) — do_spatial_knn_smoothing
+- [`doCellposeSegmentation`](functions/doCellposeSegmentation.md) — perform cellpose segmentation
+- [`doCellSegmentation`](functions/doCellSegmentation.md) — doCellSegmentation
+- [`doClusterProjection`](functions/doClusterProjection.md) — Projection of cluster labels
+- [`doFeatureSetEnrichment`](functions/doFeatureSetEnrichment.md) — doFeatureSetEnrichment
+- [`doGiottoClustree`](functions/doGiottoClustree.md) — doGiottoClustree
+- [`doHclust`](functions/doHclust.md) — doHclust
+- [`doHMRF_V2`](functions/doHMRF_V2.md) — doHMRF_V2
+- [`doHMRF`](functions/doHMRF.md) — doHMRF
+- [`doKmeans`](functions/doKmeans.md) — doKmeans
+- [`doLeidenCluster`](functions/doLeidenCluster.md) — doLeidenCluster
+- [`doLeidenClusterPython`](functions/doLeidenClusterPython.md) — doLeidenClusterPython
+- [`doLouvainCluster`](functions/doLouvainCluster.md) — doLouvainCluster
+- [`doMesmerSegmentation`](functions/doMesmerSegmentation.md) — perform Mesmer(Deepcell) segmentation
+- [`doRandomWalkCluster`](functions/doRandomWalkCluster.md) — doRandomWalkCluster
+- [`doScrubletDetect`](functions/doScrubletDetect.md) — doScrubletDetect
+- [`doSNNCluster`](functions/doSNNCluster.md) — doSNNCluster
+- [`doStardistSegmentation`](functions/doStardistSegmentation.md) — perform Stardist segmentation
+- [`.average_feat_feat_expression_in_groups`](functions/.average_feat_feat_expression_in_groups.md) — average_feat_feat_expression_in_groups
+- [`.cal_diff_per_interaction`](functions/.cal_diff_per_interaction.md) — Calculate difference per interaction
+- [`.cal_expr_residual`](functions/.cal_expr_residual.md) — Calculate feature expression residual
+- [`.combineInteractionChangedFeatures_per_interaction`](functions/.combineInteractionChangedFeatures_per_interaction.md) — Combine ICF scores per interaction
+- [`.cosmx_infer_fov_shifts`](functions/.cosmx_infer_fov_shifts.md) — Infer CosMx local to global shifts
+- [`.create_cell_type_random_cell_IDs`](functions/.create_cell_type_random_cell_IDs.md) — Create randomized cell IDs within a selection of cell types
+- [`.create_switch_string_unequal`](functions/.create_switch_string_unequal.md) — Create switch string unequal
+- [`.determine_switch_string_equal`](functions/.determine_switch_string_equal.md) — Determine switch string equal
+- [`.determine_switch_string_unequal`](functions/.determine_switch_string_unequal.md) — Determine switch string unequal
+- [`.do_cell_proximity_test_spot`](functions/.do_cell_proximity_test_spot.md) — Cell proximity testing for spot data
+- [`.do_cell_proximity_test`](functions/.do_cell_proximity_test.md) — Do cell proximity test
+- [`.do_page_permutation`](functions/.do_page_permutation.md) — PAGE permutation
+- [`.do_rank_permutation`](functions/.do_rank_permutation.md) — Rank permutation
+- [`.doLouvainCluster_community`](functions/.doLouvainCluster_community.md) — doLouvainCluster community
+- [`.doLouvainCluster_multinet`](functions/.doLouvainCluster_multinet.md) — doLouvainCluster multinet
+- [`.estimate_transform_from_matched_descriptor`](functions/.estimate_transform_from_matched_descriptor.md) — Estimate affine transformation from matched descriptor
+- [`.findCellProximityFeats_per_interaction`](functions/.findCellProximityFeats_per_interaction.md) — Find cell proximity features per interaction
+- [`.findICF_per_interaction_spot`](functions/.findICF_per_interaction_spot.md) — Find ICF per interaction for spot data
+- [`.get_img_corners`](functions/.get_img_corners.md) — Get image corners
+- [`.h5_read_bare`](functions/.h5_read_bare.md) — Read dataset from opened HDF5 with C functions
+- [`.kmeans_arma_binarize`](functions/.kmeans_arma_binarize.md) — .kmeans_arma_binarize
+- [`.kmeans_arma_subset_binarize`](functions/.kmeans_arma_subset_binarize.md) — .kmeans_arma_subset_binarize
+- [`.kmeans_binarize`](functions/.kmeans_binarize.md) — .kmeans_binarize
+- [`.match_descriptor`](functions/.match_descriptor.md) — Match image descriptors
+- [`.node_clusters`](functions/.node_clusters.md) — Node clusters
+- [`.or_test_func`](functions/.or_test_func.md) — Odds ratio test
+- [`.page_dt_method`](functions/.page_dt_method.md) — PAGE data.table method
+- [`.plot_matched_descriptors`](functions/.plot_matched_descriptors.md) — plot matched descriptors
+- [`.plotRecovery_sub`](functions/.plotRecovery_sub.md) — Create recovery plot
+- [`.rank_binarize`](functions/.rank_binarize.md) — Rank binarize
+- [`.reg_img_minmax_finder`](functions/.reg_img_minmax_finder.md) — Find minmax of registered image
+- [`.rigid_transform_spatial_locations`](functions/.rigid_transform_spatial_locations.md) — Rigid transform spatial locations
+- [`.run_pca_biocsingular_irlba_projection`](functions/.run_pca_biocsingular_irlba_projection.md) — Run PCA - BiocSingular irlba projection
+- [`.run_pca_biocsingular`](functions/.run_pca_biocsingular.md) — Run PCA - BiocSingular
+- [`.run_pca_factominer`](functions/.run_pca_factominer.md) — Run PCA - factominer
+- [`.run_spat_autocor_global`](functions/.run_spat_autocor_global.md) — .run_spat_autocor_global
+- [`.run_spat_autocor_local`](functions/.run_spat_autocor_local.md) — .run_spat_autocor_local
+- [`.sift_detect`](functions/.sift_detect.md) — Run SIFT feature detector and descriptor extractor
+- [`.specific_CCCScores_spots`](functions/.specific_CCCScores_spots.md) — Specific cell-cell communication scores for spot data
+- [`.split_dendrogram_in_two`](functions/.split_dendrogram_in_two.md) — Split dendrogram in two
+- [`.trakem2_rigid_transforms`](functions/.trakem2_rigid_transforms.md) — Read trakem2 rigid transforms
+- [`.visium_read_scalefactors`](functions/.visium_read_scalefactors.md) — Read Visium ScaleFactors
+- [`.visium_spot_poly`](functions/.visium_spot_poly.md) — Create Polygons for Visium Data
+- [`.warp_transformed_image`](functions/.warp_transformed_image.md) — Warp transformed images from estimated transformation
+- [`enrich_analysis`](functions/enrich_analysis.md) — enrich_analysis
+- [`enrich_deconvolution`](functions/enrich_deconvolution.md) — enrich_deconvolution
+- [`enrichment_PAGE`](functions/enrichment_PAGE.md) — PAGE feature enrichment
+- [`estimateAutomatedImageRegistrationWithSIFT`](functions/estimateAutomatedImageRegistrationWithSIFT.md) — Estimate Automated ImageRegistration With SIFT
+- [`evaluate_provided_spatial_locations`](functions/evaluate_provided_spatial_locations.md) — Evaluate provided spatial locations
+- [`exportGiottoViewer`](functions/exportGiottoViewer.md) — exportGiottoViewer
+- [`exprCellCellcom`](functions/exprCellCellcom.md) — exprCellCellcom
+- [`extend_vector`](functions/extend_vector.md) — extend_vector
+- [`extended_gini_fun`](functions/extended_gini_fun.md) — extended_gini_fun
+- [`featExpDWLS`](functions/featExpDWLS.md) — featExpDWLS
+- [`filterCellProximityGenes`](functions/filterCellProximityGenes.md) — deprecated
+- [`filterCombinations`](functions/filterCombinations.md) — filterCombinations
+- [`filterCPG`](functions/filterCPG.md) — deprecated
+- [`filterDistributions`](functions/filterDistributions.md) — filterDistributions
+- [`filterGiotto`](functions/filterGiotto.md) — filterGiotto
+- [`filterICFSpot`](functions/filterICFSpot.md) — filterICFSpot
+- [`filterICG`](functions/filterICG.md) — deprecated
+- [`filterInteractionChangedFeats`](functions/filterInteractionChangedFeats.md) — filterInteractionChangedFeats
+- [`filterInteractionChangedGenes`](functions/filterInteractionChangedGenes.md) — deprecated
+- [`filterSpatialGenes`](functions/filterSpatialGenes.md) — filterSpatialGenes
+- [`find_dampening_constant`](functions/find_dampening_constant.md) — find_dampening_constant
+- [`find_x_y_ranges`](functions/find_x_y_ranges.md) — find_x_y_ranges
+- [`findCellProximityGenes`](functions/findCellProximityGenes.md) — deprecated
+- [`findCellTypesFromEnrichment`](functions/findCellTypesFromEnrichment.md) — findCellTypesFromEnrichment
+- [`findCPG`](functions/findCPG.md) — deprecated
+- [`findGiniMarkers_one_vs_all`](functions/findGiniMarkers_one_vs_all.md) — findGiniMarkers_one_vs_all
+- [`findGiniMarkers`](functions/findGiniMarkers.md) — findGiniMarkers
+- [`findICFSpot`](functions/findICFSpot.md) — findICFSpot
+- [`findICG`](functions/findICG.md) — deprecated
+- [`findInteractionChangedFeats`](functions/findInteractionChangedFeats.md) — findInteractionChangedFeats
+- [`findInteractionChangedGenes`](functions/findInteractionChangedGenes.md) — deprecated
+- [`findMarkers_one_vs_all`](functions/findMarkers_one_vs_all.md) — findMarkers_one_vs_all
+- [`findMarkers`](functions/findMarkers.md) — findMarkers
+- [`findMastMarkers_one_vs_all`](functions/findMastMarkers_one_vs_all.md) — findMastMarkers_one_vs_all
+- [`findMastMarkers`](functions/findMastMarkers.md) — findMastMarkers
+- [`findNetworkNeighbors`](functions/findNetworkNeighbors.md) — Find network neighbors
+- [`findScranMarkers_one_vs_all`](functions/findScranMarkers_one_vs_all.md) — findScranMarkers_one_vs_all
+- [`findScranMarkers`](functions/findScranMarkers.md) — findScranMarkers
+- [`FSV_show`](functions/FSV_show.md) — FSV_show
+- [`get_cross_section_coordinates`](functions/get_cross_section_coordinates.md) — get_cross_section_coordinates
+- [`get10Xmatrix_h5`](functions/get10Xmatrix_h5.md) — get10Xmatrix_h5
+- [`get10Xmatrix`](functions/get10Xmatrix.md) — get10Xmatrix
+- [`getBalancedSpatCoexpressionFeats`](functions/getBalancedSpatCoexpressionFeats.md) — Get balanced spatial coexpression features
+- [`getCellsFromPolygon`](functions/getCellsFromPolygon.md) — Get cells located within the polygons area
+- [`getClusterSimilarity`](functions/getClusterSimilarity.md) — getClusterSimilarity
+- [`getDendrogramSplits`](functions/getDendrogramSplits.md) — getDendrogramSplits
+- [`getGEFtxCoords`](functions/getGEFtxCoords.md) — getGEFtxCoords
+- [`getONTraCv1Input`](functions/getONTraCv1Input.md) — getONTraCv1Input
+- [`giottoToAnndataZarr`](functions/giottoToAnndataZarr.md) — Create a local anndata zarr folder
+- [`gpoly_from_dfr_smoothed_wrapped`](functions/gpoly_from_dfr_smoothed_wrapped.md) — Polygon creation and smoothing for parallel
+- [`heatmSpatialCorFeats`](functions/heatmSpatialCorFeats.md) — heatmSpatialCorFeats
+- [`identifyTMAcores`](functions/identifyTMAcores.md) — Split cluster annotations based on a spatial network
+- [`importCosMx`](functions/importCosMx.md) — Import a Nanostring CosMx Assay
+- [`importStereoSeq`](functions/importStereoSeq.md) — Import a Stereo-seq assay
+- [`importVisiumHD`](functions/importVisiumHD.md) — Import a Visium HD assay
+- [`importXenium`](functions/importXenium.md) — Import a 10X Xenium Assay
+- [`initHMRF_V2`](functions/initHMRF_V2.md) — initHMRF_V2
+- [`insertCrossSectionFeatPlot3D`](functions/insertCrossSectionFeatPlot3D.md) — insertCrossSectionFeatPlot3D
+- [`insertCrossSectionSpatPlot3D`](functions/insertCrossSectionSpatPlot3D.md) — insertCrossSectionSpatPlot3D
+- [`installGiottoONTraCEnvironment`](functions/installGiottoONTraCEnvironment.md) — installGiottoONTraCEnvironment
+- [`interactiveLandmarkSelection`](functions/interactiveLandmarkSelection.md) — Record landmarks by interactive selection
+- [`interpolateFeature`](functions/interpolateFeature.md) — Spatial feature interpolation
+- [`jackstrawPlot`](functions/jackstrawPlot.md) — jackstrawPlot
+- [`kmeans_binarize_wrapper`](functions/kmeans_binarize_wrapper.md) — kmeans_binarize_wrapper
+- [`labelTransfer`](functions/labelTransfer.md) — Transfer labels/annotations between sets of data via similarity
+voting
+- [`LeidenIgraphClusParam-class`](functions/LeidenIgraphClusParam-class.md) — Leiden Clustering
+- [`LeidenPythonClusParam-class`](functions/LeidenPythonClusParam-class.md) — Leiden Clustering
+- [`load_cell_niche_cluster_prob`](functions/load_cell_niche_cluster_prob.md) — load_cell_niche_cluster_prob
+- [`load_cell_NT_score`](functions/load_cell_NT_score.md) — load_cell_NT_score
+- [`load_merscope_folder`](functions/load_merscope_folder.md) — Load MERSCOPE data from folder
+- [`load_nc_connectivity`](functions/load_nc_connectivity.md) — load_nc_connectivity
+- [`load_niche_cluster_nt_score`](functions/load_niche_cluster_nt_score.md) — load_niche_cluster_nt_score
+- [`loadHMRF`](functions/loadHMRF.md) — loadHMRF
+- [`loadOntraCResults`](functions/loadOntraCResults.md) — loadOntraCResults
+- [`LouvainCommunityClusParam-class`](functions/LouvainCommunityClusParam-class.md) — Louvain Clustering
+- [`LouvainMultinetClusParam-class`](functions/LouvainMultinetClusParam-class.md) — Louvain Clustering
+- [`make_simulated_network`](functions/make_simulated_network.md) — make_simulated_network
+- [`makeSignMatrixDWLS`](functions/makeSignMatrixDWLS.md) — makeSignMatrixDWLS
+- [`makeSignMatrixDWLSfromMatrix`](functions/makeSignMatrixDWLSfromMatrix.md) — makeSignMatrixDWLSfromMatrix
+- [`makeSignMatrixRank`](functions/makeSignMatrixRank.md) — makeSignMatrixRank
+- [`mergeClusters`](functions/mergeClusters.md) — mergeClusters
+- [`mygini_fun`](functions/mygini_fun.md) — mygini_fun
+- [`NNClusParam-class`](functions/NNClusParam-class.md) — NNClusParam
+- [`norm_arcsinh`](functions/norm_arcsinh.md) — Arcsinh Normalization
+- [`norm_default`](functions/norm_default.md) — Default Giotto Normalization
+- [`norm_l2`](functions/norm_l2.md) — L2 Normalization
+- [`norm_library`](functions/norm_library.md) — Library Size Normalization
+- [`norm_log`](functions/norm_log.md) — Log Normalization
+- [`norm_osmfish`](functions/norm_osmfish.md) — osmFISH Normalization
+- [`norm_pearson`](functions/norm_pearson.md) — Lause/Kobak Pearson Residuals Normalization
+- [`norm_quantile`](functions/norm_quantile.md) — Quantile Normalization
+- [`norm_tfidf`](functions/norm_tfidf.md) — TF-IDF Normalization
+- [`normalizeGiotto`](functions/normalizeGiotto.md) — normalizeGiotto
+- [`numPts_below_line`](functions/numPts_below_line.md) — numPts_below_line
+- [`optimize_deconvolute_dwls`](functions/optimize_deconvolute_dwls.md) — optimize_deconvolute_dwls
+- [`optimize_solveDampenedWLS`](functions/optimize_solveDampenedWLS.md) — optimize_solveDampenedWLS
+- [`pieCellTypesFromEnrichment`](functions/pieCellTypesFromEnrichment.md) — pieCellTypesFromEnrichment
+- [`plot_cell_params`](functions/plot_cell_params.md) — Params documentation template: plot_cell_params
+- [`plot_cow_params`](functions/plot_cow_params.md) — Params documentation template: plot_cow_params
+- [`plot_dimred_params`](functions/plot_dimred_params.md) — Params documentation template: plot_dimred_params
+- [`plot_feat_params`](functions/plot_feat_params.md) — Params documentation template: plot_feat_params
+- [`plot_image_params`](functions/plot_image_params.md) — Params documentation template: plot_image_params
+- [`plot_nn_net_params`](functions/plot_nn_net_params.md) — Params documentation template: plot_nn_net_params
+- [`plot_output_params`](functions/plot_output_params.md) — Params documentation template: plot_output_params
+- [`plot_params`](functions/plot_params.md) — Params documentation template: plot_params
+- [`plot_poly_params`](functions/plot_poly_params.md) — Params documentation template: plot_poly_params
+- [`plot_spatenr_params`](functions/plot_spatenr_params.md) — Params documentation template: plot_spatenr_params
+- [`plot_spatnet_params`](functions/plot_spatnet_params.md) — Params documentation template: plot_spatnet_params
+- [`plotCCcomDotplot`](functions/plotCCcomDotplot.md) — plotCCcomDotplot
+- [`plotCCcomHeatmap`](functions/plotCCcomHeatmap.md) — plotCCcomHeatmap
+- [`plotCellProximityFeats`](functions/plotCellProximityFeats.md) — plotCellProximityFeats
+- [`plotCellProximityFeatSpot`](functions/plotCellProximityFeatSpot.md) — plotCellProximityFeatSpot
+- [`plotCellTypeNTScore`](functions/plotCellTypeNTScore.md) — plotCellTypeNTScore
+- [`plotCellTypesFromEnrichment`](functions/plotCellTypesFromEnrichment.md) — plotCellTypesFromEnrichment
+- [`plotCombineCCcom`](functions/plotCombineCCcom.md) — plotCombineCCcom
+- [`plotCombineCellCellCommunication`](functions/plotCombineCellCellCommunication.md) — plotCombineCellCellCommunication
+- [`plotCombineICF`](functions/plotCombineICF.md) — plotCombineICF
+- [`plotCombineInteractionChangedFeats`](functions/plotCombineInteractionChangedFeats.md) — plotCombineInteractionChangedFeats
+- [`plotCPF`](functions/plotCPF.md) — plotCPF
+- [`plotCTCompositionInNicheCluster`](functions/plotCTCompositionInNicheCluster.md) — plotCTCompositionInNicheCluster
+- [`plotICF`](functions/plotICF.md) — Plot interaction changed features
+- [`plotICFSpot`](functions/plotICFSpot.md) — plotICFSpot
+- [`plotInteractionChangedFeats`](functions/plotInteractionChangedFeats.md) — Plot interaction changed features
+- [`plotInteractive3D`](functions/plotInteractive3D.md) — Plot interactive 3D spatial plot
+- [`plotInteractivePolygons`](functions/plotInteractivePolygons.md) — Select image regions by plotting interactive polygons
+- [`plotNicheClusterConnectivity`](functions/plotNicheClusterConnectivity.md) — plotNicheClusterConnectivity
+- [`plotPolygons`](functions/plotPolygons.md) — Plot stored polygons
+- [`plotRankSpatvsExpr`](functions/plotRankSpatvsExpr.md) — plotRankSpatvsExpr
+- [`plotRecovery`](functions/plotRecovery.md) — plotRecovery
+- [`plotSpatNicheClusterBin`](functions/plotSpatNicheClusterBin.md) — plotSpatNicheClusterBin
+- [`plotSpatNicheClusterProb`](functions/plotSpatNicheClusterProb.md) — plotSpatNicheClusterProb
+- [`preprocessImageToMatrix`](functions/preprocessImageToMatrix.md) — Preprocess from image directory to the required matrix format for
+Image registration pipeline built on scikit-image
+- [`print.combIcfObject`](functions/print.combIcfObject.md) — combIcfObject print method
+- [`print.icfObject`](functions/print.icfObject.md) — icfObject print method
+- [`process_param`](functions/process_param.md) — Data Processing Parameter Classes
+- [`processData`](functions/processData.md) — Composable Data Processing
+- [`processExpression`](functions/processExpression.md) — Expression Data Processing
+- [`processGiotto`](functions/processGiotto.md) — processGiotto
+- [`projection_fun`](functions/projection_fun.md) — projection_fun
+- [`rank_binarize_wrapper`](functions/rank_binarize_wrapper.md) — rank_binarize_wrapper
+- [`rankSpatialCorGroups`](functions/rankSpatialCorGroups.md) — rankSpatialCorGroups
+- [`read_crossSection`](functions/read_crossSection.md) — read_crossSection
+- [`read_data_folder`](functions/read_data_folder.md) — Read a structured folder of exported data
+- [`read_data_params`](functions/read_data_params.md) — read_data_params
+- [`read10xAffineImage`](functions/read10xAffineImage.md) — read10xAffineImage
+- [`readPolygonFilesVizgen`](functions/readPolygonFilesVizgen.md) — readPolygonFilesVizgen
+- [`readPolygonFilesVizgenHDF5_old`](functions/readPolygonFilesVizgenHDF5_old.md) — readPolygonFilesVizgenHDF5
+- [`readPolygonFilesVizgenHDF5`](functions/readPolygonFilesVizgenHDF5.md) — readPolygonFilesVizgenHDF5
+- [`readPolygonVizgenParquet`](functions/readPolygonVizgenParquet.md) — Read MERSCOPE polygons from parquet
+- [`reduceDims`](functions/reduceDims.md) — Run dimension reduction method
+- [`reexports`](functions/reexports.md) — Objects exported from other packages
+- [`registerGiottoObjectList`](functions/registerGiottoObjectList.md) — registerGiottoObjectList
+- [`registerGiottoObjectListFiji`](functions/registerGiottoObjectListFiji.md) — registerGiottoObjectListFiji
+- [`registerGiottoObjectListRvision`](functions/registerGiottoObjectListRvision.md) — registerGiottoObjectListRvision
+- [`registerImagesFIJI`](functions/registerImagesFIJI.md) — registerImagesFIJI
+- [`reshape_to_data_point`](functions/reshape_to_data_point.md) — reshape_to_data_point
+- [`reshape_to_mesh_grid_obj`](functions/reshape_to_mesh_grid_obj.md) — reshape_to_mesh_grid_obj
+- [`run_spatial_sim_tests_multi`](functions/run_spatial_sim_tests_multi.md) — run_spatial_sim_tests_multi
+- [`run_spatial_sim_tests_one_rep`](functions/run_spatial_sim_tests_one_rep.md) — run_spatial_sim_tests_one_rep
+- [`runDWLSDeconv`](functions/runDWLSDeconv.md) — runDWLSDeconv
+- [`fiji`](functions/fiji.md) — Find Fiji location
+- [`runGiottoHarmony`](functions/runGiottoHarmony.md) — runGiottoHarmony
+- [`runHyperGeometricEnrich`](functions/runHyperGeometricEnrich.md) — runHyperGeometricEnrich
+- [`runIntegratedUMAP`](functions/runIntegratedUMAP.md) — Run integrated UMAP
+- [`runIterativeLSI`](functions/runIterativeLSI.md) — Run Iterative Latent Semantic Indexing (LSI)
+- [`runNMF`](functions/runNMF.md) — Run Non-Negative Matrix Factorization
+- [`runONTraCV1`](functions/runONTraCV1.md) — runONTraCV1
+- [`runPatternSimulation`](functions/runPatternSimulation.md) — runPatternSimulation
+- [`runPCA`](functions/runPCA.md) — runPCA
+- [`runPCAprojection`](functions/runPCAprojection.md) — runPCAprojection
+- [`runPCAprojectionBatch`](functions/runPCAprojectionBatch.md) — runPCAprojectionBatch
+- [`runRankEnrich`](functions/runRankEnrich.md) — runRankEnrich
+- [`runSpatialDeconv`](functions/runSpatialDeconv.md) — runSpatialDeconv
+- [`runSpatialEnrich`](functions/runSpatialEnrich.md) — runSpatialEnrich
+- [`runtSNE`](functions/runtSNE.md) — Run tSNE dimensional reduction
+- [`runUMAP`](functions/runUMAP.md) — Run UMAP dimension reduction
+- [`runUMAPprojection`](functions/runUMAPprojection.md) — Run UMAP dimension reduction
+- [`runWNN`](functions/runWNN.md) — Multi omics integration with WNN
+- [`sampling_sp_genes`](functions/sampling_sp_genes.md) — sampling_sp_genes
+- [`scale_default`](functions/scale_default.md) — Default Giotto Scaling
+- [`scale_zscore`](functions/scale_zscore.md) — Z Score Scaling
+- [`screePlot`](functions/screePlot.md) — screePlot
+- [`selectPatternGenes`](functions/selectPatternGenes.md) — selectPatternGenes
+- [`showCellProportionSwitchedPie`](functions/showCellProportionSwitchedPie.md) — showCellProportionSwitchedPie
+- [`showCellProportionSwitchedSanKey`](functions/showCellProportionSwitchedSanKey.md) — showCellProportionSwitchedSanKey
+- [`showPattern`](functions/showPattern.md) — showPattern
+- [`showPattern2D`](functions/showPattern2D.md) — showPattern2D
+- [`showPattern3D`](functions/showPattern3D.md) — showPattern3D
+- [`showPatternGenes`](functions/showPatternGenes.md) — showPatternGenes
+- [`showPolygonSizeInfluence`](functions/showPolygonSizeInfluence.md) — showPolygonSizeInfluence
+- [`showSpatialCorFeats`](functions/showSpatialCorFeats.md) — showSpatialCorFeats
+- [`showSpatialCorGenes`](functions/showSpatialCorGenes.md) — showSpatialCorGenes
+- [`signPCA`](functions/signPCA.md) — signPCA
+- [`silhouetteRank`](functions/silhouetteRank.md) — silhouetteRank
+- [`silhouetteRankTest`](functions/silhouetteRankTest.md) — silhouetteRankTest
+- [`simulateOneGenePatternGiottoObject`](functions/simulateOneGenePatternGiottoObject.md) — simulateOneGenePatternGiottoObject
+- [`solve_dampened_WLSj`](functions/solve_dampened_WLSj.md) — solve_dampened_WLSj
+- [`solve_OLS_internal`](functions/solve_OLS_internal.md) — solve_OLS_internal
+- [`spark`](functions/spark.md) — spark
+- [`spat_fisher_exact`](functions/spat_fisher_exact.md) — Fisher exact test
+- [`spat_odds_ratio`](functions/spat_odds_ratio.md) — Spatial odds-ratio
+- [`spatCellCellcom`](functions/spatCellCellcom.md) — Spatial cell cell communication scoring
+- [`spatCellCellcomSpots`](functions/spatCellCellcomSpots.md) — spatCellCellcomSpots
+- [`spatialAEH`](functions/spatialAEH.md) — spatialAEH
+- [`spatialAutoCor`](functions/spatialAutoCor.md) — Spatial autocorrelation
+- [`spatialDE`](functions/spatialDE.md) — spatialDE
+- [`spatialSplitCluster`](functions/spatialSplitCluster.md) — Split cluster annotations based on a spatial network
+- [`spdepAutoCorr`](functions/spdepAutoCorr.md) — Compute spatial auto correlation using spdep
+- [`spot_deconvolution`](functions/spot_deconvolution.md) — spot_deconvolution
+- [`subClusterCells`](functions/subClusterCells.md) — Cell subclustering
+- [`threshold_binarize`](functions/threshold_binarize.md) — Data Binarization
+- [`threshold_minmax`](functions/threshold_minmax.md) — Value MinMax Restriction/Clamping
+- [`transform_2d_mesh_to_3d_mesh`](functions/transform_2d_mesh_to_3d_mesh.md) — transform_2d_mesh_to_3d_mesh
+- [`trendSceek`](functions/trendSceek.md) — trendSceek
+- [`viewHMRFresults_V2`](functions/viewHMRFresults_V2.md) — viewHMRFresults_V2
+- [`viewHMRFresults`](functions/viewHMRFresults.md) — viewHMRFresults
+- [`viewHMRFresults2D`](functions/viewHMRFresults2D.md) — viewHMRFresults2D
+- [`viewHMRFresults3D`](functions/viewHMRFresults3D.md) — viewHMRFresults3D
+- [`visium_micron_scalefactor`](functions/visium_micron_scalefactor.md) — Calculate Pixel to Micron Scalefactor
+- [`write_giotto_viewer_annotation`](functions/write_giotto_viewer_annotation.md) — write_giotto_viewer_annotation
+- [`write_giotto_viewer_dim_reduction`](functions/write_giotto_viewer_dim_reduction.md) — write_giotto_viewer_dim_reduction
+- [`write_giotto_viewer_numeric_annotation`](functions/write_giotto_viewer_numeric_annotation.md) — write_giotto_viewer_numeric_annotation
+- [`writeChatGPTqueryDEG`](functions/writeChatGPTqueryDEG.md) — writeChatGPTqueryDEG
+- [`writeHMRFresults`](functions/writeHMRFresults.md) — writeHMRFresults

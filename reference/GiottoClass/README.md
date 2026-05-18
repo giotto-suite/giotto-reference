@@ -1,0 +1,425 @@
+# GiottoClass
+
+*Source:* https://github.com/giotto-suite/GiottoClass (ref: `main`)  
+*Title:* Giotto Suite Object Definitions and Framework  
+*Version:* 0.5.1
+
+Definitions for the Giotto object and its subobjects.
+Functionalities relating to data ingestion, basic
+object creation, data access within the Giotto object, and generics defined
+for the Giotto classes are all found here. Applications of this framework and
+convenience functions for loading specific technologies are found in the base
+Giotto package.
+
+## Vignettes (1)
+
+- [overview](vignettes/overview.Rmd)
+
+## Functions (405)
+
+- [`activeFeatType-generic`](functions/activeFeatType-generic.md) — Active feature type
+- [`activeSpatUnit-generic`](functions/activeSpatUnit-generic.md) — Active spatial unit
+- [`add_img_array_alpha`](functions/add_img_array_alpha.md) — Add alpha channel to image array
+- [`addCellMetadata`](functions/addCellMetadata.md) — Add cell metadata
+- [`addFeatMetadata`](functions/addFeatMetadata.md) — Add feature metadata
+- [`addGiottoImage`](functions/addGiottoImage.md) — addGiottoImage
+- [`addGiottoImageMG`](functions/addGiottoImageMG.md) — addGiottoImageMG
+- [`addGiottoLargeImage`](functions/addGiottoLargeImage.md) — addGiottoLargeImage
+- [`addGiottoPoints`](functions/addGiottoPoints.md) — Add subcellular giotto points object to giotto object
+- [`addGiottoPolygons`](functions/addGiottoPolygons.md) — Add giotto polygons to giotto object
+- [`addNetworkLayout`](functions/addNetworkLayout.md) — addNetworkLayout
+- [`addSpatialCentroidLocations`](functions/addSpatialCentroidLocations.md) — addSpatialCentroidLocations
+- [`addSpatialCentroidLocationsLayer`](functions/addSpatialCentroidLocationsLayer.md) — addSpatialCentroidLocationsLayer
+- [`affine`](functions/affine.md) — Affine transformations
+- [`affine2d-class`](functions/affine2d-class.md) — Affine Transform Object
+- [`aggregateFeatures`](functions/aggregateFeatures.md) — Aggregate Spatial Features Covered by Polygon Geometries
+- [`aggregateStacks`](functions/aggregateStacks.md) — aggregateStacks
+- [`aggregateStacksExpression`](functions/aggregateStacksExpression.md) — aggregateStacksExpression
+- [`aggregateStacksLocations`](functions/aggregateStacksLocations.md) — aggregateStacksLocations
+- [`aggregateStacksPolygonOverlaps`](functions/aggregateStacksPolygonOverlaps.md) — aggregateStacksPolygonOverlaps
+- [`aggregateStacksPolygons`](functions/aggregateStacksPolygons.md) — aggregateStacksPolygons
+- [`anndataToGiotto`](functions/anndataToGiotto.md) — Convert anndata to Giotto
+- [`annotate_spatlocs_with_spatgrid_2D`](functions/annotate_spatlocs_with_spatgrid_2D.md) — annotate_spatlocs_with_spatgrid_2D
+- [`annotate_spatlocs_with_spatgrid_3D`](functions/annotate_spatlocs_with_spatgrid_3D.md) — annotate_spatlocs_with_spatgrid_3D
+- [`annotateGiotto`](functions/annotateGiotto.md) — Annotate Giotto object
+- [`annotateSpatialGrid`](functions/annotateSpatialGrid.md) — annotateSpatialGrid
+- [`annotateSpatialNetwork`](functions/annotateSpatialNetwork.md) — annotateSpatialNetwork
+- [`as.character`](functions/as.character.md) — Create a text representation of an object
+- [`as.data.table.giottoBinPoints`](functions/as.data.table.giottoBinPoints.md) — Coerce to data.table
+- [`as.list,giotto-method`](functions/as.list,giotto-method.md) — Coerce to a list
+- [`as.matrix`](functions/as.matrix.md) — Coerce to matrix
+- [`as.points`](functions/as.points.md) — Coerce to SpatVector points
+- [`as.polygons`](functions/as.polygons.md) — Coerce to SpatVector polygons
+- [`buffer`](functions/buffer.md) — Create a buffer around vector geometries
+- [`calculateLabelProportions`](functions/calculateLabelProportions.md) — Calculate Proportions of Labels Per Observation Group
+- [`calculateMetaTable`](functions/calculateMetaTable.md) — calculateMetaTable
+- [`calculateMetaTableCells`](functions/calculateMetaTableCells.md) — calculateMetaTableCells
+- [`calculateOverlap`](functions/calculateOverlap.md) — Calculate features overlapped by polygons
+- [`calculateOverlapParallel`](functions/calculateOverlapParallel.md) — calculateOverlapParallel
+- [`calculateOverlapPolygonImages`](functions/calculateOverlapPolygonImages.md) — calculateOverlapPolygonImages
+- [`calculateOverlapRaster`](functions/calculateOverlapRaster.md) — calculateOverlapRaster
+- [`calculateOverlapSerial`](functions/calculateOverlapSerial.md) — calculateOverlapSerial
+- [`calculateSpatCellMetadataProportions`](functions/calculateSpatCellMetadataProportions.md) — calculateSpatCellMetadataProportions
+- [`cellMetaObj-class`](functions/cellMetaObj-class.md) — S4 cellMetaObj
+- [`centroids-generic`](functions/centroids-generic.md) — centroids-generic
+- [`changeGiottoInstructions`](functions/changeGiottoInstructions.md) — deprecated
+- [`changeImageBg`](functions/changeImageBg.md) — changeImageBg
+- [`check_py_for_scanpy`](functions/check_py_for_scanpy.md) — Check Scanpy Installation
+- [`checkPythonPackage`](functions/checkPythonPackage.md) — Check Python Package Installation
+- [`circleVertices`](functions/circleVertices.md) — Generate circle polygon vertices
+- [`clusterData`](functions/clusterData.md) — Data Clustering
+- [`colMeans_flex`](functions/colMeans_flex.md) — colMeans_flex
+- [`colSums_flex`](functions/colSums_flex.md) — colSums_flex
+- [`combine_split_geoms`](functions/combine_split_geoms.md) — Combine or Split Complex Geometries
+- [`combineCellData`](functions/combineCellData.md) — combineCellData
+- [`combineFeatureData`](functions/combineFeatureData.md) — combineFeatureData
+- [`combineFeatureOverlapData`](functions/combineFeatureOverlapData.md) — combineFeatureOverlapData
+- [`combineMetadata`](functions/combineMetadata.md) — combineMetadata
+- [`combineSpatialCellMetadataInfo`](functions/combineSpatialCellMetadataInfo.md) — combineSpatialCellMetadataInfo
+- [`combineToMultiPolygon`](functions/combineToMultiPolygon.md) — Combine giottoPolygon geometries
+- [`compatible_spatial_network`](functions/compatible_spatial_network.md) — Compatible spatial network
+- [`convert_mgImage_to_array_DT`](functions/convert_mgImage_to_array_DT.md) — convert_mgImage_to_array_DT
+- [`convert_to_full_spatial_network`](functions/convert_to_full_spatial_network.md) — convert_to_full_spatial_network
+- [`convert_to_reduced_spatial_network`](functions/convert_to_reduced_spatial_network.md) — convert_to_reduced_spatial_network
+- [`convertGiottoLargeImageToMG`](functions/convertGiottoLargeImageToMG.md) — convertGiottoLargeImageToMG
+- [`copy`](functions/copy.md) — Copy an entire object
+- [`cor_flex`](functions/cor_flex.md) — cor_flex
+- [`create_average_detection_DT`](functions/create_average_detection_DT.md) — create_average_detection_DT
+- [`create_average_DT`](functions/create_average_DT.md) — create_average_DT
+- [`create_cell_meta_obj`](functions/create_cell_meta_obj.md) — create_cell_meta_obj
+- [`create_cluster_matrix`](functions/create_cluster_matrix.md) — create_cluster_matrix
+- [`create_dim_obj`](functions/create_dim_obj.md) — create_dim_obj
+- [`create_feat_meta_obj`](functions/create_feat_meta_obj.md) — create_feat_meta_obj
+- [`create_featureNetwork_object`](functions/create_featureNetwork_object.md) — Create feature network object
+- [`create_giotto_points_object`](functions/create_giotto_points_object.md) — Create giotto points object
+- [`create_giotto_polygon_object`](functions/create_giotto_polygon_object.md) — Create a giotto polygon object
+- [`create_giotto`](functions/create_giotto.md) — Create a giotto object
+- [`create_KNNnetwork_dbscan`](functions/create_KNNnetwork_dbscan.md) — create_KNNnetwork_dbscan
+- [`create_nn_net_obj`](functions/create_nn_net_obj.md) — create_nn_net_obj
+- [`create_spat_enr_obj`](functions/create_spat_enr_obj.md) — create_spat_enr_obj
+- [`create_spat_grid_obj`](functions/create_spat_grid_obj.md) — Create S4 spatialGridObj
+- [`create_spat_locs_obj`](functions/create_spat_locs_obj.md) — create_spat_locs_obj
+- [`create_spat_net_obj`](functions/create_spat_net_obj.md) — create_spat_net_obj
+- [`createBentoAdata`](functions/createBentoAdata.md) — Create bento adata object from gobject
+- [`createCellMetaObj`](functions/createCellMetaObj.md) — Create S4 cellMetaObj
+- [`createDimObj`](functions/createDimObj.md) — Create S4 dimObj
+- [`createExprObj`](functions/createExprObj.md) — Create S4 exprObj
+- [`createFeatMetaObj`](functions/createFeatMetaObj.md) — Create S4 featMetaObj
+- [`createGiottoImage`](functions/createGiottoImage.md) — createGiottoImage
+- [`createGiottoLargeImage`](functions/createGiottoLargeImage.md) — createGiottoLargeImage
+- [`createGiottoLargeImageList`](functions/createGiottoLargeImageList.md) — createGiottoLargeImageList
+- [`createGiottoPoints`](functions/createGiottoPoints.md) — Create giotto points object
+- [`createGiottoPolygon`](functions/createGiottoPolygon.md) — Create giotto polygons object
+- [`createMetafeats`](functions/createMetafeats.md) — createMetafeats
+- [`createNearestNetObj`](functions/createNearestNetObj.md) — Create S4 nnNetObj
+- [`createNearestNetwork`](functions/createNearestNetwork.md) — createNearestNetwork
+- [`createNetwork`](functions/createNetwork.md) — Create a network
+- [`createSpatEnrObj`](functions/createSpatEnrObj.md) — Create S4 spatEnrObj
+- [`createSpatialDefaultGrid`](functions/createSpatialDefaultGrid.md) — createSpatialDefaultGrid
+- [`createSpatialDelaunayNetwork`](functions/createSpatialDelaunayNetwork.md) — Create a spatial Delaunay network
+- [`createSpatialFeaturesKNNnetwork_dbscan`](functions/createSpatialFeaturesKNNnetwork_dbscan.md) — Create kNN spatial feature network using dbscan
+- [`createSpatialFeaturesKNNnetwork`](functions/createSpatialFeaturesKNNnetwork.md) — Create kNN spatial feature network
+- [`createSpatialGrid`](functions/createSpatialGrid.md) — createSpatialGrid
+- [`createSpatialKNNnetwork`](functions/createSpatialKNNnetwork.md) — createSpatialKNNnetwork
+- [`createSpatialNetwork`](functions/createSpatialNetwork.md) — Create spatial network
+- [`createSpatialWeightMatrix`](functions/createSpatialWeightMatrix.md) — Create a spatial weight matrix
+- [`createSpatLocsObj`](functions/createSpatLocsObj.md) — Create S4 spatLocsObj
+- [`createSpatNetObj`](functions/createSpatNetObj.md) — Create S4 spatialNetworkObj
+- [`crop,giottoBinPoints,ANY-method`](functions/crop,giottoBinPoints,ANY-method.md) — Crop to a spatial subset
+- [`cropGiottoLargeImage`](functions/cropGiottoLargeImage.md) — Crop a giotto largeImage object
+- [`data_access_params`](functions/data_access_params.md) — data_access_params
+- [`decomp_affine`](functions/decomp_affine.md) — Decompose affine matrix into scale, rotation, and shear operations
+- [`density_giottoLargeImage`](functions/density_giottoLargeImage.md) — Plot smoothed curve of giotto largeImage intensity values
+- [`density`](functions/density.md) — Density plot
+- [`dimnames`](functions/dimnames.md) — Dimnames of an object
+- [`dimObj-class`](functions/dimObj-class.md) — S4 dimObj Class
+- [`dims-generic`](functions/dims-generic.md) — Dimensions of giotto objects
+- [`distGiottoImage`](functions/distGiottoImage.md) — Plot distribution of image intensity values
+- [`doDeferred`](functions/doDeferred.md) — Perform deferred/lazy operations
+- [`.abbrev_spatlocs`](functions/.abbrev_spatlocs.md) — Print abbreviated spatlocs
+- [`.bitdepth`](functions/.bitdepth.md) — Guess likely bitdepth from value(s)
+- [`.calculate_centroids_polygons`](functions/.calculate_centroids_polygons.md) — Calculate polygon centroids
+- [`.calculate_distance_and_weight`](functions/.calculate_distance_and_weight.md) — Calculate spatial network distance and weight
+- [`.calculate_overlap_raster`](functions/.calculate_overlap_raster.md) — Find feature points overlapped by rasterized polygon.
+- [`.check_cell_meta_obj`](functions/.check_cell_meta_obj.md) — Check cell metadata object
+- [`.check_dim_obj`](functions/.check_dim_obj.md) — Check dimObj
+- [`.check_expr_obj`](functions/.check_expr_obj.md) — Check exprObj
+- [`.check_feat_meta_obj`](functions/.check_feat_meta_obj.md) — Check feature metadata object
+- [`.check_giotto_python_modules`](functions/.check_giotto_python_modules.md) — Check if Giotto python modules are in python environment
+- [`.check_spat_grid_obj`](functions/.check_spat_grid_obj.md) — Check spatialGridObj
+- [`.check_spat_locs_obj`](functions/.check_spat_locs_obj.md) — Check spatLocsObj
+- [`.check_spat_net_obj`](functions/.check_spat_net_obj.md) — Check spatialNetworkObj
+- [`.check_spatial_location_data`](functions/.check_spatial_location_data.md) — Check spatial location data
+- [`.combine_stack_spatvectors`](functions/.combine_stack_spatvectors.md) — .combine_stack_spatvectors
+- [`.create_delaunaynetwork_2d`](functions/.create_delaunaynetwork_2d.md) — .create_delaunaynetwork_2d
+- [`.create_delaunaynetwork_3d`](functions/.create_delaunaynetwork_3d.md) — .create_delaunaynetwork_3d
+- [`.create_delaunaynetwork_deldir`](functions/.create_delaunaynetwork_deldir.md) — .create_delaunaynetwork_deldir
+- [`.create_delaunaynetwork_geometry_3d`](functions/.create_delaunaynetwork_geometry_3d.md) — .create_delaunaynetwork_geometry_3d
+- [`.create_delaunaynetwork_geometry`](functions/.create_delaunaynetwork_geometry.md) — .create_delaunaynetwork_geometry
+- [`.create_delaunaynetwork_RTriangle`](functions/.create_delaunaynetwork_RTriangle.md) — .create_delaunaynetwork_RTriangle
+- [`.create_spatialgrid_default_2d`](functions/.create_spatialgrid_default_2d.md) — .create_spatialgrid_default_2d
+- [`.create_spatialgrid_default_3d`](functions/.create_spatialgrid_default_3d.md) — .create_spatialgrid_default_3d
+- [`.create_spatvector_object_from_dfr`](functions/.create_spatvector_object_from_dfr.md) — Create terra spatvector object from a data.frame
+- [`.create_terra_spatraster`](functions/.create_terra_spatraster.md) — Load image as a terra spatRaster object
+- [`.do_gpoly`](functions/.do_gpoly.md) — Do giottoPolygon
+- [`.dt_to_spatvector_points`](functions/.dt_to_spatvector_points.md) — Convert point data data.table to spatVector
+- [`.dt_to_spatvector_polygon`](functions/.dt_to_spatvector_polygon.md) — Convert data.table to polygon spatVector
+- [`.edge_coords_array`](functions/.edge_coords_array.md) — Numerical array of edge start and end
+- [`.filter_network`](functions/.filter_network.md) — Filter spatial network
+- [`.find_grid_2d`](functions/.find_grid_2d.md) — .find_grid_2d
+- [`.find_grid_3d`](functions/.find_grid_3d.md) — .find_grid_3d
+- [`.find_grid_x`](functions/.find_grid_x.md) — .find_grid_x
+- [`.find_grid_y`](functions/.find_grid_y.md) — .find_grid_y
+- [`.find_grid_z`](functions/.find_grid_z.md) — .find_grid_z
+- [`.fix_multipart_geoms`](functions/.fix_multipart_geoms.md) — Split multi-part polygons
+- [`.giotto_alloc_dt`](functions/.giotto_alloc_dt.md) — Over-allocation for giotto DT-based info
+- [`.identify_background_range_polygons`](functions/.identify_background_range_polygons.md) — Identify background range polygons
+- [`.install_giotto_environment`](functions/.install_giotto_environment.md) — .install_giotto_environment
+- [`.install_github_link_pip`](functions/.install_github_link_pip.md) — Install Package from GitHub Link
+- [`.install_py_pkg_reticulate`](functions/.install_py_pkg_reticulate.md) — Install Python Package with Reticulate
+- [`.merge_spatial_enrich_info`](functions/.merge_spatial_enrich_info.md) — .merge_spatial_enrich_info
+- [`.overlap_points_per_polygon_wrapped`](functions/.overlap_points_per_polygon_wrapped.md) — Overlap points per polygon -- wrapped
+- [`.overlap_points_per_polygon`](functions/.overlap_points_per_polygon.md) — Overlap points per polgyon
+- [`.overlap_points_single_polygon`](functions/.overlap_points_single_polygon.md) — Overlap points -- single polygon
+- [`.plot_giottoimage_mg`](functions/.plot_giottoimage_mg.md) — .plot_giottoimage_mg
+- [`.plot_giottolargeimage`](functions/.plot_giottolargeimage.md) — .plot_giottolargeimage
+- [`.print_leaf`](functions/.print_leaf.md) — Hierarchical tree printing
+- [`.prov_match`](functions/.prov_match.md) — Check provenance info matches across list of S4 subobjects
+- [`.py_install_prompt`](functions/.py_install_prompt.md) — Prompt User for Python Install
+- [`.read_cell_metadata`](functions/.read_cell_metadata.md) — Read cell metadata
+- [`.rescale_polygons`](functions/.rescale_polygons.md) — Rescale polygons
+- [`.rotate_spatial_locations`](functions/.rotate_spatial_locations.md) — Rotate spatial locations
+- [`.scale_spatial_locations`](functions/.scale_spatial_locations.md) — Scale spatial locations
+- [`.shift_spatial_locations`](functions/.shift_spatial_locations.md) — Shift spatial locations
+- [`.shift_spatial_network`](functions/.shift_spatial_network.md) — Shift spatial network
+- [`.spatraster_sample_values`](functions/.spatraster_sample_values.md) — Sample values from SpatRaster
+- [`.spatvector_to_dt`](functions/.spatvector_to_dt.md) — Convert spatVector to data.table
+- [`.spline_poly`](functions/.spline_poly.md) — Convert spline to polygon
+- [`.subset_giotto`](functions/.subset_giotto.md) — Subset Giotto
+- [`.terra_writeraster_datatype`](functions/.terra_writeraster_datatype.md) — .terra_writeraster_datatype
+- [`edge_distances`](functions/edge_distances.md) — Calculate network edge euclidean distances
+- [`estimateImageBg`](functions/estimateImageBg.md) — estimateImageBg
+- [`evaluate_input`](functions/evaluate_input.md) — Evaluate raw inputs to Giotto formatting
+- [`expanse`](functions/expanse.md) — Get the area of individual polygons
+- [`exprObj-class`](functions/exprObj-class.md) — S4 exprObj
+- [`ext`](functions/ext.md) — Get a SpatExtent
+- [`fDataDT`](functions/fDataDT.md) — fDataDT
+- [`featMetaObj-class`](functions/featMetaObj-class.md) — S4 featMetaObj
+- [`featureNetwork-class`](functions/featureNetwork-class.md) — S4 giotto feature network Class
+- [`flip`](functions/flip.md) — Flip an object
+- [`gefToGiotto`](functions/gefToGiotto.md) — Convert gef to Giotto
+- [`generate_grid`](functions/generate_grid.md) — Spatial grids
+- [`get_adj_rescale_img`](functions/get_adj_rescale_img.md) — get_adj_rescale_img
+- [`get_distance`](functions/get_distance.md) — get_distance
+- [`get_img_minmax`](functions/get_img_minmax.md) — get_img_minmax
+- [`get_multiomics`](functions/get_multiomics.md) — Get multiomics integration results
+- [`getCellMetadata`](functions/getCellMetadata.md) — getCellMetadata
+- [`getDimReduction`](functions/getDimReduction.md) — Get dimension reduction
+- [`getExpression`](functions/getExpression.md) — Get expression values
+- [`getFeatureInfo`](functions/getFeatureInfo.md) — Get feature info
+- [`getFeatureMetadata`](functions/getFeatureMetadata.md) — getFeatureMetadata
+- [`getGiottoImage`](functions/getGiottoImage.md) — Get giotto image object
+- [`getMultiomics`](functions/getMultiomics.md) — Get multiomics integration results
+- [`getNearestNetwork`](functions/getNearestNetwork.md) — Get nearest neighbor network
+- [`getPolygonInfo`](functions/getPolygonInfo.md) — Get polygon info
+- [`getSpatialEnrichment`](functions/getSpatialEnrichment.md) — Get spatial enrichment
+- [`getSpatialGrid`](functions/getSpatialGrid.md) — Get spatial grid
+- [`getSpatialLocations`](functions/getSpatialLocations.md) — Get spatial locations
+- [`getSpatialNetwork`](functions/getSpatialNetwork.md) — Get spatial network
+- [`createGiottoInstructions`](functions/createGiottoInstructions.md) — Giotto instructions
+- [`giotto_python`](functions/giotto_python.md) — Giotto python environment
+- [`giotto_schema`](functions/giotto_schema.md) — Giotto schema
+- [`giotto-class`](functions/giotto-class.md) — S4 giotto Class
+- [`giottoAffineImage-class`](functions/giottoAffineImage-class.md) — S4 giottoAffineImage Class
+- [`giottoBinPoints-class`](functions/giottoBinPoints-class.md) — Binned point class
+- [`giottoImage-class`](functions/giottoImage-class.md) — S4 giottoImage Class
+- [`giottoLargeImage-class`](functions/giottoLargeImage-class.md) — S4 giottoLargeImage Class
+- [`giottoMasterToSuite`](functions/giottoMasterToSuite.md) — Convert a master Giotto object to suite
+- [`giottoPoints-class`](functions/giottoPoints-class.md) — S4 giotto points Class
+- [`giottoPolygon-class`](functions/giottoPolygon-class.md) — S4 giotto polygon Class
+- [`giottoToAnnData`](functions/giottoToAnnData.md) — Convert Giotto to anndata
+- [`giottoToSeurat`](functions/giottoToSeurat.md) — Deprecated
+- [`giottoToSeuratV4`](functions/giottoToSeuratV4.md) — Convert Giotto to Seurat V4
+- [`giottoToSeuratV5`](functions/giottoToSeuratV5.md) — Convert Giotto to Seurat V5
+- [`giottoToSpatialData`](functions/giottoToSpatialData.md) — Convert Giotto to SpatialData
+- [`giottoToSpatialExperiment`](functions/giottoToSpatialExperiment.md) — Utility function to convert a Giotto object to a SpatialExperiment object.
+- [`headtail`](functions/headtail.md) — Head and tail
+- [`hexVertices`](functions/hexVertices.md) — Generate regular hexagon vertices
+- [`hist`](functions/hist.md) — Histogram
+- [`hull`](functions/hull.md) — Convex, concave, rectangular and circular hulls
+- [`init_cell_metadata`](functions/init_cell_metadata.md) — Initialize cell metadata slot
+- [`init_feat_metadata`](functions/init_feat_metadata.md) — Initialize feature metadata slot
+- [`joinGiottoObjects`](functions/joinGiottoObjects.md) — Join giotto objects
+- [`list_cell_id_names`](functions/list_cell_id_names.md) — List cell ID names
+- [`list_cell_metadata`](functions/list_cell_metadata.md) — list_cell_metadata
+- [`list_dim_reductions_names`](functions/list_dim_reductions_names.md) — list_dim_reductions_names
+- [`list_dim_reductions`](functions/list_dim_reductions.md) — list_dim_reductions
+- [`list_expression_names`](functions/list_expression_names.md) — list_expression_names
+- [`list_expression`](functions/list_expression.md) — list_expression
+- [`list_feat_id_names`](functions/list_feat_id_names.md) — List feat ID names
+- [`list_feat_metadata`](functions/list_feat_metadata.md) — list_feat_metadata
+- [`list_feature_info_names`](functions/list_feature_info_names.md) — list_feature_info_names
+- [`list_feature_info`](functions/list_feature_info.md) — list_feature_info
+- [`list_giotto_data`](functions/list_giotto_data.md) — list_giotto_data
+- [`list_images_names`](functions/list_images_names.md) — list_images_names
+- [`list_images`](functions/list_images.md) — list_images
+- [`list_nearest_networks_names`](functions/list_nearest_networks_names.md) — list_nearest_networks_names
+- [`list_nearest_networks`](functions/list_nearest_networks.md) — list_nearest_networks
+- [`list_spatial_enrichments_names`](functions/list_spatial_enrichments_names.md) — list_spatial_enrichments_names
+- [`list_spatial_enrichments`](functions/list_spatial_enrichments.md) — list_spatial_enrichments
+- [`list_spatial_grids_names`](functions/list_spatial_grids_names.md) — list_spatial_grids_names
+- [`list_spatial_grids`](functions/list_spatial_grids.md) — list_spatial_grids
+- [`list_spatial_info_names`](functions/list_spatial_info_names.md) — list_spatial_info_names
+- [`list_spatial_info`](functions/list_spatial_info.md) — list_spatial_info
+- [`list_spatial_locations_names`](functions/list_spatial_locations_names.md) — list_spatial_locations_names
+- [`list_spatial_locations`](functions/list_spatial_locations.md) — list_spatial_locations
+- [`list_spatial_networks_names`](functions/list_spatial_networks_names.md) — list_spatial_networks_names
+- [`list_spatial_networks`](functions/list_spatial_networks.md) — list_spatial_networks
+- [`loadGiotto`](functions/loadGiotto.md) — loadGiotto
+- [`makePseudoVisium`](functions/makePseudoVisium.md) — makePseudoVisium
+- [`mean_flex`](functions/mean_flex.md) — mean_flex
+- [`miscData-class`](functions/miscData-class.md) — Basic class for additional miscellaneous information
+- [`my_arowMeans`](functions/my_arowMeans.md) — my_arowMeans
+- [`my_growMeans`](functions/my_growMeans.md) — my_growMeans
+- [`my_rowMeans`](functions/my_rowMeans.md) — my_rowMeans
+- [`names`](functions/names.md) — Names of objects
+- [`nnDT_to_kNN`](functions/nnDT_to_kNN.md) — nnDT_to_kNN
+- [`nnNetObj-class`](functions/nnNetObj-class.md) — S4 nnNetObj
+- [`objectlist_name_utils`](functions/objectlist_name_utils.md) — Name wrangling for subobject lists
+- [`objHistory`](functions/objHistory.md) — Giotto object history
+- [`overlapImagesToMatrix`](functions/overlapImagesToMatrix.md) — overlapImagesToMatrix
+- [`overlapPointDT-class`](functions/overlapPointDT-class.md) — Polygon and Point Relationships
+- [`overlaps-generic`](functions/overlaps-generic.md) — overlaps-generic
+- [`overlapToMatrix`](functions/overlapToMatrix.md) — overlapToMatrix
+- [`overlapToMatrixMultiPoly`](functions/overlapToMatrixMultiPoly.md) — overlapToMatrixMultiPoly
+- [`pDataDT`](functions/pDataDT.md) — pDataDT
+- [`plot-generic`](functions/plot-generic.md) — Preview a Giotto spatial object
+- [`plotGiottoImage`](functions/plotGiottoImage.md) — Plot a giotto image object
+- [`polygon_to_raster`](functions/polygon_to_raster.md) — Convert polygon to raster
+- [`polyStamp`](functions/polyStamp.md) — Spatial polygons stamp
+- [`processData`](functions/processData.md) — Data Processing
+- [`processParam-class`](functions/processParam-class.md) — Parameter Classes for Data Processing Operations
+- [`r_spatial_conversions`](functions/r_spatial_conversions.md) — R spatial conversions
+- [`rbind2,giottoBinPoints,giottoBinPoints-method`](functions/rbind2,giottoBinPoints,giottoBinPoints-method.md) — Combine objects by rows (Giotto-related)
+- [`rbind2_giotto_polygon_hetero`](functions/rbind2_giotto_polygon_hetero.md) — Append giotto polygons of different names
+- [`rbind2_giotto_polygon_homo`](functions/rbind2_giotto_polygon_homo.md) — Append giotto polygons of the same name
+- [`read_data_params`](functions/read_data_params.md) — read_data_params
+- [`readCellMetadata`](functions/readCellMetadata.md) — Read cell metadata
+- [`readDimReducData`](functions/readDimReducData.md) — Read dimensional reduction data
+- [`readExprData`](functions/readExprData.md) — Read expression data
+- [`readExprMatrix`](functions/readExprMatrix.md) — Read expression matrix
+- [`readFeatData`](functions/readFeatData.md) — Read feature information
+- [`readFeatMetadata`](functions/readFeatMetadata.md) — Read feature metadata
+- [`readGiottoInstructions`](functions/readGiottoInstructions.md) — deprecated
+- [`readNearestNetData`](functions/readNearestNetData.md) — Read nearest neighbor network data
+- [`readPolygonData`](functions/readPolygonData.md) — Read list of polygons information
+- [`readSpatEnrichData`](functions/readSpatEnrichData.md) — Read spatial enrichment
+- [`readSpatLocsData`](functions/readSpatLocsData.md) — Read spatial location data
+- [`readSpatNetData`](functions/readSpatNetData.md) — Read spatial networks
+- [`reconnect_giottoImage_MG`](functions/reconnect_giottoImage_MG.md) — reconnect_giottoImage_MG
+- [`reconnect_giottoLargeImage`](functions/reconnect_giottoLargeImage.md) — reconnect_giottoLargeImage
+- [`reconnect_image_object`](functions/reconnect_image_object.md) — reconnect_image_object
+- [`reconnect`](functions/reconnect.md) — Reconnect a GiottoClass object
+- [`reconnectGiottoImage`](functions/reconnectGiottoImage.md) — Reconnect images with dead pointers
+- [`rectVertices`](functions/rectVertices.md) — Generate rectangular polygon vertices
+- [`reexports`](functions/reexports.md) — Objects exported from other packages
+- [`relate`](functions/relate.md) — Spatial relationships between geometries
+- [`removeCellAnnotation`](functions/removeCellAnnotation.md) — Remove cell annotation
+- [`removeFeatAnnotation`](functions/removeFeatAnnotation.md) — Remove feature annotation
+- [`replace_bracket`](functions/replace_bracket.md) — Replace part of an object with [<-
+- [`replace_dollar`](functions/replace_dollar.md) — Replace part of an object with $<-
+- [`replaceGiottoInstructions`](functions/replaceGiottoInstructions.md) — deprecated
+- [`rescale`](functions/rescale.md) — Rescale an object
+- [`rescalePolygons`](functions/rescalePolygons.md) — rescalePolygons
+- [`row-plus-colnames-generic`](functions/row-plus-colnames-generic.md) — Row and column names
+- [`rowMeans_flex`](functions/rowMeans_flex.md) — rowMeans_flex
+- [`rowSums_flex`](functions/rowSums_flex.md) — rowSums_flex
+- [`S3toS4dimObj`](functions/S3toS4dimObj.md) — Dimension reductions
+- [`S3toS4spatGridObj`](functions/S3toS4spatGridObj.md) — Spatially Binned Data
+- [`saveGiotto`](functions/saveGiotto.md) — saveGiotto
+- [`set_default_feat_type`](functions/set_default_feat_type.md) — set_default_feat_type
+- [`set_default_spat_unit`](functions/set_default_spat_unit.md) — set_default_spat_unit
+- [`set_multiomics`](functions/set_multiomics.md) — Set multiomics integration results
+- [`setCellMetadata`](functions/setCellMetadata.md) — Set cell metadata
+- [`setDimReduction`](functions/setDimReduction.md) — Set dimension reduction data
+- [`setExpression`](functions/setExpression.md) — Set expression data
+- [`setFeatureInfo`](functions/setFeatureInfo.md) — Set feature info
+- [`setFeatureMetadata`](functions/setFeatureMetadata.md) — Set feature metadata
+- [`setGiotto,giotto,giottoBinPoints-method`](functions/setGiotto,giotto,giottoBinPoints-method.md) — Set giotto subobjects into giotto object
+- [`setGiottoImage`](functions/setGiottoImage.md) — Set giotto image object
+- [`setMultiomics`](functions/setMultiomics.md) — Set multiomics integration results
+- [`setNearestNetwork`](functions/setNearestNetwork.md) — Set nearest neighbor network
+- [`setPolygonInfo`](functions/setPolygonInfo.md) — Set polygon info
+- [`setSpatialEnrichment`](functions/setSpatialEnrichment.md) — Set spatial enrichment
+- [`setSpatialGrid`](functions/setSpatialGrid.md) — Set spatial grid
+- [`setSpatialLocations`](functions/setSpatialLocations.md) — Set spatial locations
+- [`setSpatialNetwork`](functions/setSpatialNetwork.md) — Set spatial network
+- [`settleGeom`](functions/settleGeom.md) — Settle polygon bounds
+- [`seuratToGiotto`](functions/seuratToGiotto.md) — Deprecated
+- [`seuratToGiottoV4`](functions/seuratToGiottoV4.md) — Convert a Seurat V4 object to a Giotto object
+- [`seuratToGiottoV5`](functions/seuratToGiottoV5.md) — Convert a Seurat V5 object to a Giotto object
+- [`shear`](functions/shear.md) — Apply a shear tranform
+- [`show`](functions/show.md) — Show methods for Giotto classes
+- [`showGiottoCellMetadata`](functions/showGiottoCellMetadata.md) — showGiottoCellMetadata
+- [`showGiottoDimRed`](functions/showGiottoDimRed.md) — showGiottoDimRed
+- [`showGiottoExpression`](functions/showGiottoExpression.md) — showGiottoExpression
+- [`showGiottoFeatInfo`](functions/showGiottoFeatInfo.md) — showGiottoFeatInfo
+- [`showGiottoFeatMetadata`](functions/showGiottoFeatMetadata.md) — showGiottoFeatMetadata
+- [`showGiottoImageNames`](functions/showGiottoImageNames.md) — showGiottoImageNames
+- [`showGiottoInstructions`](functions/showGiottoInstructions.md) — deprecated
+- [`showGiottoNearestNetworks`](functions/showGiottoNearestNetworks.md) — showGiottoNearestNetworks
+- [`showGiottoSpatEnrichments`](functions/showGiottoSpatEnrichments.md) — showGiottoSpatEnrichments
+- [`showGiottoSpatGrids`](functions/showGiottoSpatGrids.md) — showGiottoSpatGrids
+- [`showGiottoSpatialInfo`](functions/showGiottoSpatialInfo.md) — showGiottoSpatialInfo
+- [`showGiottoSpatLocs`](functions/showGiottoSpatLocs.md) — showGiottoSpatLocs
+- [`showGiottoSpatNetworks`](functions/showGiottoSpatNetworks.md) — showGiottoSpatNetworks
+- [`showGrids`](functions/showGrids.md) — Show Spatial Grids
+- [`showNetworks`](functions/showNetworks.md) — Show networks
+- [`showProcessingSteps`](functions/showProcessingSteps.md) — showProcessingSteps
+- [`sliceGiotto`](functions/sliceGiotto.md) — Slice `giotto` object by `spat_unit` and `feat_type`
+- [`smoothGiottoPolygons`](functions/smoothGiottoPolygons.md) — smoothGiottoPolygons
+- [`spat_net_to_igraph`](functions/spat_net_to_igraph.md) — Convert spatialNetworkObj to igraph
+- [`spatEnrObj-class`](functions/spatEnrObj-class.md) — S4 spatEnrObj Class
+- [`spatial_binary_ops`](functions/spatial_binary_ops.md) — Spatial binary operations
+- [`spatialdataToGiotto`](functions/spatialdataToGiotto.md) — Convert SpatialData to Giotto
+- [`spatialExperimentToGiotto`](functions/spatialExperimentToGiotto.md) — Utility function to convert a SpatialExperiment object to a Giotto object
+- [`spatialGridObj-class`](functions/spatialGridObj-class.md) — S4 spatialGridObj Class
+- [`spatialNetworkObj-class`](functions/spatialNetworkObj-class.md) — S4 spatialNetworkObj Class
+- [`featIDs,giottoBinPoints-method`](functions/featIDs,giottoBinPoints-method.md) — Spatial and feature IDs
+- [`spatLocsObj-class`](functions/spatLocsObj-class.md) — S4 spatLocsObj Class
+- [`spatQuery`](functions/spatQuery.md) — Spatial Query
+- [`spatShift`](functions/spatShift.md) — Spatially shift an object
+- [`spatValues`](functions/spatValues.md) — Giotto object spatial values
+- [`spin`](functions/spin.md) — Spin an object
+- [`splitGiotto`](functions/splitGiotto.md) — Split a Giotto Object
+- [`standardise_flex`](functions/standardise_flex.md) — standardise_flex
+- [`stitchFieldCoordinates`](functions/stitchFieldCoordinates.md) — stitchFieldCoordinates
+- [`stitchGiottoLargeImage`](functions/stitchGiottoLargeImage.md) — Stitch multiple giottoLargeImage objects into a single
+giottoLargeImage object
+- [`stitchTileCoordinates`](functions/stitchTileCoordinates.md) — stitchTileCoordinates
+- [`[,giottoBinPoints,logical,missing,missing-method`](functions/[,giottoBinPoints,logical,missing,missing-method.md) — Subset part of an object with `[` or `[[`
+- [`subset_dollar`](functions/subset_dollar.md) — Subset part of an object with `$`
+- [`subset_giotto_subobjects`](functions/subset_giotto_subobjects.md) — Subset `giotto` subobjects
+- [`subset_giotto`](functions/subset_giotto.md) — Subset a `giotto` object
+- [`subsetGiotto`](functions/subsetGiotto.md) — subsetGiotto
+- [`subsetGiottoLocs`](functions/subsetGiottoLocs.md) — Subset by spatial locations
+- [`subsetGiottoLocsMulti`](functions/subsetGiottoLocsMulti.md) — deprecated
+- [`subsetGiottoLocsSubcellular`](functions/subsetGiottoLocsSubcellular.md) — Subset raw subcellular information by location
+- [`svkey-class`](functions/svkey-class.md) — Spatial Value Key
+- [`t_flex`](functions/t_flex.md) — t_flex
+- [`terraVectData-class`](functions/terraVectData-class.md) — Basic class for terra SpatVector-based objects
+- [`tessellate`](functions/tessellate.md) — Tessellated grid of polygons
+- [`tif_metadata`](functions/tif_metadata.md) — Read Metadata of a Specialized tif
+- [`to_simple_tif`](functions/to_simple_tif.md) — Convert Specialized TIF Formats to Basic TIF
+- [`transpose`](functions/transpose.md) — Transpose
+- [`update_giotto_params`](functions/update_giotto_params.md) — Update giotto parameters
+- [`updateGiottoImage`](functions/updateGiottoImage.md) — updateGiottoImage
+- [`updateGiottoImageMG`](functions/updateGiottoImageMG.md) — updateGiottoImageMG
+- [`updateGiottoLargeImage`](functions/updateGiottoLargeImage.md) — updateGiottoLargeImage
+- [`updateGiottoObject`](functions/updateGiottoObject.md) — Update giotto object
+- [`updateGiottoPointsObject`](functions/updateGiottoPointsObject.md) — Update giotto points object
+- [`updateGiottoPolygonObject`](functions/updateGiottoPolygonObject.md) — Update giotto polygon object
+- [`wrap`](functions/wrap.md) — Wrap giotto terra pointer information
+- [`writeGiottoLargeImage`](functions/writeGiottoLargeImage.md) — writeGiottoLargeImage
+- [`XY`](functions/XY.md) — Spatial coordinates
+- [`zoom`](functions/zoom.md) — Zoom a Giotto spatial object
