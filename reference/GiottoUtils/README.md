@@ -10,7 +10,7 @@ Utility functions and imports for Giotto Suite.
 
 - [print_formatting](vignettes/print_formatting.Rmd)
 
-## Functions (61)
+## Functions (58)
 
 - [`check_github_suite_ver`](functions/check_github_suite_ver.md) — Check for updates to Giotto Suite
 - [`color_tag`](functions/color_tag.md) — Colorize print text
@@ -19,9 +19,6 @@ Utility functions and imports for Giotto Suite.
 - [`depth`](functions/depth.md) — Find depth of subnesting
 - [`determine_cores`](functions/determine_cores.md) — determine_cores
 - [`dir_manifest`](functions/dir_manifest.md) — Generate file manifest list from a directory
-- [`.log_conn`](functions/.log_conn.md) — Create a logfile connection
-- [`.log_create`](functions/.log_create.md) — Create a log file
-- [`.log_dir`](functions/.log_dir.md) — Giotto logging directory
 - [`dt_dcast_string`](functions/dt_dcast_string.md) — dt_dcast_string
 - [`dt_remove_na`](functions/dt_remove_na.md) — dt_remove_na
 - [`dt_set_row_order`](functions/dt_set_row_order.md) — Set specific data.table row order

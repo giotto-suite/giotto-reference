@@ -34,17 +34,21 @@ read_packages <- function() {
     cfg <- yaml.load_file(file.path(ROOT, "packages.yml"))
     default_org <- cfg$org %||% "giotto-suite"
     default_ref <- cfg$ref %||% "main"
-    lapply(cfg$packages, function(p) {
+    default_internal <- isTRUE(cfg$include_internal)
+    pkgs <- lapply(cfg$packages, function(p) {
         if (is.character(p)) {
-            list(name = p, org = default_org, ref = default_ref)
+            list(name = p, org = default_org, ref = default_ref,
+                 include_internal = default_internal)
         } else {
             list(
                 name = p$name,
                 org = p$org %||% default_org,
-                ref = p$ref %||% default_ref
+                ref = p$ref %||% default_ref,
+                include_internal = isTRUE(p$include_internal) || default_internal
             )
         }
     })
+    pkgs
 }
 
 `%||%` <- function(a, b) {
@@ -67,6 +71,69 @@ clone_package <- function(pkg) {
     )
     if (status != 0) stop("git clone failed for ", pkg$name)
     dest
+}
+
+# ---- NAMESPACE parsing ------------------------------------------------------
+
+parse_namespace <- function(path) {
+    empty <- list(exports = character(), s3 = character(), patterns = character())
+    if (!file.exists(path)) return(empty)
+    # Drop comments, collapse to one line for regex sweep.
+    raw <- readLines(path, warn = FALSE)
+    raw <- sub("#.*$", "", raw)
+    text <- paste(raw, collapse = " ")
+
+    extract <- function(re) {
+        m <- regmatches(text, gregexpr(re, text, perl = TRUE))[[1]]
+        if (!length(m)) return(character())
+        inner <- gsub(re, "\\1", m, perl = TRUE)
+        parts <- unlist(strsplit(inner, "[,]"))
+        parts <- gsub("[\"`'\\s]", "", parts, perl = TRUE)
+        parts[nzchar(parts)]
+    }
+    extract_two <- function(re) {
+        m <- regmatches(text, gregexpr(re, text, perl = TRUE))[[1]]
+        if (!length(m)) return(character())
+        out <- character()
+        for (call in m) {
+            inner <- sub(re, "\\1", call, perl = TRUE)
+            parts <- gsub("[\"`'\\s]", "", strsplit(inner, "[,]")[[1]], perl = TRUE)
+            if (length(parts) >= 2) out <- c(out, paste(parts[1], parts[2], sep = "."))
+        }
+        out
+    }
+
+    list(
+        exports = unique(c(
+            extract("\\bexport\\(([^)]+)\\)"),
+            extract("\\bexportMethods\\(([^)]+)\\)"),
+            extract("\\bexportClasses\\(([^)]+)\\)")
+        )),
+        s3 = unique(extract_two("\\bS3method\\(([^)]+)\\)")),
+        patterns = unique(extract("\\bexportPattern\\(([^)]+)\\)"))
+    )
+}
+
+is_exported <- function(name, aliases, ns) {
+    names_to_check <- unique(c(name, aliases))
+    for (n in names_to_check) {
+        if (n %in% ns$exports) return(TRUE)
+        if (n %in% ns$s3) return(TRUE)
+        # S4 method alias: "generic,sig-method" -> generic
+        if (grepl("-method$", n)) {
+            generic <- sub(",.*$", "", sub("-method$", "", n))
+            if (generic %in% ns$exports) return(TRUE)
+        }
+        # Class alias: "Foo-class" -> Foo
+        if (grepl("-class$", n)) {
+            cls <- sub("-class$", "", n)
+            if (cls %in% ns$exports) return(TRUE)
+        }
+        for (pat in ns$patterns) {
+            if (nzchar(pat) && grepl(pat, n, perl = TRUE)) return(TRUE)
+        }
+    }
+    FALSE
 }
 
 # ---- Rd -> markdown ---------------------------------------------------------
@@ -299,12 +366,23 @@ build_package <- function(pkg) {
         for (k in names(d)) desc[k] <- d[[k]]
     }
 
+    # NAMESPACE → exported-symbols filter
+    ns <- parse_namespace(file.path(src, "NAMESPACE"))
+    msg("  %s: %d exports declared (include_internal=%s)",
+        pkg$name, length(ns$exports), pkg$include_internal)
+
     # function docs
     rd_files <- list.files(file.path(src, "man"), pattern = "\\.Rd$", full.names = TRUE)
     fn_index <- list()
+    skipped_internal <- 0
     for (rd in rd_files) {
         result <- rd_to_md(rd, pkg$name)
         if (is.null(result)) next
+        if (!pkg$include_internal &&
+            !is_exported(result$name, result$aliases, ns)) {
+            skipped_internal <- skipped_internal + 1
+            next
+        }
         out_file <- file.path(fn_out, paste0(result$name, ".md"))
         writeLines(result$md, out_file)
         fn_index[[length(fn_index) + 1]] <- list(
@@ -314,6 +392,9 @@ build_package <- function(pkg) {
             aliases = result$aliases,
             file = sub(paste0("^", ROOT, "/"), "", out_file)
         )
+    }
+    if (skipped_internal > 0) {
+        msg("  %s: skipped %d non-exported doc page(s)", pkg$name, skipped_internal)
     }
 
     # vignettes (copy verbatim — .Rmd is already markdown with code chunks)

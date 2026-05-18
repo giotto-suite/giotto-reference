@@ -10,30 +10,16 @@ Expanded visualization and plotting functionality for Giotto Suite.
 
 - [intro_to_GiottoVisuals](vignettes/intro_to_GiottoVisuals.Rmd)
 
-## Functions (101)
+## Functions (76)
 
 - [`addGiottoImageToSpatPlot`](functions/addGiottoImageToSpatPlot.md) — addGiottoImageToSpatPlot
 - [`aes_string2`](functions/aes_string2.md) — aes_string2
-- [`auto_image_resample`](functions/auto_image_resample.md) — Optimized image resampling
 - [`combine_aes`](functions/combine_aes.md) — Combine ggplot2 aesthetics
 - [`create_cluster_dendrogram`](functions/create_cluster_dendrogram.md) — Create clustered expression dendrogram
-- [`data_access_params`](functions/data_access_params.md) — Params documentation template: data_access_params
 - [`dimCellPlot`](functions/dimCellPlot.md) — dimCellPlot
 - [`dimFeatPlot2D`](functions/dimFeatPlot2D.md) — dimFeatPlot2D
 - [`dimFeatPlot3D`](functions/dimFeatPlot3D.md) — dimFeatPlot3D
 - [`dimPlot2D`](functions/dimPlot2D.md) — Plot dimension reduction
-- [`.create_heatmap_dt`](functions/.create_heatmap_dt.md) — Create heatmap data.table
-- [`.decide_cluster_order`](functions/.decide_cluster_order.md) — Decide cluster order
-- [`.dimPlot_2d_plotly`](functions/.dimPlot_2d_plotly.md) — .dimPlot_2d_plotly
-- [`.dimPlot_3d_plotly`](functions/.dimPlot_3d_plotly.md) — .dimPlot_3d_plotly
-- [`.sankey_compare`](functions/.sankey_compare.md) — Calculations for a sankey relationship pair
-- [`.sankey_networkd3`](functions/.sankey_networkd3.md) — Create networkd3 sankey
-- [`.sankey_relation_pair`](functions/.sankey_relation_pair.md) — Calculations for a sankey relationship pair
-- [`.spatInSituPlotDensity_single`](functions/.spatInSituPlotDensity_single.md) — Spatial in-situ density plot - single
-- [`.spatInSituPlotHex_single`](functions/.spatInSituPlotHex_single.md) — Spatial in-situ hexbin plot - single
-- [`.spatPlot_2d_plotly`](functions/.spatPlot_2d_plotly.md) — .spatPlot_2d_plotly
-- [`.spatPlot_3d_plotly`](functions/.spatPlot_3d_plotly.md) — .spatPlot_3d_plotly
-- [`.spatPlot2D_single`](functions/.spatPlot2D_single.md) — .spatPlot2D_single
 - [`dotPlot`](functions/dotPlot.md) — Create a dotplot
 - [`expand_feature_info`](functions/expand_feature_info.md) — expand_feature_info
 - [`FSV_show`](functions/FSV_show.md) — FSV_show
@@ -48,19 +34,8 @@ Expanded visualization and plotting functionality for Giotto Suite.
 - [`mixHSV`](functions/mixHSV.md) — Colormixing in HSV space
 - [`mixRGB`](functions/mixRGB.md) — Colormixing in RGB space
 - [`pal_names`](functions/pal_names.md) — Color palette names
-- [`plot_cell_params`](functions/plot_cell_params.md) — Params documentation template: plot_cell_params
-- [`plot_cow_params`](functions/plot_cow_params.md) — Params documentation template: plot_cow_params
-- [`plot_dimred_params`](functions/plot_dimred_params.md) — Params documentation template: plot_dimred_params
-- [`plot_feat_params`](functions/plot_feat_params.md) — Params documentation template: plot_feat_params
-- [`plot_image_params`](functions/plot_image_params.md) — Params documentation template: plot_image_params
-- [`plot_nn_net_params`](functions/plot_nn_net_params.md) — Params documentation template: plot_nn_net_params
 - [`plot_output_handler`](functions/plot_output_handler.md) — Plotting output handler
-- [`plot_output_params`](functions/plot_output_params.md) — Params documentation template: plot_output_params
-- [`plot_params`](functions/plot_params.md) — Params documentation template: plot_params
-- [`plot_poly_params`](functions/plot_poly_params.md) — Params documentation template: plot_poly_params
 - [`plot_save`](functions/plot_save.md) — Plot saving
-- [`plot_spatenr_params`](functions/plot_spatenr_params.md) — Params documentation template: plot_spatenr_params
-- [`plot_spatnet_params`](functions/plot_spatnet_params.md) — Params documentation template: plot_spatnet_params
 - [`plotHeatmap`](functions/plotHeatmap.md) — plotHeatmap
 - [`plotly_axis_scale_2D`](functions/plotly_axis_scale_2D.md) — plotly_axis_scale_2D
 - [`plotly_axis_scale_3D`](functions/plotly_axis_scale_3D.md) — plotly_axis_scale_3D

@@ -8,6 +8,10 @@
 org: giotto-suite
 ref: main
 
+# By default only documented + exported (per NAMESPACE) functions are included.
+# Set true here for all packages, or per-package below, to include internal helpers too.
+include_internal: false
+
 packages:
   - name: Giotto
     ref: suite

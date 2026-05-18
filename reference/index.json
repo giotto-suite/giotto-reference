@@ -1,43 +1,36 @@
 {
-  "generated_at": "2026-05-18T21:02:10Z",
+  "generated_at": "2026-05-18T21:07:10Z",
   "packages": [
     {
       "name": "Giotto",
       "title": "Spatial Single-Cell Transcriptomics Toolbox",
       "version": "4.2.3",
-      "n_functions": 363,
+      "n_functions": 234,
       "n_vignettes": 2
     },
     {
       "name": "GiottoClass",
       "title": "Giotto Suite Object Definitions and Framework",
       "version": "0.5.1",
-      "n_functions": 405,
+      "n_functions": 319,
       "n_vignettes": 1
     },
     {
       "name": "GiottoUtils",
       "title": "Giotto Suite Utilities",
       "version": "0.2.5",
-      "n_functions": 61,
+      "n_functions": 58,
       "n_vignettes": 1
     },
     {
       "name": "GiottoVisuals",
       "title": "Visuals for the Giotto spatial biology analysis ecosystem",
       "version": "0.2.15",
-      "n_functions": 101,
+      "n_functions": 76,
       "n_vignettes": 1
     }
   ],
   "functions": [
-    {
-      "package": "Giotto",
-      "name": "adapt_aspect_ratio",
-      "title": "adapt_aspect_ratio",
-      "aliases": "adapt_aspect_ratio",
-      "file": "reference/Giotto/functions/adapt_aspect_ratio.md"
-    },
     {
       "package": "Giotto",
       "name": "addCellIntMetadata",
@@ -103,13 +96,6 @@
     },
     {
       "package": "Giotto",
-      "name": "adjust_limma",
-      "title": "Limma Batch Correction",
-      "aliases": "adjust_limma",
-      "file": "reference/Giotto/functions/adjust_limma.md"
-    },
-    {
-      "package": "Giotto",
       "name": "adjustGiottoMatrix",
       "title": "Adjust expression values",
       "aliases": "adjustGiottoMatrix",
@@ -121,27 +107,6 @@
       "title": "binSpect",
       "aliases": ["binSpect", "binSpectSingleMatrix", "binSpectSingle", "binSpectMulti"],
       "file": "reference/Giotto/functions/binSpect.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "binSpectMultiMatrix",
-      "title": "binSpectMultiMatrix",
-      "aliases": "binSpectMultiMatrix",
-      "file": "reference/Giotto/functions/binSpectMultiMatrix.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "cal_cell_niche_cluster_bin",
-      "title": "cal_cell_niche_cluster_bin",
-      "aliases": "cal_cell_niche_cluster_bin",
-      "file": "reference/Giotto/functions/cal_cell_niche_cluster_bin.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "calculate_spatial_enrichment",
-      "title": "Calculate spatial enrichment",
-      "aliases": ["calculate_spatial_enrichment", ".calc_spatial_enrichment_minimum", ".calc_spatial_enrichment_matrix", ".calc_spatial_enrichment_dt"],
-      "file": "reference/Giotto/functions/calculate_spatial_enrichment.md"
     },
     {
       "package": "Giotto",
@@ -163,20 +128,6 @@
       "title": "Call the spdep function with required parameters",
       "aliases": "callSpdep",
       "file": "reference/Giotto/functions/callSpdep.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "cell_proximity_spots",
-      "title": "Cell type proximity for spots",
-      "aliases": ["cell_proximity_spots", ".cell_proximity_spots_internal", ".cell_proximity_spots_external", ".cell_proximity_spots"],
-      "file": "reference/Giotto/functions/cell_proximity_spots.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "cell_proximity_tests",
-      "title": "Interaction changed features test methods",
-      "aliases": ["cell_proximity_tests", ".do_ttest", ".do_limmatest", ".do_wilctest", ".do_permuttest"],
-      "file": "reference/Giotto/functions/cell_proximity_tests.md"
     },
     {
       "package": "Giotto",
@@ -243,38 +194,10 @@
     },
     {
       "package": "Giotto",
-      "name": "cellProximityVisPlot_internals",
-      "title": "cellProximityVisPlot internals",
-      "aliases": ["cellProximityVisPlot_internals", ".cellProximityVisPlot_2D_ggplot", ".cellProximityVisPlot_2D_plotly", ".cellProximityVisPlot_3D_plotly"],
-      "file": "reference/Giotto/functions/cellProximityVisPlot_internals.md"
-    },
-    {
-      "package": "Giotto",
       "name": "cellProximityVisPlot",
       "title": "cellProximityVisPlot",
       "aliases": "cellProximityVisPlot",
       "file": "reference/Giotto/functions/cellProximityVisPlot.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "checkAndFixSpatialGenes",
-      "title": "checkAndFixSpatialGenes",
-      "aliases": "checkAndFixSpatialGenes",
-      "file": "reference/Giotto/functions/checkAndFixSpatialGenes.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "chooseAvailableSpatialGenes",
-      "title": "chooseAvailableSpatialGenes",
-      "aliases": "chooseAvailableSpatialGenes",
-      "file": "reference/Giotto/functions/chooseAvailableSpatialGenes.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "cluster_enrich_analysis",
-      "title": "cluster_enrich_analysis",
-      "aliases": "cluster_enrich_analysis",
-      "file": "reference/Giotto/functions/cluster_enrich_analysis.md"
     },
     {
       "package": "Giotto",
@@ -373,27 +296,6 @@
       "title": "convertEnsemblToGeneSymbol",
       "aliases": "convertEnsemblToGeneSymbol",
       "file": "reference/Giotto/functions/convertEnsemblToGeneSymbol.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "create_2d_mesh_grid_line_obj",
-      "title": "create_2d_mesh_grid_line_obj",
-      "aliases": "create_2d_mesh_grid_line_obj",
-      "file": "reference/Giotto/functions/create_2d_mesh_grid_line_obj.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "create_crossSection_object",
-      "title": "create_crossSection_object",
-      "aliases": "create_crossSection_object",
-      "file": "reference/Giotto/functions/create_crossSection_object.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "create_mesh_grid_lines",
-      "title": "create_mesh_grid_lines",
-      "aliases": "create_mesh_grid_lines",
-      "file": "reference/Giotto/functions/create_mesh_grid_lines.md"
     },
     {
       "package": "Giotto",
@@ -537,13 +439,6 @@
     },
     {
       "package": "Giotto",
-      "name": "data_access_params",
-      "title": "data_access_params",
-      "aliases": "data_access_params",
-      "file": "reference/Giotto/functions/data_access_params.md"
-    },
-    {
-      "package": "Giotto",
       "name": "detectSpatialCorFeats",
       "title": "Detect spatially correlated features",
       "aliases": ["detectSpatialCorFeats", "detectSpatialCorFeatsMatrix"],
@@ -555,27 +450,6 @@
       "title": "detectSpatialPatterns",
       "aliases": "detectSpatialPatterns",
       "file": "reference/Giotto/functions/detectSpatialPatterns.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "do_permuttest_spot",
-      "title": "Spot permutation testing",
-      "aliases": ["do_permuttest_spot", ".do_permuttest_original_spot", ".do_permuttest_random_spot", ".do_multi_permuttest_random_spot", ".do_permuttest_spot"],
-      "file": "reference/Giotto/functions/do_permuttest_spot.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "do_spatial_grid_averaging",
-      "title": "do_spatial_grid_averaging",
-      "aliases": "do_spatial_grid_averaging",
-      "file": "reference/Giotto/functions/do_spatial_grid_averaging.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "do_spatial_knn_smoothing",
-      "title": "do_spatial_knn_smoothing",
-      "aliases": "do_spatial_knn_smoothing",
-      "file": "reference/Giotto/functions/do_spatial_knn_smoothing.md"
     },
     {
       "package": "Giotto",
@@ -698,328 +572,6 @@
     },
     {
       "package": "Giotto",
-      "name": ".average_feat_feat_expression_in_groups",
-      "title": "average_feat_feat_expression_in_groups",
-      "aliases": ".average_feat_feat_expression_in_groups",
-      "file": "reference/Giotto/functions/.average_feat_feat_expression_in_groups.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".cal_diff_per_interaction",
-      "title": "Calculate difference per interaction",
-      "aliases": ".cal_diff_per_interaction",
-      "file": "reference/Giotto/functions/.cal_diff_per_interaction.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".cal_expr_residual",
-      "title": "Calculate feature expression residual",
-      "aliases": ".cal_expr_residual",
-      "file": "reference/Giotto/functions/.cal_expr_residual.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".combineInteractionChangedFeatures_per_interaction",
-      "title": "Combine ICF scores per interaction",
-      "aliases": ".combineInteractionChangedFeatures_per_interaction",
-      "file": "reference/Giotto/functions/.combineInteractionChangedFeatures_per_interaction.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".cosmx_infer_fov_shifts",
-      "title": "Infer CosMx local to global shifts",
-      "aliases": ".cosmx_infer_fov_shifts",
-      "file": "reference/Giotto/functions/.cosmx_infer_fov_shifts.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".create_cell_type_random_cell_IDs",
-      "title": "Create randomized cell IDs within a selection of cell types",
-      "aliases": ".create_cell_type_random_cell_IDs",
-      "file": "reference/Giotto/functions/.create_cell_type_random_cell_IDs.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".create_switch_string_unequal",
-      "title": "Create switch string unequal",
-      "aliases": ".create_switch_string_unequal",
-      "file": "reference/Giotto/functions/.create_switch_string_unequal.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".determine_switch_string_equal",
-      "title": "Determine switch string equal",
-      "aliases": ".determine_switch_string_equal",
-      "file": "reference/Giotto/functions/.determine_switch_string_equal.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".determine_switch_string_unequal",
-      "title": "Determine switch string unequal",
-      "aliases": ".determine_switch_string_unequal",
-      "file": "reference/Giotto/functions/.determine_switch_string_unequal.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".do_cell_proximity_test_spot",
-      "title": "Cell proximity testing for spot data",
-      "aliases": ".do_cell_proximity_test_spot",
-      "file": "reference/Giotto/functions/.do_cell_proximity_test_spot.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".do_cell_proximity_test",
-      "title": "Do cell proximity test",
-      "aliases": ".do_cell_proximity_test",
-      "file": "reference/Giotto/functions/.do_cell_proximity_test.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".do_page_permutation",
-      "title": "PAGE permutation",
-      "aliases": ".do_page_permutation",
-      "file": "reference/Giotto/functions/.do_page_permutation.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".do_rank_permutation",
-      "title": "Rank permutation",
-      "aliases": ".do_rank_permutation",
-      "file": "reference/Giotto/functions/.do_rank_permutation.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".doLouvainCluster_community",
-      "title": "doLouvainCluster community",
-      "aliases": ".doLouvainCluster_community",
-      "file": "reference/Giotto/functions/.doLouvainCluster_community.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".doLouvainCluster_multinet",
-      "title": "doLouvainCluster multinet",
-      "aliases": ".doLouvainCluster_multinet",
-      "file": "reference/Giotto/functions/.doLouvainCluster_multinet.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".estimate_transform_from_matched_descriptor",
-      "title": "Estimate affine transformation from matched descriptor",
-      "aliases": ".estimate_transform_from_matched_descriptor",
-      "file": "reference/Giotto/functions/.estimate_transform_from_matched_descriptor.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".findCellProximityFeats_per_interaction",
-      "title": "Find cell proximity features per interaction",
-      "aliases": ".findCellProximityFeats_per_interaction",
-      "file": "reference/Giotto/functions/.findCellProximityFeats_per_interaction.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".findICF_per_interaction_spot",
-      "title": "Find ICF per interaction for spot data",
-      "aliases": ".findICF_per_interaction_spot",
-      "file": "reference/Giotto/functions/.findICF_per_interaction_spot.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".get_img_corners",
-      "title": "Get image corners",
-      "aliases": ".get_img_corners",
-      "file": "reference/Giotto/functions/.get_img_corners.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".h5_read_bare",
-      "title": "Read dataset from opened HDF5 with C functions",
-      "aliases": ".h5_read_bare",
-      "file": "reference/Giotto/functions/.h5_read_bare.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".kmeans_arma_binarize",
-      "title": ".kmeans_arma_binarize",
-      "aliases": ".kmeans_arma_binarize",
-      "file": "reference/Giotto/functions/.kmeans_arma_binarize.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".kmeans_arma_subset_binarize",
-      "title": ".kmeans_arma_subset_binarize",
-      "aliases": ".kmeans_arma_subset_binarize",
-      "file": "reference/Giotto/functions/.kmeans_arma_subset_binarize.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".kmeans_binarize",
-      "title": ".kmeans_binarize",
-      "aliases": ".kmeans_binarize",
-      "file": "reference/Giotto/functions/.kmeans_binarize.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".match_descriptor",
-      "title": "Match image descriptors",
-      "aliases": ".match_descriptor",
-      "file": "reference/Giotto/functions/.match_descriptor.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".node_clusters",
-      "title": "Node clusters",
-      "aliases": ".node_clusters",
-      "file": "reference/Giotto/functions/.node_clusters.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".or_test_func",
-      "title": "Odds ratio test",
-      "aliases": ".or_test_func",
-      "file": "reference/Giotto/functions/.or_test_func.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".page_dt_method",
-      "title": "PAGE data.table method",
-      "aliases": ".page_dt_method",
-      "file": "reference/Giotto/functions/.page_dt_method.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".plot_matched_descriptors",
-      "title": "plot matched descriptors",
-      "aliases": ".plot_matched_descriptors",
-      "file": "reference/Giotto/functions/.plot_matched_descriptors.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".plotRecovery_sub",
-      "title": "Create recovery plot",
-      "aliases": ".plotRecovery_sub",
-      "file": "reference/Giotto/functions/.plotRecovery_sub.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".rank_binarize",
-      "title": "Rank binarize",
-      "aliases": ".rank_binarize",
-      "file": "reference/Giotto/functions/.rank_binarize.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".reg_img_minmax_finder",
-      "title": "Find minmax of registered image",
-      "aliases": ".reg_img_minmax_finder",
-      "file": "reference/Giotto/functions/.reg_img_minmax_finder.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".rigid_transform_spatial_locations",
-      "title": "Rigid transform spatial locations",
-      "aliases": ".rigid_transform_spatial_locations",
-      "file": "reference/Giotto/functions/.rigid_transform_spatial_locations.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".run_pca_biocsingular_irlba_projection",
-      "title": "Run PCA - BiocSingular irlba projection",
-      "aliases": ".run_pca_biocsingular_irlba_projection",
-      "file": "reference/Giotto/functions/.run_pca_biocsingular_irlba_projection.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".run_pca_biocsingular",
-      "title": "Run PCA - BiocSingular",
-      "aliases": ".run_pca_biocsingular",
-      "file": "reference/Giotto/functions/.run_pca_biocsingular.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".run_pca_factominer",
-      "title": "Run PCA - factominer",
-      "aliases": ".run_pca_factominer",
-      "file": "reference/Giotto/functions/.run_pca_factominer.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".run_spat_autocor_global",
-      "title": ".run_spat_autocor_global",
-      "aliases": ".run_spat_autocor_global",
-      "file": "reference/Giotto/functions/.run_spat_autocor_global.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".run_spat_autocor_local",
-      "title": ".run_spat_autocor_local",
-      "aliases": ".run_spat_autocor_local",
-      "file": "reference/Giotto/functions/.run_spat_autocor_local.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".sift_detect",
-      "title": "Run SIFT feature detector and descriptor extractor",
-      "aliases": ".sift_detect",
-      "file": "reference/Giotto/functions/.sift_detect.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".specific_CCCScores_spots",
-      "title": "Specific cell-cell communication scores for spot data",
-      "aliases": ".specific_CCCScores_spots",
-      "file": "reference/Giotto/functions/.specific_CCCScores_spots.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".split_dendrogram_in_two",
-      "title": "Split dendrogram in two",
-      "aliases": ".split_dendrogram_in_two",
-      "file": "reference/Giotto/functions/.split_dendrogram_in_two.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".trakem2_rigid_transforms",
-      "title": "Read trakem2 rigid transforms",
-      "aliases": ".trakem2_rigid_transforms",
-      "file": "reference/Giotto/functions/.trakem2_rigid_transforms.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".visium_read_scalefactors",
-      "title": "Read Visium ScaleFactors",
-      "aliases": ".visium_read_scalefactors",
-      "file": "reference/Giotto/functions/.visium_read_scalefactors.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".visium_spot_poly",
-      "title": "Create Polygons for Visium Data",
-      "aliases": ".visium_spot_poly",
-      "file": "reference/Giotto/functions/.visium_spot_poly.md"
-    },
-    {
-      "package": "Giotto",
-      "name": ".warp_transformed_image",
-      "title": "Warp transformed images from estimated transformation",
-      "aliases": ".warp_transformed_image",
-      "file": "reference/Giotto/functions/.warp_transformed_image.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "enrich_analysis",
-      "title": "enrich_analysis",
-      "aliases": "enrich_analysis",
-      "file": "reference/Giotto/functions/enrich_analysis.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "enrich_deconvolution",
-      "title": "enrich_deconvolution",
-      "aliases": "enrich_deconvolution",
-      "file": "reference/Giotto/functions/enrich_deconvolution.md"
-    },
-    {
-      "package": "Giotto",
       "name": "enrichment_PAGE",
       "title": "PAGE feature enrichment",
       "aliases": ["enrichment_PAGE", "makeSignMatrixPAGE", "runPAGEEnrich"],
@@ -1034,13 +586,6 @@
     },
     {
       "package": "Giotto",
-      "name": "evaluate_provided_spatial_locations",
-      "title": "Evaluate provided spatial locations",
-      "aliases": "evaluate_provided_spatial_locations",
-      "file": "reference/Giotto/functions/evaluate_provided_spatial_locations.md"
-    },
-    {
-      "package": "Giotto",
       "name": "exportGiottoViewer",
       "title": "exportGiottoViewer",
       "aliases": "exportGiottoViewer",
@@ -1052,20 +597,6 @@
       "title": "exprCellCellcom",
       "aliases": "exprCellCellcom",
       "file": "reference/Giotto/functions/exprCellCellcom.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "extend_vector",
-      "title": "extend_vector",
-      "aliases": "extend_vector",
-      "file": "reference/Giotto/functions/extend_vector.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "extended_gini_fun",
-      "title": "extended_gini_fun",
-      "aliases": "extended_gini_fun",
-      "file": "reference/Giotto/functions/extended_gini_fun.md"
     },
     {
       "package": "Giotto",
@@ -1143,20 +674,6 @@
       "title": "filterSpatialGenes",
       "aliases": "filterSpatialGenes",
       "file": "reference/Giotto/functions/filterSpatialGenes.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "find_dampening_constant",
-      "title": "find_dampening_constant",
-      "aliases": "find_dampening_constant",
-      "file": "reference/Giotto/functions/find_dampening_constant.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "find_x_y_ranges",
-      "title": "find_x_y_ranges",
-      "aliases": "find_x_y_ranges",
-      "file": "reference/Giotto/functions/find_x_y_ranges.md"
     },
     {
       "package": "Giotto",
@@ -1272,20 +789,6 @@
     },
     {
       "package": "Giotto",
-      "name": "FSV_show",
-      "title": "FSV_show",
-      "aliases": "FSV_show",
-      "file": "reference/Giotto/functions/FSV_show.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "get_cross_section_coordinates",
-      "title": "get_cross_section_coordinates",
-      "aliases": "get_cross_section_coordinates",
-      "file": "reference/Giotto/functions/get_cross_section_coordinates.md"
-    },
-    {
-      "package": "Giotto",
       "name": "get10Xmatrix_h5",
       "title": "get10Xmatrix_h5",
       "aliases": "get10Xmatrix_h5",
@@ -1346,13 +849,6 @@
       "title": "Create a local anndata zarr folder",
       "aliases": "giottoToAnndataZarr",
       "file": "reference/Giotto/functions/giottoToAnndataZarr.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "gpoly_from_dfr_smoothed_wrapped",
-      "title": "Polygon creation and smoothing for parallel",
-      "aliases": "gpoly_from_dfr_smoothed_wrapped",
-      "file": "reference/Giotto/functions/gpoly_from_dfr_smoothed_wrapped.md"
     },
     {
       "package": "Giotto",
@@ -1447,13 +943,6 @@
     },
     {
       "package": "Giotto",
-      "name": "kmeans_binarize_wrapper",
-      "title": "kmeans_binarize_wrapper",
-      "aliases": "kmeans_binarize_wrapper",
-      "file": "reference/Giotto/functions/kmeans_binarize_wrapper.md"
-    },
-    {
-      "package": "Giotto",
       "name": "labelTransfer",
       "title": "Transfer labels/annotations between sets of data via similarity\nvoting",
       "aliases": ["labelTransfer", "labelTransfer,giotto,giotto-method", "labelTransfer,giotto,missing-method"],
@@ -1472,41 +961,6 @@
       "title": "Leiden Clustering",
       "aliases": ["LeidenPythonClusParam-class", "LeidenPythonClusParam"],
       "file": "reference/Giotto/functions/LeidenPythonClusParam-class.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "load_cell_niche_cluster_prob",
-      "title": "load_cell_niche_cluster_prob",
-      "aliases": "load_cell_niche_cluster_prob",
-      "file": "reference/Giotto/functions/load_cell_niche_cluster_prob.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "load_cell_NT_score",
-      "title": "load_cell_NT_score",
-      "aliases": "load_cell_NT_score",
-      "file": "reference/Giotto/functions/load_cell_NT_score.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "load_merscope_folder",
-      "title": "Load MERSCOPE data from folder",
-      "aliases": ["load_merscope_folder", ".load_merscope_folder", ".load_merscope_folder_subcellular", ".load_merscope_folder_aggregate"],
-      "file": "reference/Giotto/functions/load_merscope_folder.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "load_nc_connectivity",
-      "title": "load_nc_connectivity",
-      "aliases": "load_nc_connectivity",
-      "file": "reference/Giotto/functions/load_nc_connectivity.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "load_niche_cluster_nt_score",
-      "title": "load_niche_cluster_nt_score",
-      "aliases": "load_niche_cluster_nt_score",
-      "file": "reference/Giotto/functions/load_niche_cluster_nt_score.md"
     },
     {
       "package": "Giotto",
@@ -1538,13 +992,6 @@
     },
     {
       "package": "Giotto",
-      "name": "make_simulated_network",
-      "title": "make_simulated_network",
-      "aliases": "make_simulated_network",
-      "file": "reference/Giotto/functions/make_simulated_network.md"
-    },
-    {
-      "package": "Giotto",
       "name": "makeSignMatrixDWLS",
       "title": "makeSignMatrixDWLS",
       "aliases": "makeSignMatrixDWLS",
@@ -1573,83 +1020,6 @@
     },
     {
       "package": "Giotto",
-      "name": "mygini_fun",
-      "title": "mygini_fun",
-      "aliases": "mygini_fun",
-      "file": "reference/Giotto/functions/mygini_fun.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "NNClusParam-class",
-      "title": "NNClusParam",
-      "aliases": ["NNClusParam-class", "NNClusParam"],
-      "file": "reference/Giotto/functions/NNClusParam-class.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_arcsinh",
-      "title": "Arcsinh Normalization",
-      "aliases": "norm_arcsinh",
-      "file": "reference/Giotto/functions/norm_arcsinh.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_default",
-      "title": "Default Giotto Normalization",
-      "aliases": "norm_default",
-      "file": "reference/Giotto/functions/norm_default.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_l2",
-      "title": "L2 Normalization",
-      "aliases": "norm_l2",
-      "file": "reference/Giotto/functions/norm_l2.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_library",
-      "title": "Library Size Normalization",
-      "aliases": "norm_library",
-      "file": "reference/Giotto/functions/norm_library.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_log",
-      "title": "Log Normalization",
-      "aliases": "norm_log",
-      "file": "reference/Giotto/functions/norm_log.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_osmfish",
-      "title": "osmFISH Normalization",
-      "aliases": "norm_osmfish",
-      "file": "reference/Giotto/functions/norm_osmfish.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_pearson",
-      "title": "Lause/Kobak Pearson Residuals Normalization",
-      "aliases": "norm_pearson",
-      "file": "reference/Giotto/functions/norm_pearson.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_quantile",
-      "title": "Quantile Normalization",
-      "aliases": "norm_quantile",
-      "file": "reference/Giotto/functions/norm_quantile.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "norm_tfidf",
-      "title": "TF-IDF Normalization",
-      "aliases": "norm_tfidf",
-      "file": "reference/Giotto/functions/norm_tfidf.md"
-    },
-    {
-      "package": "Giotto",
       "name": "normalizeGiotto",
       "title": "normalizeGiotto",
       "aliases": "normalizeGiotto",
@@ -1657,108 +1027,10 @@
     },
     {
       "package": "Giotto",
-      "name": "numPts_below_line",
-      "title": "numPts_below_line",
-      "aliases": "numPts_below_line",
-      "file": "reference/Giotto/functions/numPts_below_line.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "optimize_deconvolute_dwls",
-      "title": "optimize_deconvolute_dwls",
-      "aliases": "optimize_deconvolute_dwls",
-      "file": "reference/Giotto/functions/optimize_deconvolute_dwls.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "optimize_solveDampenedWLS",
-      "title": "optimize_solveDampenedWLS",
-      "aliases": "optimize_solveDampenedWLS",
-      "file": "reference/Giotto/functions/optimize_solveDampenedWLS.md"
-    },
-    {
-      "package": "Giotto",
       "name": "pieCellTypesFromEnrichment",
       "title": "pieCellTypesFromEnrichment",
       "aliases": "pieCellTypesFromEnrichment",
       "file": "reference/Giotto/functions/pieCellTypesFromEnrichment.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_cell_params",
-      "title": "Params documentation template: plot_cell_params",
-      "aliases": "plot_cell_params",
-      "file": "reference/Giotto/functions/plot_cell_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_cow_params",
-      "title": "Params documentation template: plot_cow_params",
-      "aliases": "plot_cow_params",
-      "file": "reference/Giotto/functions/plot_cow_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_dimred_params",
-      "title": "Params documentation template: plot_dimred_params",
-      "aliases": "plot_dimred_params",
-      "file": "reference/Giotto/functions/plot_dimred_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_feat_params",
-      "title": "Params documentation template: plot_feat_params",
-      "aliases": "plot_feat_params",
-      "file": "reference/Giotto/functions/plot_feat_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_image_params",
-      "title": "Params documentation template: plot_image_params",
-      "aliases": "plot_image_params",
-      "file": "reference/Giotto/functions/plot_image_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_nn_net_params",
-      "title": "Params documentation template: plot_nn_net_params",
-      "aliases": "plot_nn_net_params",
-      "file": "reference/Giotto/functions/plot_nn_net_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_output_params",
-      "title": "Params documentation template: plot_output_params",
-      "aliases": "plot_output_params",
-      "file": "reference/Giotto/functions/plot_output_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_params",
-      "title": "Params documentation template: plot_params",
-      "aliases": "plot_params",
-      "file": "reference/Giotto/functions/plot_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_poly_params",
-      "title": "Params documentation template: plot_poly_params",
-      "aliases": "plot_poly_params",
-      "file": "reference/Giotto/functions/plot_poly_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_spatenr_params",
-      "title": "Params documentation template: plot_spatenr_params",
-      "aliases": "plot_spatenr_params",
-      "file": "reference/Giotto/functions/plot_spatenr_params.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "plot_spatnet_params",
-      "title": "Params documentation template: plot_spatnet_params",
-      "aliases": "plot_spatnet_params",
-      "file": "reference/Giotto/functions/plot_spatnet_params.md"
     },
     {
       "package": "Giotto",
@@ -1951,13 +1223,6 @@
     },
     {
       "package": "Giotto",
-      "name": "processData",
-      "title": "Composable Data Processing",
-      "aliases": ["processData", "processData,giottoLargeImage,list-method", "processData,giottoLargeImage,processParam-method", "processData,exprObj,list-method", "processData,exprObj,normParam-method", "processData,exprObj,scaleParam-method", "processData,exprObj,adjustParam-method", "processData,SpatRaster,list-method", "processData,allMatrix,list-method"],
-      "file": "reference/Giotto/functions/processData.md"
-    },
-    {
-      "package": "Giotto",
       "name": "processExpression",
       "title": "Expression Data Processing",
       "aliases": "processExpression",
@@ -1972,45 +1237,10 @@
     },
     {
       "package": "Giotto",
-      "name": "projection_fun",
-      "title": "projection_fun",
-      "aliases": "projection_fun",
-      "file": "reference/Giotto/functions/projection_fun.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "rank_binarize_wrapper",
-      "title": "rank_binarize_wrapper",
-      "aliases": "rank_binarize_wrapper",
-      "file": "reference/Giotto/functions/rank_binarize_wrapper.md"
-    },
-    {
-      "package": "Giotto",
       "name": "rankSpatialCorGroups",
       "title": "rankSpatialCorGroups",
       "aliases": "rankSpatialCorGroups",
       "file": "reference/Giotto/functions/rankSpatialCorGroups.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "read_crossSection",
-      "title": "read_crossSection",
-      "aliases": "read_crossSection",
-      "file": "reference/Giotto/functions/read_crossSection.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "read_data_folder",
-      "title": "Read a structured folder of exported data",
-      "aliases": ["read_data_folder", ".read_data_folder", ".read_merscope_folder"],
-      "file": "reference/Giotto/functions/read_data_folder.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "read_data_params",
-      "title": "read_data_params",
-      "aliases": "read_data_params",
-      "file": "reference/Giotto/functions/read_data_params.md"
     },
     {
       "package": "Giotto",
@@ -2088,34 +1318,6 @@
       "title": "registerImagesFIJI",
       "aliases": "registerImagesFIJI",
       "file": "reference/Giotto/functions/registerImagesFIJI.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "reshape_to_data_point",
-      "title": "reshape_to_data_point",
-      "aliases": "reshape_to_data_point",
-      "file": "reference/Giotto/functions/reshape_to_data_point.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "reshape_to_mesh_grid_obj",
-      "title": "reshape_to_mesh_grid_obj",
-      "aliases": "reshape_to_mesh_grid_obj",
-      "file": "reference/Giotto/functions/reshape_to_mesh_grid_obj.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "run_spatial_sim_tests_multi",
-      "title": "run_spatial_sim_tests_multi",
-      "aliases": "run_spatial_sim_tests_multi",
-      "file": "reference/Giotto/functions/run_spatial_sim_tests_multi.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "run_spatial_sim_tests_one_rep",
-      "title": "run_spatial_sim_tests_one_rep",
-      "aliases": "run_spatial_sim_tests_one_rep",
-      "file": "reference/Giotto/functions/run_spatial_sim_tests_one_rep.md"
     },
     {
       "package": "Giotto",
@@ -2252,27 +1454,6 @@
     },
     {
       "package": "Giotto",
-      "name": "sampling_sp_genes",
-      "title": "sampling_sp_genes",
-      "aliases": "sampling_sp_genes",
-      "file": "reference/Giotto/functions/sampling_sp_genes.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "scale_default",
-      "title": "Default Giotto Scaling",
-      "aliases": "scale_default",
-      "file": "reference/Giotto/functions/scale_default.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "scale_zscore",
-      "title": "Z Score Scaling",
-      "aliases": "scale_zscore",
-      "file": "reference/Giotto/functions/scale_zscore.md"
-    },
-    {
-      "package": "Giotto",
       "name": "screePlot",
       "title": "screePlot",
       "aliases": "screePlot",
@@ -2378,38 +1559,10 @@
     },
     {
       "package": "Giotto",
-      "name": "solve_dampened_WLSj",
-      "title": "solve_dampened_WLSj",
-      "aliases": "solve_dampened_WLSj",
-      "file": "reference/Giotto/functions/solve_dampened_WLSj.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "solve_OLS_internal",
-      "title": "solve_OLS_internal",
-      "aliases": "solve_OLS_internal",
-      "file": "reference/Giotto/functions/solve_OLS_internal.md"
-    },
-    {
-      "package": "Giotto",
       "name": "spark",
       "title": "spark",
       "aliases": "spark",
       "file": "reference/Giotto/functions/spark.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "spat_fisher_exact",
-      "title": "Fisher exact test",
-      "aliases": ["spat_fisher_exact", ".spat_fish_func", ".spat_fish_func_dt"],
-      "file": "reference/Giotto/functions/spat_fisher_exact.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "spat_odds_ratio",
-      "title": "Spatial odds-ratio",
-      "aliases": ["spat_odds_ratio", ".spat_or_func", ".spat_or_func_dt"],
-      "file": "reference/Giotto/functions/spat_odds_ratio.md"
     },
     {
       "package": "Giotto",
@@ -2462,38 +1615,10 @@
     },
     {
       "package": "Giotto",
-      "name": "spot_deconvolution",
-      "title": "spot_deconvolution",
-      "aliases": "spot_deconvolution",
-      "file": "reference/Giotto/functions/spot_deconvolution.md"
-    },
-    {
-      "package": "Giotto",
       "name": "subClusterCells",
       "title": "Cell subclustering",
       "aliases": ["subClusterCells", "doLeidenSubCluster", "doLouvainSubCluster"],
       "file": "reference/Giotto/functions/subClusterCells.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "threshold_binarize",
-      "title": "Data Binarization",
-      "aliases": "threshold_binarize",
-      "file": "reference/Giotto/functions/threshold_binarize.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "threshold_minmax",
-      "title": "Value MinMax Restriction/Clamping",
-      "aliases": "threshold_minmax",
-      "file": "reference/Giotto/functions/threshold_minmax.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "transform_2d_mesh_to_3d_mesh",
-      "title": "transform_2d_mesh_to_3d_mesh",
-      "aliases": "transform_2d_mesh_to_3d_mesh",
-      "file": "reference/Giotto/functions/transform_2d_mesh_to_3d_mesh.md"
     },
     {
       "package": "Giotto",
@@ -2529,34 +1654,6 @@
       "title": "viewHMRFresults3D",
       "aliases": "viewHMRFresults3D",
       "file": "reference/Giotto/functions/viewHMRFresults3D.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "visium_micron_scalefactor",
-      "title": "Calculate Pixel to Micron Scalefactor",
-      "aliases": ["visium_micron_scalefactor", ".visium_micron_scale"],
-      "file": "reference/Giotto/functions/visium_micron_scalefactor.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "write_giotto_viewer_annotation",
-      "title": "write_giotto_viewer_annotation",
-      "aliases": "write_giotto_viewer_annotation",
-      "file": "reference/Giotto/functions/write_giotto_viewer_annotation.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "write_giotto_viewer_dim_reduction",
-      "title": "write_giotto_viewer_dim_reduction",
-      "aliases": "write_giotto_viewer_dim_reduction",
-      "file": "reference/Giotto/functions/write_giotto_viewer_dim_reduction.md"
-    },
-    {
-      "package": "Giotto",
-      "name": "write_giotto_viewer_numeric_annotation",
-      "title": "write_giotto_viewer_numeric_annotation",
-      "aliases": "write_giotto_viewer_numeric_annotation",
-      "file": "reference/Giotto/functions/write_giotto_viewer_numeric_annotation.md"
     },
     {
       "package": "Giotto",
@@ -2903,20 +2000,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "check_py_for_scanpy",
-      "title": "Check Scanpy Installation",
-      "aliases": "check_py_for_scanpy",
-      "file": "reference/GiottoClass/functions/check_py_for_scanpy.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "checkPythonPackage",
-      "title": "Check Python Package Installation",
-      "aliases": "checkPythonPackage",
-      "file": "reference/GiottoClass/functions/checkPythonPackage.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "circleVertices",
       "title": "Generate circle polygon vertices",
       "aliases": "circleVertices",
@@ -3085,38 +2168,10 @@
     },
     {
       "package": "GiottoClass",
-      "name": "create_featureNetwork_object",
-      "title": "Create feature network object",
-      "aliases": "create_featureNetwork_object",
-      "file": "reference/GiottoClass/functions/create_featureNetwork_object.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "create_giotto_points_object",
-      "title": "Create giotto points object",
-      "aliases": "create_giotto_points_object",
-      "file": "reference/GiottoClass/functions/create_giotto_points_object.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "create_giotto_polygon_object",
-      "title": "Create a giotto polygon object",
-      "aliases": "create_giotto_polygon_object",
-      "file": "reference/GiottoClass/functions/create_giotto_polygon_object.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "create_giotto",
       "title": "Create a giotto object",
       "aliases": ["create_giotto", "createGiottoObject", "createGiottoObjectSubcellular"],
       "file": "reference/GiottoClass/functions/create_giotto.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "create_KNNnetwork_dbscan",
-      "title": "create_KNNnetwork_dbscan",
-      "aliases": "create_KNNnetwork_dbscan",
-      "file": "reference/GiottoClass/functions/create_KNNnetwork_dbscan.md"
     },
     {
       "package": "GiottoClass",
@@ -3274,13 +2329,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "createSpatialFeaturesKNNnetwork_dbscan",
-      "title": "Create kNN spatial feature network using dbscan",
-      "aliases": "createSpatialFeaturesKNNnetwork_dbscan",
-      "file": "reference/GiottoClass/functions/createSpatialFeaturesKNNnetwork_dbscan.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "createSpatialFeaturesKNNnetwork",
       "title": "Create kNN spatial feature network",
       "aliases": "createSpatialFeaturesKNNnetwork",
@@ -3344,27 +2392,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "data_access_params",
-      "title": "data_access_params",
-      "aliases": "data_access_params",
-      "file": "reference/GiottoClass/functions/data_access_params.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "decomp_affine",
-      "title": "Decompose affine matrix into scale, rotation, and shear operations",
-      "aliases": ["decomp_affine", ".decomp_affine"],
-      "file": "reference/GiottoClass/functions/decomp_affine.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "density_giottoLargeImage",
-      "title": "Plot smoothed curve of giotto largeImage intensity values",
-      "aliases": ["density_giottoLargeImage", ".dist_giottolargeimage"],
-      "file": "reference/GiottoClass/functions/density_giottoLargeImage.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "density",
       "title": "Density plot",
       "aliases": ["density", "density,giottoLargeImage-method"],
@@ -3404,433 +2431,6 @@
       "title": "Perform deferred/lazy operations",
       "aliases": ["doDeferred", "doDeferred,giottoAffineImage-method"],
       "file": "reference/GiottoClass/functions/doDeferred.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".abbrev_spatlocs",
-      "title": "Print abbreviated spatlocs",
-      "aliases": ".abbrev_spatlocs",
-      "file": "reference/GiottoClass/functions/.abbrev_spatlocs.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".bitdepth",
-      "title": "Guess likely bitdepth from value(s)",
-      "aliases": ".bitdepth",
-      "file": "reference/GiottoClass/functions/.bitdepth.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".calculate_centroids_polygons",
-      "title": "Calculate polygon centroids",
-      "aliases": ".calculate_centroids_polygons",
-      "file": "reference/GiottoClass/functions/.calculate_centroids_polygons.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".calculate_distance_and_weight",
-      "title": "Calculate spatial network distance and weight",
-      "aliases": ".calculate_distance_and_weight",
-      "file": "reference/GiottoClass/functions/.calculate_distance_and_weight.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".calculate_overlap_raster",
-      "title": "Find feature points overlapped by rasterized polygon.",
-      "aliases": ".calculate_overlap_raster",
-      "file": "reference/GiottoClass/functions/.calculate_overlap_raster.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_cell_meta_obj",
-      "title": "Check cell metadata object",
-      "aliases": ".check_cell_meta_obj",
-      "file": "reference/GiottoClass/functions/.check_cell_meta_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_dim_obj",
-      "title": "Check dimObj",
-      "aliases": ".check_dim_obj",
-      "file": "reference/GiottoClass/functions/.check_dim_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_expr_obj",
-      "title": "Check exprObj",
-      "aliases": ".check_expr_obj",
-      "file": "reference/GiottoClass/functions/.check_expr_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_feat_meta_obj",
-      "title": "Check feature metadata object",
-      "aliases": ".check_feat_meta_obj",
-      "file": "reference/GiottoClass/functions/.check_feat_meta_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_giotto_python_modules",
-      "title": "Check if Giotto python modules are in python environment",
-      "aliases": ".check_giotto_python_modules",
-      "file": "reference/GiottoClass/functions/.check_giotto_python_modules.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_spat_grid_obj",
-      "title": "Check spatialGridObj",
-      "aliases": ".check_spat_grid_obj",
-      "file": "reference/GiottoClass/functions/.check_spat_grid_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_spat_locs_obj",
-      "title": "Check spatLocsObj",
-      "aliases": ".check_spat_locs_obj",
-      "file": "reference/GiottoClass/functions/.check_spat_locs_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_spat_net_obj",
-      "title": "Check spatialNetworkObj",
-      "aliases": ".check_spat_net_obj",
-      "file": "reference/GiottoClass/functions/.check_spat_net_obj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".check_spatial_location_data",
-      "title": "Check spatial location data",
-      "aliases": ".check_spatial_location_data",
-      "file": "reference/GiottoClass/functions/.check_spatial_location_data.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".combine_stack_spatvectors",
-      "title": ".combine_stack_spatvectors",
-      "aliases": ".combine_stack_spatvectors",
-      "file": "reference/GiottoClass/functions/.combine_stack_spatvectors.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_2d",
-      "title": ".create_delaunaynetwork_2d",
-      "aliases": ".create_delaunaynetwork_2d",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_2d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_3d",
-      "title": ".create_delaunaynetwork_3d",
-      "aliases": ".create_delaunaynetwork_3d",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_3d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_deldir",
-      "title": ".create_delaunaynetwork_deldir",
-      "aliases": ".create_delaunaynetwork_deldir",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_deldir.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_geometry_3d",
-      "title": ".create_delaunaynetwork_geometry_3d",
-      "aliases": ".create_delaunaynetwork_geometry_3d",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_geometry_3d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_geometry",
-      "title": ".create_delaunaynetwork_geometry",
-      "aliases": ".create_delaunaynetwork_geometry",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_geometry.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_delaunaynetwork_RTriangle",
-      "title": ".create_delaunaynetwork_RTriangle",
-      "aliases": ".create_delaunaynetwork_RTriangle",
-      "file": "reference/GiottoClass/functions/.create_delaunaynetwork_RTriangle.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_spatialgrid_default_2d",
-      "title": ".create_spatialgrid_default_2d",
-      "aliases": ".create_spatialgrid_default_2d",
-      "file": "reference/GiottoClass/functions/.create_spatialgrid_default_2d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_spatialgrid_default_3d",
-      "title": ".create_spatialgrid_default_3d",
-      "aliases": ".create_spatialgrid_default_3d",
-      "file": "reference/GiottoClass/functions/.create_spatialgrid_default_3d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_spatvector_object_from_dfr",
-      "title": "Create terra spatvector object from a data.frame",
-      "aliases": ".create_spatvector_object_from_dfr",
-      "file": "reference/GiottoClass/functions/.create_spatvector_object_from_dfr.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".create_terra_spatraster",
-      "title": "Load image as a terra spatRaster object",
-      "aliases": ".create_terra_spatraster",
-      "file": "reference/GiottoClass/functions/.create_terra_spatraster.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".do_gpoly",
-      "title": "Do giottoPolygon",
-      "aliases": ".do_gpoly",
-      "file": "reference/GiottoClass/functions/.do_gpoly.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".dt_to_spatvector_points",
-      "title": "Convert point data data.table to spatVector",
-      "aliases": ".dt_to_spatvector_points",
-      "file": "reference/GiottoClass/functions/.dt_to_spatvector_points.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".dt_to_spatvector_polygon",
-      "title": "Convert data.table to polygon spatVector",
-      "aliases": ".dt_to_spatvector_polygon",
-      "file": "reference/GiottoClass/functions/.dt_to_spatvector_polygon.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".edge_coords_array",
-      "title": "Numerical array of edge start and end",
-      "aliases": ".edge_coords_array",
-      "file": "reference/GiottoClass/functions/.edge_coords_array.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".filter_network",
-      "title": "Filter spatial network",
-      "aliases": ".filter_network",
-      "file": "reference/GiottoClass/functions/.filter_network.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".find_grid_2d",
-      "title": ".find_grid_2d",
-      "aliases": ".find_grid_2d",
-      "file": "reference/GiottoClass/functions/.find_grid_2d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".find_grid_3d",
-      "title": ".find_grid_3d",
-      "aliases": ".find_grid_3d",
-      "file": "reference/GiottoClass/functions/.find_grid_3d.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".find_grid_x",
-      "title": ".find_grid_x",
-      "aliases": ".find_grid_x",
-      "file": "reference/GiottoClass/functions/.find_grid_x.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".find_grid_y",
-      "title": ".find_grid_y",
-      "aliases": ".find_grid_y",
-      "file": "reference/GiottoClass/functions/.find_grid_y.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".find_grid_z",
-      "title": ".find_grid_z",
-      "aliases": ".find_grid_z",
-      "file": "reference/GiottoClass/functions/.find_grid_z.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".fix_multipart_geoms",
-      "title": "Split multi-part polygons",
-      "aliases": ".fix_multipart_geoms",
-      "file": "reference/GiottoClass/functions/.fix_multipart_geoms.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".giotto_alloc_dt",
-      "title": "Over-allocation for giotto DT-based info",
-      "aliases": ".giotto_alloc_dt",
-      "file": "reference/GiottoClass/functions/.giotto_alloc_dt.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".identify_background_range_polygons",
-      "title": "Identify background range polygons",
-      "aliases": ".identify_background_range_polygons",
-      "file": "reference/GiottoClass/functions/.identify_background_range_polygons.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".install_giotto_environment",
-      "title": ".install_giotto_environment",
-      "aliases": ".install_giotto_environment",
-      "file": "reference/GiottoClass/functions/.install_giotto_environment.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".install_github_link_pip",
-      "title": "Install Package from GitHub Link",
-      "aliases": ".install_github_link_pip",
-      "file": "reference/GiottoClass/functions/.install_github_link_pip.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".install_py_pkg_reticulate",
-      "title": "Install Python Package with Reticulate",
-      "aliases": ".install_py_pkg_reticulate",
-      "file": "reference/GiottoClass/functions/.install_py_pkg_reticulate.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".merge_spatial_enrich_info",
-      "title": ".merge_spatial_enrich_info",
-      "aliases": ".merge_spatial_enrich_info",
-      "file": "reference/GiottoClass/functions/.merge_spatial_enrich_info.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".overlap_points_per_polygon_wrapped",
-      "title": "Overlap points per polygon -- wrapped",
-      "aliases": ".overlap_points_per_polygon_wrapped",
-      "file": "reference/GiottoClass/functions/.overlap_points_per_polygon_wrapped.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".overlap_points_per_polygon",
-      "title": "Overlap points per polgyon",
-      "aliases": ".overlap_points_per_polygon",
-      "file": "reference/GiottoClass/functions/.overlap_points_per_polygon.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".overlap_points_single_polygon",
-      "title": "Overlap points -- single polygon",
-      "aliases": ".overlap_points_single_polygon",
-      "file": "reference/GiottoClass/functions/.overlap_points_single_polygon.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".plot_giottoimage_mg",
-      "title": ".plot_giottoimage_mg",
-      "aliases": ".plot_giottoimage_mg",
-      "file": "reference/GiottoClass/functions/.plot_giottoimage_mg.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".plot_giottolargeimage",
-      "title": ".plot_giottolargeimage",
-      "aliases": ".plot_giottolargeimage",
-      "file": "reference/GiottoClass/functions/.plot_giottolargeimage.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".print_leaf",
-      "title": "Hierarchical tree printing",
-      "aliases": ".print_leaf",
-      "file": "reference/GiottoClass/functions/.print_leaf.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".prov_match",
-      "title": "Check provenance info matches across list of S4 subobjects",
-      "aliases": ".prov_match",
-      "file": "reference/GiottoClass/functions/.prov_match.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".py_install_prompt",
-      "title": "Prompt User for Python Install",
-      "aliases": ".py_install_prompt",
-      "file": "reference/GiottoClass/functions/.py_install_prompt.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".read_cell_metadata",
-      "title": "Read cell metadata",
-      "aliases": ".read_cell_metadata",
-      "file": "reference/GiottoClass/functions/.read_cell_metadata.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".rescale_polygons",
-      "title": "Rescale polygons",
-      "aliases": ".rescale_polygons",
-      "file": "reference/GiottoClass/functions/.rescale_polygons.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".rotate_spatial_locations",
-      "title": "Rotate spatial locations",
-      "aliases": ".rotate_spatial_locations",
-      "file": "reference/GiottoClass/functions/.rotate_spatial_locations.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".scale_spatial_locations",
-      "title": "Scale spatial locations",
-      "aliases": ".scale_spatial_locations",
-      "file": "reference/GiottoClass/functions/.scale_spatial_locations.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".shift_spatial_locations",
-      "title": "Shift spatial locations",
-      "aliases": ".shift_spatial_locations",
-      "file": "reference/GiottoClass/functions/.shift_spatial_locations.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".shift_spatial_network",
-      "title": "Shift spatial network",
-      "aliases": ".shift_spatial_network",
-      "file": "reference/GiottoClass/functions/.shift_spatial_network.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".spatraster_sample_values",
-      "title": "Sample values from SpatRaster",
-      "aliases": ".spatraster_sample_values",
-      "file": "reference/GiottoClass/functions/.spatraster_sample_values.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".spatvector_to_dt",
-      "title": "Convert spatVector to data.table",
-      "aliases": ".spatvector_to_dt",
-      "file": "reference/GiottoClass/functions/.spatvector_to_dt.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".spline_poly",
-      "title": "Convert spline to polygon",
-      "aliases": ".spline_poly",
-      "file": "reference/GiottoClass/functions/.spline_poly.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".subset_giotto",
-      "title": "Subset Giotto",
-      "aliases": ".subset_giotto",
-      "file": "reference/GiottoClass/functions/.subset_giotto.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": ".terra_writeraster_datatype",
-      "title": ".terra_writeraster_datatype",
-      "aliases": ".terra_writeraster_datatype",
-      "file": "reference/GiottoClass/functions/.terra_writeraster_datatype.md"
     },
     {
       "package": "GiottoClass",
@@ -4065,13 +2665,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "giottoAffineImage-class",
-      "title": "S4 giottoAffineImage Class",
-      "aliases": "giottoAffineImage-class",
-      "file": "reference/GiottoClass/functions/giottoAffineImage-class.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "giottoBinPoints-class",
       "title": "Binned point class",
       "aliases": ["giottoBinPoints-class", "createGiottoBinPoints"],
@@ -4156,13 +2749,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "headtail",
-      "title": "Head and tail",
-      "aliases": ["headtail", "head.giottoBinPoints", "tail.giottoBinPoints"],
-      "file": "reference/GiottoClass/functions/headtail.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "hexVertices",
       "title": "Generate regular hexagon vertices",
       "aliases": "hexVertices",
@@ -4181,20 +2767,6 @@
       "title": "Convex, concave, rectangular and circular hulls",
       "aliases": ["hull", "minRect", "minCircle", "convHull", "hull,spatLocsObj-method", "hull,giottoSpatial-method"],
       "file": "reference/GiottoClass/functions/hull.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "init_cell_metadata",
-      "title": "Initialize cell metadata slot",
-      "aliases": "init_cell_metadata",
-      "file": "reference/GiottoClass/functions/init_cell_metadata.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "init_feat_metadata",
-      "title": "Initialize feature metadata slot",
-      "aliases": "init_feat_metadata",
-      "file": "reference/GiottoClass/functions/init_feat_metadata.md"
     },
     {
       "package": "GiottoClass",
@@ -4401,13 +2973,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "miscData-class",
-      "title": "Basic class for additional miscellaneous information",
-      "aliases": "miscData-class",
-      "file": "reference/GiottoClass/functions/miscData-class.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "my_arowMeans",
       "title": "my_arowMeans",
       "aliases": "my_arowMeans",
@@ -4429,13 +2994,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "names",
-      "title": "Names of objects",
-      "aliases": ["names", "names,giottoLargeImage-method", "names<-,giottoLargeImage-method", "names,processParam-method", "names<-,processParam-method", "names,giottoPoints-method"],
-      "file": "reference/GiottoClass/functions/names.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "nnDT_to_kNN",
       "title": "nnDT_to_kNN",
       "aliases": "nnDT_to_kNN",
@@ -4447,13 +3005,6 @@
       "title": "S4 nnNetObj",
       "aliases": ["nnNetObj-class", "nnNetObj"],
       "file": "reference/GiottoClass/functions/nnNetObj-class.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "objectlist_name_utils",
-      "title": "Name wrangling for subobject lists",
-      "aliases": ["objectlist_name_utils", "assign_objnames_2_list", "assign_listnames_2_obj", ".uniquify_dups"],
-      "file": "reference/GiottoClass/functions/objectlist_name_utils.md"
     },
     {
       "package": "GiottoClass",
@@ -4562,27 +3113,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "rbind2_giotto_polygon_hetero",
-      "title": "Append giotto polygons of different names",
-      "aliases": "rbind2_giotto_polygon_hetero",
-      "file": "reference/GiottoClass/functions/rbind2_giotto_polygon_hetero.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "rbind2_giotto_polygon_homo",
-      "title": "Append giotto polygons of the same name",
-      "aliases": "rbind2_giotto_polygon_homo",
-      "file": "reference/GiottoClass/functions/rbind2_giotto_polygon_homo.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "read_data_params",
-      "title": "read_data_params",
-      "aliases": "read_data_params",
-      "file": "reference/GiottoClass/functions/read_data_params.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "readCellMetadata",
       "title": "Read cell metadata",
       "aliases": "readCellMetadata",
@@ -4678,13 +3208,6 @@
       "title": "reconnect_giottoLargeImage",
       "aliases": "reconnect_giottoLargeImage",
       "file": "reference/GiottoClass/functions/reconnect_giottoLargeImage.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "reconnect_image_object",
-      "title": "reconnect_image_object",
-      "aliases": "reconnect_image_object",
-      "file": "reference/GiottoClass/functions/reconnect_image_object.md"
     },
     {
       "package": "GiottoClass",
@@ -4790,20 +3313,6 @@
       "title": "rowSums_flex",
       "aliases": "rowSums_flex",
       "file": "reference/GiottoClass/functions/rowSums_flex.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "S3toS4dimObj",
-      "title": "Dimension reductions",
-      "aliases": "S3toS4dimObj",
-      "file": "reference/GiottoClass/functions/S3toS4dimObj.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "S3toS4spatGridObj",
-      "title": "Spatially Binned Data",
-      "aliases": ["S3toS4spatGridObj", "S3toS4spatialGridObj"],
-      "file": "reference/GiottoClass/functions/S3toS4spatGridObj.md"
     },
     {
       "package": "GiottoClass",
@@ -4965,13 +3474,6 @@
       "title": "Apply a shear tranform",
       "aliases": ["shear", "shear,spatLocsObj-method", "shear,SpatVector-method", "shear,giottoPoints-method", "shear,giottoPolygon-method", "shear,giottoLargeImage-method", "shear,giottoAffineImage-method", "shear,affine2d-method"],
       "file": "reference/GiottoClass/functions/shear.md"
-    },
-    {
-      "package": "GiottoClass",
-      "name": "show",
-      "title": "Show methods for Giotto classes",
-      "aliases": ["show", "show,giotto-method", "show,packedGiotto-method", "show,exprObj-method", "show,cellMetaObj-method", "show,featMetaObj-method", "show,dimObj-method", "show,nnNetObj-method", "show,spatLocsObj-method", "show,spatialNetworkObj-method", "show,spatialGridObj-method", "show,spatEnrObj-method", "show,giottoPolygon-method", "show,packedGiottoPolygon-method", "show,giottoPoints-method", "show,packedGiottoPoints-method", "show,giottoImage-method", "show,giottoLargeImage-method", "show,affine2d-method"],
-      "file": "reference/GiottoClass/functions/show.md"
     },
     {
       "package": "GiottoClass",
@@ -5297,13 +3799,6 @@
     },
     {
       "package": "GiottoClass",
-      "name": "terraVectData-class",
-      "title": "Basic class for terra SpatVector-based objects",
-      "aliases": ["terraVectData-class", "terraVectData"],
-      "file": "reference/GiottoClass/functions/terraVectData-class.md"
-    },
-    {
-      "package": "GiottoClass",
       "name": "tessellate",
       "title": "Tessellated grid of polygons",
       "aliases": ["tessellate", "tesselate"],
@@ -5455,27 +3950,6 @@
       "title": "Generate file manifest list from a directory",
       "aliases": "dir_manifest",
       "file": "reference/GiottoUtils/functions/dir_manifest.md"
-    },
-    {
-      "package": "GiottoUtils",
-      "name": ".log_conn",
-      "title": "Create a logfile connection",
-      "aliases": ".log_conn",
-      "file": "reference/GiottoUtils/functions/.log_conn.md"
-    },
-    {
-      "package": "GiottoUtils",
-      "name": ".log_create",
-      "title": "Create a log file",
-      "aliases": ".log_create",
-      "file": "reference/GiottoUtils/functions/.log_create.md"
-    },
-    {
-      "package": "GiottoUtils",
-      "name": ".log_dir",
-      "title": "Giotto logging directory",
-      "aliases": ".log_dir",
-      "file": "reference/GiottoUtils/functions/.log_dir.md"
     },
     {
       "package": "GiottoUtils",
@@ -5850,13 +4324,6 @@
     },
     {
       "package": "GiottoVisuals",
-      "name": "auto_image_resample",
-      "title": "Optimized image resampling",
-      "aliases": ["auto_image_resample", ".auto_resample_gimage"],
-      "file": "reference/GiottoVisuals/functions/auto_image_resample.md"
-    },
-    {
-      "package": "GiottoVisuals",
       "name": "combine_aes",
       "title": "Combine ggplot2 aesthetics",
       "aliases": "combine_aes",
@@ -5868,13 +4335,6 @@
       "title": "Create clustered expression dendrogram",
       "aliases": "create_cluster_dendrogram",
       "file": "reference/GiottoVisuals/functions/create_cluster_dendrogram.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "data_access_params",
-      "title": "Params documentation template: data_access_params",
-      "aliases": "data_access_params",
-      "file": "reference/GiottoVisuals/functions/data_access_params.md"
     },
     {
       "package": "GiottoVisuals",
@@ -5903,90 +4363,6 @@
       "title": "Plot dimension reduction",
       "aliases": ["dimPlot2D", "dimPlot", "dimPlot3D"],
       "file": "reference/GiottoVisuals/functions/dimPlot2D.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".create_heatmap_dt",
-      "title": "Create heatmap data.table",
-      "aliases": ".create_heatmap_dt",
-      "file": "reference/GiottoVisuals/functions/.create_heatmap_dt.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".decide_cluster_order",
-      "title": "Decide cluster order",
-      "aliases": ".decide_cluster_order",
-      "file": "reference/GiottoVisuals/functions/.decide_cluster_order.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".dimPlot_2d_plotly",
-      "title": ".dimPlot_2d_plotly",
-      "aliases": ".dimPlot_2d_plotly",
-      "file": "reference/GiottoVisuals/functions/.dimPlot_2d_plotly.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".dimPlot_3d_plotly",
-      "title": ".dimPlot_3d_plotly",
-      "aliases": ".dimPlot_3d_plotly",
-      "file": "reference/GiottoVisuals/functions/.dimPlot_3d_plotly.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".sankey_compare",
-      "title": "Calculations for a sankey relationship pair",
-      "aliases": ".sankey_compare",
-      "file": "reference/GiottoVisuals/functions/.sankey_compare.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".sankey_networkd3",
-      "title": "Create networkd3 sankey",
-      "aliases": ".sankey_networkd3",
-      "file": "reference/GiottoVisuals/functions/.sankey_networkd3.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".sankey_relation_pair",
-      "title": "Calculations for a sankey relationship pair",
-      "aliases": ".sankey_relation_pair",
-      "file": "reference/GiottoVisuals/functions/.sankey_relation_pair.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".spatInSituPlotDensity_single",
-      "title": "Spatial in-situ density plot - single",
-      "aliases": ".spatInSituPlotDensity_single",
-      "file": "reference/GiottoVisuals/functions/.spatInSituPlotDensity_single.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".spatInSituPlotHex_single",
-      "title": "Spatial in-situ hexbin plot - single",
-      "aliases": ".spatInSituPlotHex_single",
-      "file": "reference/GiottoVisuals/functions/.spatInSituPlotHex_single.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".spatPlot_2d_plotly",
-      "title": ".spatPlot_2d_plotly",
-      "aliases": ".spatPlot_2d_plotly",
-      "file": "reference/GiottoVisuals/functions/.spatPlot_2d_plotly.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".spatPlot_3d_plotly",
-      "title": ".spatPlot_3d_plotly",
-      "aliases": ".spatPlot_3d_plotly",
-      "file": "reference/GiottoVisuals/functions/.spatPlot_3d_plotly.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": ".spatPlot2D_single",
-      "title": ".spatPlot2D_single",
-      "aliases": ".spatPlot2D_single",
-      "file": "reference/GiottoVisuals/functions/.spatPlot2D_single.md"
     },
     {
       "package": "GiottoVisuals",
@@ -6088,48 +4464,6 @@
     },
     {
       "package": "GiottoVisuals",
-      "name": "plot_cell_params",
-      "title": "Params documentation template: plot_cell_params",
-      "aliases": "plot_cell_params",
-      "file": "reference/GiottoVisuals/functions/plot_cell_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_cow_params",
-      "title": "Params documentation template: plot_cow_params",
-      "aliases": "plot_cow_params",
-      "file": "reference/GiottoVisuals/functions/plot_cow_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_dimred_params",
-      "title": "Params documentation template: plot_dimred_params",
-      "aliases": "plot_dimred_params",
-      "file": "reference/GiottoVisuals/functions/plot_dimred_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_feat_params",
-      "title": "Params documentation template: plot_feat_params",
-      "aliases": "plot_feat_params",
-      "file": "reference/GiottoVisuals/functions/plot_feat_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_image_params",
-      "title": "Params documentation template: plot_image_params",
-      "aliases": "plot_image_params",
-      "file": "reference/GiottoVisuals/functions/plot_image_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_nn_net_params",
-      "title": "Params documentation template: plot_nn_net_params",
-      "aliases": "plot_nn_net_params",
-      "file": "reference/GiottoVisuals/functions/plot_nn_net_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
       "name": "plot_output_handler",
       "title": "Plotting output handler",
       "aliases": "plot_output_handler",
@@ -6137,45 +4471,10 @@
     },
     {
       "package": "GiottoVisuals",
-      "name": "plot_output_params",
-      "title": "Params documentation template: plot_output_params",
-      "aliases": "plot_output_params",
-      "file": "reference/GiottoVisuals/functions/plot_output_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_params",
-      "title": "Params documentation template: plot_params",
-      "aliases": "plot_params",
-      "file": "reference/GiottoVisuals/functions/plot_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_poly_params",
-      "title": "Params documentation template: plot_poly_params",
-      "aliases": "plot_poly_params",
-      "file": "reference/GiottoVisuals/functions/plot_poly_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
       "name": "plot_save",
       "title": "Plot saving",
       "aliases": ["plot_save", "all_plots_save_function", "gpsparam"],
       "file": "reference/GiottoVisuals/functions/plot_save.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_spatenr_params",
-      "title": "Params documentation template: plot_spatenr_params",
-      "aliases": "plot_spatenr_params",
-      "file": "reference/GiottoVisuals/functions/plot_spatenr_params.md"
-    },
-    {
-      "package": "GiottoVisuals",
-      "name": "plot_spatnet_params",
-      "title": "Params documentation template: plot_spatnet_params",
-      "aliases": "plot_spatnet_params",
-      "file": "reference/GiottoVisuals/functions/plot_spatnet_params.md"
     },
     {
       "package": "GiottoVisuals",
