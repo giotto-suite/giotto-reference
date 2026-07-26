@@ -1,6 +1,6 @@
 # Function Reference TOC
 
-Generated 2026-07-19 06:50 UTC. 687 functions across 4 packages.
+Generated 2026-07-26 06:53 UTC. 687 functions across 4 packages.
 
 | Package | Function | Title |
 |---|---|---|
