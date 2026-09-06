@@ -35603,9 +35603,9 @@ character vector of hexadecimal distinct colors
 
 ## See Also
 
-Other basic color palette functions: 
-`[getMonochromeColors]()`,
-`[getRainbowColors]()`
+Other basic color palette functions:
+`[getMonochromeColors()](=getMonochromeColors)`,
+`[getRainbowColors()](=getRainbowColors)`
 
 ## Examples
 
@@ -35635,8 +35635,15 @@ getMonochromeColors(col, n = 256L, ...)
 
 - `col`: hexadecimal color to scale scale towards
 - `n`: number of colors to request in monochrome palette
-- `...`: Arguments passed on to `[grDevices::colorRampPalette](grDevices:colorRamp)`
-  - **``**:
+- `...`: Arguments passed on to `[grDevices::colorRampPalette](grDevices:colorRampPalette)`
+  - **`bias`**: a positive number.  Higher values give more widely spaced
+    colors at the high end.
+- **`space`**: a character string; interpolation in RGB or CIE Lab
+    color spaces.
+- **`interpolate`**: use spline or linear interpolation.
+- **`alpha`**: logical: should alpha channel (opacity) values be
+    returned?   It is an error to give a true value if
+    `space` is specified.
 
 ## Value
 
@@ -35644,9 +35651,9 @@ character vector
 
 ## See Also
 
-Other basic color palette functions: 
-`[getDistinctColors]()`,
-`[getRainbowColors]()`
+Other basic color palette functions:
+`[getDistinctColors()](=getDistinctColors)`,
+`[getRainbowColors()](=getRainbowColors)`
 
 ## Examples
 
@@ -35688,9 +35695,9 @@ character vector of hexadecimal rainbow colors
 
 ## See Also
 
-Other basic color palette functions: 
-`[getDistinctColors]()`,
-`[getMonochromeColors]()`
+Other basic color palette functions:
+`[getDistinctColors()](=getDistinctColors)`,
+`[getMonochromeColors()](=getMonochromeColors)`
 
 ## Examples
 
@@ -36109,7 +36116,7 @@ markdown
 
 ## See Also
 
-Other lifecycle: 
+Other lifecycle:
 `[reexports]`
 
 ## Examples
@@ -36437,7 +36444,7 @@ pbar(
 - `steps`: (integer) Number of progressing steps.
 - `along`: (vector; alternative) Alternative that sets
 `steps = length(along)`.
-- `offset, scale`: (integer; optional) scale and offset applying transform
+- `offset, scale`: (integer; optional) scale and offset applying the transform
 `steps <- scale * steps + offset`.
 - `transform`: (function; optional) A function that takes the effective
 number of `steps` as input and returns another finite and non-negative
@@ -36630,7 +36637,7 @@ print_list(test, pre = "* ")
 
 Check for an active python environment without initialization.
 If none initialized, `FALSE` is returned. If an initialized environment
-is found, the env name based on `[reticulate::conda_list()](reticulate:conda-tools)` will be returned.
+is found, the env name based on `[reticulate::conda_list()](reticulate:conda_list)` will be returned.
 The following options will also be updated with information about the active
 environment:
 - `"giotto.py_active_env"` *(envname)*
@@ -36768,9 +36775,9 @@ unlink(f)
 These objects are imported from other packages. Follow the links
 below to see their documentation.
 
-- **gtools**: `[mixedorder](gtools:mixedsort)`, `[mixedsort](gtools)`
-- **jsonlite**: `[fromJSON](jsonlite)`, `[read_json](jsonlite)`
-- **lifecycle**: `[deprecate_soft](lifecycle)`, `[deprecate_stop](lifecycle:deprecate_soft)`, `[deprecate_warn](lifecycle:deprecate_soft)`, `[deprecated](lifecycle)`, `[is_present](lifecycle:deprecated)`
+- **gtools**: `[mixedorder()](gtools:mixedorder)`, `[mixedsort()](gtools:mixedsort)`
+- **jsonlite**: `[fromJSON()](jsonlite:fromJSON)`, `[read_json()](jsonlite:read_json)`
+- **lifecycle**: `[deprecate_soft()](lifecycle:deprecate_soft)`, `[deprecate_stop()](lifecycle:deprecate_stop)`, `[deprecate_warn()](lifecycle:deprecate_warn)`, `[deprecated()](lifecycle:deprecated)`, `[is_present()](lifecycle:is_present)`
 
 ## Value
 
@@ -36790,8 +36797,8 @@ vector giving the sort order of the input elements
 
 ## See Also
 
-Other lifecycle: 
-`[lifecycle_badge]()`
+Other lifecycle:
+`[lifecycle_badge()](=lifecycle_badge)`
 
 ## Examples
 
@@ -37161,8 +37168,8 @@ suite_install(
 packages needed for Giotto to run.
 - `suite_deps`: logical. Whether to install any potential Giotto Suite
 dependency modules
-- `ref`: character. Currently one of "main", "R4.4.0", or "dev". These
-determine which branches to install. See details.
+- `ref`: character. Currently one of "main", "R4.4.0", "R4.1.0", "dev", or
+"disk". These determine which branches to install. See details.
 - `dry_run`: logical. When `TRUE`, only print the install commands instead
 of actually running them.
 - `...`: additional params to pass to `remotes::install_github()`
@@ -37178,6 +37185,9 @@ if (FALSE) {
     # install core packages
     suite_install()
     suite_install("GiottoClass", ref = "dev")
+
+    # install the on-disk build set
+    suite_install("GiottoDisk", ref = "disk")
 
     # install ONLY Giotto, ignoring module dependencies
     # (i.e. GiottoVisuals, GiottoClass, etc)
@@ -37361,17 +37371,17 @@ with_pbar(
 - `handlers`: A progression handler or a list of them.
 If NULL or an empty list, progress updates are ignored.
 - `cleanup`: If TRUE, all progression handlers will be shutdown
-at the end regardless of the progression is complete or not.
+at the end regardless of whether the progression is complete or not.
 - `delay_terminal`: If TRUE, output and conditions that may end up in
-the terminal will delayed.
+the terminal will be delayed.
 - `delay_stdout`: If TRUE, standard output is captured and relayed
 at the end just before any captured conditions are relayed.
 - `delay_conditions`: A character vector specifying [base::condition](base:conditions)
 classes to be captured and relayed at the end after any captured
 standard output is relayed.
 - `interrupts`: Controls whether interrupts should be detected or not.
-If TRUE and a interrupt is signaled, progress handlers are asked to
-report on the current amount progress when the evaluation was terminated
+If TRUE and an interrupt is signaled, progress handlers are asked to
+report on the current amount of progress when the evaluation was terminated
 by the interrupt, e.g. when a user pressed Ctrl-C in an interactive session,
 or a batch process was interrupted because it ran out of time.
 Note that it's optional for a progress handler to support this and only

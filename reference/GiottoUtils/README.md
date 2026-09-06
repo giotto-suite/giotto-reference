@@ -2,7 +2,7 @@
 
 *Source:* https://github.com/giotto-suite/GiottoUtils (ref: `main`)  
 *Title:* Giotto Suite Utilities  
-*Version:* 0.2.5
+*Version:* 0.2.6
 
 Utility functions and imports for Giotto Suite.
 

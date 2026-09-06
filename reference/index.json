@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T06:08:10Z",
+  "generated_at": "2026-09-06T06:07:49Z",
   "packages": [
     {
       "name": "Giotto",
@@ -18,7 +18,7 @@
     {
       "name": "GiottoUtils",
       "title": "Giotto Suite Utilities",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "n_functions": 58,
       "n_vignettes": 1
     },

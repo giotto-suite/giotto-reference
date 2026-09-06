@@ -33,7 +33,7 @@ markdown
 
 ## See Also
 
-Other lifecycle: 
+Other lifecycle:
 `[reexports]`
 
 ## Examples

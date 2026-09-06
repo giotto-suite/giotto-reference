@@ -30,9 +30,9 @@ character vector of hexadecimal rainbow colors
 
 ## See Also
 
-Other basic color palette functions: 
-`[getDistinctColors]()`,
-`[getMonochromeColors]()`
+Other basic color palette functions:
+`[getDistinctColors()](=getDistinctColors)`,
+`[getMonochromeColors()](=getMonochromeColors)`
 
 ## Examples
 

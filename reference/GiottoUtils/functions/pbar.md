@@ -34,7 +34,7 @@ pbar(
 - `steps`: (integer) Number of progressing steps.
 - `along`: (vector; alternative) Alternative that sets
 `steps = length(along)`.
-- `offset, scale`: (integer; optional) scale and offset applying transform
+- `offset, scale`: (integer; optional) scale and offset applying the transform
 `steps <- scale * steps + offset`.
 - `transform`: (function; optional) A function that takes the effective
 number of `steps` as input and returns another finite and non-negative

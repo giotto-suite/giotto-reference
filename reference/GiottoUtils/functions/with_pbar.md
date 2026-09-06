@@ -36,17 +36,17 @@ with_pbar(
 - `handlers`: A progression handler or a list of them.
 If NULL or an empty list, progress updates are ignored.
 - `cleanup`: If TRUE, all progression handlers will be shutdown
-at the end regardless of the progression is complete or not.
+at the end regardless of whether the progression is complete or not.
 - `delay_terminal`: If TRUE, output and conditions that may end up in
-the terminal will delayed.
+the terminal will be delayed.
 - `delay_stdout`: If TRUE, standard output is captured and relayed
 at the end just before any captured conditions are relayed.
 - `delay_conditions`: A character vector specifying [base::condition](base:conditions)
 classes to be captured and relayed at the end after any captured
 standard output is relayed.
 - `interrupts`: Controls whether interrupts should be detected or not.
-If TRUE and a interrupt is signaled, progress handlers are asked to
-report on the current amount progress when the evaluation was terminated
+If TRUE and an interrupt is signaled, progress handlers are asked to
+report on the current amount of progress when the evaluation was terminated
 by the interrupt, e.g. when a user pressed Ctrl-C in an interactive session,
 or a batch process was interrupted because it ran out of time.
 Note that it's optional for a progress handler to support this and only

@@ -27,9 +27,9 @@ character vector of hexadecimal distinct colors
 
 ## See Also
 
-Other basic color palette functions: 
-`[getMonochromeColors]()`,
-`[getRainbowColors]()`
+Other basic color palette functions:
+`[getMonochromeColors()](=getMonochromeColors)`,
+`[getRainbowColors()](=getRainbowColors)`
 
 ## Examples
 

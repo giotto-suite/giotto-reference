@@ -34,8 +34,8 @@ suite_install(
 packages needed for Giotto to run.
 - `suite_deps`: logical. Whether to install any potential Giotto Suite
 dependency modules
-- `ref`: character. Currently one of "main", "R4.4.0", or "dev". These
-determine which branches to install. See details.
+- `ref`: character. Currently one of "main", "R4.4.0", "R4.1.0", "dev", or
+"disk". These determine which branches to install. See details.
 - `dry_run`: logical. When `TRUE`, only print the install commands instead
 of actually running them.
 - `...`: additional params to pass to `remotes::install_github()`
@@ -51,6 +51,9 @@ if (FALSE) {
     # install core packages
     suite_install()
     suite_install("GiottoClass", ref = "dev")
+
+    # install the on-disk build set
+    suite_install("GiottoDisk", ref = "disk")
 
     # install ONLY Giotto, ignoring module dependencies
     # (i.e. GiottoVisuals, GiottoClass, etc)
