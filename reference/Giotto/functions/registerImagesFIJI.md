@@ -1,4 +1,4 @@
-# `registerImagesFIJI` {#registerImagesFIJI}
+# `registerImagesFIJI`
 
 *Package:* `Giotto`  
 *Title:* registerImagesFIJI

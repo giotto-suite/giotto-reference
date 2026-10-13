@@ -1,4 +1,4 @@
-# `create_cluster_matrix` {#create_cluster_matrix}
+# `create_cluster_matrix`
 
 *Package:* `GiottoClass`  
 *Title:* create_cluster_matrix

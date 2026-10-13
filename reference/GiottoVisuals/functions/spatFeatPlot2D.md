@@ -1,4 +1,4 @@
-# `spatFeatPlot2D` {#spatFeatPlot2D}
+# `spatFeatPlot2D`
 
 *Package:* `GiottoVisuals`  
 *Title:* Plot data in physical space 2D
@@ -129,7 +129,7 @@ parameter
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -143,10 +143,10 @@ Description of parameters.
 
 ## See Also
 
-`[spatFeatPlot3D]`
+[`spatFeatPlot3D`](spatFeatPlot3D.md)
 
 Other spatial feature expression visualizations: 
-`[spatFeatPlot2D_single]()`
+[`spatFeatPlot2D_single()`](spatFeatPlot2D_single.md)
 
 ## Examples
 

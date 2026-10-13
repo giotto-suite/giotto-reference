@@ -1,4 +1,4 @@
-# `setGiottoImage` {#setGiottoImage}
+# `setGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* Set giotto image object
@@ -43,30 +43,30 @@ spatial positioning values within the image object that are generally
 needed in order for them to plot in the correct location relative to the
 other modalities of spatial data.   
  For the more general-purpose method
-of attaching image objects, see `[addGiottoImage]`
+of attaching image objects, see [`addGiottoImage`](addGiottoImage.md)
 
 ## See Also
 
-`[addGiottoImage]`
+[`addGiottoImage`](addGiottoImage.md)
 
 Other image data accessor functions: 
-`[getGiottoImage]()`
+[`getGiottoImage()`](getGiottoImage.md)
 
 Other functions to set data in giotto object: 
-`[setCellMetadata]()`,
-`[setDimReduction]()`,
-`[setExpression]()`,
-`[setFeatureInfo]()`,
-`[setFeatureMetadata]()`,
-`[setGiotto,giotto,giottoBinPoints-method]`,
-`[setMultiomics]()`,
-`[setNearestNetwork]()`,
-`[setPolygonInfo]()`,
-`[setSpatialEnrichment]()`,
-`[setSpatialGrid]()`,
-`[setSpatialLocations]()`,
-`[setSpatialNetwork]()`,
-`[set_multiomics]()`
+[`setCellMetadata()`](setCellMetadata.md),
+[`setDimReduction()`](setDimReduction.md),
+[`setExpression()`](setExpression.md),
+[`setFeatureInfo()`](setFeatureInfo.md),
+[`setFeatureMetadata()`](setFeatureMetadata.md),
+[`setGiotto,giotto,giottoBinPoints-method`](setGiotto%2Cgiotto%2CgiottoBinPoints-method.md),
+[`setMultiomics()`](setMultiomics.md),
+[`setNearestNetwork()`](setNearestNetwork.md),
+[`setPolygonInfo()`](setPolygonInfo.md),
+[`setSpatialEnrichment()`](setSpatialEnrichment.md),
+[`setSpatialGrid()`](setSpatialGrid.md),
+[`setSpatialLocations()`](setSpatialLocations.md),
+[`setSpatialNetwork()`](setSpatialNetwork.md),
+[`set_multiomics()`](set_multiomics.md)
 
 ## Examples
 

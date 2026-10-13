@@ -1,4 +1,4 @@
-# `vmsg` {#vmsg}
+# `vmsg`
 
 *Package:* `GiottoUtils`  
 *Title:* Verbose message handler

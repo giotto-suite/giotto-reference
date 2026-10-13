@@ -1,4 +1,4 @@
-# `plotTSNE_3D` {#plotTSNE_3D}
+# `plotTSNE_3D`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotTSNE_3D
@@ -23,14 +23,14 @@ plotTSNE_3D(
 - `gobject`: giotto object
 - `dim_reduction_name`: name of TSNE
 - `default_save_name`: default save name of TSNE plot
-- `...`: Arguments passed on to `[dimPlot3D](=dimPlot3D)`
+- `...`: Arguments passed on to [`dimPlot3D`](dimPlot2D.md)
   - **`spat_unit`**: spatial unit (e.g. "cell")
 - **`feat_type`**: feature type (e.g. "rna", "dna", "protein")
 - **`show_plot`**: logical. show plot
 - **`return_plot`**: logical. return ggplot object
 - **`save_plot`**: logical. save the plot
 - **`save_param`**: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - **`dim1_to_use`**: numeric. dimension to use on x-axis
 - **`dim2_to_use`**: numeric. dimension to use on y-axis
 - **`dim3_to_use`**: numeric. dimension to use on z-axis
@@ -72,15 +72,15 @@ Description of parameters.
 ## See Also
 
 Other reduced dimension visualizations: 
-`[dimPlot2D]()`,
-`[plotPCA]()`,
-`[plotPCA_2D]()`,
-`[plotPCA_3D]()`,
-`[plotTSNE]()`,
-`[plotTSNE_2D]()`,
-`[plotUMAP]()`,
-`[plotUMAP_2D]()`,
-`[plotUMAP_3D]()`
+[`dimPlot2D()`](dimPlot2D.md),
+[`plotPCA()`](plotPCA.md),
+[`plotPCA_2D()`](plotPCA_2D.md),
+[`plotPCA_3D()`](plotPCA_3D.md),
+[`plotTSNE()`](plotTSNE.md),
+[`plotTSNE_2D()`](plotTSNE_2D.md),
+[`plotUMAP()`](plotUMAP.md),
+[`plotUMAP_2D()`](plotUMAP_2D.md),
+[`plotUMAP_3D()`](plotUMAP_3D.md)
 
 ## Examples
 

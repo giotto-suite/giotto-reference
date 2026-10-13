@@ -1,4 +1,4 @@
-# `update_giotto_params` {#update_giotto_params}
+# `update_giotto_params`
 
 *Package:* `GiottoClass`  
 *Title:* Update giotto parameters

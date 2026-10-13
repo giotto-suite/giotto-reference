@@ -1,4 +1,4 @@
-# `str_locate2` {#str_locate2}
+# `str_locate2`
 
 *Package:* `GiottoUtils`  
 *Title:* Find location of match in string

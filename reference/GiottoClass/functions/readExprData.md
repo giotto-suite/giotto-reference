@@ -1,4 +1,4 @@
-# `readExprData` {#readExprData}
+# `readExprData`
 
 *Package:* `GiottoClass`  
 *Title:* Read expression data

@@ -1,4 +1,4 @@
-# `handle_errors` {#handle_errors}
+# `handle_errors`
 
 *Package:* `GiottoUtils`  
 *Title:* Error handling

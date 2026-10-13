@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:07:53Z",
+  "generated_at": "2026-10-13T20:20:08Z",
   "packages": [
     {
       "name": "Giotto",
@@ -4157,7 +4157,7 @@
     {
       "package": "GiottoUtils",
       "name": "%>%",
-      "title": "See `magrittr::[%>%](magrittr)` for details.",
+      "title": "See `magrittr::%>%` for details.",
       "aliases": "%>%",
       "file": "reference/GiottoUtils/functions/%>%.md"
     },

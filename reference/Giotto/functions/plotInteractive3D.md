@@ -1,4 +1,4 @@
-# `plotInteractive3D` {#plotInteractive3D}
+# `plotInteractive3D`
 
 *Package:* `Giotto`  
 *Title:* Plot interactive 3D spatial plot

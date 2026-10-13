@@ -1,4 +1,4 @@
-# `overlapImagesToMatrix` {#overlapImagesToMatrix}
+# `overlapImagesToMatrix`
 
 *Package:* `GiottoClass`  
 *Title:* overlapImagesToMatrix
@@ -6,7 +6,7 @@
 ## Description
 
 create a count matrix based on overlap results
-from `[calculateOverlapPolygonImages]`
+from [`calculateOverlapPolygonImages`](calculateOverlapPolygonImages.md)
 
 ## Usage
 

@@ -1,4 +1,4 @@
-# `list_cell_id_names` {#list_cell_id_names}
+# `list_cell_id_names`
 
 *Package:* `GiottoClass`  
 *Title:* List cell ID names

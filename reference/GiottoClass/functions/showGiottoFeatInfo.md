@@ -1,4 +1,4 @@
-# `showGiottoFeatInfo` {#showGiottoFeatInfo}
+# `showGiottoFeatInfo`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoFeatInfo
@@ -24,17 +24,17 @@ SpatVector
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoDimRed]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoImageNames]()`,
-`[showGiottoNearestNetworks]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatGrids]()`,
-`[showGiottoSpatLocs]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoDimRed()`](showGiottoDimRed.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoImageNames()`](showGiottoImageNames.md),
+[`showGiottoNearestNetworks()`](showGiottoNearestNetworks.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatGrids()`](showGiottoSpatGrids.md),
+[`showGiottoSpatLocs()`](showGiottoSpatLocs.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

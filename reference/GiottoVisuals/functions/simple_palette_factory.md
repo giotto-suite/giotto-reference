@@ -1,4 +1,4 @@
-# `simple_palette_factory` {#simple_palette_factory}
+# `simple_palette_factory`
 
 *Package:* `GiottoVisuals`  
 *Title:* Generate a simple palette function
@@ -28,7 +28,7 @@ a function
 
 ## See Also
 
-`[set_default_color_discrete()](=set_default_color_discrete)`
+[`set_default_color_discrete()`](set_default_color_discrete.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `spatialAutoCor` {#spatialAutoCor}
+# `spatialAutoCor`
 
 *Package:* `Giotto`  
 *Title:* Spatial autocorrelation

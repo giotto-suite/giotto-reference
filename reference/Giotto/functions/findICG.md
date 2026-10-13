@@ -1,4 +1,4 @@
-# `findICG` {#findICG}
+# `findICG`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -17,7 +17,7 @@ findICG(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[findICF](=findICF)`
+- `...`: Arguments passed on to [`findICF`](findInteractionChangedFeats.md)
   - **`gobject`**: giotto object
 - **`feat_type`**: feature type
 - **`spat_unit`**: spatial unit
@@ -43,5 +43,5 @@ cell-cell interaction changed features
 
 ## See Also
 
-`[findICF]`
+[`findICF`](findInteractionChangedFeats.md)
 

@@ -1,4 +1,4 @@
-# `createMetafeats` {#createMetafeats}
+# `createMetafeats`
 
 *Package:* `GiottoClass`  
 *Title:* createMetafeats

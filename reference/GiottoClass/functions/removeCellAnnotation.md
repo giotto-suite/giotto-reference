@@ -1,4 +1,4 @@
-# `removeCellAnnotation` {#removeCellAnnotation}
+# `removeCellAnnotation`
 
 *Package:* `GiottoClass`  
 *Title:* Remove cell annotation

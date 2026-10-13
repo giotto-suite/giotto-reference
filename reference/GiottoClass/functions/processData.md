@@ -1,4 +1,4 @@
-# `processData` {#processData}
+# `processData`
 
 *Package:* `GiottoClass`  
 *Title:* Data Processing

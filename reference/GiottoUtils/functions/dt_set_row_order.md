@@ -1,4 +1,4 @@
-# `dt_set_row_order` {#dt_set_row_order}
+# `dt_set_row_order`
 
 *Package:* `GiottoUtils`  
 *Title:* Set specific data.table row order

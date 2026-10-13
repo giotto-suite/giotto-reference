@@ -1,4 +1,4 @@
-# `dimObj-class` {#dimObj-class}
+# `dimObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 dimObj Class

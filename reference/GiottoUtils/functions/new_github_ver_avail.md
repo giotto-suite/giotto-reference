@@ -1,4 +1,4 @@
-# `new_github_ver_avail` {#new_github_ver_avail}
+# `new_github_ver_avail`
 
 *Package:* `GiottoUtils`  
 *Title:* Check if a package has newer github version

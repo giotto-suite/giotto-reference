@@ -1,4 +1,4 @@
-# `getRainbowColors` {#getRainbowColors}
+# `getRainbowColors`
 
 *Package:* `GiottoUtils`  
 *Title:* getRainbowColors
@@ -31,8 +31,8 @@ character vector of hexadecimal rainbow colors
 ## See Also
 
 Other basic color palette functions:
-`[getDistinctColors()](=getDistinctColors)`,
-`[getMonochromeColors()](=getMonochromeColors)`
+[`getDistinctColors()`](getDistinctColors.md),
+[`getMonochromeColors()`](getMonochromeColors.md)
 
 ## Examples
 

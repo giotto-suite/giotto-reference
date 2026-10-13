@@ -1,4 +1,4 @@
-# `colSums_flex` {#colSums_flex}
+# `colSums_flex`
 
 *Package:* `GiottoClass`  
 *Title:* colSums_flex

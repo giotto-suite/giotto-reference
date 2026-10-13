@@ -1,4 +1,4 @@
-# `spatEnrObj-class` {#spatEnrObj-class}
+# `spatEnrObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 spatEnrObj Class

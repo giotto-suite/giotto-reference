@@ -1,4 +1,4 @@
-# `prev_call` {#prev_call}
+# `prev_call`
 
 *Package:* `GiottoUtils`  
 *Title:* Previous calls

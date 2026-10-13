@@ -1,4 +1,4 @@
-# `addSpatialCentroidLocations` {#addSpatialCentroidLocations}
+# `addSpatialCentroidLocations`
 
 *Package:* `GiottoClass`  
 *Title:* addSpatialCentroidLocations

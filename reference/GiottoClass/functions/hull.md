@@ -1,4 +1,4 @@
-# `hull` {#hull}
+# `hull`
 
 *Package:* `GiottoClass`  
 *Title:* Convex, concave, rectangular and circular hulls
@@ -30,7 +30,7 @@ convHull(x, ...)
 - `param`: numeric between 0 and 1. For the "concave_*" types only. For `type="concave_ratio"` this is the edge length ratio value, between 0 and 1. For `type="concave_length"` this the maximum edge length (a value > 0). For `type="concave_polygons"` this specifies the maximum Edge Length as a fraction of the difference between the longest and shortest edge lengths between the polygons. This normalizes the maximum edge length to be scale-free. A value of 1 produces the convex hull; a value of 0 produces the original polygons
 - `allowHoles`: logical. May the output polygons contain holes? For "concave_*" methods only
 - `tight`: logical. Should the hull follow the outer boundaries of the input polygons? For "concave_length" with polygon geometry only
-- `...`: Arguments passed on to `[terra::hull](terra:convhull)`
+- `...`: Arguments passed on to `terra::hull`
   - **``**:
 
 ## Value

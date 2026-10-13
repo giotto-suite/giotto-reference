@@ -1,4 +1,4 @@
-# `subsetGiottoLocsSubcellular` {#subsetGiottoLocsSubcellular}
+# `subsetGiottoLocsSubcellular`
 
 *Package:* `GiottoClass`  
 *Title:* Subset raw subcellular information by location
@@ -41,7 +41,7 @@ giotto object
 
 ## Details
 
-This is separate from [subsetGiottoLocs] because spat_units with attached
+This is separate from [subsetGiottoLocs](subsetGiottoLocs.md) because spat_units with attached
 aggregated information should be removed using a cell_ids-based approach in
 order to ensure that paired information is removed together. Polygons and
 points information without associated aggregated values do not have this

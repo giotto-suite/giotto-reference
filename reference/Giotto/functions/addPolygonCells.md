@@ -1,4 +1,4 @@
-# `addPolygonCells` {#addPolygonCells}
+# `addPolygonCells`
 
 *Package:* `Giotto`  
 *Title:* Add corresponding polygon IDs to cell metadata

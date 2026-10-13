@@ -1,4 +1,4 @@
-# `stitchFieldCoordinates` {#stitchFieldCoordinates}
+# `stitchFieldCoordinates`
 
 *Package:* `GiottoClass`  
 *Title:* stitchFieldCoordinates
@@ -55,5 +55,5 @@ x_offset, y_offset
 1. create new cell location file by stitching original cell
 locations with stitchFieldCoordinates
 1. provide new cell location file
-to `[createGiottoObject]`
+to [`createGiottoObject`](create_giotto.md)
 

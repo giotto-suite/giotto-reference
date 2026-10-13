@@ -1,4 +1,4 @@
-# `spatQuery` {#spatQuery}
+# `spatQuery`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial Query
@@ -15,7 +15,7 @@ with selection information recorded in the associated cell metadata.
 
 Spatial queries may perform queries on the geometries themselves, so
 `intersect()` operations are performed under the hood. For a lighter weight
-option that just finds spatial relationships, see `[relate()](=relate)`
+option that just finds spatial relationships, see [`relate()`](relate.md)
 
 ## Usage
 
@@ -106,7 +106,7 @@ set of polygons attached to the giotto object.
 
 ## See Also
 
-`[relate()](=relate)`
+[`relate()`](relate.md)
 
 ## Examples
 

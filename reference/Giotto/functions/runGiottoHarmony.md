@@ -1,4 +1,4 @@
-# `runGiottoHarmony` {#runGiottoHarmony}
+# `runGiottoHarmony`
 
 *Package:* `Giotto`  
 *Title:* runGiottoHarmony
@@ -48,7 +48,7 @@ for harmony to remove
 - `toplevel`: relative stackframe where call was made from
 - `return_gobject`: boolean: return giotto object (default = TRUE)
 - `verbose`: be verbose
-- `...`: additional `[HarmonyMatrix](harmony)` parameters
+- `...`: additional `HarmonyMatrix` parameters
 
 ## Value
 

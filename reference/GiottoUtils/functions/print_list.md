@@ -1,4 +1,4 @@
-# `print_list` {#print_list}
+# `print_list`
 
 *Package:* `GiottoUtils`  
 *Title:* Pretty print formatting for lists and vectors

@@ -1,4 +1,4 @@
-# `filterGiotto` {#filterGiotto}
+# `filterGiotto`
 
 *Package:* `Giotto`  
 *Title:* filterGiotto
@@ -65,7 +65,7 @@ giotto object
 
 ## Details
 
-The function `[filterCombinations]` can be used to
+The function [`filterCombinations`](filterCombinations.md) can be used to
 explore the effect of different parameter values.
 Please note that this function filters data in a predefined order, features,
 then cells.

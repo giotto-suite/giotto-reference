@@ -1,4 +1,4 @@
-# `spatInSituPlotDensity` {#spatInSituPlotDensity}
+# `spatInSituPlotDensity`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatInSituPlotDensity
@@ -76,7 +76,7 @@ by the `polygon_feat_type` spatial unit.
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -91,8 +91,8 @@ TODO
 ## See Also
 
 Other In Situ visualizations: 
-`[spatInSituPlotHex]()`,
-`[spatInSituPlotPoints]()`
+[`spatInSituPlotHex()`](spatInSituPlotHex.md),
+[`spatInSituPlotPoints()`](spatInSituPlotPoints.md)
 
 ## Examples
 

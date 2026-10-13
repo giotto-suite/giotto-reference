@@ -1,4 +1,4 @@
-# `showGiottoInstructions` {#showGiottoInstructions}
+# `showGiottoInstructions`
 
 *Package:* `GiottoClass`  
 *Title:* deprecated

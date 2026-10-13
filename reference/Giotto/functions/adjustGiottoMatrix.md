@@ -1,4 +1,4 @@
-# `adjustGiottoMatrix` {#adjustGiottoMatrix}
+# `adjustGiottoMatrix`
 
 *Package:* `Giotto`  
 *Title:* Adjust expression values
@@ -45,7 +45,7 @@ giotto object or exprObj
 
 ## Details
 
-This function implements the `[removeBatchEffect](limma)`
+This function implements the `removeBatchEffect`
 function to remove known batch effects and to adjust expression values
 according to provided covariates.
 

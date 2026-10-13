@@ -1,4 +1,4 @@
-# `findCellProximityGenes` {#findCellProximityGenes}
+# `findCellProximityGenes`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -17,7 +17,7 @@ findCellProximityGenes(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[findInteractionChangedFeats](=findInteractionChangedFeats)`
+- `...`: Arguments passed on to [`findInteractionChangedFeats`](findInteractionChangedFeats.md)
   - **`gobject`**: giotto object
 - **`feat_type`**: feature type
 - **`spat_unit`**: spatial unit
@@ -43,5 +43,5 @@ cell-cell interaction changed genes
 
 ## See Also
 
-`[findInteractionChangedFeats]`
+[`findInteractionChangedFeats`](findInteractionChangedFeats.md)
 

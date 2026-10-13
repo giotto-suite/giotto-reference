@@ -1,4 +1,4 @@
-# `lapply_flex` {#lapply_flex}
+# `lapply_flex`
 
 *Package:* `GiottoUtils`  
 *Title:* lapply_flex

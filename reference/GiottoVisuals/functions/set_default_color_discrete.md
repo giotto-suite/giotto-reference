@@ -1,4 +1,4 @@
-# `set_default_color_discrete` {#set_default_color_discrete}
+# `set_default_color_discrete`
 
 *Package:* `GiottoVisuals`  
 *Title:* Set a discrete coloring scheme
@@ -19,7 +19,7 @@ type effects)
  options('giotto.color_d_pal) - palette to use
  options('giotto.color_d_rev) - whether colors should be reversed
  options('giotto.color_d_strategy) - strategy to use when making colors
-continuous. See `[get_continuous_colors()](=get_continuous_colors)`
+continuous. See [`get_continuous_colors()`](get_continuous_colors.md)
 - **giotto instructions** (gobject specific and effects specific types
 of plots)
 
@@ -29,11 +29,11 @@ in the `giottoInstructions` object
 
 
 If a character vector of length 1 input is provided then it will be assumed
-that a known color palette is being requested from `[pal_names()](=pal_names)`.  
+that a known color palette is being requested from [`pal_names()`](pal_names.md).  
 
 If a longer character input is provided then they will be expected to be
 a vector of colors to use. These values will be passed to
-[simple_palette_factory] which will generate a palette function that
+[simple_palette_factory](simple_palette_factory.md) which will generate a palette function that
 interpolates between the colors provided by default and has a `n` param for
 number of requested colors.  
 

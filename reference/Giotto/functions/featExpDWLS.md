@@ -1,4 +1,4 @@
-# `featExpDWLS` {#featExpDWLS}
+# `featExpDWLS`
 
 *Package:* `Giotto`  
 *Title:* featExpDWLS

@@ -1,4 +1,4 @@
-# `require_depth` {#require_depth}
+# `require_depth`
 
 *Package:* `GiottoUtils`  
 *Title:* Coerce to AT LEAST specified nesting depth

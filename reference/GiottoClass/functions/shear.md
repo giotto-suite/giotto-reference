@@ -1,4 +1,4 @@
-# `shear` {#shear}
+# `shear`
 
 *Package:* `GiottoClass`  
 *Title:* Apply a shear tranform

@@ -1,4 +1,4 @@
-# `createCellMetaObj` {#createCellMetaObj}
+# `createCellMetaObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 cellMetaObj

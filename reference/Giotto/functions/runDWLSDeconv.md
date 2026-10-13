@@ -1,4 +1,4 @@
-# `runDWLSDeconv` {#runDWLSDeconv}
+# `runDWLSDeconv`
 
 *Package:* `Giotto`  
 *Title:* runDWLSDeconv

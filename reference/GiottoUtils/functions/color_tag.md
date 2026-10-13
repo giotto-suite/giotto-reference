@@ -1,4 +1,4 @@
-# `color_tag` {#color_tag}
+# `color_tag`
 
 *Package:* `GiottoUtils`  
 *Title:* Colorize print text

@@ -1,4 +1,4 @@
-# `plot_output_handler` {#plot_output_handler}
+# `plot_output_handler`
 
 *Package:* `GiottoVisuals`  
 *Title:* Plotting output handler
@@ -35,7 +35,7 @@ return the plot object
 the plot in display device
 - `default_save_name`: default name to use (should be set by the specific
 plotting function. Users should not interact with this parameter)
-- `save_param`: list of plot saving parameters see `[showSaveParameters()](=showSaveParameters)`
+- `save_param`: list of plot saving parameters see [`showSaveParameters()`](showSaveParameters.md)
 - `else_return`: optional. What should be returned instead if the plot
 object is not returned
 

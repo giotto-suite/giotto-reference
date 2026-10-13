@@ -1,4 +1,4 @@
-# `subsetGiottoLocs` {#subsetGiottoLocs}
+# `subsetGiottoLocs`
 
 *Package:* `GiottoClass`  
 *Title:* Subset by spatial locations
@@ -11,7 +11,7 @@ locations. If no `spat_loc_name` is given, the first available set of
 spatial locations for the `spat_unit` will be picked.
 If no spatial locations are available, the polygon information will be
 subset. Spatial IDs surviving the crop are then applied to the rest of the
-Giotto object using [subsetGiotto].
+Giotto object using [subsetGiotto](subsetGiotto.md).
 
 ## Usage
 

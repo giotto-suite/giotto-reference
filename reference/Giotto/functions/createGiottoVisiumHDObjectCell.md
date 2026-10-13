@@ -1,4 +1,4 @@
-# `createGiottoVisiumHDObjectCell` {#createGiottoVisiumHDObjectCell}
+# `createGiottoVisiumHDObjectCell`
 
 *Package:* `Giotto`  
 *Title:* Create 10x VisiumHD Giotto Object from Segmented Outputs

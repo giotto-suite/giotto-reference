@@ -1,4 +1,4 @@
-# `affine` {#affine}
+# `affine`
 
 *Package:* `GiottoClass`  
 *Title:* Affine transformations

@@ -1,4 +1,4 @@
-# `findMarkers` {#findMarkers}
+# `findMarkers`
 
 *Package:* `Giotto`  
 *Title:* findMarkers
@@ -71,8 +71,8 @@ clusters.
 
 ## See Also
 
-`[findScranMarkers]`, `[findGiniMarkers]` and
-`[findMastMarkers]`
+[`findScranMarkers`](findScranMarkers.md), [`findGiniMarkers`](findGiniMarkers.md) and
+[`findMastMarkers`](findMastMarkers.md)
 
 ## Examples
 

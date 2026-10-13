@@ -1,4 +1,4 @@
-# `giottoMasterToSuite` {#giottoMasterToSuite}
+# `giottoMasterToSuite`
 
 *Package:* `GiottoClass`  
 *Title:* Convert a master Giotto object to suite

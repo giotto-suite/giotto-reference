@@ -1,4 +1,4 @@
-# `dotPlot` {#dotPlot}
+# `dotPlot`
 
 *Package:* `GiottoVisuals`  
 *Title:* Create a dotplot
@@ -93,7 +93,7 @@ annotation column
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

@@ -1,4 +1,4 @@
-# `filterInteractionChangedFeats` {#filterInteractionChangedFeats}
+# `filterInteractionChangedFeats`
 
 *Package:* `Giotto`  
 *Title:* filterInteractionChangedFeats

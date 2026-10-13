@@ -1,12 +1,12 @@
-# `seuratToGiotto` {#seuratToGiotto}
+# `seuratToGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Deprecated
 
 ## Description
 
-Deprecated. Please use either [seuratToGiottoV4] or
-[seuratToGiottoV5]
+Deprecated. Please use either [seuratToGiottoV4](seuratToGiottoV4.md) or
+[seuratToGiottoV5](seuratToGiottoV5.md)
 
 ## Usage
 

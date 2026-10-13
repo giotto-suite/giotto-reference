@@ -1,4 +1,4 @@
-# `enrichment_PAGE` {#enrichment_PAGE}
+# `enrichment_PAGE`
 
 *Package:* `Giotto`  
 *Title:* PAGE feature enrichment

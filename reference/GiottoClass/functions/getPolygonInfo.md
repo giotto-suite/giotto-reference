@@ -1,4 +1,4 @@
-# `getPolygonInfo` {#getPolygonInfo}
+# `getPolygonInfo`
 
 *Package:* `GiottoClass`  
 *Title:* Get polygon info
@@ -38,22 +38,22 @@ spatVector
 ## See Also
 
 Other polygon info data accessor functions: 
-`[setPolygonInfo]()`
+[`setPolygonInfo()`](setPolygonInfo.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getDimReduction]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getGiottoImage]()`,
-`[getMultiomics]()`,
-`[getNearestNetwork]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialLocations]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getDimReduction()`](getDimReduction.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getGiottoImage()`](getGiottoImage.md),
+[`getMultiomics()`](getMultiomics.md),
+[`getNearestNetwork()`](getNearestNetwork.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialLocations()`](getSpatialLocations.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

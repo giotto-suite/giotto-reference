@@ -1,4 +1,4 @@
-# `giottoToSeuratV4` {#giottoToSeuratV4}
+# `giottoToSeuratV4`
 
 *Package:* `GiottoClass`  
 *Title:* Convert Giotto to Seurat V4
@@ -19,7 +19,7 @@ giottoToSeuratV4(gobject, spat_unit = NULL, ...)
 
 - `gobject`: Giotto object
 - `spat_unit`: spatial unit (e.g. 'cell')
-- `...`: additional params to pass to `[getSpatialLocations]`
+- `...`: additional params to pass to [`getSpatialLocations`](getSpatialLocations.md)
 
 ## Value
 

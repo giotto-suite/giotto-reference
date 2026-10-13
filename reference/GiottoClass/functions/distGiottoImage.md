@@ -1,4 +1,4 @@
-# `distGiottoImage` {#distGiottoImage}
+# `distGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* Plot distribution of image intensity values
@@ -32,7 +32,7 @@ type (only supports largeImage and is set as default)
 - `giottoLargeImage`: giotto large image object
 - `method`: plot type to show image intensity distribution
 - `show_max`: logical. Plot the set max intensity as a vertical red line
-- `...`: additional params to pass to `[terra::hist()](terra:hist)` or `[terra::density()](terra:density)`
+- `...`: additional params to pass to `terra::hist()` or `terra::density()`
 
 ## Value
 

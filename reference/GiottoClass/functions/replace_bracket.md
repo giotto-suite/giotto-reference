@@ -1,4 +1,4 @@
-# `replace_bracket` {#replace_bracket}
+# `replace_bracket`
 
 *Package:* `GiottoClass`  
 *Title:* Replace part of an object with [<-
@@ -55,7 +55,7 @@ same as `x`
 
 ## See Also
 
-[subset_bracket] [subset_dollar] [replace_dollar]
+[subset_bracket](%5B%2CgiottoBinPoints%2Clogical%2Cmissing%2Cmissing-method.md) [subset_dollar](subset_dollar.md) [replace_dollar](replace_dollar.md)
 
 ## Examples
 

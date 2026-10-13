@@ -1,4 +1,4 @@
-# `activeFeatType-generic` {#activeFeatType-generic}
+# `activeFeatType-generic`
 
 *Package:* `GiottoClass`  
 *Title:* Active feature type

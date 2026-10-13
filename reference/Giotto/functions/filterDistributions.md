@@ -1,4 +1,4 @@
-# `filterDistributions` {#filterDistributions}
+# `filterDistributions`
 
 *Package:* `Giotto`  
 *Title:* filterDistributions
@@ -54,14 +54,14 @@ Type of plot to create.
 - `scale_y`: character. Scaling operation to apply on y-axis (e.g. `"log"`)
 - `scale_axis`: character. ggplot2 transformation for axis
 (e.g. `"log2"`). This is passed to the `transform` param of
-`[ggplot2::scale_x_continuous()](ggplot2:scale_continuous)`
+`ggplot2::scale_x_continuous()`
 - `axis_offset`: numeric. offset to be used together with the scaling
 transformation
 - `show_plot`: logical. show plot
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

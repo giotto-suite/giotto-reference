@@ -1,4 +1,4 @@
-# `plot-generic` {#plot-generic}
+# `plot-generic`
 
 *Package:* `GiottoClass`  
 *Title:* Preview a Giotto spatial object
@@ -101,7 +101,7 @@ when plotting. If `ext` is also provided, these are applied afterwards.
 detected
 - `smooth`: logical. If `TRUE` the cell values are smoothed (only if a continuous legend is used)
 - `axes`: logical. Draw axes?
-- `plg`: list with parameters for drawing the legend. See the arguments for `[legend](graphics)`. 
+- `plg`: list with parameters for drawing the legend. See the arguments for `legend`. 
  
   A legend can be placed with placed by specifying arguments `x` and `y`. For a continuous legend `y` can have two values. `x` can also be a SpatExtent. Furthermore, `x` can have be a keyword such "topleft" and "bottomright" to place the legend at these locations inside the map rectangle. For a continuous legend, only the placement keywords "left", "right", "top", "bottom", "topright", "bottomright" are recognized; and when using these keywords, the legend is placed outside of the map rectangle. The placement of the legend can be altered with argument `nudge` that move the location in the directions specified with one value (x direction) or two values (x, y). For a continuous legend it can also have four values (xmin, xmax, ymin, ymax). When supplying coordinates, use `horiz=TRUE` to get a horizontal legend.
     
@@ -110,7 +110,7 @@ detected
   - `digits` integer. The number of digits to print after the decimal point
 - `size` to change the height and/or width; the defaults are `c(1,1)`
 - `at` to set the location of the tickmarks
-- `format` as in `[formatC]` to format the numbers. For example, you can use `format="g"` for scientific notation. The default is `"f"`
+- `format` as in `formatC` to format the numbers. For example, you can use `format="g"` for scientific notation. The default is `"f"`
 - `tick` One of these partially matched values: "through", "in", "middle", "out", or "none", to choose a tickmark placement/length that is different from the default "throughout".
 - `tick.length` to change the tickmark length (default = 1). Only relevant when `tick` is "throughout" or "out".
 - `tick.col`, `tick.box.col` and `tick.lwd` to change the appearance of the tickmarks
@@ -130,9 +130,9 @@ color scale. Overridden by `range` param
 - `alpha`: Either a single numeric between 0 and 1 to set the transparency for all colors (0 is transparent, 1 is opaque) or a SpatRaster with values between 0 and 1 to set the transparency by cell. To set the transparency for a given color, set it to the colors directly
 - `sort`: logical. If `TRUE` legends with categorical values are sorted. If `x` is a `SpatVector` you can also supply a vector of the unique values, in the order in which you want them to appear in the legend
 - `reverse`: logical. If `TRUE`, the legend order is reversed
-- `grid`: logical. If `TRUE` grid lines are drawn. Their properties such as type and color can be set with the `pax` argument. The grid is drawn first such that it is covered by `x`. See `[add_grid](terra)` to add grid lines on top of the map
+- `grid`: logical. If `TRUE` grid lines are drawn. Their properties such as type and color can be set with the `pax` argument. The grid is drawn first such that it is covered by `x`. See `add_grid` to add grid lines on top of the map
 - `zebra`: logical. If `TRUE` a "zebra-box" is added to the axes (ignored when `add=TRUE`). The width of the zebra-box can be set with additional argument `zebra.cex`. The colors can be changed with additional argument `zebra.col`
-- `reset`: logical. If `TRUE` the margins (see argument `mar`) are reset to what they were before calling plot; doing so may affect the display of additional objects that are added to the map (e.g. with  `[lines](terra)`)
+- `reset`: logical. If `TRUE` the margins (see argument `mar`) are reset to what they were before calling plot; doing so may affect the display of additional objects that are added to the map (e.g. with  `lines`)
 - `add`: logical. If `TRUE` add the object to the current plot
 - `buffer`: logical. If `TRUE` the plotting area is made slightly larger than the extent of `x`
 - `background`: background color. Default is no color (white)
@@ -147,7 +147,7 @@ Default is 1e4. This value is settable using options("giotto.plot_max_poly")
 (defaults to NULL, meaning all available features)
 - `raster`: default = TRUE, whether to plot points as rasterized plot with
 size based on `raster_size` param. See details. When `FALSE`, plots via
-`[terra::plot()](terra:plot)`
+`terra::plot()`
 - `raster_size`: Default is 600. Only used when `raster` is TRUE
 - `count`: `logical`. Show point density using `count` statistic per
 rasterized cell. (Default = TRUE) This param affects `col` param
@@ -166,7 +166,7 @@ plot
 
 *[giottoPoints raster plotting]*
 Fast plotting of points information by rasterizing the information using
-`[terra::rasterize()](terra:rasterize)`. For **terra** `SpatVectors`, this is faster than
+`terra::rasterize()`. For **terra** `SpatVectors`, this is faster than
 **scattermore** plotting. When plotting as a raster, `col` colors map on
 whole image level, as opposed to mapping to individual points, as it does
 when `raster = FALSE`
@@ -179,7 +179,7 @@ these constraints, set `force_size = FALSE`
 `col` color mapping is sufficient.
 
 
-Note that `col` param and other `[base::plot()](base:plot)` graphical params are available
+Note that `col` param and other `base::plot()` graphical params are available
 through `...`
 
 ## Examples

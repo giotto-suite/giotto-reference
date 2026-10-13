@@ -1,4 +1,4 @@
-# `normalizeGiotto` {#normalizeGiotto}
+# `normalizeGiotto`
 
 *Package:* `Giotto`  
 *Title:* normalizeGiotto

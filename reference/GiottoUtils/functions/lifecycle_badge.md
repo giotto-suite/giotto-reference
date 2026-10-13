@@ -1,4 +1,4 @@
-# `lifecycle_badge` {#lifecycle_badge}
+# `lifecycle_badge`
 
 *Package:* `GiottoUtils`  
 *Title:* lifecycle badge
@@ -34,7 +34,7 @@ markdown
 ## See Also
 
 Other lifecycle:
-`[reexports]`
+[`reexports`](reexports.md)
 
 ## Examples
 

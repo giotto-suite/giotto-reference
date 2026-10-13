@@ -1,4 +1,4 @@
-# `read_colmatch` {#read_colmatch}
+# `read_colmatch`
 
 *Package:* `GiottoUtils`  
 *Title:* Fread specific rows based on column matches
@@ -41,7 +41,7 @@ if the schema autodetection from `schema_detect_nrow` is insufficient.
 Select one or multiple of "integer", "double", "raw", "character",
 "logical", "Date", "POSIXct"
 - `verbose`: be verbose
-- `...`: additional parameters to pass to `[arrow::open_delim_dataset()](arrow:open_delim_dataset)`
+- `...`: additional parameters to pass to `arrow::open_delim_dataset()`
 
 ## Value
 

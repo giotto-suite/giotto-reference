@@ -1,4 +1,4 @@
-# `viewHMRFresults_V2` {#viewHMRFresults_V2}
+# `viewHMRFresults_V2`
 
 *Package:* `Giotto`  
 *Title:* viewHMRFresults_V2

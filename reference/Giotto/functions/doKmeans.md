@@ -1,4 +1,4 @@
-# `doKmeans` {#doKmeans}
+# `doKmeans`
 
 *Package:* `Giotto`  
 *Title:* doKmeans
@@ -71,7 +71,7 @@ matrix.
 
 ## See Also
 
-`[kmeans](stats)`
+`kmeans`
 
 ## Examples
 

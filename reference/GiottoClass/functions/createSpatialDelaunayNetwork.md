@@ -1,4 +1,4 @@
-# `createSpatialDelaunayNetwork` {#createSpatialDelaunayNetwork}
+# `createSpatialDelaunayNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Create a spatial Delaunay network
@@ -46,7 +46,7 @@ X (or the 1st), Y (or the 2nd) and Z(or the 3rd) dimension, see
 details. (default = all)
 - `maximum_distance`: distance cuttof for Delaunay neighbors to consider.
 If "auto", "upper whisker" value of the distance vector between neighbors
-is used; see the `[graphics::boxplot()](graphics:boxplot)` documentation for more
+is used; see the `graphics::boxplot()` documentation for more
 details.(default = "auto")
 - `minimum_k`: minimum number of neighbours if maximum_distance != NULL
 - `options`: (geometry) String containing extra control options for the
@@ -71,8 +71,8 @@ giotto object with updated spatial network slot
 ## Details
 
 Creates a spatial Delaunay network as explained
-in `[delaunayn](geometry)` (default), `[deldir](deldir)`,
-or `[triangulate](RTriangle)`.
+in `delaunayn` (default), `deldir`,
+or `triangulate`.
 
 ## Examples
 

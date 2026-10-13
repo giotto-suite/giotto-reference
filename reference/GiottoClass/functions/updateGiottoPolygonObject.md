@@ -1,4 +1,4 @@
-# `updateGiottoPolygonObject` {#updateGiottoPolygonObject}
+# `updateGiottoPolygonObject`
 
 *Package:* `GiottoClass`  
 *Title:* Update giotto polygon object

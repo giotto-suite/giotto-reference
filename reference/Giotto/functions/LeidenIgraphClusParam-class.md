@@ -1,4 +1,4 @@
-# `LeidenIgraphClusParam-class` {#LeidenIgraphClusParam-class}
+# `LeidenIgraphClusParam-class`
 
 *Package:* `Giotto`  
 *Title:* Leiden Clustering
@@ -13,7 +13,7 @@ algorithm as implemented in igraph.
 
 This function is a wrapper for the Leiden algorithm implemented in igraph,
 which can detect communities in graphs of millions of nodes (cells),
-as long as they can fit in memory. See `[cluster_leiden](igraph)`
+as long as they can fit in memory. See `cluster_leiden`
 for more information.
 
 ## Examples

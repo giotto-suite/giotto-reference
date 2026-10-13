@@ -1,4 +1,4 @@
-# `getDimReduction` {#getDimReduction}
+# `getDimReduction`
 
 *Package:* `GiottoClass`  
 *Title:* Get dimension reduction
@@ -43,22 +43,22 @@ dim reduction object (default) or dim reduction coordinates
 ## See Also
 
 Other dimensional reduction data accessor functions: 
-`[setDimReduction]()`
+[`setDimReduction()`](setDimReduction.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getGiottoImage]()`,
-`[getMultiomics]()`,
-`[getNearestNetwork]()`,
-`[getPolygonInfo]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialLocations]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getGiottoImage()`](getGiottoImage.md),
+[`getMultiomics()`](getMultiomics.md),
+[`getNearestNetwork()`](getNearestNetwork.md),
+[`getPolygonInfo()`](getPolygonInfo.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialLocations()`](getSpatialLocations.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

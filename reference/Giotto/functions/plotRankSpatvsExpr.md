@@ -1,4 +1,4 @@
-# `plotRankSpatvsExpr` {#plotRankSpatvsExpr}
+# `plotRankSpatvsExpr`
 
 *Package:* `Giotto`  
 *Title:* plotRankSpatvsExpr
@@ -35,7 +35,7 @@ plotRankSpatvsExpr(
 ## Arguments
 
 - `gobject`: giotto object
-- `combCC`: combined communication scores from `[combCCcom]`
+- `combCC`: combined communication scores from [`combCCcom`](combCCcom.md)
 - `expr_rnk_column`: column with expression rank information to use
 - `spat_rnk_column`: column with spatial rank information to use
 - `dot_color_gradient`: character. continuous colors to use. palette to
@@ -53,7 +53,7 @@ percentage of top spatial ranks are recovered
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

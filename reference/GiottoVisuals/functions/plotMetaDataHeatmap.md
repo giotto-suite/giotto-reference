@@ -1,4 +1,4 @@
-# `plotMetaDataHeatmap` {#plotMetaDataHeatmap}
+# `plotMetaDataHeatmap`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotMetaDataHeatmap
@@ -83,7 +83,7 @@ or 'sequential' (scaled based on data range)
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -102,7 +102,7 @@ z-scores rescaled per feature (-1 to 1).
 
 ## See Also
 
-`[plotMetaDataCellsHeatmap]` for numeric cell annotation
+[`plotMetaDataCellsHeatmap`](plotMetaDataCellsHeatmap.md) for numeric cell annotation
 instead of feature expression.
 
 ## Examples

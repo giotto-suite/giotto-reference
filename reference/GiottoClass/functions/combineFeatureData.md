@@ -1,4 +1,4 @@
-# `combineFeatureData` {#combineFeatureData}
+# `combineFeatureData`
 
 *Package:* `GiottoClass`  
 *Title:* combineFeatureData

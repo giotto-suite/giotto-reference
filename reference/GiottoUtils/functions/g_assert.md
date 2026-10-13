@@ -1,4 +1,4 @@
-# `g_assert` {#g_assert}
+# `g_assert`
 
 *Package:* `GiottoUtils`  
 *Title:* Assertion framework

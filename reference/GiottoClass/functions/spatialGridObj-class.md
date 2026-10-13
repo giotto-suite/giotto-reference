@@ -1,4 +1,4 @@
-# `spatialGridObj-class` {#spatialGridObj-class}
+# `spatialGridObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 spatialGridObj Class

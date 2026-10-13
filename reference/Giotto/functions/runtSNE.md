@@ -1,4 +1,4 @@
-# `runtSNE` {#runtSNE}
+# `runtSNE`
 
 *Package:* `Giotto`  
 *Title:* Run tSNE dimensional reduction
@@ -63,7 +63,7 @@ giotto object with updated tSNE dimension reduction
 
 ## Details
 
-See `[Rtsne](Rtsne)` for more information about these and
+See `Rtsne` for more information about these and
 other parameters.   
 
 - Input for tSNE dimension reduction can be another dimension
@@ -71,7 +71,7 @@ other parameters.
 - To use gene expression as input set dim_reduction_to_use = NULL
 - If dim_reduction_to_use = NULL, feats_to_use can be used to select
   a column name of highly variable genes
-  (see `[calculateHVF]`) or simply provide a vector of genes
+  (see [`calculateHVF`](calculateHVF.md)) or simply provide a vector of genes
 - multiple tSNE results can be stored by changing the *name* of
   the analysis
 

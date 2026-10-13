@@ -1,4 +1,4 @@
-# `readExprMatrix` {#readExprMatrix}
+# `readExprMatrix`
 
 *Package:* `GiottoClass`  
 *Title:* Read expression matrix

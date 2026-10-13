@@ -1,4 +1,4 @@
-# `combineInteractionChangedFeats` {#combineInteractionChangedFeats}
+# `combineInteractionChangedFeats`
 
 *Package:* `Giotto`  
 *Title:* combineInteractionChangedFeats

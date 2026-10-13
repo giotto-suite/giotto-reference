@@ -1,4 +1,4 @@
-# `plotRecovery` {#plotRecovery}
+# `plotRecovery`
 
 *Package:* `Giotto`  
 *Title:* plotRecovery
@@ -28,7 +28,7 @@ plotRecovery(
 ## Arguments
 
 - `gobject`: giotto object
-- `combCC`: combined communication scores from `[combCCcom]`
+- `combCC`: combined communication scores from [`combCCcom`](combCCcom.md)
 - `expr_rnk_column`: column with expression rank information to use
 - `spat_rnk_column`: column with spatial rank information to use
 - `ground_truth`: what to consider as ground truth (default: spatial)
@@ -36,7 +36,7 @@ plotRecovery(
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

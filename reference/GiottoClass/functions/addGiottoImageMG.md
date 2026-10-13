@@ -1,4 +1,4 @@
-# `addGiottoImageMG` {#addGiottoImageMG}
+# `addGiottoImageMG`
 
 *Package:* `GiottoClass`  
 *Title:* addGiottoImageMG
@@ -24,7 +24,7 @@ addGiottoImageMG(
 
 - `gobject`: giotto object
 - `images`: list of giotto image objects,
-see `[createGiottoImage]`
+see [`createGiottoImage`](createGiottoImage.md)
 - `spat_unit`: spatial unit
 - `spat_loc_name`: provide spatial location slot in Giotto to align
 images. Defaults to first one

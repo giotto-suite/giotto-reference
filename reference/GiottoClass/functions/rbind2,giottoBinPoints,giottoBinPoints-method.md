@@ -1,4 +1,4 @@
-# `rbind2,giottoBinPoints,giottoBinPoints-method` {#rbind2,giottoBinPoints,giottoBinPoints-method}
+# `rbind2,giottoBinPoints,giottoBinPoints-method`
 
 *Package:* `GiottoClass`  
 *Title:* Combine objects by rows (Giotto-related)

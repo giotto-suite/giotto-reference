@@ -1,4 +1,4 @@
-# `makePseudoVisium` {#makePseudoVisium}
+# `makePseudoVisium`
 
 *Package:* `GiottoClass`  
 *Title:* makePseudoVisium

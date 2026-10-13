@@ -1,4 +1,4 @@
-# `mean_flex` {#mean_flex}
+# `mean_flex`
 
 *Package:* `GiottoClass`  
 *Title:* mean_flex

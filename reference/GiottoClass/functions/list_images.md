@@ -1,4 +1,4 @@
-# `list_images` {#list_images}
+# `list_images`
 
 *Package:* `GiottoClass`  
 *Title:* list_images

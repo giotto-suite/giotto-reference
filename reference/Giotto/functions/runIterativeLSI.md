@@ -1,4 +1,4 @@
-# `runIterativeLSI` {#runIterativeLSI}
+# `runIterativeLSI`
 
 *Package:* `Giotto`  
 *Title:* Run Iterative Latent Semantic Indexing (LSI)

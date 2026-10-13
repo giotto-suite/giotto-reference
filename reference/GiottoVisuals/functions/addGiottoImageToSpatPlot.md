@@ -1,4 +1,4 @@
-# `addGiottoImageToSpatPlot` {#addGiottoImageToSpatPlot}
+# `addGiottoImageToSpatPlot`
 
 *Package:* `GiottoVisuals`  
 *Title:* addGiottoImageToSpatPlot
@@ -21,7 +21,7 @@ addGiottoImageToSpatPlot(
 ## Arguments
 
 - `spatpl`: a spatial ggplot object
-- `gimage`: a giotto image, see `[createGiottoImage]`
+- `gimage`: a giotto image, see [`createGiottoImage`](../../Giotto/functions/reexports.md)
 - `layer`: numeric layer on which to add the giotto image. OR takes 'bg' or
 'overlay' as input to designate last (bottom/background) or first
 (top/overlay)

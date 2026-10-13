@@ -1,4 +1,4 @@
-# `suite_packages` {#suite_packages}
+# `suite_packages`
 
 *Package:* `GiottoUtils`  
 *Title:* Giotto Suite Packages

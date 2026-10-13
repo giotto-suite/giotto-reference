@@ -1,4 +1,4 @@
-# `runUMAPprojection` {#runUMAPprojection}
+# `runUMAPprojection`
 
 *Package:* `Giotto`  
 *Title:* Run UMAP dimension reduction
@@ -71,14 +71,14 @@ giotto object with updated UMAP dimension reduction
 
 ## Details
 
-See `[umap](uwot)` for more information about these and
+See `umap` for more information about these and
 other parameters.
 - Input for UMAP dimension reduction can be another dimension
   reduction (default = 'pca')
 - To use gene expression as input set dim_reduction_to_use = NULL
 - If dim_reduction_to_use = NULL, feats_to_use can be used to select a
   column name of
-  highly variable genes (see `[calculateHVF]`) or simply provide a
+  highly variable genes (see [`calculateHVF`](calculateHVF.md)) or simply provide a
   vector of genes
 - multiple UMAP results can be stored by changing the *name* of
   the analysis

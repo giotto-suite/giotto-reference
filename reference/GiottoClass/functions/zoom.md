@@ -1,4 +1,4 @@
-# `zoom` {#zoom}
+# `zoom`
 
 *Package:* `GiottoClass`  
 *Title:* Zoom a Giotto spatial object
@@ -6,7 +6,7 @@
 
 ## Description
 
-Works like `[terra::zoom()](terra:zoom)`. Zoom in on a plot by providing
+Works like `terra::zoom()`. Zoom in on a plot by providing
 a new extent, by default this is done by clicking twice on the existing
 plot. When passing a `SpatExtent` without drawing, no pre-existing plot
 is needed.

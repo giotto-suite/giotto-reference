@@ -1,4 +1,4 @@
-# `relate` {#relate}
+# `relate`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial relationships between geometries

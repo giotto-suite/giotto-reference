@@ -1,4 +1,4 @@
-# `getBalancedSpatCoexpressionFeats` {#getBalancedSpatCoexpressionFeats}
+# `getBalancedSpatCoexpressionFeats`
 
 *Package:* `Giotto`  
 *Title:* Get balanced spatial coexpression features

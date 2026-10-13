@@ -1,4 +1,4 @@
-# `importXenium` {#importXenium}
+# `importXenium`
 
 *Package:* `Giotto`  
 *Title:* Import a 10X Xenium Assay

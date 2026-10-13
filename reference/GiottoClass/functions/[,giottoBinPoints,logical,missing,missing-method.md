@@ -1,4 +1,4 @@
-# `[,giottoBinPoints,logical,missing,missing-method` {#[,giottoBinPoints,logical,missing,missing-method}
+# `[,giottoBinPoints,logical,missing,missing-method`
 
 *Package:* `GiottoClass`  
 *Title:* Subset part of an object with `[` or `[[`
@@ -117,7 +117,7 @@ internal representation is returned.
 
 ## See Also
 
-[replace_bracket] [subset_dollar] [replace_dollar]
+[replace_bracket](replace_bracket.md) [subset_dollar](subset_dollar.md) [replace_dollar](replace_dollar.md)
 
 ## Examples
 

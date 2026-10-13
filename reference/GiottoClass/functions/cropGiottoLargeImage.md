@@ -1,4 +1,4 @@
-# `cropGiottoLargeImage` {#cropGiottoLargeImage}
+# `cropGiottoLargeImage`
 
 *Package:* `GiottoClass`  
 *Title:* Crop a giotto largeImage object

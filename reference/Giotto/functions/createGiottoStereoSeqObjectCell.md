@@ -1,4 +1,4 @@
-# `createGiottoStereoSeqObjectCell` {#createGiottoStereoSeqObjectCell}
+# `createGiottoStereoSeqObjectCell`
 
 *Package:* `Giotto`  
 *Title:* Create Stereo-seq Giotto Object from Cell Bin Data

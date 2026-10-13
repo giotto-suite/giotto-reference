@@ -1,4 +1,4 @@
-# `loadOntraCResults` {#loadOntraCResults}
+# `loadOntraCResults`
 
 *Package:* `Giotto`  
 *Title:* loadOntraCResults

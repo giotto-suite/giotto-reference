@@ -1,4 +1,4 @@
-# `getDendrogramSplits` {#getDendrogramSplits}
+# `getDendrogramSplits`
 
 *Package:* `Giotto`  
 *Title:* getDendrogramSplits

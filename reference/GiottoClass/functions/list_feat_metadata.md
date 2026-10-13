@@ -1,4 +1,4 @@
-# `list_feat_metadata` {#list_feat_metadata}
+# `list_feat_metadata`
 
 *Package:* `GiottoClass`  
 *Title:* list_feat_metadata

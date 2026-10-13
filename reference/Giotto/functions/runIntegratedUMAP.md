@@ -1,4 +1,4 @@
-# `runIntegratedUMAP` {#runIntegratedUMAP}
+# `runIntegratedUMAP`
 
 *Package:* `Giotto`  
 *Title:* Run integrated UMAP

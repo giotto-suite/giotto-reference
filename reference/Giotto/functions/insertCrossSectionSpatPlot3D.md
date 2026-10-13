@@ -1,4 +1,4 @@
-# `insertCrossSectionSpatPlot3D` {#insertCrossSectionSpatPlot3D}
+# `insertCrossSectionSpatPlot3D`
 
 *Package:* `Giotto`  
 *Title:* insertCrossSectionSpatPlot3D

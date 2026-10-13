@@ -1,4 +1,4 @@
-# `clusterData` {#clusterData}
+# `clusterData`
 
 *Package:* `Giotto`  
 *Title:* Data clustering
@@ -7,7 +7,7 @@
 ## Description
 
 **Giotto** provides several options for clustering using the
-`[GiottoClass::clusterData()](GiottoClass:clusterData)` generic. Clustering for matrix-like
+[`GiottoClass::clusterData()`](../../GiottoClass/functions/clusterData.md) generic. Clustering for matrix-like
 data hooks into the **bluster** framework. Network community clustering
 type methods instead use Giotto-specific implementations that work on top
 of Giotto's calculated nearest neighbor networks.
@@ -137,7 +137,7 @@ clusterData,giotto,NNClusParam-method(
 ## Arguments
 
 - `x`: data object to cluster
-- `param`: S4 param class inheriting from [bluster::BlusterParam](bluster:BlusterParam-class) or
+- `param`: S4 param class inheriting from bluster::BlusterParam or
 NNClusParam
 - `cell_subset`: numeric, logical, factor, or character vector of cells to
 use. (matrix-like clustering only)
@@ -155,7 +155,7 @@ of clustering results, named by cell_ID.
 - `"data.table"` returns a two column
 (or one if no cell_IDs are present) with columns `"cell_ID"` and `"cluster"`.
 - `"full"` returns the full output. It is equivalent to setting `full = TRUE`
-for `[bluster::clusterRows()](bluster:clusterRows)`.
+for `bluster::clusterRows()`.
 - `"gobject"` can only be selected when `x` is a `giotto` object. The
 clustering results are appended to the cell metadata column designated by
 `name` param and the `giotto` object is returned.
@@ -175,7 +175,7 @@ on active spatial unit.
 - `feat_type`: character. Feature type to use. NULL will autodetect based
 on active feature type.
 - `.n`: integer. Used in recording object history
-(see `[GiottoClass::update_giotto_params()](GiottoClass:update_giotto_params)`). Number of stack frames back to record call
+(see [`GiottoClass::update_giotto_params()`](../../GiottoClass/functions/update_giotto_params.md)). Number of stack frames back to record call
 of interest. Set to a large negative number (e.g. -1000) to avoid recording
 altogether (useful when there is another record call elsewhere in the stack
 you want to use.)
@@ -185,7 +185,7 @@ Currently one of `"sNN"` or `"kNN"`.
 
 ## See Also
 
-`[clusterParam()](=clusterParam)` for a convenient factory function to generate
+[`clusterParam()`](clusterParam.md) for a convenient factory function to generate
 clustering param classes.
 
 ## Examples

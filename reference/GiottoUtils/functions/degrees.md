@@ -1,4 +1,4 @@
-# `degrees` {#degrees}
+# `degrees`
 
 *Package:* `GiottoUtils`  
 *Title:* Radian/degree conversions

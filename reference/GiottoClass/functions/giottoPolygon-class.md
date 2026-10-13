@@ -1,4 +1,4 @@
-# `giottoPolygon-class` {#giottoPolygon-class}
+# `giottoPolygon-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 giotto polygon Class

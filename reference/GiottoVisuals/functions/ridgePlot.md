@@ -1,4 +1,4 @@
-# `ridgePlot` {#ridgePlot}
+# `ridgePlot`
 
 *Package:* `GiottoVisuals`  
 *Title:* Create a ridgeline plot
@@ -46,21 +46,21 @@ ridgePlot(
 ## Arguments
 
 - `gobject`: giotto object
-- `feats`: features to plot. Passed to `[GiottoClass::spatValues()](GiottoClass:spatValues)`
-- `...`: additional params to pass to `[GiottoClass::spatValues()](GiottoClass:spatValues)`
+- `feats`: features to plot. Passed to [`GiottoClass::spatValues()`](../../GiottoClass/functions/spatValues.md)
+- `...`: additional params to pass to [`GiottoClass::spatValues()`](../../GiottoClass/functions/spatValues.md)
 - `group_by`: character. Create multiple plots based on cell
 annotation column
 - `group_by_subset`: character. subset the group_by factor column
 - `spat_unit`: spatial unit (e.g. "cell")
 - `feat_type`: feature type (e.g. "rna", "dna", "protein")
 - `stat`: character. A `stat` accepted by
-`[ggridges::geom_density_ridges()](ggridges:geom_density_ridges)`
+`ggridges::geom_density_ridges()`
 - `ridge_alpha`: numeric. Alpha to use for ridgeline plot. Value from 0
 to 1.
 - `ridge_scale`: numeric. Controls height of ridges.
 - `scale_axis`: character (default = `"log2"`.
 An x axis scaling to use. This value is passed to
-`[ggplot2::scale_x_continuous()](ggplot2:scale_continuous)`. Set `"identity"` to remove scaling.
+`ggplot2::scale_x_continuous()`. Set `"identity"` to remove scaling.
 - `axis_offset`: numeric. Value to add to values. When this value is not
 provided and `axis_scale` is one of `"log"`, `"log2"`, or `"log10"`, a
 `axis_offset` of 1 is used by default.
@@ -78,7 +78,7 @@ removed with a warning. If `TRUE`, missing values are silently removed.
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `verbose`: be verbose

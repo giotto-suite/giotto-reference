@@ -1,4 +1,4 @@
-# `signPCA` {#signPCA}
+# `signPCA`
 
 *Package:* `Giotto`  
 *Title:* signPCA
@@ -61,7 +61,7 @@ signPCA(
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -79,7 +79,7 @@ or significant prinicipal components (PC's).
  significant
  contribution  (a.k.a. 'elbow method').   
 
- 2. The Jackstraw method uses the `[permutationPA](jackstraw)`
+ 2. The Jackstraw method uses the `permutationPA`
  function. By systematically permuting genes it identifies robust, and thus
  significant, PCs.
 

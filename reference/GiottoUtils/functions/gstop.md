@@ -1,4 +1,4 @@
-# `gstop` {#gstop}
+# `gstop`
 
 *Package:* `GiottoUtils`  
 *Title:* Module-specific error message

@@ -1,4 +1,4 @@
-# `showColorInstructions` {#showColorInstructions}
+# `showColorInstructions`
 
 *Package:* `GiottoVisuals`  
 *Title:* Show Giotto color instructions

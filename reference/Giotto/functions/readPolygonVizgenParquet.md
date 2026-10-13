@@ -1,4 +1,4 @@
-# `readPolygonVizgenParquet` {#readPolygonVizgenParquet}
+# `readPolygonVizgenParquet`
 
 *Package:* `Giotto`  
 *Title:* Read MERSCOPE polygons from parquet

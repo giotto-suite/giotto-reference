@@ -1,4 +1,4 @@
-# `expanse` {#expanse}
+# `expanse`
 
 *Package:* `GiottoClass`  
 *Title:* Get the area of individual polygons
@@ -23,7 +23,7 @@ area,giottoPolygon-method(x, ...)
 `"data.table"` returns a `data.table` with columns `cell_ID` and `area`.
 `"named"` returns a named numeric vector with `cell_ID` as names.
 `"vector"` returns a plain unnamed numeric vector (terra-compatible).
-- `...`: Arguments passed on to `[terra::expanse](terra:expanse)`
+- `...`: Arguments passed on to `terra::expanse`
   - **``**:
 
 ## Value

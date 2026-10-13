@@ -1,4 +1,4 @@
-# `showGiottoNearestNetworks` {#showGiottoNearestNetworks}
+# `showGiottoNearestNetworks`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoNearestNetworks
@@ -26,17 +26,17 @@ network info
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoDimRed]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatInfo]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoImageNames]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatGrids]()`,
-`[showGiottoSpatLocs]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoDimRed()`](showGiottoDimRed.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatInfo()`](showGiottoFeatInfo.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoImageNames()`](showGiottoImageNames.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatGrids()`](showGiottoSpatGrids.md),
+[`showGiottoSpatLocs()`](showGiottoSpatLocs.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

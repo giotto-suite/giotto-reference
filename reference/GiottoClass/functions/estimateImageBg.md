@@ -1,4 +1,4 @@
-# `estimateImageBg` {#estimateImageBg}
+# `estimateImageBg`
 
 *Package:* `GiottoClass`  
 *Title:* estimateImageBg

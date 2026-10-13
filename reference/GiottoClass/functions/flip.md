@@ -1,4 +1,4 @@
-# `flip` {#flip}
+# `flip`
 
 *Package:* `GiottoClass`  
 *Title:* Flip an object

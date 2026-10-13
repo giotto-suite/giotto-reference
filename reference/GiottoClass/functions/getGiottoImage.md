@@ -1,4 +1,4 @@
-# `getGiottoImage` {#getGiottoImage}
+# `getGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* Get giotto image object
@@ -18,7 +18,7 @@ getGiottoImage(gobject, image_type = NULL, name = NULL)
 - `gobject`: giotto object
 - `image_type`: deprecated
 - `name`: character vector. Names giotto image object(s)
-`[showGiottoImageNames]` to get
+[`showGiottoImageNames`](showGiottoImageNames.md) to get
 
 ## Value
 
@@ -27,22 +27,22 @@ a giotto image object
 ## See Also
 
 Other image data accessor functions: 
-`[setGiottoImage]()`
+[`setGiottoImage()`](setGiottoImage.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getDimReduction]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getMultiomics]()`,
-`[getNearestNetwork]()`,
-`[getPolygonInfo]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialLocations]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getDimReduction()`](getDimReduction.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getMultiomics()`](getMultiomics.md),
+[`getNearestNetwork()`](getNearestNetwork.md),
+[`getPolygonInfo()`](getPolygonInfo.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialLocations()`](getSpatialLocations.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

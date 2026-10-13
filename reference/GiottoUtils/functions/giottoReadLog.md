@@ -1,4 +1,4 @@
-# `giottoReadLog` {#giottoReadLog}
+# `giottoReadLog`
 
 *Package:* `GiottoUtils`  
 *Title:* Read from the last generated log file

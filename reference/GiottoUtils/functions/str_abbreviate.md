@@ -1,4 +1,4 @@
-# `str_abbreviate` {#str_abbreviate}
+# `str_abbreviate`
 
 *Package:* `GiottoUtils`  
 *Title:* Abbreviate a string

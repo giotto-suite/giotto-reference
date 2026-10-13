@@ -1,4 +1,4 @@
-# `subset_dollar` {#subset_dollar}
+# `subset_dollar`
 
 *Package:* `GiottoClass`  
 *Title:* Subset part of an object with `$`
@@ -40,7 +40,7 @@ vector of values from a requested column
 
 ## See Also
 
-[subset_bracket] [replace_bracket] [replace_dollar]
+[subset_bracket](%5B%2CgiottoBinPoints%2Clogical%2Cmissing%2Cmissing-method.md) [replace_bracket](replace_bracket.md) [replace_dollar](replace_dollar.md)
 
 ## Examples
 

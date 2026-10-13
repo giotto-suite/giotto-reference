@@ -1,4 +1,4 @@
-# `calculateHVF` {#calculateHVF}
+# `calculateHVF`
 
 *Package:* `Giotto`  
 *Title:* calculateHVF
@@ -68,7 +68,7 @@ Passing `NULL` runs HVF on all cells.
 - `return_plot`: return ggplot object (overridden by `return_gobject`)
 - `save_plot`: logical. directly save the plot
 - `save_param`: list of saving parameters from
-`[GiottoVisuals::all_plots_save_function()](GiottoVisuals:plot_save)`
+[`GiottoVisuals::all_plots_save_function()`](../../GiottoVisuals/functions/plot_save.md)
 - `default_save_name`: default save name for saving, don't change, change
 save_name in save_param
 - `return_gobject`: boolean: return giotto object (default = TRUE)

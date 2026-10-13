@@ -1,4 +1,4 @@
-# `my_growMeans` {#my_growMeans}
+# `my_growMeans`
 
 *Package:* `GiottoClass`  
 *Title:* my_growMeans

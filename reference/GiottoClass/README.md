@@ -46,7 +46,7 @@ Giotto package.
 - [`annotateSpatialNetwork`](functions/annotateSpatialNetwork.md) — annotateSpatialNetwork
 - [`as.character`](functions/as.character.md) — Create a text representation of an object
 - [`as.data.table.giottoBinPoints`](functions/as.data.table.giottoBinPoints.md) — Coerce to data.table
-- [`as.list,giotto-method`](functions/as.list,giotto-method.md) — Coerce to a list
+- [`as.list,giotto-method`](functions/as.list%2Cgiotto-method.md) — Coerce to a list
 - [`as.matrix`](functions/as.matrix.md) — Coerce to matrix
 - [`as.points`](functions/as.points.md) — Coerce to SpatVector points
 - [`as.polygons`](functions/as.polygons.md) — Coerce to SpatVector polygons
@@ -118,7 +118,7 @@ Giotto package.
 - [`createSpatialWeightMatrix`](functions/createSpatialWeightMatrix.md) — Create a spatial weight matrix
 - [`createSpatLocsObj`](functions/createSpatLocsObj.md) — Create S4 spatLocsObj
 - [`createSpatNetObj`](functions/createSpatNetObj.md) — Create S4 spatialNetworkObj
-- [`crop,giottoBinPoints,ANY-method`](functions/crop,giottoBinPoints,ANY-method.md) — Crop to a spatial subset
+- [`crop,giottoBinPoints,ANY-method`](functions/crop%2CgiottoBinPoints%2CANY-method.md) — Crop to a spatial subset
 - [`cropGiottoLargeImage`](functions/cropGiottoLargeImage.md) — Crop a giotto largeImage object
 - [`density`](functions/density.md) — Density plot
 - [`dimnames`](functions/dimnames.md) — Dimnames of an object
@@ -222,7 +222,7 @@ Giotto package.
 - [`processData`](functions/processData.md) — Data Processing
 - [`processParam-class`](functions/processParam-class.md) — Parameter Classes for Data Processing Operations
 - [`r_spatial_conversions`](functions/r_spatial_conversions.md) — R spatial conversions
-- [`rbind2,giottoBinPoints,giottoBinPoints-method`](functions/rbind2,giottoBinPoints,giottoBinPoints-method.md) — Combine objects by rows (Giotto-related)
+- [`rbind2,giottoBinPoints,giottoBinPoints-method`](functions/rbind2%2CgiottoBinPoints%2CgiottoBinPoints-method.md) — Combine objects by rows (Giotto-related)
 - [`readCellMetadata`](functions/readCellMetadata.md) — Read cell metadata
 - [`readDimReducData`](functions/readDimReducData.md) — Read dimensional reduction data
 - [`readExprData`](functions/readExprData.md) — Read expression data
@@ -261,7 +261,7 @@ Giotto package.
 - [`setExpression`](functions/setExpression.md) — Set expression data
 - [`setFeatureInfo`](functions/setFeatureInfo.md) — Set feature info
 - [`setFeatureMetadata`](functions/setFeatureMetadata.md) — Set feature metadata
-- [`setGiotto,giotto,giottoBinPoints-method`](functions/setGiotto,giotto,giottoBinPoints-method.md) — Set giotto subobjects into giotto object
+- [`setGiotto,giotto,giottoBinPoints-method`](functions/setGiotto%2Cgiotto%2CgiottoBinPoints-method.md) — Set giotto subobjects into giotto object
 - [`setGiottoImage`](functions/setGiottoImage.md) — Set giotto image object
 - [`setMultiomics`](functions/setMultiomics.md) — Set multiomics integration results
 - [`setNearestNetwork`](functions/setNearestNetwork.md) — Set nearest neighbor network
@@ -300,7 +300,7 @@ Giotto package.
 - [`spatialExperimentToGiotto`](functions/spatialExperimentToGiotto.md) — Utility function to convert a SpatialExperiment object to a Giotto object
 - [`spatialGridObj-class`](functions/spatialGridObj-class.md) — S4 spatialGridObj Class
 - [`spatialNetworkObj-class`](functions/spatialNetworkObj-class.md) — S4 spatialNetworkObj Class
-- [`featIDs,giottoBinPoints-method`](functions/featIDs,giottoBinPoints-method.md) — Spatial and feature IDs
+- [`featIDs,giottoBinPoints-method`](functions/featIDs%2CgiottoBinPoints-method.md) — Spatial and feature IDs
 - [`spatLocsObj-class`](functions/spatLocsObj-class.md) — S4 spatLocsObj Class
 - [`spatQuery`](functions/spatQuery.md) — Spatial Query
 - [`spatShift`](functions/spatShift.md) — Spatially shift an object
@@ -312,7 +312,7 @@ Giotto package.
 - [`stitchGiottoLargeImage`](functions/stitchGiottoLargeImage.md) — Stitch multiple giottoLargeImage objects into a single
 giottoLargeImage object
 - [`stitchTileCoordinates`](functions/stitchTileCoordinates.md) — stitchTileCoordinates
-- [`[,giottoBinPoints,logical,missing,missing-method`](functions/[,giottoBinPoints,logical,missing,missing-method.md) — Subset part of an object with `[` or `[[`
+- [`[,giottoBinPoints,logical,missing,missing-method`](functions/%5B%2CgiottoBinPoints%2Clogical%2Cmissing%2Cmissing-method.md) — Subset part of an object with `[` or `[[`
 - [`subset_dollar`](functions/subset_dollar.md) — Subset part of an object with `$`
 - [`subset_giotto_subobjects`](functions/subset_giotto_subobjects.md) — Subset `giotto` subobjects
 - [`subset_giotto`](functions/subset_giotto.md) — Subset a `giotto` object

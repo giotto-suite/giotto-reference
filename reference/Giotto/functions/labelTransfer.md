@@ -1,4 +1,4 @@
-# `labelTransfer` {#labelTransfer}
+# `labelTransfer`
 
 *Package:* `Giotto`  
 *Title:* Transfer labels/annotations between sets of data via similarity
@@ -70,7 +70,7 @@ below for more info and params.
 for x (1) and y (2). Setting defaults with `activeSpatUnit()` may be easier
 - `feat_type`: feature type. A character vector of 2 can also be passed
 for x (1) and y (2). Setting defaults with `activeFeatType()` may be easier
-- `...`: Arguments passed on to `[FNN::knn](FNN:knn)`
+- `...`: Arguments passed on to `FNN::knn`
   - **`algorithm`**: nearest neighbor search algorithm.
 - `source_cell_ids`: cell/spatial IDs with the source labels to transfer
 - `target_cell_ids`: cell/spatial IDs to transfer the labels to.
@@ -86,7 +86,7 @@ and `label_target_plot` `ggplot2` objects
 
 ## Details
 
-This function trains a KNN classifier with `[FNN::knn()](FNN:knn)`.
+This function trains a KNN classifier with `FNN::knn()`.
 The training data is from object `y` or `source_cell_ids` subset in `x` and
 uses existing annotations within the cell metadata.
 Cells without annotation/labels from `x` or `target_cell_ids` subset in `x`

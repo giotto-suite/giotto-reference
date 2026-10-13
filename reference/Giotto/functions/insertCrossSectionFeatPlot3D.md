@@ -1,4 +1,4 @@
-# `insertCrossSectionFeatPlot3D` {#insertCrossSectionFeatPlot3D}
+# `insertCrossSectionFeatPlot3D`
 
 *Package:* `Giotto`  
 *Title:* insertCrossSectionFeatPlot3D
@@ -60,7 +60,7 @@ default = NULL.
 - `return_plot`: return ggplot object
 - `save_plot`: logical. directly save the plot
 - `save_param`: list of saving parameters from
-[GiottoVisuals::all_plots_save_function](GiottoVisuals:plot_save)
+[GiottoVisuals::all_plots_save_function](../../GiottoVisuals/functions/plot_save.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `...`: parameters for spatGenePlot3D

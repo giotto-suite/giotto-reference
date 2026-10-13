@@ -1,4 +1,4 @@
-# `init_option` {#init_option}
+# `init_option`
 
 *Package:* `GiottoUtils`  
 *Title:* Initialize an option

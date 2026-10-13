@@ -1,4 +1,4 @@
-# `doStardistSegmentation` {#doStardistSegmentation}
+# `doStardistSegmentation`
 
 *Package:* `Giotto`  
 *Title:* perform Stardist segmentation

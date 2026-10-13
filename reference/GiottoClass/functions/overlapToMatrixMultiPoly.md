@@ -1,4 +1,4 @@
-# `overlapToMatrixMultiPoly` {#overlapToMatrixMultiPoly}
+# `overlapToMatrixMultiPoly`
 
 *Package:* `GiottoClass`  
 *Title:* overlapToMatrixMultiPoly
@@ -6,9 +6,9 @@
 ## Description
 
 create a count matrix based on overlap results
-from `[calculateOverlapRaster]`,
-`[calculateOverlapSerial]`,
-or `[calculateOverlapParallel]`
+from [`calculateOverlapRaster`](calculateOverlapRaster.md),
+[`calculateOverlapSerial`](calculateOverlapSerial.md),
+or [`calculateOverlapParallel`](calculateOverlapParallel.md)
 and aggregate information from multiple polygon
 layers (e.g. z-stacks) together
 

@@ -1,4 +1,4 @@
-# `create_average_DT` {#create_average_DT}
+# `create_average_DT`
 
 *Package:* `GiottoClass`  
 *Title:* create_average_DT

@@ -1,4 +1,4 @@
-# `getSpatialLocations` {#getSpatialLocations}
+# `getSpatialLocations`
 
 *Package:* `GiottoClass`  
 *Title:* Get spatial locations
@@ -46,22 +46,22 @@ data.table with coordinates or spatLocsObj depending on `output`
 ## See Also
 
 Other spatial location data accessor functions: 
-`[setSpatialLocations]()`
+[`setSpatialLocations()`](setSpatialLocations.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getDimReduction]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getGiottoImage]()`,
-`[getMultiomics]()`,
-`[getNearestNetwork]()`,
-`[getPolygonInfo]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getDimReduction()`](getDimReduction.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getGiottoImage()`](getGiottoImage.md),
+[`getMultiomics()`](getMultiomics.md),
+[`getNearestNetwork()`](getNearestNetwork.md),
+[`getPolygonInfo()`](getPolygonInfo.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

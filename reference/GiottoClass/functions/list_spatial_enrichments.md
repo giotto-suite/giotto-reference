@@ -1,4 +1,4 @@
-# `list_spatial_enrichments` {#list_spatial_enrichments}
+# `list_spatial_enrichments`
 
 *Package:* `GiottoClass`  
 *Title:* list_spatial_enrichments

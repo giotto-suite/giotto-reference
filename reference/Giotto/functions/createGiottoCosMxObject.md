@@ -1,4 +1,4 @@
-# `createGiottoCosMxObject` {#createGiottoCosMxObject}
+# `createGiottoCosMxObject`
 
 *Package:* `Giotto`  
 *Title:* Create Nanostring CosMx Giotto Object
@@ -6,7 +6,7 @@
 ## Description
 
 Given the path to a CosMx experiment directory, creates a Giotto
-object. For lower level control over loading, please see `[importCosMx()](=importCosMx)`
+object. For lower level control over loading, please see [`importCosMx()`](importCosMx.md)
 
 ## Usage
 
@@ -80,12 +80,12 @@ images to load as polygons.
 - `cores`: nthreads to use when loading in cell metadata and transcripts
 - `verbose`: be verbose when building Giotto object
 - `instructions`: list of instructions or output result
-from `[createGiottoInstructions](GiottoClass)`
+from [`createGiottoInstructions`](../../GiottoClass/functions/createGiottoInstructions.md)
 - `remove_unvalid_polygons`: deprecated. Now always done
 - `data_to_use`: deprecated. Not used
 - `remove_background_polygon`: deprecated. Now always done
 - `background_algo`: deprecated. Not used
-- `...`: Arguments passed on to `[importCosMx](=importCosMx)`
+- `...`: Arguments passed on to [`importCosMx`](importCosMx.md)
   - **`micron`**: logical. Whether to scale spatial information as micron
 instead of the default pixels
 - **`px2um`**: numeric. Scalefactor from pixels to micron. Defaults to 0.12028
@@ -147,7 +147,7 @@ relative to the vector information (transcript detections). The `version`
 param affects how the images are mapped by default. `image_negative_y` is
 a toggle that overrides the image mapping style when an appropriate `version`
 is difficult to determine.
-`[showGiottoImageNames]` can be used to see the available images.
+[`showGiottoImageNames`](reexports.md) can be used to see the available images.
 
 ## Examples
 

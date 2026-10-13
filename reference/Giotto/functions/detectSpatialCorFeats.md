@@ -1,4 +1,4 @@
-# `detectSpatialCorFeats` {#detectSpatialCorFeats}
+# `detectSpatialCorFeats`
 
 *Package:* `Giotto`  
 *Title:* Detect spatially correlated features
@@ -70,7 +70,7 @@ returns a spatial correlation object: `spatCorObject`
 For `method = network`, it expects a fully connected spatial network.
 You can make sure to create a
 fully connected network by setting minimal_k > 0 in the
-`[createSpatialNetwork]` function.
+[`createSpatialNetwork`](reexports.md) function.
 1. **grid-averaging:** average gene expression values within a predefined
 spatial grid
 1. **network-averaging:** smoothens the gene expression matrix by
@@ -86,7 +86,7 @@ The `spatCorObject` can be further explored with `showSpatialCorFeats()`
 
 ## See Also
 
-`[showSpatialCorFeats]`
+[`showSpatialCorFeats`](showSpatialCorFeats.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `doCellposeSegmentation` {#doCellposeSegmentation}
+# `doCellposeSegmentation`
 
 *Package:* `Giotto`  
 *Title:* perform cellpose segmentation

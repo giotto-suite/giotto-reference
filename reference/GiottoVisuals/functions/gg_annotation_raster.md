@@ -1,4 +1,4 @@
-# `gg_annotation_raster` {#gg_annotation_raster}
+# `gg_annotation_raster`
 
 *Package:* `GiottoVisuals`  
 *Title:* Append image to ggplot as annotation_raster

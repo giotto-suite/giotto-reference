@@ -1,4 +1,4 @@
-# `rectVertices` {#rectVertices}
+# `rectVertices`
 
 *Package:* `GiottoClass`  
 *Title:* Generate rectangular polygon vertices
@@ -26,12 +26,12 @@ a data.table of rectangle vertices
 
 ## See Also
 
-[generate_grid]
+[generate_grid](generate_grid.md)
 
 Other polygon stamping: 
-`[circleVertices]()`,
-`[hexVertices]()`,
-`[polyStamp]()`
+[`circleVertices()`](circleVertices.md),
+[`hexVertices()`](hexVertices.md),
+[`polyStamp()`](polyStamp.md)
 
 ## Examples
 

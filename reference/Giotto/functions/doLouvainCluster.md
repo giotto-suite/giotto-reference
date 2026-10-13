@@ -1,4 +1,4 @@
-# `doLouvainCluster` {#doLouvainCluster}
+# `doLouvainCluster`
 
 *Package:* `Giotto`  
 *Title:* doLouvainCluster
@@ -54,7 +54,7 @@ the community evaluation order to get different partitions at each call
 - `return_gobject`: boolean: return giotto object (default = TRUE)
 - `set_seed`: set seed (default = FALSE)
 - `seed_number`: number for seed
-- `...`: arguments passed to `[.doLouvainCluster_community]`
+- `...`: arguments passed to `.doLouvainCluster_community`
 
 ## Value
 
@@ -67,8 +67,8 @@ of the louvain clustering algorithm.
 
 ## See Also
 
-`[.doLouvainCluster_community]` and
-`[.doLouvainCluster_multinet]`
+`.doLouvainCluster_community` and
+`.doLouvainCluster_multinet`
 
 ## Examples
 

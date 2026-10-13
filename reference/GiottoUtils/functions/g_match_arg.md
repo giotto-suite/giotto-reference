@@ -1,4 +1,4 @@
-# `g_match_arg` {#g_match_arg}
+# `g_match_arg`
 
 *Package:* `GiottoUtils`  
 *Title:* Partial matching of character choices

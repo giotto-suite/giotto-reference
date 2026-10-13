@@ -1,4 +1,4 @@
-# `dir_manifest` {#dir_manifest}
+# `dir_manifest`
 
 *Package:* `GiottoUtils`  
 *Title:* Generate file manifest list from a directory
@@ -33,8 +33,8 @@ dir_manifest(
 ## Arguments
 
 - `path`: a character vector of full path names; the default corresponds
-to the working directory, [getwd()]. Tilde expansion (see [path.expand])
-and `[normalizePath()](=normalizePath)` are performed. Missing values will be ignored.
+to the working directory, [getwd()]. Tilde expansion (see path.expand)
+and `normalizePath()` are performed. Missing values will be ignored.
 Elements with a marked encoding  will be converted to the native encoding
 (and if that fails, considered non-existent).
 - `pattern`: an optional regular expression. Only file names which match

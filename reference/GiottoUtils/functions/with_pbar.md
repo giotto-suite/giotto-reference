@@ -1,4 +1,4 @@
-# `with_pbar` {#with_pbar}
+# `with_pbar`
 
 *Package:* `GiottoUtils`  
 *Title:* Track progress while evaluating an R expression
@@ -6,7 +6,7 @@
 ## Description
 
 Track progress while evaluating an R expression. This is a wrapper around
-`[progressr::with_progress()](progressr:with_progress)`. **progressr** is useful because it handles
+`progressr::with_progress()`. **progressr** is useful because it handles
 progress reporting in parallel contexts. However, it is worth noting that
 Giotto does not adhere to **progressr**'s guideline that `with_progress()`
 should not be used within packages.
@@ -41,7 +41,7 @@ at the end regardless of whether the progression is complete or not.
 the terminal will be delayed.
 - `delay_stdout`: If TRUE, standard output is captured and relayed
 at the end just before any captured conditions are relayed.
-- `delay_conditions`: A character vector specifying [base::condition](base:conditions)
+- `delay_conditions`: A character vector specifying base::condition
 classes to be captured and relayed at the end after any captured
 standard output is relayed.
 - `interrupts`: Controls whether interrupts should be detected or not.
@@ -63,7 +63,7 @@ the result of the evaluated code
 
 ## See Also
 
-`[pbar()](=pbar)`
+[`pbar()`](pbar.md)
 
 ## Examples
 

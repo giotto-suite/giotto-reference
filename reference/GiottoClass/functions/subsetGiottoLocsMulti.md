@@ -1,4 +1,4 @@
-# `subsetGiottoLocsMulti` {#subsetGiottoLocsMulti}
+# `subsetGiottoLocsMulti`
 
 *Package:* `GiottoClass`  
 *Title:* deprecated

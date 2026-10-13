@@ -1,4 +1,4 @@
-# `standardise_flex` {#standardise_flex}
+# `standardise_flex`
 
 *Package:* `GiottoClass`  
 *Title:* standardise_flex

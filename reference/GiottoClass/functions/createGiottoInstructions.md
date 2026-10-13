@@ -1,4 +1,4 @@
-# `createGiottoInstructions` {#createGiottoInstructions}
+# `createGiottoInstructions`
 
 *Package:* `GiottoClass`  
 *Title:* Giotto instructions

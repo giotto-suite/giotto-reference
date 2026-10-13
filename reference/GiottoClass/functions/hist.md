@@ -1,4 +1,4 @@
-# `hist` {#hist}
+# `hist`
 
 *Package:* `GiottoClass`  
 *Title:* Histogram
@@ -7,7 +7,7 @@
 ## Description
 
 Create a histogram of the pixel values of a giottoLargeImage. Wrapper around
-`[terra::hist()](terra:hist)`
+`terra::hist()`
 
 ## Usage
 
@@ -19,7 +19,7 @@ hist,giottoLargeImage-method(x, show_max = TRUE, ...)
 
 - `x`: giottoLargeImage
 - `show_max`: logical. Plot the set max intensity as a vertical red line
-- `...`: Arguments passed on to `[terra::hist](terra:hist)`
+- `...`: Arguments passed on to `terra::hist`
   - **``**:
 
 ## Value
@@ -28,7 +28,7 @@ histogram
 
 ## See Also
 
-`[density()](=density)`
+[`density()`](density.md)
 
 ## Examples
 

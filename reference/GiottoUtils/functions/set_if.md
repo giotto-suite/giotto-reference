@@ -1,4 +1,4 @@
-# `set_if` {#set_if}
+# `set_if`
 
 *Package:* `GiottoUtils`  
 *Title:* Set if

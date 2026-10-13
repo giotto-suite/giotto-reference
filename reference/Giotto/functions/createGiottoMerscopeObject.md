@@ -1,4 +1,4 @@
-# `createGiottoMerscopeObject` {#createGiottoMerscopeObject}
+# `createGiottoMerscopeObject`
 
 *Package:* `Giotto`  
 *Title:* Create Vizgen MERSCOPE Giotto Object
@@ -76,18 +76,18 @@ via `polygon_mask_list_params` (`flip_vertical = TRUE`).
 `"cell"`). Controls the polygon layer name when a single Z-plane is
 present and serves as the default `new_spat_unit` in
 `aggregate_stack_param` when that field is not already supplied.
-- `calculate_overlap`: whether to run `[calculateOverlapRaster]`
-- `overlap_to_matrix`: whether to run `[overlapToMatrix]`
-- `aggregate_stack`: whether to run `[aggregateStacks]`
-- `aggregate_stack_param`: params to pass to `[aggregateStacks]`
+- `calculate_overlap`: whether to run [`calculateOverlapRaster`](reexports.md)
+- `overlap_to_matrix`: whether to run [`overlapToMatrix`](reexports.md)
+- `aggregate_stack`: whether to run [`aggregateStacks`](reexports.md)
+- `aggregate_stack_param`: params to pass to [`aggregateStacks`](reexports.md)
 - `split_keyword`: character vector of keywords to separate feature
 detections (e.g. "Blank")
 - `instructions`: list of instructions or output result
-from `[createGiottoInstructions](GiottoClass)`
+from [`createGiottoInstructions`](../../GiottoClass/functions/createGiottoInstructions.md)
 - `cores`: how many cores or threads to use to read data if paths are
 provided
 - `verbose`: be verbose when building Giotto object
-- `data_list`: list of loaded data from `[load_merscope_folder]`
+- `data_list`: list of loaded data from `load_merscope_folder`
 
 ## Value
 

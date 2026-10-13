@@ -1,4 +1,4 @@
-# `getCellsFromPolygon` {#getCellsFromPolygon}
+# `getCellsFromPolygon`
 
 *Package:* `Giotto`  
 *Title:* Get cells located within the polygons area

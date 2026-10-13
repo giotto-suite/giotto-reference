@@ -1,4 +1,4 @@
-# `list_cell_metadata` {#list_cell_metadata}
+# `list_cell_metadata`
 
 *Package:* `GiottoClass`  
 *Title:* list_cell_metadata

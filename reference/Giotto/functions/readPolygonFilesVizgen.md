@@ -1,4 +1,4 @@
-# `readPolygonFilesVizgen` {#readPolygonFilesVizgen}
+# `readPolygonFilesVizgen`
 
 *Package:* `Giotto`  
 *Title:* readPolygonFilesVizgen
@@ -54,5 +54,5 @@ giotto object or cell polygons list
 
 ## See Also
 
-`[smoothGiottoPolygons]`
+[`smoothGiottoPolygons`](reexports.md)
 

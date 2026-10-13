@@ -1,4 +1,4 @@
-# `createSpatialFeaturesKNNnetwork` {#createSpatialFeaturesKNNnetwork}
+# `createSpatialFeaturesKNNnetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Create kNN spatial feature network
@@ -40,7 +40,7 @@ names (default = FALSE, increases object size)
 - `verbose`: be verbose
 - `return_gobject`: return giotto object (default: TRUE)
 - `toplevel_params`: toplevel value to pass when updating giotto params
-- `...`: additional parameters to pass to `[kNN](dbscan)`
+- `...`: additional parameters to pass to `kNN`
 
 ## Value
 

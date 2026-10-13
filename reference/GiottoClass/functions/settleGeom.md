@@ -1,4 +1,4 @@
-# `settleGeom` {#settleGeom}
+# `settleGeom`
 
 *Package:* `GiottoClass`  
 *Title:* Settle polygon bounds

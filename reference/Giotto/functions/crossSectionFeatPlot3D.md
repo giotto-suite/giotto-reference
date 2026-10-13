@@ -1,4 +1,4 @@
-# `crossSectionFeatPlot3D` {#crossSectionFeatPlot3D}
+# `crossSectionFeatPlot3D`
 
 *Package:* `Giotto`  
 *Title:* crossSectionFeatPlot3D

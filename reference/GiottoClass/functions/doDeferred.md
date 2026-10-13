@@ -1,4 +1,4 @@
-# `doDeferred` {#doDeferred}
+# `doDeferred`
 
 *Package:* `GiottoClass`  
 *Title:* Perform deferred/lazy operations

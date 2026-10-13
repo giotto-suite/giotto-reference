@@ -1,4 +1,4 @@
-# `runWNN` {#runWNN}
+# `runWNN`
 
 *Package:* `Giotto`  
 *Title:* Multi omics integration with WNN

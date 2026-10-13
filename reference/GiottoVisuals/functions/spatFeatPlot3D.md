@@ -1,4 +1,4 @@
-# `spatFeatPlot3D` {#spatFeatPlot3D}
+# `spatFeatPlot3D`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatFeatPlot3D
@@ -89,7 +89,7 @@ cell_color parameter
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `...`: additional params to pass

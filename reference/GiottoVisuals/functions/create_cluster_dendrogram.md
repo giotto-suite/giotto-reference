@@ -1,4 +1,4 @@
-# `create_cluster_dendrogram` {#create_cluster_dendrogram}
+# `create_cluster_dendrogram`
 
 *Package:* `GiottoVisuals`  
 *Title:* Create clustered expression dendrogram
@@ -41,12 +41,12 @@ default to "ward.D"
 - `h`: height of horizontal lines to plot
 - `h_color`: color of horizontal lines
 - `rotate`: rotate dendrogram 90 degrees
-- `...`: Arguments passed on to `[ggdendro::ggdendrogram](ggdendro:ggdendrogram)`
+- `...`: Arguments passed on to `ggdendro::ggdendrogram`
   - **`segments`**: If TRUE, show line segments
 - **`labels`**: if TRUE, shows segment labels
 - **`leaf_labels`**: if TRUE, shows leaf labels
 - **`theme_dendro`**: if TRUE, applies a blank theme to plot (see
-`[theme_dendro()](ggdendro:theme_dendro)`)
+`theme_dendro()`)
 
 ## Value
 

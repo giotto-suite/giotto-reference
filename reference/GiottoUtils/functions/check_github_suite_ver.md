@@ -1,4 +1,4 @@
-# `check_github_suite_ver` {#check_github_suite_ver}
+# `check_github_suite_ver`
 
 *Package:* `GiottoUtils`  
 *Title:* Check for updates to Giotto Suite

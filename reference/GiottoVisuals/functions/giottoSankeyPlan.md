@@ -1,4 +1,4 @@
-# `giottoSankeyPlan` {#giottoSankeyPlan}
+# `giottoSankeyPlan`
 
 *Package:* `GiottoVisuals`  
 *Title:* S4 giottoSankeyPlan class

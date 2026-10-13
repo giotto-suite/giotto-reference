@@ -1,4 +1,4 @@
-# `addCellMetadata` {#addCellMetadata}
+# `addCellMetadata`
 
 *Package:* `GiottoClass`  
 *Title:* Add cell metadata
@@ -31,7 +31,7 @@ use (data.table, data.frame, vector, factor, ...)
 - `vector_name`: (optional) custom name for new metadata column if single
 vector or factor is provided
 - `by_column`: merge metadata based on *cell_ID* column in
-`[pDataDT]` (default = FALSE)
+[`pDataDT`](pDataDT.md) (default = FALSE)
 - `column_cell_ID`: column name of new metadata to use if
 `by_column = TRUE`
 

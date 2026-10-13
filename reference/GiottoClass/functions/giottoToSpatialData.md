@@ -1,4 +1,4 @@
-# `giottoToSpatialData` {#giottoToSpatialData}
+# `giottoToSpatialData`
 
 *Package:* `GiottoClass`  
 *Title:* Convert Giotto to SpatialData

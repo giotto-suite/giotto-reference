@@ -1,4 +1,4 @@
-# `list_feature_info_names` {#list_feature_info_names}
+# `list_feature_info_names`
 
 *Package:* `GiottoClass`  
 *Title:* list_feature_info_names

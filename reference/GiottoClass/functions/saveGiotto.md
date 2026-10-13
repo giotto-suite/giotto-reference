@@ -1,4 +1,4 @@
-# `saveGiotto` {#saveGiotto}
+# `saveGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* saveGiotto
@@ -37,12 +37,12 @@ saveGiotto(
 `image_filetype` when saving a `giottoLargeImage`.
 Future image loads and reconnects will point to this new file.
 - `image_filetype`: the image filetype to use, see
-`[writeRaster](terra)`. Default is "PNG". For TIFF outputs, try
+`writeRaster`. Default is "PNG". For TIFF outputs, try
 "COG"
 - `include_feat_coord`: logical. Whether to keep the feature coordinates
 when saving. Dropping them can improve performance for large datasets.
 - `verbose`: be verbose
-- `...`: additional parameters for `[writeRaster](terra)`
+- `...`: additional parameters for `writeRaster`
 
 ## Value
 
@@ -50,9 +50,9 @@ Creates a directory with Giotto object information
 
 ## Details
 
-Works together with `[loadGiotto]` to save and re-load
+Works together with [`loadGiotto`](loadGiotto.md) to save and re-load
 Giotto objects. Additional method_params need to be provided as a list
-and will go to `[saveRDS](base)` or `[qsave](qs)`
+and will go to `saveRDS` or `qsave`
 
 ## Examples
 

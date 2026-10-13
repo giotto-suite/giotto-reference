@@ -1,4 +1,4 @@
-# `createSpatialKNNnetwork` {#createSpatialKNNnetwork}
+# `createSpatialKNNnetwork`
 
 *Package:* `GiottoClass`  
 *Title:* createSpatialKNNnetwork

@@ -1,4 +1,4 @@
-# `dims-generic` {#dims-generic}
+# `dims-generic`
 
 *Package:* `GiottoClass`  
 *Title:* Dimensions of giotto objects

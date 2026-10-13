@@ -1,4 +1,4 @@
-# `giottoNewLog` {#giottoNewLog}
+# `giottoNewLog`
 
 *Package:* `GiottoUtils`  
 *Title:* Create a new Giotto log

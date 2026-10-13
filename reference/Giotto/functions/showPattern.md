@@ -1,4 +1,4 @@
-# `showPattern` {#showPattern}
+# `showPattern`
 
 *Package:* `Giotto`  
 *Title:* showPattern
@@ -17,7 +17,7 @@ showPattern(gobject, spatPatObj, ...)
 
 - `gobject`: giotto object
 - `spatPatObj`: Output from detectSpatialPatterns
-- `...`: Arguments passed on to `[showPattern2D](=showPattern2D)`
+- `...`: Arguments passed on to [`showPattern2D`](showPattern2D.md)
   - **`dimension`**: dimension to plot
 - **`trim`**: Trim ends of the PC values.
 - **`background_color`**: background color for plot
@@ -28,7 +28,7 @@ showPattern(gobject, spatPatObj, ...)
 - **`return_plot`**: return ggplot object
 - **`save_plot`**: directly save the plot [boolean]
 - **`save_param`**: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - **`default_save_name`**: default save name for saving, don't change,
 change save_name in save_param
 
@@ -38,5 +38,5 @@ ggplot
 
 ## See Also
 
-`[showPattern2D]`
+[`showPattern2D`](showPattern2D.md)
 

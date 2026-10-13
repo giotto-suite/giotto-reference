@@ -1,4 +1,4 @@
-# `as.matrix` {#as.matrix}
+# `as.matrix`
 
 *Package:* `GiottoClass`  
 *Title:* Coerce to matrix
@@ -39,10 +39,10 @@ matrix
 ## See Also
 
 Other As coercion functions: 
-`[as.data.table.giottoBinPoints]()`,
-`[as.points]()`,
-`[as.polygons]()`,
-`[r_spatial_conversions]`
+[`as.data.table.giottoBinPoints()`](as.data.table.giottoBinPoints.md),
+[`as.points()`](as.points.md),
+[`as.polygons()`](as.polygons.md),
+[`r_spatial_conversions`](r_spatial_conversions.md)
 
 ## Examples
 

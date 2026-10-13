@@ -1,4 +1,4 @@
-# `depth` {#depth}
+# `depth`
 
 *Package:* `GiottoUtils`  
 *Title:* Find depth of subnesting

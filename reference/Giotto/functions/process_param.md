@@ -1,4 +1,4 @@
-# `process_param` {#process_param}
+# `process_param`
 
 *Package:* `Giotto`  
 *Title:* Data Processing Parameter Classes
@@ -39,8 +39,8 @@ Generated params are S4 objects inheriting from `processParam` and one of
 
 ## See Also
 
-`[processData()](=processData)` for the generic used to apply these params
+[`processData()`](../../GiottoClass/functions/processData.md) for the generic used to apply these params
 
-`[processExpression()](=processExpression)` for the way to use this framework with the
+[`processExpression()`](processExpression.md) for the way to use this framework with the
 `giotto` object
 

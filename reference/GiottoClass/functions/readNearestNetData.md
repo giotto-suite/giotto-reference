@@ -1,4 +1,4 @@
-# `readNearestNetData` {#readNearestNetData}
+# `readNearestNetData`
 
 *Package:* `GiottoClass`  
 *Title:* Read nearest neighbor network data

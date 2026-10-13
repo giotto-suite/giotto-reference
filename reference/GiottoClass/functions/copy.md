@@ -1,4 +1,4 @@
-# `copy` {#copy}
+# `copy`
 
 *Package:* `GiottoClass`  
 *Title:* Copy an entire object
@@ -31,7 +31,7 @@ giotto subobjects
 
 ## See Also
 
-`[copy](data.table)` `[deepcopy](terra)`
+`copy` `deepcopy`
 
 ## Examples
 

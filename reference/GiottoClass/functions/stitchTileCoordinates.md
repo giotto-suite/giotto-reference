@@ -1,4 +1,4 @@
-# `stitchTileCoordinates` {#stitchTileCoordinates}
+# `stitchTileCoordinates`
 
 *Package:* `GiottoClass`  
 *Title:* stitchTileCoordinates

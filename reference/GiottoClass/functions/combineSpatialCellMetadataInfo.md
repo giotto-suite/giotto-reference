@@ -1,4 +1,4 @@
-# `combineSpatialCellMetadataInfo` {#combineSpatialCellMetadataInfo}
+# `combineSpatialCellMetadataInfo`
 
 *Package:* `GiottoClass`  
 *Title:* combineSpatialCellMetadataInfo

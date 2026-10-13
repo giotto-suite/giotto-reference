@@ -1,4 +1,4 @@
-# `doSNNCluster` {#doSNNCluster}
+# `doSNNCluster`
 
 *Package:* `Giotto`  
 *Title:* doSNNCluster
@@ -50,7 +50,7 @@ giotto object with new clusters appended to cell metadata
 
 ## Details
 
-See `[sNNclust](dbscan)` from dbscan package
+See `sNNclust` from dbscan package
 
 ## Examples
 

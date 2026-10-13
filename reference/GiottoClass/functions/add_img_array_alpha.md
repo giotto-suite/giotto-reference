@@ -1,4 +1,4 @@
-# `add_img_array_alpha` {#add_img_array_alpha}
+# `add_img_array_alpha`
 
 *Package:* `GiottoClass`  
 *Title:* Add alpha channel to image array

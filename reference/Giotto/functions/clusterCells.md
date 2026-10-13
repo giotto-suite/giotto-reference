@@ -1,4 +1,4 @@
-# `clusterCells` {#clusterCells}
+# `clusterCells`
 
 *Package:* `Giotto`  
 *Title:* clusterCells
@@ -110,12 +110,12 @@ Wrapper for the different clustering methods.
 
 ## See Also
 
-`[doLeidenCluster]`,
-`[.doLouvainCluster_community]`,
-`[.doLouvainCluster_multinet]`,
-`[doLouvainCluster]`, `[doRandomWalkCluster]`,
-`[doSNNCluster]`,
-`[doKmeans]`, `[doHclust]`
+[`doLeidenCluster`](doLeidenCluster.md),
+`.doLouvainCluster_community`,
+`.doLouvainCluster_multinet`,
+[`doLouvainCluster`](doLouvainCluster.md), [`doRandomWalkCluster`](doRandomWalkCluster.md),
+[`doSNNCluster`](doSNNCluster.md),
+[`doKmeans`](doKmeans.md), [`doHclust`](doHclust.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `crop,giottoBinPoints,ANY-method` {#crop,giottoBinPoints,ANY-method}
+# `crop,giottoBinPoints,ANY-method`
 
 *Package:* `GiottoClass`  
 *Title:* Crop to a spatial subset
@@ -11,10 +11,10 @@ modified object if the `y` extent is smaller than the original in `x`.
 For object type specifics, see below.
 `giottoLargeImage` and `giottoAffineImage`
 
-When `write = FALSE` and a `filename` is not specified, `[terra::window()](terra:window)`
+When `write = FALSE` and a `filename` is not specified, `terra::window()`
 will instead be used to create a lazy subset of the image. An independent
 version of the cropped subset will only be created when either of the
-above are provided, at which point it is handled through `[terra::crop()](terra:crop)`.
+above are provided, at which point it is handled through `terra::crop()`.
 `...` params are only used when materializing the subset.
 
 

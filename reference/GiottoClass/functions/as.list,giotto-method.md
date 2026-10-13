@@ -1,4 +1,4 @@
-# `as.list,giotto-method` {#as.list,giotto-method}
+# `as.list,giotto-method`
 
 *Package:* `GiottoClass`  
 *Title:* Coerce to a list

@@ -1,4 +1,4 @@
-# `importVisiumHD` {#importVisiumHD}
+# `importVisiumHD`
 
 *Package:* `Giotto`  
 *Title:* Import a Visium HD assay

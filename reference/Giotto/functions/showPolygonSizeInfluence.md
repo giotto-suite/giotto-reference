@@ -1,4 +1,4 @@
-# `showPolygonSizeInfluence` {#showPolygonSizeInfluence}
+# `showPolygonSizeInfluence`
 
 *Package:* `Giotto`  
 *Title:* showPolygonSizeInfluence

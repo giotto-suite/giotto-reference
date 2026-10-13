@@ -1,4 +1,4 @@
-# `spatialSplitCluster` {#spatialSplitCluster}
+# `spatialSplitCluster`
 
 *Package:* `Giotto`  
 *Title:* Split cluster annotations based on a spatial network

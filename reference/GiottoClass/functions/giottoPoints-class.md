@@ -1,4 +1,4 @@
-# `giottoPoints-class` {#giottoPoints-class}
+# `giottoPoints-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 giotto points Class

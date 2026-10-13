@@ -1,4 +1,4 @@
-# `spark` {#spark}
+# `spark`
 
 *Package:* `Giotto`  
 *Title:* spark
@@ -38,7 +38,7 @@ spark(
 - `covariates`: The covariates in experiments, i.e. confounding
 factors/batch effect. Column name of giotto cell metadata.
 - `return_object`: type of result to return (data.table or spark object)
-- `...`: Additional parameters to the `[spark.vc](SPARK)`
+- `...`: Additional parameters to the `spark.vc`
 function
 
 ## Value
@@ -52,7 +52,7 @@ SPARK package:
 **SPARK** package:
 1. **CreateSPARKObject** create a SPARK object from a giotto object
 1. **spark.vc** Fits the count-based spatial model to estimate the
-parameters, see `[spark.vc](SPARK)` for additional parameters
+parameters, see `spark.vc` for additional parameters
 1. **spark.test** Testing multiple kernel matrices
 
 

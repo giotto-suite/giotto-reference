@@ -1,4 +1,4 @@
-# `getNearestNetwork` {#getNearestNetwork}
+# `getNearestNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Get nearest neighbor network
@@ -41,22 +41,22 @@ Giotto `nnNetObj`, `igraph` or `data.table` object
 ## See Also
 
 Other expression space nearest network accessor functions: 
-`[setNearestNetwork]()`
+[`setNearestNetwork()`](setNearestNetwork.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getDimReduction]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getGiottoImage]()`,
-`[getMultiomics]()`,
-`[getPolygonInfo]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialLocations]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getDimReduction()`](getDimReduction.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getGiottoImage()`](getGiottoImage.md),
+[`getMultiomics()`](getMultiomics.md),
+[`getPolygonInfo()`](getPolygonInfo.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialLocations()`](getSpatialLocations.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

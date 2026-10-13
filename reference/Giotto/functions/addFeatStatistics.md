@@ -1,4 +1,4 @@
-# `addFeatStatistics` {#addFeatStatistics}
+# `addFeatStatistics`
 
 *Package:* `Giotto`  
 *Title:* Add feature statistics

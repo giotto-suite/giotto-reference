@@ -1,4 +1,4 @@
-# `gg_param` {#gg_param}
+# `gg_param`
 
 *Package:* `GiottoVisuals`  
 *Title:* Generate ggplot params
@@ -34,7 +34,7 @@ overlap.
 ## See Also
 
 Other ggplot2 plotting wrangling functions: 
-`[combine_aes]()`
+[`combine_aes()`](combine_aes.md)
 
 ## Examples
 

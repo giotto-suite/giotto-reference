@@ -1,4 +1,4 @@
-# `subset_giotto` {#subset_giotto}
+# `subset_giotto`
 
 *Package:* `GiottoClass`  
 *Title:* Subset a `giotto` object
@@ -7,7 +7,7 @@
 ## Description
 
 Subset a giotto object with `[` or `subset()` generic. The
-implementation is different from `[subsetGiotto()](=subsetGiotto)` in that all spatial units
+implementation is different from [`subsetGiotto()`](subsetGiotto.md) in that all spatial units
 will always be affected. The feature type to subset can be specified.
 
 ## Usage

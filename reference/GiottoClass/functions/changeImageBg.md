@@ -1,4 +1,4 @@
-# `changeImageBg` {#changeImageBg}
+# `changeImageBg`
 
 *Package:* `GiottoClass`  
 *Title:* changeImageBg

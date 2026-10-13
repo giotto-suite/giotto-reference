@@ -1,4 +1,4 @@
-# `seuratToGiottoV4` {#seuratToGiottoV4}
+# `seuratToGiottoV4`
 
 *Package:* `GiottoClass`  
 *Title:* Convert a Seurat V4 object to a Giotto object

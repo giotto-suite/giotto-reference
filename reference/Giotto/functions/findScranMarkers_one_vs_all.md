@@ -1,4 +1,4 @@
-# `findScranMarkers_one_vs_all` {#findScranMarkers_one_vs_all}
+# `findScranMarkers_one_vs_all`
 
 *Package:* `Giotto`  
 *Title:* findScranMarkers_one_vs_all
@@ -48,7 +48,7 @@ data.table with marker feats
 
 ## See Also
 
-`[findScranMarkers]`
+[`findScranMarkers`](findScranMarkers.md)
 
 ## Examples
 

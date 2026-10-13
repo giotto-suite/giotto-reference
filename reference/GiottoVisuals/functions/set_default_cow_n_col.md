@@ -1,4 +1,4 @@
-# `set_default_cow_n_col` {#set_default_cow_n_col}
+# `set_default_cow_n_col`
 
 *Package:* `GiottoVisuals`  
 *Title:* Set default ncols in plotting grid

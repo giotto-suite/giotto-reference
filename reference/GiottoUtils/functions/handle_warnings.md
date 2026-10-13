@@ -1,4 +1,4 @@
-# `handle_warnings` {#handle_warnings}
+# `handle_warnings`
 
 *Package:* `GiottoUtils`  
 *Title:* Warning handling

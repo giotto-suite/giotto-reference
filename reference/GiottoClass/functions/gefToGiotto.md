@@ -1,4 +1,4 @@
-# `gefToGiotto` {#gefToGiotto}
+# `gefToGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Convert gef to Giotto

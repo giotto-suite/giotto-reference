@@ -1,4 +1,4 @@
-# `addCellStatistics` {#addCellStatistics}
+# `addCellStatistics`
 
 *Package:* `Giotto`  
 *Title:* addCellStatistics

@@ -1,4 +1,4 @@
-# `readSpatNetData` {#readSpatNetData}
+# `readSpatNetData`
 
 *Package:* `GiottoClass`  
 *Title:* Read spatial networks

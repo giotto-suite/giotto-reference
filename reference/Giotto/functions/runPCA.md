@@ -1,4 +1,4 @@
-# `runPCA` {#runPCA}
+# `runPCA`
 
 *Package:* `Giotto`  
 *Title:* runPCA
@@ -61,14 +61,14 @@ giotto object with updated PCA dimension recuction
 
 ## Details
 
-See `[runPCA](BiocSingular)` and
-`[PCA](FactoMineR)` for more information about other parameters.
+See `runPCA` and
+`PCA` for more information about other parameters.
 With the feats_to_use param, you can control which features are used to
 calculate your PCA, which can be useful for making sure that your downstream
 dimension reduction and clusterings are based on your features of interest.
 - feats_to_use = NULL: will use all features from the selected matrix
 - feats_to_use = <hvg name>: can be used to select a column name of
-  highly variable features, created by (see `[calculateHVF]`)
+  highly variable features, created by (see [`calculateHVF`](calculateHVF.md))
 - feats_to_use = c('geneA', 'geneB', ...): will use all manually
   provided features
 

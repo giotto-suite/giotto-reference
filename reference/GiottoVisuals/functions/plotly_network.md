@@ -1,4 +1,4 @@
-# `plotly_network` {#plotly_network}
+# `plotly_network`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotly_network

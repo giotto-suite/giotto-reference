@@ -1,4 +1,4 @@
-# `writeHMRFresults` {#writeHMRFresults}
+# `writeHMRFresults`
 
 *Package:* `Giotto`  
 *Title:* writeHMRFresults

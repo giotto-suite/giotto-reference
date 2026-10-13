@@ -1,4 +1,4 @@
-# `addGiottoImage` {#addGiottoImage}
+# `addGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* addGiottoImage
@@ -40,9 +40,9 @@ an updated Giotto object with access to the list of images
 ## See Also
 
 Other basic image functions: 
-`[plotGiottoImage]()`,
-`[reconnectGiottoImage]()`,
-`[updateGiottoImage]()`
+[`plotGiottoImage()`](plotGiottoImage.md),
+[`reconnectGiottoImage()`](reconnectGiottoImage.md),
+[`updateGiottoImage()`](updateGiottoImage.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `combine_aes` {#combine_aes}
+# `combine_aes`
 
 *Package:* `GiottoVisuals`  
 *Title:* Combine ggplot2 aesthetics
@@ -17,7 +17,7 @@ combine_aes(..., warn_duplicates = TRUE)
 ## Arguments
 
 - `...`: one or more objects of class `uneval`
-(output from `[ggplot2::aes()](ggplot2:aes)`)
+(output from `ggplot2::aes()`)
 - `warn_duplicates`: logical. Warn when aes names overlap
 
 ## Value
@@ -27,7 +27,7 @@ uneval object
 ## See Also
 
 Other ggplot2 plotting wrangling functions: 
-`[gg_param]()`
+[`gg_param()`](gg_param.md)
 
 ## Examples
 

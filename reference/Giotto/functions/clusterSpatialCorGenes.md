@@ -1,4 +1,4 @@
-# `clusterSpatialCorGenes` {#clusterSpatialCorGenes}
+# `clusterSpatialCorGenes`
 
 *Package:* `Giotto`  
 *Title:* clusterSpatialCorGenes

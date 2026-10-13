@@ -1,4 +1,4 @@
-# `runUMAP` {#runUMAP}
+# `runUMAP`
 
 *Package:* `Giotto`  
 *Title:* Run UMAP dimension reduction
@@ -61,7 +61,7 @@ runUMAP(
 - `verbose`: verbosity of function
 - `toplevel_params`: deprecated
 - `toplevel`: relative stackframe where call was made from
-- `...`: Arguments passed on to `[uwot::umap](uwot:umap)`
+- `...`: Arguments passed on to `uwot::umap`
   - **`metric`**: Type of distance metric to use to find nearest neighbors. For
  `nn_method = "annoy"` this can be one of:
 
@@ -320,7 +320,7 @@ reduction, it's safer to leave `fast_sgd = FALSE`. If `fast_sgd =
 TRUE`, then user-supplied values of `pcg_rand`, `n_sgd_threads`,
 and `approx_pow` are ignored.
 - **`ret_model`**: If `TRUE`, then return extra data that can be used to
-add new data to an existing embedding via `[umap_transform](uwot)`. The
+add new data to an existing embedding via `umap_transform`. The
 embedded coordinates are returned as the list item `embedding`. If
 `FALSE`, just return the coordinates. This parameter can be used in
 conjunction with `ret_nn` and `ret_extra`. Note that some
@@ -354,7 +354,7 @@ any combination of the following strings:
    `"fgraph"` the high dimensional fuzzy graph (i.e. the fuzzy
     simplicial set of the merged local views of the input data). The graph
     is returned as a sparse symmetric N x N matrix of class
-    [dgCMatrix-class](Matrix), where a non-zero entry (i, j) gives the
+    dgCMatrix-class, where a non-zero entry (i, j) gives the
     membership strength of the edge connecting vertex i and vertex j. This
     can be considered analogous to the input probability (or similarity or
     affinity) used in t-SNE and LargeVis. Note that the graph is further
@@ -384,7 +384,7 @@ switching was outweighing the improvement due to concurrent processing.
 This should be left at default (`1`) and work will be spread evenly
 over all the threads specified.
 - **`tmpdir`**: Temporary directory to store nearest neighbor indexes during
-nearest neighbor search. Default is `[tempdir]`. The index is
+nearest neighbor search. Default is `tempdir`. The index is
 only written to disk if `n_threads > 1` and
 `nn_method = "annoy"`; otherwise, this parameter is ignored.
 - **`batch`**: If `TRUE`, then embedding coordinates are updated at the
@@ -491,20 +491,20 @@ random initialization will be a lot faster. If you set this to
 to retain in the search graph, relative to `n_neighbors`. A larger
 value will give more accurate results at the cost of a longer computation
 time. Default is `1.5`. This parameter only affects neighbor search
-when transforming new data with `[umap_transform](uwot)`.
+when transforming new data with `umap_transform`.
  `epsilon` Controls the degree of the back-tracking when
 traversing the search graph. Setting this to `0.0` will do a greedy
 search with no back-tracking. A larger value will give more accurate
 results at the cost of a longer computation time. Default is `0.1`.
 This parameter only affects neighbor search when transforming new data with
-`[umap_transform](uwot)`.
+`umap_transform`.
  `max_search_fraction` Specifies the maximum fraction of the
 search graph to traverse. By default, this is set to `1.0`, so the
 entire graph (i.e. all items in `X`) may be visited. You may want to
 set this to a smaller value if you have a very large dataset (in
 conjunction with `epsilon`) to avoid an inefficient exhaustive search
 of the data in `X`. This parameter only affects neighbor search when
-transforming new data with `[umap_transform](uwot)`.
+transforming new data with `umap_transform`.
 - **`rng_type`**: The type of random number generator to use during
 optimization. One of:
 
@@ -523,13 +523,13 @@ giotto object with updated UMAP dimension reduction
 
 ## Details
 
-See `[umap](uwot)` for more information about these and
+See `umap` for more information about these and
 other parameters.
 - Input for UMAP dimension reduction can be another dimension reduction
   (default = 'pca')
 - To use gene expression as input set dim_reduction_to_use = NULL
 - If dim_reduction_to_use = NULL, feats_to_use can be used to select a
-  column name of highly variable features (see `[calculateHVF]`) or
+  column name of highly variable features (see [`calculateHVF`](calculateHVF.md)) or
   simply provide a vector of features
 - multiple UMAP results can be stored by changing the *name* of
   the analysis

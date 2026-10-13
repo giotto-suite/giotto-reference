@@ -1,4 +1,4 @@
-# `readPolygonFilesVizgenHDF5_old` {#readPolygonFilesVizgenHDF5_old}
+# `readPolygonFilesVizgenHDF5_old`
 
 *Package:* `Giotto`  
 *Title:* readPolygonFilesVizgenHDF5
@@ -39,7 +39,7 @@ names (optional)
 - `smooth_polygons`: smooth polygons (default = TRUE)
 - `smooth_vertices`: number of vertices for smoothing
 - `set_neg_to_zero`: set negative values to zero when smoothing
-- `H5Fopen_flags`: see `[H5Fopen](rhdf5)` for more details
+- `H5Fopen_flags`: see `H5Fopen` for more details
 - `cores`: cores to use
 - `verbose`: be verbose
 
@@ -54,5 +54,5 @@ issues.
 
 ## See Also
 
-`[smoothGiottoPolygons]`
+[`smoothGiottoPolygons`](reexports.md)
 

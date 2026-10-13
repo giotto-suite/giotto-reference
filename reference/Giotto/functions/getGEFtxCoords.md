@@ -1,4 +1,4 @@
-# `getGEFtxCoords` {#getGEFtxCoords}
+# `getGEFtxCoords`
 
 *Package:* `Giotto`  
 *Title:* getGEFtxCoords

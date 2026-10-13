@@ -1,4 +1,4 @@
-# `makeSignMatrixDWLSfromMatrix` {#makeSignMatrixDWLSfromMatrix}
+# `makeSignMatrixDWLSfromMatrix`
 
 *Package:* `Giotto`  
 *Title:* makeSignMatrixDWLSfromMatrix
@@ -6,7 +6,7 @@
 ## Description
 
 Function to convert a single-cell RNAseq matrix into a format
- that can be used with `[runDWLSDeconv]`.
+ that can be used with [`runDWLSDeconv`](runDWLSDeconv.md).
 
 ## Usage
 
@@ -26,7 +26,7 @@ matrix
 
 ## See Also
 
-`[runDWLSDeconv]`
+[`runDWLSDeconv`](runDWLSDeconv.md)
 
 ## Examples
 

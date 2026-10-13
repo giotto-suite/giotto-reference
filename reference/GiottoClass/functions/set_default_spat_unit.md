@@ -1,11 +1,11 @@
-# `set_default_spat_unit` {#set_default_spat_unit}
+# `set_default_spat_unit`
 
 *Package:* `GiottoClass`  
 *Title:* set_default_spat_unit
 
 ## Description
 
-Function to guess a default spatial unit. Also see `[activeSpatUnit()](=activeSpatUnit)` in
+Function to guess a default spatial unit. Also see [`activeSpatUnit()`](activeSpatUnit-generic.md) in
 methods-instructions.R for a way to manually assign this default
 
 ## Usage

@@ -1,4 +1,4 @@
-# `affine2d-class` {#affine2d-class}
+# `affine2d-class`
 
 *Package:* `GiottoClass`  
 *Title:* Affine Transform Object
@@ -7,10 +7,10 @@
 ## Description
 
 Container for accumulating 2D affine transformations. Simple spatial
-transforms (`[spatShift()](=spatShift)`, `[spin()](=spin)`, `[rescale()](=rescale)`, `[flip()](=flip)`, `[t()](=t)`,
-`[shear()](=shear)`) can be chained on an `affine2d` to build up a combined
+transforms ([`spatShift()`](spatShift.md), [`spin()`](spin.md), [`rescale()`](rescale.md), [`flip()`](flip.md), [`t()`](transpose.md),
+[`shear()`](shear.md)) can be chained on an `affine2d` to build up a combined
 transform, which is then applied to spatial objects in a single step via
-`[affine()](=affine)`.
+[`affine()`](affine.md).
 
 Create an identity `affine2d` with `affine()` (no arguments).
 Before chaining centroid-relative operations (`spin()`,

@@ -1,4 +1,4 @@
-# `exprObj-class` {#exprObj-class}
+# `exprObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 exprObj

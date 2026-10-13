@@ -1,4 +1,4 @@
-# `addHMRF_V2` {#addHMRF_V2}
+# `addHMRF_V2`
 
 *Package:* `Giotto`  
 *Title:* addHMRF_V2

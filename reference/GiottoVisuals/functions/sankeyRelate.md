@@ -1,4 +1,4 @@
-# `sankeyRelate` {#sankeyRelate}
+# `sankeyRelate`
 
 *Package:* `GiottoVisuals`  
 *Title:* Set a relation between two sankey sets

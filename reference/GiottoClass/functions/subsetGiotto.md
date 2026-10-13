@@ -1,4 +1,4 @@
-# `subsetGiotto` {#subsetGiotto}
+# `subsetGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* subsetGiotto
@@ -7,7 +7,7 @@
 
 Subsets Giotto object including previous analyses. For
 subsetting the subcellular information only without editing the aggregate
-information, use [subsetGiottoLocsSubcellular]
+information, use [subsetGiottoLocsSubcellular](subsetGiottoLocsSubcellular.md)
 
 ## Usage
 

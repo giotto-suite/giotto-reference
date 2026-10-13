@@ -1,4 +1,4 @@
-# `giotto_schema` {#giotto_schema}
+# `giotto_schema`
 
 *Package:* `GiottoClass`  
 *Title:* Giotto schema

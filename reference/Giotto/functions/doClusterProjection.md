@@ -1,4 +1,4 @@
-# `doClusterProjection` {#doClusterProjection}
+# `doClusterProjection`
 
 *Package:* `Giotto`  
 *Title:* Projection of cluster labels
@@ -53,7 +53,7 @@ giotto object (default) or data.table with cell metadata
 
 ## Details
 
-Function to train a KNN with `[knn](FNN)`. The training
+Function to train a KNN with `knn`. The training
 data is obtained from the source giotto object (source_gobject) using
 existing annotations within the cell metadata. Cells without
 annotation/labels from the target giotto object (target_gobject) will

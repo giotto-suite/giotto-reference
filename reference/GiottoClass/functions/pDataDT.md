@@ -1,4 +1,4 @@
-# `pDataDT` {#pDataDT}
+# `pDataDT`
 
 *Package:* `GiottoClass`  
 *Title:* pDataDT

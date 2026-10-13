@@ -1,4 +1,4 @@
-# `showProcessingSteps` {#showProcessingSteps}
+# `showProcessingSteps`
 
 *Package:* `GiottoClass`  
 *Title:* showProcessingSteps

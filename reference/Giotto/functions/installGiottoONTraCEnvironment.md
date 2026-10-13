@@ -1,4 +1,4 @@
-# `installGiottoONTraCEnvironment` {#installGiottoONTraCEnvironment}
+# `installGiottoONTraCEnvironment`
 
 *Package:* `Giotto`  
 *Title:* installGiottoONTraCEnvironment

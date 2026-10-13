@@ -1,4 +1,4 @@
-# `create_spat_locs_obj` {#create_spat_locs_obj}
+# `create_spat_locs_obj`
 
 *Package:* `GiottoClass`  
 *Title:* create_spat_locs_obj

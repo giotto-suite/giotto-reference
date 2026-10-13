@@ -1,4 +1,4 @@
-# `callSpdep` {#callSpdep}
+# `callSpdep`
 
 *Package:* `Giotto`  
 *Title:* Call the spdep function with required parameters

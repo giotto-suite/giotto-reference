@@ -1,4 +1,4 @@
-# `createSpatialGenomicsObject` {#createSpatialGenomicsObject}
+# `createSpatialGenomicsObject`
 
 *Package:* `Giotto`  
 *Title:* Create Spatial Genomics Giotto Object

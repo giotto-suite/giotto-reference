@@ -1,4 +1,4 @@
-# `createGiottoVisiumObject` {#createGiottoVisiumObject}
+# `createGiottoVisiumObject`
 
 *Package:* `Giotto`  
 *Title:* Create a giotto object from 10x visium data
@@ -52,7 +52,7 @@ autoscaling looks for matches in the filename for either "hires" or "lowres"
 - `ymax_adj`: deprecated
 - `ymin_adj`: deprecated
 - `instructions`: list of instructions or output result from
-`[createGiottoInstructions](GiottoClass)`
+[`createGiottoInstructions`](../../GiottoClass/functions/createGiottoInstructions.md)
 - `expression_matrix_class`: class of expression matrix to use
 (e.g. "dgCMatrix", "DelayedArray")
 - `h5_file`: optional path to create an on-disk h5 file

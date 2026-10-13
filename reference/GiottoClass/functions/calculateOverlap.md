@@ -1,4 +1,4 @@
-# `calculateOverlap` {#calculateOverlap}
+# `calculateOverlap`
 
 *Package:* `GiottoClass`  
 *Title:* Calculate features overlapped by polygons

@@ -1,4 +1,4 @@
-# `create_dim_obj` {#create_dim_obj}
+# `create_dim_obj`
 
 *Package:* `GiottoClass`  
 *Title:* create_dim_obj

@@ -1,4 +1,4 @@
-# `r_spatial_conversions` {#r_spatial_conversions}
+# `r_spatial_conversions`
 
 *Package:* `GiottoClass`  
 *Title:* R spatial conversions
@@ -74,10 +74,10 @@ sf, sp, stars or terra
 ## See Also
 
 Other As coercion functions: 
-`[as.data.table.giottoBinPoints]()`,
-`[as.matrix]()`,
-`[as.points]()`,
-`[as.polygons]()`
+[`as.data.table.giottoBinPoints()`](as.data.table.giottoBinPoints.md),
+[`as.matrix()`](as.matrix.md),
+[`as.points()`](as.points.md),
+[`as.polygons()`](as.polygons.md)
 
 ## Examples
 

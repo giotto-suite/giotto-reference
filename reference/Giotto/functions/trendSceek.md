@@ -1,4 +1,4 @@
-# `trendSceek` {#trendSceek}
+# `trendSceek`
 
 *Package:* `Giotto`  
 *Title:* trendSceek
@@ -36,7 +36,7 @@ mark distribution as to create the null-distribution.
 - `ncores`: An integer specifying the number of cores to be used by
 BiocParallel
 - `...`: Additional parameters to the
-`[trendsceek_test](trendsceek)` function
+`trendsceek_test` function
 
 ## Value
 

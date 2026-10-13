@@ -1,4 +1,4 @@
-# `preprocessImageToMatrix` {#preprocessImageToMatrix}
+# `preprocessImageToMatrix`
 
 *Package:* `Giotto`  
 *Title:* Preprocess from image directory to the required matrix format for

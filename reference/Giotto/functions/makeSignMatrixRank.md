@@ -1,4 +1,4 @@
-# `makeSignMatrixRank` {#makeSignMatrixRank}
+# `makeSignMatrixRank`
 
 *Package:* `Giotto`  
 *Title:* makeSignMatrixRank
@@ -34,7 +34,7 @@ matrix
 
 ## See Also
 
-`[rankEnrich]`
+`rankEnrich`
 
 ## Examples
 

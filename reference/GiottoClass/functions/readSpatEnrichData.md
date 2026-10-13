@@ -1,4 +1,4 @@
-# `readSpatEnrichData` {#readSpatEnrichData}
+# `readSpatEnrichData`
 
 *Package:* `GiottoClass`  
 *Title:* Read spatial enrichment

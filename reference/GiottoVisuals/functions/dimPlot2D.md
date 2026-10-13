@@ -1,4 +1,4 @@
-# `dimPlot2D` {#dimPlot2D}
+# `dimPlot2D`
 
 *Package:* `GiottoVisuals`  
 *Title:* Plot dimension reduction
@@ -170,7 +170,7 @@ cell_color parameter
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `...`: dimPlot(...) passes to dimPlot2D()
@@ -187,15 +187,15 @@ plotly (dimplot3D only)
 ## See Also
 
 Other reduced dimension visualizations: 
-`[plotPCA]()`,
-`[plotPCA_2D]()`,
-`[plotPCA_3D]()`,
-`[plotTSNE]()`,
-`[plotTSNE_2D]()`,
-`[plotTSNE_3D]()`,
-`[plotUMAP]()`,
-`[plotUMAP_2D]()`,
-`[plotUMAP_3D]()`
+[`plotPCA()`](plotPCA.md),
+[`plotPCA_2D()`](plotPCA_2D.md),
+[`plotPCA_3D()`](plotPCA_3D.md),
+[`plotTSNE()`](plotTSNE.md),
+[`plotTSNE_2D()`](plotTSNE_2D.md),
+[`plotTSNE_3D()`](plotTSNE_3D.md),
+[`plotUMAP()`](plotUMAP.md),
+[`plotUMAP_2D()`](plotUMAP_2D.md),
+[`plotUMAP_3D()`](plotUMAP_3D.md)
 
 ## Examples
 

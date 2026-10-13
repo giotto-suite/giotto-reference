@@ -1,4 +1,4 @@
-# `readCellMetadata` {#readCellMetadata}
+# `readCellMetadata`
 
 *Package:* `GiottoClass`  
 *Title:* Read cell metadata

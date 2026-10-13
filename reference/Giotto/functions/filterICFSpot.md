@@ -1,4 +1,4 @@
-# `filterICFSpot` {#filterICFSpot}
+# `filterICFSpot`
 
 *Package:* `Giotto`  
 *Title:* filterICFSpot

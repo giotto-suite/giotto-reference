@@ -1,4 +1,4 @@
-# `create_giotto` {#create_giotto}
+# `create_giotto`
 
 *Package:* `GiottoClass`  
 *Title:* Create a giotto object
@@ -13,7 +13,7 @@ centroids) + (optional) associated analyses*
 e.g. transcripts or polygon/mask annotations and raw intensity staining
 images (e.g. protein stains)). + (optional) associated aggregate data*
 - Multiple sets/combinations of the previous two belonging to the same
-experiment, organized by [giotto_schema]
+experiment, organized by [giotto_schema](giotto_schema.md)
 
 
 A `giotto` analysis object can be generated in several ways:
@@ -90,14 +90,14 @@ createGiottoObjectSubcellular(
 - `spatial_locs`: data.table or data.frame with coordinates for cell
 centroids
 - `spatial_info`: list of giotto polygon objects with spatial information,
-see `[createGiottoPolygonsFromMask]`
-and `[createGiottoPolygonsFromDfr]`
+see [`createGiottoPolygonsFromMask`](createGiottoPolygon.md)
+and [`createGiottoPolygonsFromDfr`](createGiottoPolygon.md)
 - `calc_poly_centroids`: if spatial_info is provided, whether to also
 calculate centroids
 - `centroids_to_spatlocs`: if spatial_info is provided, whether to also
 convert centroids to spatial locations
 - `feat_info`: list of giotto point objects with feature info,
-see `[createGiottoPoints]`
+see [`createGiottoPoints`](createGiottoPoints.md)
 - `cell_metadata`: cell annotation metadata
 - `feat_metadata`: feature annotation metadata for each unique feature
 - `spatial_network`: list of spatial network(s)
@@ -111,7 +111,7 @@ spatial region
 - `largeImages`: deprecated
 - `offset_file`: file used to stitch fields together (optional)
 - `instructions`: list of instructions or output result
-from `[createGiottoInstructions]`
+from [`createGiottoInstructions`](createGiottoInstructions.md)
 - `cores`: how many cores or threads to use to read data if paths are
 provided
 - `raw_exprs`: deprecated, use expression
@@ -121,9 +121,9 @@ use (e.g. 'dgCMatrix', 'DelayedArray')
 - `verbose`: be verbose when building Giotto object
 - `gpolygons`: giotto polygons
 - `polygon_mask_list_params`: list parameters
-for `[createGiottoPolygonsFromMask]`
+for [`createGiottoPolygonsFromMask`](createGiottoPolygon.md)
 - `polygon_dfr_list_params`: list parameters
-for `[createGiottoPolygonsFromDfr]`
+for [`createGiottoPolygonsFromDfr`](createGiottoPolygon.md)
 - `gpoints`: giotto points
 - `spatial_network_name`: list of spatial network name(s)
 - `spatial_enrichment_name`: list of spatial enrichment name(s)

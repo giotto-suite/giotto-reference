@@ -1,4 +1,4 @@
-# `readSpatLocsData` {#readSpatLocsData}
+# `readSpatLocsData`
 
 *Package:* `GiottoClass`  
 *Title:* Read spatial location data

@@ -1,4 +1,4 @@
-# `dt_dcast_string` {#dt_dcast_string}
+# `dt_dcast_string`
 
 *Package:* `GiottoUtils`  
 *Title:* dt_dcast_string
@@ -27,7 +27,7 @@ A keyed data.table that has been cast
 
 ## See Also
 
-`[data.table::dcast.data.table()](data.table:dcast.data.table)`
+`data.table::dcast.data.table()`
 
 ## Examples
 

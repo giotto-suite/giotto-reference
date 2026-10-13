@@ -1,4 +1,4 @@
-# `addNetworkLayout` {#addNetworkLayout}
+# `addNetworkLayout`
 
 *Package:* `GiottoClass`  
 *Title:* addNetworkLayout
@@ -44,7 +44,7 @@ giotto object with updated layout for selected NN network
 This function creates layout coordinates based on the provided
 kNN or sNN.
 Currently only the force-directed graph layout "drl",
-see `[layout_with_drl](igraph)`, is implemented.
+see `layout_with_drl`, is implemented.
 This provides an alternative to tSNE or UMAP based visualizations.
 
 ## Examples

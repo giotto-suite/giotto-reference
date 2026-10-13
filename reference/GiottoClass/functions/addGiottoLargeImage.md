@@ -1,4 +1,4 @@
-# `addGiottoLargeImage` {#addGiottoLargeImage}
+# `addGiottoLargeImage`
 
 *Package:* `GiottoClass`  
 *Title:* addGiottoLargeImage

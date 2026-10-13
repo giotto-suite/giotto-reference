@@ -1,4 +1,4 @@
-# `spatCellCellcomSpots` {#spatCellCellcomSpots}
+# `spatCellCellcomSpots`
 
 *Package:* `Giotto`  
 *Title:* spatCellCellcomSpots

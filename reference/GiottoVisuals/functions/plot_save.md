@@ -1,4 +1,4 @@
-# `plot_save` {#plot_save}
+# `plot_save`
 
 *Package:* `GiottoVisuals`  
 *Title:* Plot saving
@@ -83,7 +83,7 @@ used instead of most other general save params. (save_dir, save_folder,
 save_name, default_save_name, save_format, base_width, base_height,
 base_aspect_ratio, units, dpi, plot_count)
 - `...`: additional parameters to pass downstream save functions.
-`[cowplot::save_plot()](cowplot:save_plot)` is used for `ggplot2` plots. grDevices png, tiff
+`cowplot::save_plot()` is used for `ggplot2` plots. grDevices png, tiff
 svg, pdf is used for base and general saving
 - `instructions`: `giotto` or `giottoInstructions` object
 - `type`: `character`. One of "gg"', '"plotly"', '"general" to designate
@@ -97,11 +97,11 @@ a `giotto_plot_save_param` object
 
 ## See Also
 
-`[showSaveParameters]` `[save_plot](cowplot)`
-`[png](grDevices)`
-`[tiff](grDevices)`
-`[pdf](grDevices)`
-`[svg](grDevices)`
+[`showSaveParameters`](showSaveParameters.md) `save_plot`
+`png`
+`tiff`
+`pdf`
+`svg`
 
 ## Examples
 

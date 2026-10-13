@@ -1,4 +1,4 @@
-# `combineCellProximityGenes` {#combineCellProximityGenes}
+# `combineCellProximityGenes`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -15,7 +15,7 @@ combineCellProximityGenes(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[combineInteractionChangedFeats](=combineInteractionChangedFeats)`
+- `...`: Arguments passed on to [`combineInteractionChangedFeats`](combineInteractionChangedFeats.md)
   - **`icfObject`**: ICF (interaction changed feat) score object
 - **`selected_ints`**: subset of selected cell-cell interactions (optional)
 - **`selected_feats`**: subset of selected Features (optional)
@@ -37,5 +37,5 @@ ICF scores
 
 ## See Also
 
-`[combineInteractionChangedFeats]`
+[`combineInteractionChangedFeats`](combineInteractionChangedFeats.md)
 

@@ -1,4 +1,4 @@
-# `convert_to_full_spatial_network` {#convert_to_full_spatial_network}
+# `convert_to_full_spatial_network`
 
 *Package:* `GiottoClass`  
 *Title:* convert_to_full_spatial_network

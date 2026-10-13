@@ -1,4 +1,4 @@
-# `subset_giotto_subobjects` {#subset_giotto_subobjects}
+# `subset_giotto_subobjects`
 
 *Package:* `GiottoClass`  
 *Title:* Subset `giotto` subobjects
@@ -12,7 +12,7 @@ will be reassembled into a new `giotto` object. Note that indexing within
 the `[[` filters for only those subobjects that have those attributes.
 This may remove some unexpected information. For specifically splitting the
 `giotto` object by spatial unit and/or feature type while keeping all
-expected information, use `[sliceGiotto()](=sliceGiotto)`
+expected information, use [`sliceGiotto()`](sliceGiotto.md)
 
 ## Usage
 

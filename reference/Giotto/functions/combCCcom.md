@@ -1,4 +1,4 @@
-# `combCCcom` {#combCCcom}
+# `combCCcom`
 
 *Package:* `Giotto`  
 *Title:* Combine cell cell communication tables
@@ -32,7 +32,7 @@ combCCcom(
 - `min_padj_value`: minimum adjusted p-value
 - `min_log2fc`: minimum log2 fold-change
 - `min_av_diff`: minimum average expression difference
-- `detailed`: detailed option used with `[spatCellCellcom]`
+- `detailed`: detailed option used with [`spatCellCellcom`](spatCellCellcom.md)
 (default = FALSE)
 
 ## Value

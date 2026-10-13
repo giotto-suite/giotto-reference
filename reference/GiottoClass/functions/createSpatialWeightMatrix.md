@@ -1,4 +1,4 @@
-# `createSpatialWeightMatrix` {#createSpatialWeightMatrix}
+# `createSpatialWeightMatrix`
 
 *Package:* `GiottoClass`  
 *Title:* Create a spatial weight matrix

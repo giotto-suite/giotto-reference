@@ -1,4 +1,4 @@
-# `get_distance` {#get_distance}
+# `get_distance`
 
 *Package:* `GiottoClass`  
 *Title:* get_distance

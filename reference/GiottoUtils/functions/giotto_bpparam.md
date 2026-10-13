@@ -1,4 +1,4 @@
-# `giotto_bpparam` {#giotto_bpparam}
+# `giotto_bpparam`
 
 *Package:* `GiottoUtils`  
 *Title:* Giotto Default BiocParallel Param

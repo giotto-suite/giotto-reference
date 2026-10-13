@@ -1,4 +1,4 @@
-# `featIDs,giottoBinPoints-method` {#featIDs,giottoBinPoints-method}
+# `featIDs,giottoBinPoints-method`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial and feature IDs
@@ -14,7 +14,7 @@ and feature IDs of a giotto object or subobject.
 When applied on a `giotto` object, these functions pull from the `cell_ID`
 and `feat_ID` slots. The values within these slots are updated whenever the
 object is data is changed and, importantly, whenever the active spat_unit and
-feat_type is set (see `[activeSpatUnit()](=activeSpatUnit)` and `[activeFeatType()](=activeFeatType)`). New values
+feat_type is set (see [`activeSpatUnit()`](activeSpatUnit-generic.md) and [`activeFeatType()`](activeFeatType-generic.md)). New values
 for these slots are specific to the active spat_unit and feat_type and are
 detected from either the *subcellular*
 level (`giottoPolygon` and `giottoPoints`) or the *aggregate*
@@ -66,7 +66,7 @@ featIDs,spatEnrObj-method(x, ...)
 - `uniques`: return unique ID values
 only (currently gpoly and gpoints only)
 - `...`: additional params to pass when used with the `subset` param.
-For `spatID()`, these pass to `[spatValues()](=spatValues)`. For `featID()`, these
+For `spatID()`, these pass to [`spatValues()`](spatValues.md). For `featID()`, these
 currently only pass to `fDataDT()`.
 - `spat_unit`: (optional) specify which spatial unit
 - `subset`: logical expression to find a subset of features.

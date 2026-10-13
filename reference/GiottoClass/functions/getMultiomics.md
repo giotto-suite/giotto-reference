@@ -1,4 +1,4 @@
-# `getMultiomics` {#getMultiomics}
+# `getMultiomics`
 
 *Package:* `GiottoClass`  
 *Title:* Get multiomics integration results
@@ -34,24 +34,24 @@ A multiomics integration result (e.g. theta_weighted_matrix from WNN)
 ## See Also
 
 Other multiomics accessor functions: 
-`[get_multiomics]()`,
-`[setMultiomics]()`,
-`[set_multiomics]()`
+[`get_multiomics()`](get_multiomics.md),
+[`setMultiomics()`](setMultiomics.md),
+[`set_multiomics()`](set_multiomics.md)
 
 Other functions to get data from giotto object: 
-`[getCellMetadata]()`,
-`[getDimReduction]()`,
-`[getExpression]()`,
-`[getFeatureInfo]()`,
-`[getFeatureMetadata]()`,
-`[getGiottoImage]()`,
-`[getNearestNetwork]()`,
-`[getPolygonInfo]()`,
-`[getSpatialEnrichment]()`,
-`[getSpatialGrid]()`,
-`[getSpatialLocations]()`,
-`[getSpatialNetwork]()`,
-`[get_multiomics]()`
+[`getCellMetadata()`](getCellMetadata.md),
+[`getDimReduction()`](getDimReduction.md),
+[`getExpression()`](getExpression.md),
+[`getFeatureInfo()`](getFeatureInfo.md),
+[`getFeatureMetadata()`](getFeatureMetadata.md),
+[`getGiottoImage()`](getGiottoImage.md),
+[`getNearestNetwork()`](getNearestNetwork.md),
+[`getPolygonInfo()`](getPolygonInfo.md),
+[`getSpatialEnrichment()`](getSpatialEnrichment.md),
+[`getSpatialGrid()`](getSpatialGrid.md),
+[`getSpatialLocations()`](getSpatialLocations.md),
+[`getSpatialNetwork()`](getSpatialNetwork.md),
+[`get_multiomics()`](get_multiomics.md)
 
 ## Examples
 

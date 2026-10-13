@@ -1,4 +1,4 @@
-# `exprCellCellcom` {#exprCellCellcom}
+# `exprCellCellcom`
 
 *Package:* `Giotto`  
 *Title:* exprCellCellcom

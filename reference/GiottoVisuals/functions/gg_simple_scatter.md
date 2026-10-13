@@ -1,4 +1,4 @@
-# `gg_simple_scatter` {#gg_simple_scatter}
+# `gg_simple_scatter`
 
 *Package:* `GiottoVisuals`  
 *Title:* gg_simple_scatter
@@ -31,7 +31,7 @@ gg_simple_scatter(
 - `xlab`: a title for the x axis
 - `ylab`: a title for the y axis
 - `main`: an overall title for the plot
-- `...`: Arguments passed on to `[ggplot2::aes](ggplot2:aes)`
+- `...`: Arguments passed on to `ggplot2::aes`
   - **``**:
 
 ## Value

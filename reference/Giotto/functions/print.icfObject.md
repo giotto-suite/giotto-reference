@@ -1,4 +1,4 @@
-# `print.icfObject` {#print.icfObject}
+# `print.icfObject`
 
 *Package:* `Giotto`  
 *Title:* icfObject print method

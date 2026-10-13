@@ -1,4 +1,4 @@
-# `showGrids` {#showGrids}
+# `showGrids`
 
 *Package:* `GiottoClass`  
 *Title:* Show Spatial Grids
@@ -15,7 +15,7 @@ showGrids(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[showGiottoSpatGrids](=showGiottoSpatGrids)`
+- `...`: Arguments passed on to [`showGiottoSpatGrids`](showGiottoSpatGrids.md)
   - **`gobject`**: giotto object
 - **`nrows`**: number of rows to print
 
@@ -25,5 +25,5 @@ prints name of available spatial grids
 
 ## See Also
 
-`[showGiottoSpatGrids]`
+[`showGiottoSpatGrids`](showGiottoSpatGrids.md)
 

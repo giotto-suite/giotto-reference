@@ -1,4 +1,4 @@
-# `list_spatial_locations_names` {#list_spatial_locations_names}
+# `list_spatial_locations_names`
 
 *Package:* `GiottoClass`  
 *Title:* list_spatial_locations_names

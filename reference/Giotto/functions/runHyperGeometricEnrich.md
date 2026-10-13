@@ -1,4 +1,4 @@
-# `runHyperGeometricEnrich` {#runHyperGeometricEnrich}
+# `runHyperGeometricEnrich`
 
 *Package:* `Giotto`  
 *Title:* runHyperGeometricEnrich

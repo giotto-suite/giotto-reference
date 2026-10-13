@@ -1,4 +1,4 @@
-# `suite_install` {#suite_install}
+# `suite_install`
 
 *Package:* `GiottoUtils`  
 *Title:* Giotto Suite GitHub Installation

@@ -1,4 +1,4 @@
-# `createNetwork` {#createNetwork}
+# `createNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Create a network
@@ -70,7 +70,7 @@ on the mesh boundary. Default is TRUE
 the final triangulation from the output. Default is TRUE
 - [**`S`**] (*RTriangle*) Specifies the maximum number of added Steiner
 points. Default is 0
-- [**`options`**] (*geometry*) default is "Pp". See [geometry::delaunayn](geometry:delaunayn)
+- [**`options`**] (*geometry*) default is "Pp". See geometry::delaunayn
 - [**`weight_fun`**] function to calculate weights based on distance if
 `include_weight = TRUE`. Default is `weight = 1 / (1 + distance)` for
 `"kNN"` and `"sNN"` types and `weight = 1 / distance` for `delaunay`

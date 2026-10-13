@@ -1,4 +1,4 @@
-# `plotPolygons` {#plotPolygons}
+# `plotPolygons`
 
 *Package:* `Giotto`  
 *Title:* Plot stored polygons

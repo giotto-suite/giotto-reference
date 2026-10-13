@@ -1,4 +1,4 @@
-# `centroids-generic` {#centroids-generic}
+# `centroids-generic`
 
 *Package:* `GiottoClass`  
 *Title:* centroids-generic

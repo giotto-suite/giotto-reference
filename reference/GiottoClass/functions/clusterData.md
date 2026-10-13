@@ -1,4 +1,4 @@
-# `clusterData` {#clusterData}
+# `clusterData`
 
 *Package:* `GiottoClass`  
 *Title:* Data Clustering
@@ -21,7 +21,7 @@ clusterData(x, param, ...)
 ## Arguments
 
 - `x`: a data object
-- `param`: a [bluster::BlusterParam](bluster:BlusterParam-class) inheriting object
+- `param`: a bluster::BlusterParam inheriting object
 - `...`: additional arguments, for use in specific methods
 
 ## Value

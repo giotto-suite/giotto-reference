@@ -1,4 +1,4 @@
-# `featMetaObj-class` {#featMetaObj-class}
+# `featMetaObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 featMetaObj

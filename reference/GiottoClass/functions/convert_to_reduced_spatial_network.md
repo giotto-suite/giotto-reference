@@ -1,4 +1,4 @@
-# `convert_to_reduced_spatial_network` {#convert_to_reduced_spatial_network}
+# `convert_to_reduced_spatial_network`
 
 *Package:* `GiottoClass`  
 *Title:* convert_to_reduced_spatial_network

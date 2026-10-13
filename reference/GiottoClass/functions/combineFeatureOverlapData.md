@@ -1,4 +1,4 @@
-# `combineFeatureOverlapData` {#combineFeatureOverlapData}
+# `combineFeatureOverlapData`
 
 *Package:* `GiottoClass`  
 *Title:* combineFeatureOverlapData

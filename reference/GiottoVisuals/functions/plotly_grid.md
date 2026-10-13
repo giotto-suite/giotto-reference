@@ -1,4 +1,4 @@
-# `plotly_grid` {#plotly_grid}
+# `plotly_grid`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotly_grid

@@ -1,4 +1,4 @@
-# `calculateMetaTable` {#calculateMetaTable}
+# `calculateMetaTable`
 
 *Package:* `GiottoClass`  
 *Title:* calculateMetaTable

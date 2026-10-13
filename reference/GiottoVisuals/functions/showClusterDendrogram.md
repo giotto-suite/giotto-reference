@@ -1,4 +1,4 @@
-# `showClusterDendrogram` {#showClusterDendrogram}
+# `showClusterDendrogram`
 
 *Package:* `GiottoVisuals`  
 *Title:* showClusterDendrogram
@@ -50,18 +50,18 @@ default to "ward.D"
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
-- `...`: Arguments passed on to `[ggdendro::ggdendrogram](ggdendro:ggdendrogram)`
+- `...`: Arguments passed on to `ggdendro::ggdendrogram`
   - **`data`**: Either a dendro object or an object that can be coerced to class
-dendro using the `[dendro_data()](ggdendro:dendro_data)` function, i.e. objects of class
+dendro using the `dendro_data()` function, i.e. objects of class
 dendrogram, hclust or tree
 - **`segments`**: If TRUE, show line segments
 - **`labels`**: if TRUE, shows segment labels
 - **`leaf_labels`**: if TRUE, shows leaf labels
 - **`theme_dendro`**: if TRUE, applies a blank theme to plot (see
-`[theme_dendro()](ggdendro:theme_dendro)`)
+`theme_dendro()`)
 
 ## Value
 

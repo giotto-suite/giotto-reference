@@ -1,4 +1,4 @@
-# `sliceGiotto` {#sliceGiotto}
+# `sliceGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Slice `giotto` object by `spat_unit` and `feat_type`
@@ -37,7 +37,7 @@ are **not** kept. `":all:"` tokens are ignored.
 
 ## See Also
 
-`[subsetGiotto()](=subsetGiotto)` [subset_giotto]
+[`subsetGiotto()`](subsetGiotto.md) [subset_giotto](subset_giotto.md)
 
 ## Examples
 

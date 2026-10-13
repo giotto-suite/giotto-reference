@@ -1,4 +1,4 @@
-# `calculateOverlapParallel` {#calculateOverlapParallel}
+# `calculateOverlapParallel`
 
 *Package:* `GiottoClass`  
 *Title:* calculateOverlapParallel

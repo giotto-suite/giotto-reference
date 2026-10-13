@@ -1,4 +1,4 @@
-# `createNearestNetwork` {#createNearestNetwork}
+# `createNearestNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* createNearestNetwork
@@ -61,7 +61,7 @@ nearest neighbour (sNN) network based on the provided dimension reduction
 space. To run it directly on the gene expression matrix
 set *dim_reduction_to_use = NULL*.
 
-See also `[kNN](dbscan)` and `[sNN](dbscan)` for more
+See also `kNN` and `sNN` for more
 information about how the networks are created.
 
 Output for kNN:

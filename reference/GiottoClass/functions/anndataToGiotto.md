@@ -1,4 +1,4 @@
-# `anndataToGiotto` {#anndataToGiotto}
+# `anndataToGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Convert anndata to Giotto
@@ -63,6 +63,6 @@ Giotto object
 Function in beta. Converts a .h5ad file into a Giotto object.
 The returned Giotto Object will take default instructions with the
 exception of the python path, which may be customized.
-See `[changeGiottoInstructions]` to modify instructions after
+See [`changeGiottoInstructions`](changeGiottoInstructions.md) to modify instructions after
 creation.
 

@@ -1,4 +1,4 @@
-# `rescalePolygons` {#rescalePolygons}
+# `rescalePolygons`
 
 *Package:* `GiottoClass`  
 *Title:* rescalePolygons

@@ -1,4 +1,4 @@
-# `doLeidenClusterPython` {#doLeidenClusterPython}
+# `doLeidenClusterPython`
 
 *Package:* `Giotto`  
 *Title:* doLeidenClusterPython

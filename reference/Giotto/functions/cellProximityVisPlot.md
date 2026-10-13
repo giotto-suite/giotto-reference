@@ -1,4 +1,4 @@
-# `cellProximityVisPlot` {#cellProximityVisPlot}
+# `cellProximityVisPlot`
 
 *Package:* `Giotto`  
 *Title:* cellProximityVisPlot

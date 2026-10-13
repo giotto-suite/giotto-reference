@@ -1,4 +1,4 @@
-# `spatInSituPlotHex` {#spatInSituPlotHex}
+# `spatInSituPlotHex`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatInSituPlotHex
@@ -79,7 +79,7 @@ spatInSituPlotHex(
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -94,8 +94,8 @@ TODO
 ## See Also
 
 Other In Situ visualizations: 
-`[spatInSituPlotDensity]()`,
-`[spatInSituPlotPoints]()`
+[`spatInSituPlotDensity()`](spatInSituPlotDensity.md),
+[`spatInSituPlotPoints()`](spatInSituPlotPoints.md)
 
 ## Examples
 

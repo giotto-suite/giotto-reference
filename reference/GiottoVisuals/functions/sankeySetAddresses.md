@@ -1,4 +1,4 @@
-# `sankeySetAddresses` {#sankeySetAddresses}
+# `sankeySetAddresses`
 
 *Package:* `GiottoVisuals`  
 *Title:* Data.table of sankey set locations

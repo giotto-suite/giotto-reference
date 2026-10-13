@@ -1,4 +1,4 @@
-# `list_expression_names` {#list_expression_names}
+# `list_expression_names`
 
 *Package:* `GiottoClass`  
 *Title:* list_expression_names

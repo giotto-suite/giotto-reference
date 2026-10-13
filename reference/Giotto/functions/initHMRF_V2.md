@@ -1,4 +1,4 @@
-# `initHMRF_V2` {#initHMRF_V2}
+# `initHMRF_V2`
 
 *Package:* `Giotto`  
 *Title:* initHMRF_V2

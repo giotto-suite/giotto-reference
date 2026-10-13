@@ -1,4 +1,4 @@
-# `replaceGiottoInstructions` {#replaceGiottoInstructions}
+# `replaceGiottoInstructions`
 
 *Package:* `GiottoClass`  
 *Title:* deprecated

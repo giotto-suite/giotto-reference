@@ -1,4 +1,4 @@
-# `giotto_python` {#giotto_python}
+# `giotto_python`
 
 *Package:* `GiottoClass`  
 *Title:* Giotto python environment
@@ -43,7 +43,7 @@ environment based on the following defaults in decreasing priority:
 1. User provided (when `python_path` param is not `NULL`)
 1. Any provided path or envname in option `"giotto.py_path"`
 1. Default expected giotto environment location based on
-`[reticulate::miniconda_path()](reticulate:miniconda_path)`
+`reticulate::miniconda_path()`
 1. Envname `"giotto_env"`
 1. System default python environment
 

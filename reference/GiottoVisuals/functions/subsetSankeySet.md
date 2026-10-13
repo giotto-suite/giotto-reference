@@ -1,4 +1,4 @@
-# `subsetSankeySet` {#subsetSankeySet}
+# `subsetSankeySet`
 
 *Package:* `GiottoVisuals`  
 *Title:* Apply subset index on a sankey set

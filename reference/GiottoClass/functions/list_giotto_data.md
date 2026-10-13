@@ -1,4 +1,4 @@
-# `list_giotto_data` {#list_giotto_data}
+# `list_giotto_data`
 
 *Package:* `GiottoClass`  
 *Title:* list_giotto_data

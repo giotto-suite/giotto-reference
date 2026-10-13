@@ -1,4 +1,4 @@
-# `readFeatData` {#readFeatData}
+# `readFeatData`
 
 *Package:* `GiottoClass`  
 *Title:* Read feature information

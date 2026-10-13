@@ -1,4 +1,4 @@
-# `print.combIcfObject` {#print.combIcfObject}
+# `print.combIcfObject`
 
 *Package:* `Giotto`  
 *Title:* combIcfObject print method

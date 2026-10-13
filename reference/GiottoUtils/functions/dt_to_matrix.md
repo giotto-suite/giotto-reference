@@ -1,4 +1,4 @@
-# `dt_to_matrix` {#dt_to_matrix}
+# `dt_to_matrix`
 
 *Package:* `GiottoUtils`  
 *Title:* dt_to_matrix

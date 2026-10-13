@@ -1,4 +1,4 @@
-# `plotGiottoImage` {#plotGiottoImage}
+# `plotGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* Plot a giotto image object
@@ -47,9 +47,9 @@ image
 ## See Also
 
 Other basic image functions: 
-`[addGiottoImage]()`,
-`[reconnectGiottoImage]()`,
-`[updateGiottoImage]()`
+[`addGiottoImage()`](addGiottoImage.md),
+[`reconnectGiottoImage()`](reconnectGiottoImage.md),
+[`updateGiottoImage()`](updateGiottoImage.md)
 
 ## Examples
 

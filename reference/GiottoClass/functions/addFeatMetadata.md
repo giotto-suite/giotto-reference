@@ -1,4 +1,4 @@
-# `addFeatMetadata` {#addFeatMetadata}
+# `addFeatMetadata`
 
 *Package:* `GiottoClass`  
 *Title:* Add feature metadata
@@ -29,7 +29,7 @@ addFeatMetadata(
 - `new_metadata`: new metadata to use)
 - `vector_name`: (optional) custom name if you provide a single vector
 - `by_column`: merge metadata based on *feat_ID* column
-in `[fDataDT]`
+in [`fDataDT`](fDataDT.md)
 - `column_feat_ID`: column name of new metadata to use if by_column = TRUE
 
 ## Value

@@ -1,4 +1,4 @@
-# `mixHSV` {#mixHSV}
+# `mixHSV`
 
 *Package:* `GiottoVisuals`  
 *Title:* Colormixing in HSV space
@@ -44,7 +44,7 @@ a vector of hex codes or an hsv matrix
 ## See Also
 
 Other colormixing functions: 
-`[mixRGB]()`
+[`mixRGB()`](mixRGB.md)
 
 ## Examples
 

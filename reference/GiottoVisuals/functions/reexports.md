@@ -1,4 +1,4 @@
-# `reexports` {#reexports}
+# `reexports`
 
 *Package:* `GiottoVisuals`  
 *Title:* Objects exported from other packages
@@ -9,10 +9,10 @@
 These objects are imported from other packages. Follow the links
 below to see their documentation.
 
-- **colorRamp2**: `[colorRamp2](colorRamp2)`
-- **cowplot**: `[plot_grid](cowplot)`
-- **ggrepel**: `[geom_label_repel](ggrepel:geom_text_repel)`, `[geom_text_repel](ggrepel)`
-- **GiottoUtils**: `[getDistinctColors](GiottoUtils)`, `[getRainbowColors](GiottoUtils)`
+- **colorRamp2**: `colorRamp2`
+- **cowplot**: `plot_grid`
+- **ggrepel**: `geom_label_repel`, `geom_text_repel`
+- **GiottoUtils**: [`getDistinctColors`](../../GiottoUtils/functions/getDistinctColors.md), [`getRainbowColors`](../../GiottoUtils/functions/getRainbowColors.md)
 
 ## Value
 

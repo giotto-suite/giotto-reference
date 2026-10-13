@@ -1,4 +1,4 @@
-# `calculateOverlapRaster` {#calculateOverlapRaster}
+# `calculateOverlapRaster`
 
 *Package:* `GiottoClass`  
 *Title:* calculateOverlapRaster
@@ -54,7 +54,7 @@ Serial overlapping function.
 
 ## See Also
 
-`[.calculate_overlap_raster()](=.calculate_overlap_raster)`
+`.calculate_overlap_raster()`
 
 ## Examples
 

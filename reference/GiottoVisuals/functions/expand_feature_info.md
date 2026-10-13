@@ -1,4 +1,4 @@
-# `expand_feature_info` {#expand_feature_info}
+# `expand_feature_info`
 
 *Package:* `GiottoVisuals`  
 *Title:* expand_feature_info

@@ -1,4 +1,4 @@
-# `showCellProportionSwitchedSanKey` {#showCellProportionSwitchedSanKey}
+# `showCellProportionSwitchedSanKey`
 
 *Package:* `Giotto`  
 *Title:* showCellProportionSwitchedSanKey

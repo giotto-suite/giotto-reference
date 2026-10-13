@@ -1,4 +1,4 @@
-# `random_seed` {#random_seed}
+# `random_seed`
 
 *Package:* `GiottoUtils`  
 *Title:* Set a random seed

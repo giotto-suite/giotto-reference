@@ -1,4 +1,4 @@
-# `dt_sort_combine_two_columns` {#dt_sort_combine_two_columns}
+# `dt_sort_combine_two_columns`
 
 *Package:* `GiottoUtils`  
 *Title:* dt_sort_combine_two_columns

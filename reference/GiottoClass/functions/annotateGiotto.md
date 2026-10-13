@@ -1,4 +1,4 @@
-# `annotateGiotto` {#annotateGiotto}
+# `annotateGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Annotate Giotto object

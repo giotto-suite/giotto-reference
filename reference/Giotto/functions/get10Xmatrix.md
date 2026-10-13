@@ -1,4 +1,4 @@
-# `get10Xmatrix` {#get10Xmatrix}
+# `get10Xmatrix`
 
 *Package:* `Giotto`  
 *Title:* get10Xmatrix

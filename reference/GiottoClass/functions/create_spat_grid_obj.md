@@ -1,4 +1,4 @@
-# `create_spat_grid_obj` {#create_spat_grid_obj}
+# `create_spat_grid_obj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 spatialGridObj

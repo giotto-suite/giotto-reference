@@ -1,4 +1,4 @@
-# `giottoToSeuratV5` {#giottoToSeuratV5}
+# `giottoToSeuratV5`
 
 *Package:* `GiottoClass`  
 *Title:* Convert Giotto to Seurat V5
@@ -27,7 +27,7 @@ giottoToSeuratV5(
 - `spat_unit`: spatial unit (e.g. 'cell')
 - `tech`: technology the dataset is using (e.g. "Visium","Xenium", "Slide-seq")
 - `res_type`: type of 10x image output resolution
-- `...`: additional params to pass to `[getSpatialLocations]`
+- `...`: additional params to pass to [`getSpatialLocations`](getSpatialLocations.md)
 
 ## Value
 

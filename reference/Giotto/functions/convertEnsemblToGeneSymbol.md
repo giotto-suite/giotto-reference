@@ -1,4 +1,4 @@
-# `convertEnsemblToGeneSymbol` {#convertEnsemblToGeneSymbol}
+# `convertEnsemblToGeneSymbol`
 
 *Package:* `Giotto`  
 *Title:* convertEnsemblToGeneSymbol

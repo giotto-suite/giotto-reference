@@ -1,4 +1,4 @@
-# `filterSpatialGenes` {#filterSpatialGenes}
+# `filterSpatialGenes`
 
 *Package:* `Giotto`  
 *Title:* filterSpatialGenes

@@ -1,4 +1,4 @@
-# `sankeyPlot` {#sankeyPlot}
+# `sankeyPlot`
 
 *Package:* `GiottoVisuals`  
 *Title:* Create a sankey plot
@@ -58,7 +58,7 @@ second giottoPolygon (see usage section)
 - `focus_names`: character vector of node names to display. Others will be
 omitted.
 - `unfocused_color`: whether to color nodes that are not focused on.
-- `...`: Arguments passed on to `[networkD3::sankeyNetwork](networkD3:sankeyNetwork)`
+- `...`: Arguments passed on to `networkD3::sankeyNetwork`
   - **`Value`**: character string naming the variable in the `Links` data
 frame for how far away the nodes are from one another.
 - **`NodeGroup`**: character string specifying the node groups in the

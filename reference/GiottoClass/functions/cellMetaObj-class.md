@@ -1,4 +1,4 @@
-# `cellMetaObj-class` {#cellMetaObj-class}
+# `cellMetaObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 cellMetaObj

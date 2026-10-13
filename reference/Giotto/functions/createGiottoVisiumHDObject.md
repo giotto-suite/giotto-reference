@@ -1,4 +1,4 @@
-# `createGiottoVisiumHDObject` {#createGiottoVisiumHDObject}
+# `createGiottoVisiumHDObject`
 
 *Package:* `Giotto`  
 *Title:* deprecated

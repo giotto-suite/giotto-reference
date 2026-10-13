@@ -1,4 +1,4 @@
-# `ggplot_themes` {#ggplot_themes}
+# `ggplot_themes`
 
 *Package:* `GiottoVisuals`  
 *Title:* ggplot2 plotting themes

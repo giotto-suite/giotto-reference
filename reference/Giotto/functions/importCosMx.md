@@ -1,4 +1,4 @@
-# `importCosMx` {#importCosMx}
+# `importCosMx`
 
 *Package:* `Giotto`  
 *Title:* Import a Nanostring CosMx Assay

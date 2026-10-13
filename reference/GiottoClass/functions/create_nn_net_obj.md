@@ -1,4 +1,4 @@
-# `create_nn_net_obj` {#create_nn_net_obj}
+# `create_nn_net_obj`
 
 *Package:* `GiottoClass`  
 *Title:* create_nn_net_obj

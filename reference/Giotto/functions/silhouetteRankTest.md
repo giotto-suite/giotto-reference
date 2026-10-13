@@ -1,4 +1,4 @@
-# `silhouetteRankTest` {#silhouetteRankTest}
+# `silhouetteRankTest`
 
 *Package:* `Giotto`  
 *Title:* silhouetteRankTest
@@ -6,7 +6,7 @@
 ## Description
 
 Multi parameter aggregator version of
-`[silhouetteRank]`
+[`silhouetteRank`](silhouetteRank.md)
 
 ## Usage
 

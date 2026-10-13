@@ -1,4 +1,4 @@
-# `showGiottoSpatGrids` {#showGiottoSpatGrids}
+# `showGiottoSpatGrids`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoSpatGrids
@@ -26,17 +26,17 @@ prints name of available spatial grids
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoDimRed]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatInfo]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoImageNames]()`,
-`[showGiottoNearestNetworks]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatLocs]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoDimRed()`](showGiottoDimRed.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatInfo()`](showGiottoFeatInfo.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoImageNames()`](showGiottoImageNames.md),
+[`showGiottoNearestNetworks()`](showGiottoNearestNetworks.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatLocs()`](showGiottoSpatLocs.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `sankeySet` {#sankeySet}
+# `sankeySet`
 
 *Package:* `GiottoVisuals`  
 *Title:* Create a `giottoSankeyPlan` with one set of annotations

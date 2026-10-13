@@ -1,4 +1,4 @@
-# `giottoLargeImage-class` {#giottoLargeImage-class}
+# `giottoLargeImage-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 giottoLargeImage Class

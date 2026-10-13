@@ -1,4 +1,4 @@
-# `spatialExperimentToGiotto` {#spatialExperimentToGiotto}
+# `spatialExperimentToGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Utility function to convert a SpatialExperiment object to a Giotto object

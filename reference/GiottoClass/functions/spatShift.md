@@ -1,4 +1,4 @@
-# `spatShift` {#spatShift}
+# `spatShift`
 
 *Package:* `GiottoClass`  
 *Title:* Spatially shift an object

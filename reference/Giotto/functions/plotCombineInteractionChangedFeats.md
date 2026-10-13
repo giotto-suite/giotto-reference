@@ -1,4 +1,4 @@
-# `plotCombineInteractionChangedFeats` {#plotCombineInteractionChangedFeats}
+# `plotCombineInteractionChangedFeats`
 
 *Package:* `Giotto`  
 *Title:* plotCombineInteractionChangedFeats
@@ -47,7 +47,7 @@ plotCombineInteractionChangedFeats(
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

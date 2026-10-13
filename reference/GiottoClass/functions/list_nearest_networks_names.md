@@ -1,4 +1,4 @@
-# `list_nearest_networks_names` {#list_nearest_networks_names}
+# `list_nearest_networks_names`
 
 *Package:* `GiottoClass`  
 *Title:* list_nearest_networks_names

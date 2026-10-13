@@ -1,4 +1,4 @@
-# `createGiottoVisiumHDObjectBin` {#createGiottoVisiumHDObjectBin}
+# `createGiottoVisiumHDObjectBin`
 
 *Package:* `Giotto`  
 *Title:* Create 10x VisiumHD Giotto Object from Binned Outputs

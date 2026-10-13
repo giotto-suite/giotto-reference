@@ -1,4 +1,4 @@
-# `annotateSpatialGrid` {#annotateSpatialGrid}
+# `annotateSpatialGrid`
 
 *Package:* `GiottoClass`  
 *Title:* annotateSpatialGrid
@@ -27,8 +27,8 @@ annotateSpatialGrid(
 - `feat_type`: feature type
 - `spat_loc_name`: name of spatial locations
 - `spatial_grid_name`: name of spatial grid,
-see `[showGiottoSpatGrids]`
-- `cluster_columns`: names of cell metadata, see `[pDataDT]`
+see [`showGiottoSpatGrids`](showGiottoSpatGrids.md)
+- `cluster_columns`: names of cell metadata, see [`pDataDT`](pDataDT.md)
 
 ## Value
 

@@ -1,4 +1,4 @@
-# `doScrubletDetect` {#doScrubletDetect}
+# `doScrubletDetect`
 
 *Package:* `Giotto`  
 *Title:* doScrubletDetect

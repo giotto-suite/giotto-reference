@@ -1,4 +1,4 @@
-# `calculateAffineMatrixFromLandmarks` {#calculateAffineMatrixFromLandmarks}
+# `calculateAffineMatrixFromLandmarks`
 
 *Package:* `Giotto`  
 *Title:* Calculate an affine transformation matrix from two sets of landmarks
@@ -27,7 +27,7 @@ a 3x3 `matrix` that defines an affine transform
 
 ## See Also
 
-`[interactiveLandmarkSelection()](=interactiveLandmarkSelection)` `[GiottoClass::affine()](GiottoClass:affine)`
+[`interactiveLandmarkSelection()`](interactiveLandmarkSelection.md) [`GiottoClass::affine()`](../../GiottoClass/functions/affine.md)
 
 ## Examples
 

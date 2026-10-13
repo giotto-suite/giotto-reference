@@ -1,4 +1,4 @@
-# `detectSpatialPatterns` {#detectSpatialPatterns}
+# `detectSpatialPatterns`
 
 *Package:* `Giotto`  
 *Title:* detectSpatialPatterns

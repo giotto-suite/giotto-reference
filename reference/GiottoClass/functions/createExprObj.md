@@ -1,4 +1,4 @@
-# `createExprObj` {#createExprObj}
+# `createExprObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 exprObj
@@ -33,7 +33,7 @@ createExprObj(
 
 - `expression_data`: expression data. Accepts matrix-like data and
 coercible `data.frame` formats (first column used as row names). A
-filepath to a flat file readable by `[data.table::fread()](data.table:fread)` can also be
+filepath to a flat file readable by `data.table::fread()` can also be
 passed.
 - `name`: name of exprObj
 - `spat_unit`: spatial unit (e.g. "cell")

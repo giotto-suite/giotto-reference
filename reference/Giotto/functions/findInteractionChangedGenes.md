@@ -1,4 +1,4 @@
-# `findInteractionChangedGenes` {#findInteractionChangedGenes}
+# `findInteractionChangedGenes`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -25,5 +25,5 @@ interaction changed genes
 
 ## See Also
 
-`[findInteractionChangedFeats]`
+[`findInteractionChangedFeats`](findInteractionChangedFeats.md)
 

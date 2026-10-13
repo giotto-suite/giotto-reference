@@ -1,4 +1,4 @@
-# `polyStamp` {#polyStamp}
+# `polyStamp`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial polygons stamp
@@ -38,12 +38,12 @@ a data.table of polygon vertices
 
 ## See Also
 
-[generate_grid] [tessellate]
+[generate_grid](generate_grid.md) [tessellate](tessellate.md)
 
 Other polygon stamping: 
-`[circleVertices]()`,
-`[hexVertices]()`,
-`[rectVertices]()`
+[`circleVertices()`](circleVertices.md),
+[`hexVertices()`](hexVertices.md),
+[`rectVertices()`](rectVertices.md)
 
 ## Examples
 

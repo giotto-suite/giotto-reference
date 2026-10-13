@@ -1,4 +1,4 @@
-# `createGiottoPolygon` {#createGiottoPolygon}
+# `createGiottoPolygon`
 
 *Package:* `GiottoClass`  
 *Title:* Create giotto polygons object
@@ -108,14 +108,14 @@ data.frame with vertex 'x', 'y', and 'poly_ID' information.
 polygon (default: TRUE)
 - `background_algo`: algorithm to remove background polygon
 - `make_valid`: logical. (default `FALSE`) Whether to run
-`[terra::makeValid()](terra:is.valid)` on the geometries. Setting this to `TRUE` may cause
+`terra::makeValid()` on the geometries. Setting this to `TRUE` may cause
 read-in polygon attribute information to become out of sync.
 - `verbose`: be verbose
 - `...`: additional params to pass. For character method, params pass to
 SpatRaster or SpatVector methods, depending on whether x was a filepath to
 a maskfile or a spatial file (ex: wkt, shp, GeoJSON) respectively.
 - `name`: character. Name to assign this set of polygons. This will also
-be the name of the spatial unit that they define. See [giotto_schema]
+be the name of the spatial unit that they define. See [giotto_schema](giotto_schema.md)
 - `calc_centroids`: logical. (default `FALSE`) calculate centroids for
 polygons
 - `mask_method`: how the mask file defines individual segmentation
@@ -139,7 +139,7 @@ dataframe
 - `copy_dt`: (default TRUE) if segmdfr is provided as dt, this determines
 whether a copy is made
 - `maskfile`: path to mask file, a terra `SpatRaster`, or some other
-data class readable by `[terra::rast()](terra:rast)`
+data class readable by `terra::rast()`
 - `segmdfr`: data.frame-like object with polygon coordinate
 information (x, y, poly_ID) with x and y being vertex information for the
 polygon referenced by poly_ID. See details for how columns are selected for

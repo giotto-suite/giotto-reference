@@ -1,4 +1,4 @@
-# `list_spatial_networks` {#list_spatial_networks}
+# `list_spatial_networks`
 
 *Package:* `GiottoClass`  
 *Title:* list_spatial_networks

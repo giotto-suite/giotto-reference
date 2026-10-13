@@ -1,4 +1,4 @@
-# `scipy_sparse` {#scipy_sparse}
+# `scipy_sparse`
 
 *Package:* `GiottoUtils`  
 *Title:* Convert between Matrix and scipy sparse representations

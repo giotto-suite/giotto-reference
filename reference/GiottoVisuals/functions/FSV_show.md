@@ -1,4 +1,4 @@
-# `FSV_show` {#FSV_show}
+# `FSV_show`
 
 *Package:* `GiottoVisuals`  
 *Title:* FSV_show

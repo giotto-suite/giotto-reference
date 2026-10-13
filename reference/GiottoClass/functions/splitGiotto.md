@@ -1,4 +1,4 @@
-# `splitGiotto` {#splitGiotto}
+# `splitGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Split a Giotto Object

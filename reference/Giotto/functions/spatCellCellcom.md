@@ -1,4 +1,4 @@
-# `spatCellCellcom` {#spatCellCellcom}
+# `spatCellCellcom`
 
 *Package:* `Giotto`  
 *Title:* Spatial cell cell communication scoring

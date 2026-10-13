@@ -1,4 +1,4 @@
-# `crossSectionFeatPlot` {#crossSectionFeatPlot}
+# `crossSectionFeatPlot`
 
 *Package:* `Giotto`  
 *Title:* crossSectionFeatPlot
@@ -47,5 +47,5 @@ Description of parameters.
 
 ## See Also
 
-[GiottoVisuals::spatGenePlot3D](GiottoVisuals:spatFeatPlot3D) and [GiottoVisuals::spatFeatPlot2D](GiottoVisuals:spatFeatPlot2D)
+[GiottoVisuals::spatGenePlot3D](../../GiottoVisuals/functions/spatFeatPlot3D.md) and [GiottoVisuals::spatFeatPlot2D](../../GiottoVisuals/functions/spatFeatPlot2D.md)
 

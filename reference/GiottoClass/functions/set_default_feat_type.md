@@ -1,11 +1,11 @@
-# `set_default_feat_type` {#set_default_feat_type}
+# `set_default_feat_type`
 
 *Package:* `GiottoClass`  
 *Title:* set_default_feat_type
 
 ## Description
 
-Function to guess a default feature type. Also see `[activeFeatType()](=activeFeatType)` in
+Function to guess a default feature type. Also see [`activeFeatType()`](activeFeatType-generic.md) in
 methods-instructions.R for a way to manually assign this default
 
 ## Usage

@@ -1,4 +1,4 @@
-# `polygon_to_raster` {#polygon_to_raster}
+# `polygon_to_raster`
 
 *Package:* `GiottoClass`  
 *Title:* Convert polygon to raster

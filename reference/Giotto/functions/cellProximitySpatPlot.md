@@ -1,4 +1,4 @@
-# `cellProximitySpatPlot` {#cellProximitySpatPlot}
+# `cellProximitySpatPlot`
 
 *Package:* `Giotto`  
 *Title:* cellProximitySpatPlot
@@ -17,7 +17,7 @@ cellProximitySpatPlot(gobject, ...)
 ## Arguments
 
 - `gobject`: giotto object
-- `...`: Arguments passed on to `[cellProximitySpatPlot2D](=cellProximitySpatPlot2D)`
+- `...`: Arguments passed on to [`cellProximitySpatPlot2D`](cellProximitySpatPlot2D.md)
   - **`spat_loc_name`**: spatial locations to use
 - **`interaction_name`**: cell-cell interaction name
 - **`cluster_column`**: cluster column with cell clusters
@@ -44,7 +44,7 @@ cellProximitySpatPlot(gobject, ...)
 - **`return_plot`**: logical. return ggplot object
 - **`save_plot`**: logical. save the plot
 - **`save_param`**: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - **`default_save_name`**: default save name for saving, don't change,
 change save_name in save_param
 - **`cell_color`**: character. what to color cells by (e.g. metadata col or
@@ -66,6 +66,6 @@ Description of parameters.
 
 ## See Also
 
-`[cellProximitySpatPlot2D]` and
-`[cellProximitySpatPlot3D]` for 3D
+[`cellProximitySpatPlot2D`](cellProximitySpatPlot2D.md) and
+[`cellProximitySpatPlot3D`](cellProximitySpatPlot3D.md) for 3D
 

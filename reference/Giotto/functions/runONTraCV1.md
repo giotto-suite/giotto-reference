@@ -1,4 +1,4 @@
-# `runONTraCV1` {#runONTraCV1}
+# `runONTraCV1`
 
 *Package:* `Giotto`  
 *Title:* runONTraCV1

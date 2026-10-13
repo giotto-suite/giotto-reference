@@ -1,4 +1,4 @@
-# `overlapPointDT-class` {#overlapPointDT-class}
+# `overlapPointDT-class`
 
 *Package:* `GiottoClass`  
 *Title:* Polygon and Point Relationships

@@ -1,4 +1,4 @@
-# `crossSectionPlot` {#crossSectionPlot}
+# `crossSectionPlot`
 
 *Package:* `Giotto`  
 *Title:* crossSectionPlot
@@ -48,5 +48,5 @@ Description of parameters.
 
 ## See Also
 
-`[crossSectionPlot]`
+[`crossSectionPlot`](crossSectionPlot.md)
 

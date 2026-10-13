@@ -1,4 +1,4 @@
-# `showGiottoDimRed` {#showGiottoDimRed}
+# `showGiottoDimRed`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoDimRed
@@ -27,17 +27,17 @@ coordinates
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatInfo]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoImageNames]()`,
-`[showGiottoNearestNetworks]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatGrids]()`,
-`[showGiottoSpatLocs]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatInfo()`](showGiottoFeatInfo.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoImageNames()`](showGiottoImageNames.md),
+[`showGiottoNearestNetworks()`](showGiottoNearestNetworks.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatGrids()`](showGiottoSpatGrids.md),
+[`showGiottoSpatLocs()`](showGiottoSpatLocs.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

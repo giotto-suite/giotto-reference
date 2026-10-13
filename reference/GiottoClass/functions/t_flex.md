@@ -1,4 +1,4 @@
-# `t_flex` {#t_flex}
+# `t_flex`
 
 *Package:* `GiottoClass`  
 *Title:* t_flex

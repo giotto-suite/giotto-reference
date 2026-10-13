@@ -1,4 +1,4 @@
-# `circleVertices` {#circleVertices}
+# `circleVertices`
 
 *Package:* `GiottoClass`  
 *Title:* Generate circle polygon vertices
@@ -25,12 +25,12 @@ a data.table of circle vertices
 
 ## See Also
 
-[generate_grid]
+[generate_grid](generate_grid.md)
 
 Other polygon stamping: 
-`[hexVertices]()`,
-`[polyStamp]()`,
-`[rectVertices]()`
+[`hexVertices()`](hexVertices.md),
+[`polyStamp()`](polyStamp.md),
+[`rectVertices()`](rectVertices.md)
 
 ## Examples
 

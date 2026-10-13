@@ -1,4 +1,4 @@
-# `spatial_binary_ops` {#spatial_binary_ops}
+# `spatial_binary_ops`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial binary operations

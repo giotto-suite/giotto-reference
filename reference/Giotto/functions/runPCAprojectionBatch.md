@@ -1,4 +1,4 @@
-# `runPCAprojectionBatch` {#runPCAprojectionBatch}
+# `runPCAprojectionBatch`
 
 *Package:* `Giotto`  
 *Title:* runPCAprojectionBatch
@@ -66,17 +66,17 @@ giotto object with updated PCA dimension reduction
 
 ## Details
 
-See `[runPCA](BiocSingular)` and
-`[PCA](FactoMineR)` for more information about other parameters.
-This PCA implementation is similar to  `[runPCA]` and
-`[runPCAprojection]`,
+See `runPCA` and
+`PCA` for more information about other parameters.
+This PCA implementation is similar to  [`runPCA`](runPCA.md) and
+[`runPCAprojection`](runPCAprojection.md),
 except that it performs PCA on multiple subsets (batches) of the cells or
 features,
 and predict on the others. This can significantly increase speed without
 sacrificing accuracy too much.
 - feats_to_use = NULL: will use all features from the selected matrix
 - feats_to_use = <hvg name>: can be used to select a column name of
-  highly variable features, created by (see `[calculateHVF]`)
+  highly variable features, created by (see [`calculateHVF`](calculateHVF.md))
 - feats_to_use = c('geneA', 'geneB', ...): will use all manually
   provided features
 

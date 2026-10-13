@@ -1,4 +1,4 @@
-# `doGiottoClustree` {#doGiottoClustree}
+# `doGiottoClustree`
 
 *Package:* `Giotto`  
 *Title:* doGiottoClustree
@@ -37,10 +37,10 @@ for resolution testing, i.e. (0.1, 0.6, 0.1)
 - `save_plot`: by default, pulls from provided gobject instructions
 - `return_plot`: by default, pulls from provided gobject instructions
 - `save_param`: list of saving parameters from
-`[GiottoVisuals::all_plots_save_function()](GiottoVisuals:plot_save)`
+[`GiottoVisuals::all_plots_save_function()`](../../GiottoVisuals/functions/plot_save.md)
 - `default_save_name`: name of saved plot, default "clustree"
 - `verbose`: be verbose
-- `...`: Arguments passed on to `[clustree::clustree](clustree:clustree)`
+- `...`: Arguments passed on to `clustree::clustree`
   - **``**:
 
 ## Value
@@ -61,7 +61,7 @@ will be returned.
 
 ## See Also
 
-`[doLeidenCluster]`
+[`doLeidenCluster`](doLeidenCluster.md)
 
 ## Examples
 

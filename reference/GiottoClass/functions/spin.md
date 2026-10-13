@@ -1,4 +1,4 @@
-# `spin` {#spin}
+# `spin`
 
 *Package:* `GiottoClass`  
 *Title:* Spin an object

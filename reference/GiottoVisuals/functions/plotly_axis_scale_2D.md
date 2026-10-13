@@ -1,4 +1,4 @@
-# `plotly_axis_scale_2D` {#plotly_axis_scale_2D}
+# `plotly_axis_scale_2D`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotly_axis_scale_2D

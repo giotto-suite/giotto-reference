@@ -1,4 +1,4 @@
-# `findMastMarkers` {#findMastMarkers}
+# `findMastMarkers`
 
 *Package:* `Giotto`  
 *Title:* findMastMarkers
@@ -51,7 +51,7 @@ data.table with marker feats
 ## Details
 
 This is a minimal convenience wrapper around the
-`[zlm](MAST)`
+`zlm`
 from the MAST package to detect differentially expressed feats. Caution:
 with large datasets
 MAST might take a long time to run and finish

@@ -1,4 +1,4 @@
-# `combine_split_geoms` {#combine_split_geoms}
+# `combine_split_geoms`
 
 *Package:* `GiottoClass`  
 *Title:* Combine or Split Complex Geometries
@@ -41,8 +41,8 @@ Will be used as the new `poly_ID` column. All geometries will be combined
 if not provided.
 - `dissolve`: logical. Should borders between aggregated geometries be dissolved?
 - `fun`: function used to aggregate values. Either an actual function, or for the following, their name: "mean", "max", "min", "median", "sum", "modal", "any", "all", "none", "prod", "which.min", "which.max", "table", "sd" (sample standard deviation) and "std" (population standard deviation)
-- `...`: additional params to pass to `[terra::aggregate()](terra:aggregate)` (and then to
-`fun`, such as `na.rm=TRUE`) or `[terra::disagg()](terra:disaggregate)`
+- `...`: additional params to pass to `terra::aggregate()` (and then to
+`fun`, such as `na.rm=TRUE`) or `terra::disagg()`
 - `fmt`: character. sprintf formatting to use to generate `poly_ID` column
 values if no attributes are retained after combining.
 - `previous_id`: character. If not `NULL`, column name to store original

@@ -1,4 +1,4 @@
-# `spatInSituPlotPoints` {#spatInSituPlotPoints}
+# `spatInSituPlotPoints`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatInSituPlotPoints
@@ -128,11 +128,11 @@ polygons (default) or points.
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `verbose`: be verbose
-- `...`: additional params to pass to `[GiottoClass::spatValues()](GiottoClass:spatValues)`
+- `...`: additional params to pass to [`GiottoClass::spatValues()`](../../GiottoClass/functions/spatValues.md)
 
 ## Value
 
@@ -141,8 +141,8 @@ ggplot
 ## See Also
 
 Other In Situ visualizations: 
-`[spatInSituPlotDensity]()`,
-`[spatInSituPlotHex]()`
+[`spatInSituPlotDensity()`](spatInSituPlotDensity.md),
+[`spatInSituPlotHex()`](spatInSituPlotHex.md)
 
 ## Examples
 

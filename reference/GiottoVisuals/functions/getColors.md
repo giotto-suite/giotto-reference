@@ -1,4 +1,4 @@
-# `getColors` {#getColors}
+# `getColors`
 
 *Package:* `GiottoVisuals`  
 *Title:* getColors

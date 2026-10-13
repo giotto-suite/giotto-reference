@@ -1,4 +1,4 @@
-# `binSpect` {#binSpect}
+# `binSpect`
 
 *Package:* `Giotto`  
 *Title:* binSpect
@@ -166,7 +166,7 @@ binSpectMulti(
 - `percentage_rank`: percentage of top cells for binarization
 - `do_fisher_test`: perform fisher test
 - `adjust_method`: p-value adjusted method to use
-(see `[p.adjust](stats)`)
+(see `p.adjust`)
 - `calc_hub`: calculate the number of hub cells
 - `hub_min_int`: minimum number of cell-cell interactions for a hub cell
 - `get_av_expr`: calculate the average expression per gene of the high
@@ -211,10 +211,10 @@ calculated
 
 
 Three different kmeans algorithms have been implemented:
-1. **kmeans:** default, see `[kmeans](stats)`
-1. **kmeans_arma:** from ClusterR, see `[KMeans_arma](ClusterR)`
+1. **kmeans:** default, see `kmeans`
+1. **kmeans_arma:** from ClusterR, see `KMeans_arma`
 1. **kmeans_arma_subst:** from ClusterR, see
-`[KMeans_arma](ClusterR)`, but randomly subsets the vector
+`KMeans_arma`, but randomly subsets the vector
 for each gene to increase speed. Change extreme_nr and sample_nr for
 control.
 

@@ -1,4 +1,4 @@
-# `showSaveParameters` {#showSaveParameters}
+# `showSaveParameters`
 
 *Package:* `GiottoVisuals`  
 *Title:* showSaveParameters
@@ -6,7 +6,7 @@
 ## Description
 
 Description of Giotto saving options,
-links to `[all_plots_save_function]`
+links to [`all_plots_save_function`](plot_save.md)
 
 ## Usage
 

@@ -1,4 +1,4 @@
-# `sankeyLabel` {#sankeyLabel}
+# `sankeyLabel`
 
 *Package:* `GiottoVisuals`  
 *Title:* Get and set the sankey labels information

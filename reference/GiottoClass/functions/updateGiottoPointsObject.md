@@ -1,4 +1,4 @@
-# `updateGiottoPointsObject` {#updateGiottoPointsObject}
+# `updateGiottoPointsObject`
 
 *Package:* `GiottoClass`  
 *Title:* Update giotto points object

@@ -1,4 +1,4 @@
-# `createSpatialNetwork` {#createSpatialNetwork}
+# `createSpatialNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Create spatial network
@@ -53,7 +53,7 @@ network. (default = Delaunay)
 - `delaunay_method`: method to use to generate Delaunay network
 - `maximum_distance_delaunay`: distance cutoff for nearest neighbors to
 consider for Delaunay network. If "auto", "upper whisker" value of the
-distance vector between neighbors is used; see the [grDevices::boxplot.stats](grDevices:boxplot.stats)
+distance vector between neighbors is used; see the grDevices::boxplot.stats
 documentation for more details.(default = "auto")
 - `options`: (geometry) String containing extra control options for the
 underlying Qhull command; see the

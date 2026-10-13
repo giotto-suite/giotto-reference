@@ -48,7 +48,7 @@ Utility functions and imports for Giotto Suite.
 - [`new_github_ver_avail`](functions/new_github_ver_avail.md) — Check if a package has newer github version
 - [`package_check`](functions/package_check.md) — package_check
 - [`pbar`](functions/pbar.md) — Create a **progressr** progress tracker.
-- [`%>%`](functions/%>%.md) — See `magrittr::[%>%](magrittr)` for details.
+- [`%>%`](functions/%25%3E%25.md) — See `magrittr::%>%` for details.
 - [`prev_call`](functions/prev_call.md) — Previous calls
 - [`print_list`](functions/print_list.md) — Pretty print formatting for lists and vectors
 - [`py_active_env`](functions/py_active_env.md) — Active python environment

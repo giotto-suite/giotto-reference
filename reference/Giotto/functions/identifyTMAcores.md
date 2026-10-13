@@ -1,4 +1,4 @@
-# `identifyTMAcores` {#identifyTMAcores}
+# `identifyTMAcores`
 
 *Package:* `Giotto`  
 *Title:* Split cluster annotations based on a spatial network

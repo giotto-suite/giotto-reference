@@ -1,4 +1,4 @@
-# `list_feat_id_names` {#list_feat_id_names}
+# `list_feat_id_names`
 
 *Package:* `GiottoClass`  
 *Title:* List feat ID names

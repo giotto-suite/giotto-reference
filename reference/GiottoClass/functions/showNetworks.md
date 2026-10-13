@@ -1,4 +1,4 @@
-# `showNetworks` {#showNetworks}
+# `showNetworks`
 
 *Package:* `GiottoClass`  
 *Title:* Show networks
@@ -15,7 +15,7 @@ showNetworks(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[showGiottoSpatNetworks](=showGiottoSpatNetworks)`
+- `...`: Arguments passed on to [`showGiottoSpatNetworks`](showGiottoSpatNetworks.md)
   - **`gobject`**: a giotto object
 - **`nrows`**: number of rows to print
 
@@ -25,5 +25,5 @@ prints names and small subset of available spatial network info
 
 ## See Also
 
-`[showGiottoSpatNetworks]`
+[`showGiottoSpatNetworks`](showGiottoSpatNetworks.md)
 

@@ -1,4 +1,4 @@
-# `XY` {#XY}
+# `XY`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial coordinates

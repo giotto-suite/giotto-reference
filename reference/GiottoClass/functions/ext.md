@@ -1,4 +1,4 @@
-# `ext` {#ext}
+# `ext`
 
 *Package:* `GiottoClass`  
 *Title:* Get a SpatExtent

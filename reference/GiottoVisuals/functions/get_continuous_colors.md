@@ -1,4 +1,4 @@
-# `get_continuous_colors` {#get_continuous_colors}
+# `get_continuous_colors`
 
 *Package:* `GiottoVisuals`  
 *Title:* Generate a continuous set of colors
@@ -11,7 +11,7 @@ then return those `n` colors.
 
 `strategy` describes how to make these colors continuous:
 - **'interpolate'** interpolates provided colors using
-`[grDevices::colorRampPalette()](grDevices:colorRamp)`
+`grDevices::colorRampPalette()`
 - **'recycle'** - recycles the input color vector across the `n` requested.
 - **'cutoff'** - supply only a maximum of as many colors as exist within the
 originally supplied vector.

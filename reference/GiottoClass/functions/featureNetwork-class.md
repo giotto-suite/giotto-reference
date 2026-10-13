@@ -1,4 +1,4 @@
-# `featureNetwork-class` {#featureNetwork-class}
+# `featureNetwork-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 giotto feature network Class

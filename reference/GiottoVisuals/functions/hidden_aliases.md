@@ -1,4 +1,4 @@
-# `hidden_aliases` {#hidden_aliases}
+# `hidden_aliases`
 
 *Package:* `GiottoVisuals`  
 *Title:* hidden_aliases

@@ -1,4 +1,4 @@
-# `updateGiottoLargeImage` {#updateGiottoLargeImage}
+# `updateGiottoLargeImage`
 
 *Package:* `GiottoClass`  
 *Title:* updateGiottoLargeImage
@@ -64,7 +64,7 @@ if `return_gobject = FALSE`
 
 ## See Also
 
-`[ext()](=ext)`
+[`ext()`](ext.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `createSpatEnrObj` {#createSpatEnrObj}
+# `createSpatEnrObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 spatEnrObj

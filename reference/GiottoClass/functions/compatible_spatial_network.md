@@ -1,4 +1,4 @@
-# `compatible_spatial_network` {#compatible_spatial_network}
+# `compatible_spatial_network`
 
 *Package:* `GiottoClass`  
 *Title:* Compatible spatial network

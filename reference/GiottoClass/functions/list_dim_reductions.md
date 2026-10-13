@@ -1,4 +1,4 @@
-# `list_dim_reductions` {#list_dim_reductions}
+# `list_dim_reductions`
 
 *Package:* `GiottoClass`  
 *Title:* list_dim_reductions

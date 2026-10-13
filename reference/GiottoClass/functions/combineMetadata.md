@@ -1,4 +1,4 @@
-# `combineMetadata` {#combineMetadata}
+# `combineMetadata`
 
 *Package:* `GiottoClass`  
 *Title:* combineMetadata

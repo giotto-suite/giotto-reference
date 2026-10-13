@@ -1,4 +1,4 @@
-# `time_format` {#time_format}
+# `time_format`
 
 *Package:* `GiottoUtils`  
 *Title:* Format time for printing
@@ -23,7 +23,7 @@ character
 
 ## Details
 
-Code from `[timetaken](data.table)`
+Code from `timetaken`
 
 ## Examples
 

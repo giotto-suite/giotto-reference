@@ -1,4 +1,4 @@
-# `processExpression` {#processExpression}
+# `processExpression`
 
 *Package:* `Giotto`  
 *Title:* Expression Data Processing
@@ -29,7 +29,7 @@ processExpression(
 - `param`: S4 parameter class defining the transform operation and
 params affecting it. Can also be a list of several of these objects, acting
 as a pipeline.
-- `name`: character (optional). [Object name](GiottoClass:giotto_schema)
+- `name`: character (optional). [Object name](../../GiottoClass/functions/giotto_schema.md)
 to assign to the output. Default `name` changes based on `param` input:
 - when `param` is `list` or `scaleParam`: `name = "scaled"`
 - when `param` is `normParam`: `name = "normalized"`
@@ -50,9 +50,9 @@ A `giotto` object when `return_gobject = TRUE`. Otherwise, an
 
 ## See Also
 
-[process_param] for processing operations that can be performed
+[process_param](process_param.md) for processing operations that can be performed
 
-`[processData()](=processData)` for the lower level generic handling these operations
+[`processData()`](../../GiottoClass/functions/processData.md) for the lower level generic handling these operations
 
 ## Examples
 

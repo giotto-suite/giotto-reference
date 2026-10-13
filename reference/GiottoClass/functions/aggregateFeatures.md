@@ -1,4 +1,4 @@
-# `aggregateFeatures` {#aggregateFeatures}
+# `aggregateFeatures`
 
 *Package:* `GiottoClass`  
 *Title:* Aggregate Spatial Features Covered by Polygon Geometries
@@ -8,8 +8,8 @@
 Aggregate features (either `feat_info` OR `image_names`) with
 polygons (`spat_info`). Under the hood, this is performed in two steps:
 1. Find the overlapped features via the lower-level generic
-`[calculateOverlap()](=calculateOverlap)`
-1. Summarize the overlapped features as a matrix via `[overlapToMatrix()](=overlapToMatrix)`
+[`calculateOverlap()`](calculateOverlap.md)
+1. Summarize the overlapped features as a matrix via [`overlapToMatrix()`](overlapToMatrix.md)
 
 ## Usage
 
@@ -59,13 +59,13 @@ overlap calculation.
 information. Useful in cases when more than one detection is reported per
 point.
 - `fun`: character (default = "sum"). A function usable by
-`[exactextractr::exact_extract()](exactextractr:exact_extract)` to aggregate image intensity values.
+`exactextractr::exact_extract()` to aggregate image intensity values.
 - `return_gobject`: logical (default = TRUE). Whether to return the
 `giotto` object or just the aggregated expression values as `exprObj` class.
 - `verbose`: logical. Whether to be verbose.
 - `...`: Additional params to pass to the overlap calculation method.
 None implemented for point overlaps. For intensity overlaps, passes to
-`[exactextractr::exact_extract()](exactextractr:exact_extract)` and additionally the function requested
+`exactextractr::exact_extract()` and additionally the function requested
 with the `fun` param.
 
 ## Value

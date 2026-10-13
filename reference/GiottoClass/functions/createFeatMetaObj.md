@@ -1,4 +1,4 @@
-# `createFeatMetaObj` {#createFeatMetaObj}
+# `createFeatMetaObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 featMetaObj

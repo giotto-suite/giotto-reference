@@ -1,4 +1,4 @@
-# `findICFSpot` {#findICFSpot}
+# `findICFSpot`
 
 *Package:* `Giotto`  
 *Title:* findICFSpot
@@ -8,7 +8,7 @@
 Identifies cell-to-cell Interaction Changed Features (ICF) for
 spots, i.e. features expression residual that are different due to proximity
 to other cell types. Works using results from celltype deconvolution methods
-such as those from `[runDWLSDeconv()](=runDWLSDeconv)`.
+such as those from [`runDWLSDeconv()`](runDWLSDeconv.md).
 
 ## Usage
 
@@ -96,7 +96,7 @@ residual in the NOT-interacting cells from the target cell type
 
 ## See Also
 
-`[findInteractionChangedFeats()](=findInteractionChangedFeats)`
+[`findInteractionChangedFeats()`](findInteractionChangedFeats.md)
 
 ## Examples
 

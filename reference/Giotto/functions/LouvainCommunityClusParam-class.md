@@ -1,4 +1,4 @@
-# `LouvainCommunityClusParam-class` {#LouvainCommunityClusParam-class}
+# `LouvainCommunityClusParam-class`
 
 *Package:* `Giotto`  
 *Title:* Louvain Clustering

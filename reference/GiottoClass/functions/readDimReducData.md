@@ -1,4 +1,4 @@
-# `readDimReducData` {#readDimReducData}
+# `readDimReducData`
 
 *Package:* `GiottoClass`  
 *Title:* Read dimensional reduction data

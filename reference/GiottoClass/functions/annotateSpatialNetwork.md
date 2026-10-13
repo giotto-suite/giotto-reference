@@ -1,4 +1,4 @@
-# `annotateSpatialNetwork` {#annotateSpatialNetwork}
+# `annotateSpatialNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* annotateSpatialNetwork

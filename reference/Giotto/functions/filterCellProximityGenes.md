@@ -1,4 +1,4 @@
-# `filterCellProximityGenes` {#filterCellProximityGenes}
+# `filterCellProximityGenes`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -15,7 +15,7 @@ filterCellProximityGenes(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[filterInteractionChangedFeats](=filterInteractionChangedFeats)`
+- `...`: Arguments passed on to [`filterInteractionChangedFeats`](filterInteractionChangedFeats.md)
   - **`icfObject`**: ICF (interaction changed feature) score object
 - **`min_cells`**: minimum number of source cell type
 - **`min_cells_expr`**: minimum expression level for source cell type
@@ -35,5 +35,5 @@ proximity genes
 
 ## See Also
 
-`[filterInteractionChangedFeats]`
+[`filterInteractionChangedFeats`](filterInteractionChangedFeats.md)
 

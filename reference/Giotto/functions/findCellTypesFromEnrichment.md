@@ -1,4 +1,4 @@
-# `findCellTypesFromEnrichment` {#findCellTypesFromEnrichment}
+# `findCellTypesFromEnrichment`
 
 *Package:* `Giotto`  
 *Title:* findCellTypesFromEnrichment

@@ -1,4 +1,4 @@
-# `compareCellAbundance` {#compareCellAbundance}
+# `compareCellAbundance`
 
 *Package:* `Giotto`  
 *Title:* Compare cell types percent per polygon

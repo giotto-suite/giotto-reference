@@ -1,4 +1,4 @@
-# `doLeidenCluster` {#doLeidenCluster}
+# `doLeidenCluster`
 
 *Package:* `Giotto`  
 *Title:* doLeidenCluster
@@ -69,7 +69,7 @@ doLeidenCluster(
 - `return_gobject`: boolean: return giotto object (default = TRUE)
 - `set_seed`: set seed
 - `seed_number`: number for seed
-- `...`: Arguments passed on to `[igraph::cluster_leiden](igraph:cluster_leiden)`
+- `...`: Arguments passed on to `igraph::cluster_leiden`
   - **`resolution_parameter`**: html[lifecycle-superseded.svgoptions: alt='[Superseded]'](https://lifecycle.r-lib.org/articles/stages.html#superseded)**[Superseded]** Use `resolution` instead.
 - **`vertex_weights`**: the vertex weights used in the Leiden algorithm.
 If this is not provided, it will be automatically determined on the basis
@@ -84,7 +84,7 @@ giotto object with new clusters appended to cell metadata
 
 This function is a wrapper for the Leiden algorithm implemented in igraph,
 which can detect communities in graphs of millions of nodes (cells),
-as long as they can fit in memory. See `[cluster_leiden](igraph)`
+as long as they can fit in memory. See `cluster_leiden`
 for more information.
 
 Set *weights = NULL* to use the vertices weights associated with the

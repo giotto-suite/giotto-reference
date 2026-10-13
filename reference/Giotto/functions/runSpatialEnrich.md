@@ -1,4 +1,4 @@
-# `runSpatialEnrich` {#runSpatialEnrich}
+# `runSpatialEnrich`
 
 *Package:* `Giotto`  
 *Title:* runSpatialEnrich
@@ -66,9 +66,9 @@ Giotto object or enrichment results if return_gobject = FALSE
 ## Details
 
 For details see the individual functions:
-- **PAGE:** `[runPAGEEnrich]`
-- **Rank:** `[runRankEnrich]`
-- **Hypergeometric:** `[runHyperGeometricEnrich]`
+- **PAGE:** [`runPAGEEnrich`](enrichment_PAGE.md)
+- **Rank:** [`runRankEnrich`](runRankEnrich.md)
+- **Hypergeometric:** [`runHyperGeometricEnrich`](runHyperGeometricEnrich.md)
 
 ## Examples
 

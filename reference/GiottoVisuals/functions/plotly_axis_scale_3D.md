@@ -1,4 +1,4 @@
-# `plotly_axis_scale_3D` {#plotly_axis_scale_3D}
+# `plotly_axis_scale_3D`
 
 *Package:* `GiottoVisuals`  
 *Title:* plotly_axis_scale_3D

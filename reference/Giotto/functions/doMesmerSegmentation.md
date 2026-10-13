@@ -1,4 +1,4 @@
-# `doMesmerSegmentation` {#doMesmerSegmentation}
+# `doMesmerSegmentation`
 
 *Package:* `Giotto`  
 *Title:* perform Mesmer(Deepcell) segmentation

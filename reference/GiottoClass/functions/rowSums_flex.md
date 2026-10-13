@@ -1,4 +1,4 @@
-# `rowSums_flex` {#rowSums_flex}
+# `rowSums_flex`
 
 *Package:* `GiottoClass`  
 *Title:* rowSums_flex
@@ -16,7 +16,7 @@ rowSums_flex(mymatrix, ...)
 ## Arguments
 
 - `mymatrix`: matrix to use
-- `...`: other arguments passed to `[rowSums]`
+- `...`: other arguments passed to `rowSums`
 
 ## Value
 

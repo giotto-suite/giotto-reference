@@ -1,4 +1,4 @@
-# `plotCellTypesFromEnrichment` {#plotCellTypesFromEnrichment}
+# `plotCellTypesFromEnrichment`
 
 *Package:* `Giotto`  
 *Title:* plotCellTypesFromEnrichment
@@ -36,7 +36,7 @@ Default value is "PAGE_Z_score"
 - `title`: Title of the generated plot.
 Default `paste0(spat_unit,"cell types (maximum", enrichment_name, ")")`
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 - `save_plot`: logical. save the plot

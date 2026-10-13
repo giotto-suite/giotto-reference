@@ -1,4 +1,4 @@
-# `combineICG` {#combineICG}
+# `combineICG`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -15,7 +15,7 @@ combineICG(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[combineICF](=combineICF)`
+- `...`: Arguments passed on to [`combineICF`](combineInteractionChangedFeats.md)
   - **`icfObject`**: ICF (interaction changed feat) score object
 - **`selected_ints`**: subset of selected cell-cell interactions (optional)
 - **`selected_feats`**: subset of selected Features (optional)
@@ -37,5 +37,5 @@ ICF scores
 
 ## See Also
 
-`[combineICF]`
+[`combineICF`](combineInteractionChangedFeats.md)
 

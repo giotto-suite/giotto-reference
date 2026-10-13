@@ -1,4 +1,4 @@
-# `updateGiottoImageMG` {#updateGiottoImageMG}
+# `updateGiottoImageMG`
 
 *Package:* `GiottoClass`  
 *Title:* updateGiottoImageMG

@@ -1,4 +1,4 @@
-# `setSpatialLocations` {#setSpatialLocations}
+# `setSpatialLocations`
 
 *Package:* `GiottoClass`  
 *Title:* Set spatial locations
@@ -48,23 +48,23 @@ also be specified through the respective params in this function.
 ## See Also
 
 Other spatial location data accessor functions: 
-`[getSpatialLocations]()`
+[`getSpatialLocations()`](getSpatialLocations.md)
 
 Other functions to set data in giotto object: 
-`[setCellMetadata]()`,
-`[setDimReduction]()`,
-`[setExpression]()`,
-`[setFeatureInfo]()`,
-`[setFeatureMetadata]()`,
-`[setGiotto,giotto,giottoBinPoints-method]`,
-`[setGiottoImage]()`,
-`[setMultiomics]()`,
-`[setNearestNetwork]()`,
-`[setPolygonInfo]()`,
-`[setSpatialEnrichment]()`,
-`[setSpatialGrid]()`,
-`[setSpatialNetwork]()`,
-`[set_multiomics]()`
+[`setCellMetadata()`](setCellMetadata.md),
+[`setDimReduction()`](setDimReduction.md),
+[`setExpression()`](setExpression.md),
+[`setFeatureInfo()`](setFeatureInfo.md),
+[`setFeatureMetadata()`](setFeatureMetadata.md),
+[`setGiotto,giotto,giottoBinPoints-method`](setGiotto%2Cgiotto%2CgiottoBinPoints-method.md),
+[`setGiottoImage()`](setGiottoImage.md),
+[`setMultiomics()`](setMultiomics.md),
+[`setNearestNetwork()`](setNearestNetwork.md),
+[`setPolygonInfo()`](setPolygonInfo.md),
+[`setSpatialEnrichment()`](setSpatialEnrichment.md),
+[`setSpatialGrid()`](setSpatialGrid.md),
+[`setSpatialNetwork()`](setSpatialNetwork.md),
+[`set_multiomics()`](set_multiomics.md)
 
 ## Examples
 

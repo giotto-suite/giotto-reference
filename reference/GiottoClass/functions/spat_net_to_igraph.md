@@ -1,4 +1,4 @@
-# `spat_net_to_igraph` {#spat_net_to_igraph}
+# `spat_net_to_igraph`
 
 *Package:* `GiottoClass`  
 *Title:* Convert spatialNetworkObj to igraph

@@ -1,4 +1,4 @@
-# `as.points` {#as.points}
+# `as.points`
 
 *Package:* `GiottoClass`  
 *Title:* Coerce to SpatVector points
@@ -31,13 +31,13 @@ SpatVector points
 
 ## See Also
 
-`[terra::as.points()](terra:as.points)`
+`terra::as.points()`
 
 Other As coercion functions: 
-`[as.data.table.giottoBinPoints]()`,
-`[as.matrix]()`,
-`[as.polygons]()`,
-`[r_spatial_conversions]`
+[`as.data.table.giottoBinPoints()`](as.data.table.giottoBinPoints.md),
+[`as.matrix()`](as.matrix.md),
+[`as.polygons()`](as.polygons.md),
+[`r_spatial_conversions`](r_spatial_conversions.md)
 
 ## Examples
 

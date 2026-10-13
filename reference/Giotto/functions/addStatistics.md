@@ -1,4 +1,4 @@
-# `addStatistics` {#addStatistics}
+# `addStatistics`
 
 *Package:* `Giotto`  
 *Title:* addStatistics

@@ -1,4 +1,4 @@
-# `createSpatNetObj` {#createSpatNetObj}
+# `createSpatNetObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 spatialNetworkObj

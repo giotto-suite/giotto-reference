@@ -1,4 +1,4 @@
-# `reconnectGiottoImage` {#reconnectGiottoImage}
+# `reconnectGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* Reconnect images with dead pointers
@@ -57,9 +57,9 @@ setting `auto_reconnect = FALSE`.
 ## See Also
 
 Other basic image functions: 
-`[addGiottoImage]()`,
-`[plotGiottoImage]()`,
-`[updateGiottoImage]()`
+[`addGiottoImage()`](addGiottoImage.md),
+[`plotGiottoImage()`](plotGiottoImage.md),
+[`updateGiottoImage()`](updateGiottoImage.md)
 
 ## Examples
 

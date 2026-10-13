@@ -1,4 +1,4 @@
-# `doRandomWalkCluster` {#doRandomWalkCluster}
+# `doRandomWalkCluster`
 
 *Package:* `Giotto`  
 *Title:* doRandomWalkCluster
@@ -44,7 +44,7 @@ giotto object with new clusters appended to cell metadata
 
 ## Details
 
-See `[cluster_walktrap](igraph)` function from the igraph
+See `cluster_walktrap` function from the igraph
 package in R for more information.
 
 ## Examples

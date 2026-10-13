@@ -1,4 +1,4 @@
-# `wrap_msg` {#wrap_msg}
+# `wrap_msg`
 
 *Package:* `GiottoUtils`  
 *Title:* Wrap message

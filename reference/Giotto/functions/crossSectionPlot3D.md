@@ -1,4 +1,4 @@
-# `crossSectionPlot3D` {#crossSectionPlot3D}
+# `crossSectionPlot3D`
 
 *Package:* `Giotto`  
 *Title:* crossSectionPlot3D

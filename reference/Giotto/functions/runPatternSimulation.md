@@ -1,4 +1,4 @@
-# `runPatternSimulation` {#runPatternSimulation}
+# `runPatternSimulation`
 
 *Package:* `Giotto`  
 *Title:* runPatternSimulation

@@ -1,4 +1,4 @@
-# `giottoToAnndataZarr` {#giottoToAnndataZarr}
+# `giottoToAnndataZarr`
 
 *Package:* `Giotto`  
 *Title:* Create a local anndata zarr folder

@@ -1,4 +1,4 @@
-# `createGiottoXeniumObject` {#createGiottoXeniumObject}
+# `createGiottoXeniumObject`
 
 *Package:* `Giotto`  
 *Title:* Create 10x Xenium Giotto Object
@@ -83,7 +83,7 @@ provided expression matrix.
 - `load_cellmeta`: logical. Default = FALSE. Whether to load in 10X
 provided cell metadata information
 - `instructions`: list of instructions or output result from
-`[createGiottoInstructions()](=createGiottoInstructions)`
+[`createGiottoInstructions()`](reexports.md)
 - `verbose`: logical or NULL. NULL uses the `giotto.verbose` option
 setting and defaults to TRUE.
 

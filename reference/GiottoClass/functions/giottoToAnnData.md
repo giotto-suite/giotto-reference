@@ -1,4 +1,4 @@
-# `giottoToAnnData` {#giottoToAnnData}
+# `giottoToAnnData`
 
 *Package:* `GiottoClass`  
 *Title:* Convert Giotto to anndata

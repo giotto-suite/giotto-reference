@@ -1,4 +1,4 @@
-# `pbar` {#pbar}
+# `pbar`
 
 *Package:* `GiottoUtils`  
 *Title:* Create a **progressr** progress tracker.
@@ -6,7 +6,7 @@
 ## Description
 
 Create a **progressr** progress tracker. This is a wrapper around
-`[progressr::progressor()](progressr:progressor)`.
+`progressr::progressor()`.
 
 ## Usage
 
@@ -48,17 +48,17 @@ first argument.
 - `trace`: (logical) If TRUE, then the call stack is recorded, otherwise
 not.
 - `initiate`: (logical) If TRUE, the progressor will signal a
-[progression](progressr) 'initiate' condition when created.
-- `finalize`: (logical) If TRUE, the progressor signals a [progression](progressr)
+progression 'initiate' condition when created.
+- `finalize`: (logical) If TRUE, the progressor signals a progression
 'shutdown' condition when finalized by the garbage collector.
 - `auto_finish`: (logical) If TRUE, then the progressor will signal a
-[progression](progressr) 'finish' condition as soon as the last step has been reached.
+progression 'finish' condition as soon as the last step has been reached.
 - `on_exit, envir`: (logical) If TRUE, then the created progressor will
-signal a [progression](progressr) 'finish' condition when the calling frame exits.
+signal a progression 'finish' condition when the calling frame exits.
 This is ignored if the calling frame (`envir`) is the global environment.
-- `enable`: (logical) If TRUE, [progression](progressr) conditions are signaled when
+- `enable`: (logical) If TRUE, progression conditions are signaled when
 calling the progressor function created by this function.
-If FALSE, no [progression](progressr) conditions is signaled because the progressor
+If FALSE, no progression conditions is signaled because the progressor
 function is an empty function that does nothing.
 
 ## Value
@@ -67,7 +67,7 @@ a progressr progressor function
 
 ## See Also
 
-`[with_pbar()](=with_pbar)`
+[`with_pbar()`](with_pbar.md)
 
 ## Examples
 

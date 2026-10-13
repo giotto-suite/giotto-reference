@@ -1,4 +1,4 @@
-# `interpolateFeature` {#interpolateFeature}
+# `interpolateFeature`
 
 *Package:* `Giotto`  
 *Title:* Spatial feature interpolation

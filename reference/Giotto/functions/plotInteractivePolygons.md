@@ -1,4 +1,4 @@
-# `plotInteractivePolygons` {#plotInteractivePolygons}
+# `plotInteractivePolygons`
 
 *Package:* `Giotto`  
 *Title:* Select image regions by plotting interactive polygons

@@ -1,4 +1,4 @@
-# `reconnect_giottoImage_MG` {#reconnect_giottoImage_MG}
+# `reconnect_giottoImage_MG`
 
 *Package:* `GiottoClass`  
 *Title:* reconnect_giottoImage_MG

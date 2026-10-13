@@ -1,4 +1,4 @@
-# `is_empty_char` {#is_empty_char}
+# `is_empty_char`
 
 *Package:* `GiottoUtils`  
 *Title:* Test if missing or empty character

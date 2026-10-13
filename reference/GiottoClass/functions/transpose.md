@@ -1,4 +1,4 @@
-# `transpose` {#transpose}
+# `transpose`
 
 *Package:* `GiottoClass`  
 *Title:* Transpose

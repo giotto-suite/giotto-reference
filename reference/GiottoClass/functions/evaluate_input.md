@@ -1,4 +1,4 @@
-# `evaluate_input` {#evaluate_input}
+# `evaluate_input`
 
 *Package:* `GiottoClass`  
 *Title:* Evaluate raw inputs to Giotto formatting

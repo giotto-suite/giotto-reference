@@ -1,4 +1,4 @@
-# `createArchRProj` {#createArchRProj}
+# `createArchRProj`
 
 *Package:* `Giotto`  
 *Title:* Create an ArchR project and run LSI dimension reduction

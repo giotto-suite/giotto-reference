@@ -1,4 +1,4 @@
-# `screePlot` {#screePlot}
+# `screePlot`
 
 *Package:* `Giotto`  
 *Title:* screePlot
@@ -57,10 +57,10 @@ screePlot(
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
-- `...`: additional arguments to pca function, see `[runPCA]`
+- `...`: additional arguments to pca function, see [`runPCA`](runPCA.md)
 
 ## Value
 
@@ -73,7 +73,7 @@ Screeplot works by plotting the explained variance of each
  significant contribution (a.k.a 'elbow method').   
 
  Screeplot will use an available pca object, based on the parameter 'name',
- or it will create it if it's not available (see `[runPCA]`)
+ or it will create it if it's not available (see [`runPCA`](runPCA.md))
 
 ## Examples
 

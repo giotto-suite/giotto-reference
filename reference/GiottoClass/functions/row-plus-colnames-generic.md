@@ -1,4 +1,4 @@
-# `row-plus-colnames-generic` {#row-plus-colnames-generic}
+# `row-plus-colnames-generic`
 
 *Package:* `GiottoClass`  
 *Title:* Row and column names

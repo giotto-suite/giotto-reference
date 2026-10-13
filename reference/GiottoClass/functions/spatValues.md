@@ -1,4 +1,4 @@
-# `spatValues` {#spatValues}
+# `spatValues`
 
 *Package:* `GiottoClass`  
 *Title:* Giotto object spatial values

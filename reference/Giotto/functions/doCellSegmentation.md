@@ -1,4 +1,4 @@
-# `doCellSegmentation` {#doCellSegmentation}
+# `doCellSegmentation`
 
 *Package:* `Giotto`  
 *Title:* doCellSegmentation

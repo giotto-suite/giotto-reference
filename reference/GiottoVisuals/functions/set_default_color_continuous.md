@@ -1,4 +1,4 @@
-# `set_default_color_continuous` {#set_default_color_continuous}
+# `set_default_color_continuous`
 
 *Package:* `GiottoVisuals`  
 *Title:* Set a default color for continuous values

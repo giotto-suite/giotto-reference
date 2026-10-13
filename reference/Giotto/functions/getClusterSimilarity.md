@@ -1,4 +1,4 @@
-# `getClusterSimilarity` {#getClusterSimilarity}
+# `getClusterSimilarity`
 
 *Package:* `Giotto`  
 *Title:* getClusterSimilarity

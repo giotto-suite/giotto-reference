@@ -1,4 +1,4 @@
-# `subClusterCells` {#subClusterCells}
+# `subClusterCells`
 
 *Package:* `Giotto`  
 *Title:* Cell subclustering
@@ -116,7 +116,7 @@ doLouvainSubCluster(
 - `cluster_column`: cluster column to subcluster
 - `selected_clusters`: only do subclustering on these clusters
 - `hvg_param`: deprecated
-- `hvf_param`: list of parameters for `[calculateHVF()](=calculateHVF)`
+- `hvf_param`: list of parameters for [`calculateHVF()`](calculateHVF.md)
 - `hvg_min_perc_cells`: deprecated
 - `hvf_min_perc_cells`: threshold for detection in min percentage of cells
 - `hvg_mean_expr_det`: deprecated
@@ -128,9 +128,9 @@ input for PCA
 - `min_nr_of_hvg`: deprecated
 - `min_nr_of_hvf`: minimum number of HVF, or all features will be used as
 input for PCA
-- `pca_param`: list of parameters for `[runPCA()](=runPCA)`
-- `nn_param`: list of parameters for `[createNearestNetwork()](=createNearestNetwork)`
-- `k_neighbors`: number of k for `[createNearestNetwork()](=createNearestNetwork)`
+- `pca_param`: list of parameters for [`runPCA()`](runPCA.md)
+- `nn_param`: list of parameters for [`createNearestNetwork()`](reexports.md)
+- `k_neighbors`: number of k for [`createNearestNetwork()`](reexports.md)
 - `resolution`: resolution for community algorithm
 - `n_iterations`: number of iterations to run the Leiden algorithm.
 - `gamma`: gamma

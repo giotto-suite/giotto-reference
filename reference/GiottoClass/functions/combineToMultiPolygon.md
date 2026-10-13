@@ -1,11 +1,11 @@
-# `combineToMultiPolygon` {#combineToMultiPolygon}
+# `combineToMultiPolygon`
 
 *Package:* `GiottoClass`  
 *Title:* Combine giottoPolygon geometries
 
 ## Description
 
-**SUPERCEDED**. Use `[combineGeom()](=combineGeom)` instead.  
+**SUPERCEDED**. Use [`combineGeom()`](combine_split_geoms.md) instead.  
   
 
 Combine multiple giottoPolygon geometries into a set of multipolygons. Note

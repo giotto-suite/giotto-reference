@@ -1,4 +1,4 @@
-# `createGiottoStereoSeqObjectBin` {#createGiottoStereoSeqObjectBin}
+# `createGiottoStereoSeqObjectBin`
 
 *Package:* `Giotto`  
 *Title:* Create Stereo-seq Giotto Object from Square Bin Data

@@ -1,4 +1,4 @@
-# `LeidenPythonClusParam-class` {#LeidenPythonClusParam-class}
+# `LeidenPythonClusParam-class`
 
 *Package:* `Giotto`  
 *Title:* Leiden Clustering

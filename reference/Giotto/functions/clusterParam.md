@@ -1,4 +1,4 @@
-# `clusterParam` {#clusterParam}
+# `clusterParam`
 
 *Package:* `Giotto`  
 *Title:* Clustering Parameter Classes
@@ -6,7 +6,7 @@
 ## Description
 
 Factory function for creating param classes extending
-[bluster::BlusterParam](bluster:BlusterParam-class) to be used with `[clusterData()](=clusterData)`. These param
+bluster::BlusterParam to be used with [`clusterData()`](clusterData.md). These param
 classes define the clustering operation to be performed and also contain
 relevant parameters in an easily accessible format.
 
@@ -23,7 +23,7 @@ clusterParam(method, ...)
 
 ## See Also
 
-`[clusterData()](=clusterData)`
+[`clusterData()`](clusterData.md)
 
 ## Examples
 

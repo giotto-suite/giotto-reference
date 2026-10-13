@@ -1,4 +1,4 @@
-# `create_cell_meta_obj` {#create_cell_meta_obj}
+# `create_cell_meta_obj`
 
 *Package:* `GiottoClass`  
 *Title:* create_cell_meta_obj

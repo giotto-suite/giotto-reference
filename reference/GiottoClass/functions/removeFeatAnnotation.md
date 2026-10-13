@@ -1,4 +1,4 @@
-# `removeFeatAnnotation` {#removeFeatAnnotation}
+# `removeFeatAnnotation`
 
 *Package:* `GiottoClass`  
 *Title:* Remove feature annotation

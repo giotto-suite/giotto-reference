@@ -1,12 +1,12 @@
-# `giottoToSeurat` {#giottoToSeurat}
+# `giottoToSeurat`
 
 *Package:* `GiottoClass`  
 *Title:* Deprecated
 
 ## Description
 
-Deprecated. Please use either [giottoToSeuratV4] or
-[giottoToSeuratV5]
+Deprecated. Please use either [giottoToSeuratV4](giottoToSeuratV4.md) or
+[giottoToSeuratV5](giottoToSeuratV5.md)
 
 ## Usage
 
@@ -19,7 +19,7 @@ giottoToSeurat(gobject, spat_unit = NULL, obj_use = NULL, ...)
 - `gobject`: Giotto object
 - `spat_unit`: spatial unit (e.g. 'cell')
 - `obj_use`: Giotto object (deprecated, use gobject)
-- `...`: additional params to pass to `[getSpatialLocations]`
+- `...`: additional params to pass to [`getSpatialLocations`](getSpatialLocations.md)
 
 ## Value
 

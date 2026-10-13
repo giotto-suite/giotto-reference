@@ -1,4 +1,4 @@
-# `doFeatureSetEnrichment` {#doFeatureSetEnrichment}
+# `doFeatureSetEnrichment`
 
 *Package:* `Giotto`  
 *Title:* doFeatureSetEnrichment

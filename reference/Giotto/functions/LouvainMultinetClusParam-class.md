@@ -1,4 +1,4 @@
-# `LouvainMultinetClusParam-class` {#LouvainMultinetClusParam-class}
+# `LouvainMultinetClusParam-class`
 
 *Package:* `Giotto`  
 *Title:* Louvain Clustering

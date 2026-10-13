@@ -1,4 +1,4 @@
-# `showGiottoImageNames` {#showGiottoImageNames}
+# `showGiottoImageNames`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoImageNames
@@ -25,17 +25,17 @@ prints names of available giotto image objects
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoDimRed]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatInfo]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoNearestNetworks]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatGrids]()`,
-`[showGiottoSpatLocs]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoDimRed()`](showGiottoDimRed.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatInfo()`](showGiottoFeatInfo.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoNearestNetworks()`](showGiottoNearestNetworks.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatGrids()`](showGiottoSpatGrids.md),
+[`showGiottoSpatLocs()`](showGiottoSpatLocs.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

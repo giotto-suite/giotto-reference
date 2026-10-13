@@ -1,4 +1,4 @@
-# `spatDimPlot3D` {#spatDimPlot3D}
+# `spatDimPlot3D`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatDimPlot3D
@@ -124,7 +124,7 @@ named vector of colors
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -139,5 +139,5 @@ Description of parameters.
 ## See Also
 
 Other spatial and dimension reduction visualizations: 
-`[spatDimPlot]()`
+[`spatDimPlot()`](spatDimPlot.md)
 

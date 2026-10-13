@@ -1,4 +1,4 @@
-# `reduceDims` {#reduceDims}
+# `reduceDims`
 
 *Package:* `Giotto`  
 *Title:* Run dimension reduction method

@@ -1,4 +1,4 @@
-# `overlapToMatrix` {#overlapToMatrix}
+# `overlapToMatrix`
 
 *Package:* `GiottoClass`  
 *Title:* overlapToMatrix
@@ -7,7 +7,7 @@
 ## Description
 
 create a count matrix based on overlap results from
-`[calculateOverlap]`
+[`calculateOverlap`](calculateOverlap.md)
 
 ## Usage
 

@@ -1,4 +1,4 @@
-# `calculateOverlapPolygonImages` {#calculateOverlapPolygonImages}
+# `calculateOverlapPolygonImages`
 
 *Package:* `GiottoClass`  
 *Title:* calculateOverlapPolygonImages
@@ -35,7 +35,7 @@ results (default to feat_info parameter)
 - `poly_subset`: numerical values to subset the polygon spatVector
 - `return_gobject`: return giotto object (default: TRUE)
 - `verbose`: be verbose
-- `...`: additional params to `[exact_extract](exactextractr)`
+- `...`: additional params to `exact_extract`
 
 ## Value
 

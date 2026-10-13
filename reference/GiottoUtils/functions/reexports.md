@@ -1,4 +1,4 @@
-# `reexports` {#reexports}
+# `reexports`
 
 *Package:* `GiottoUtils`  
 *Title:* Objects exported from other packages
@@ -9,9 +9,9 @@
 These objects are imported from other packages. Follow the links
 below to see their documentation.
 
-- **gtools**: `[mixedorder()](gtools:mixedorder)`, `[mixedsort()](gtools:mixedsort)`
-- **jsonlite**: `[fromJSON()](jsonlite:fromJSON)`, `[read_json()](jsonlite:read_json)`
-- **lifecycle**: `[deprecate_soft()](lifecycle:deprecate_soft)`, `[deprecate_stop()](lifecycle:deprecate_stop)`, `[deprecate_warn()](lifecycle:deprecate_warn)`, `[deprecated()](lifecycle:deprecated)`, `[is_present()](lifecycle:is_present)`
+- **gtools**: `mixedorder()`, `mixedsort()`
+- **jsonlite**: `fromJSON()`, `read_json()`
+- **lifecycle**: `deprecate_soft()`, `deprecate_stop()`, `deprecate_warn()`, `deprecated()`, `is_present()`
 
 ## Value
 
@@ -32,7 +32,7 @@ vector giving the sort order of the input elements
 ## See Also
 
 Other lifecycle:
-`[lifecycle_badge()](=lifecycle_badge)`
+[`lifecycle_badge()`](lifecycle_badge.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `filterICG` {#filterICG}
+# `filterICG`
 
 *Package:* `Giotto`  
 *Title:* deprecated
@@ -15,7 +15,7 @@ filterICG(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[filterICF](=filterICF)`
+- `...`: Arguments passed on to [`filterICF`](filterInteractionChangedFeats.md)
   - **`icfObject`**: ICF (interaction changed feature) score object
 - **`min_cells`**: minimum number of source cell type
 - **`min_cells_expr`**: minimum expression level for source cell type
@@ -35,5 +35,5 @@ filtered interaction changed gene scores
 
 ## See Also
 
-`[filterICF]`
+[`filterICF`](filterInteractionChangedFeats.md)
 

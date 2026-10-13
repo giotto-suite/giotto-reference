@@ -1,4 +1,4 @@
-# `plotSpatNicheClusterProb` {#plotSpatNicheClusterProb}
+# `plotSpatNicheClusterProb`
 
 *Package:* `Giotto`  
 *Title:* plotSpatNicheClusterProb

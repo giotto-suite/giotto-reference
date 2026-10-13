@@ -1,4 +1,4 @@
-# `with` {#with}
+# `with`
 
 *Package:* `GiottoUtils`  
 *Title:* With utilities
@@ -26,9 +26,9 @@ gwith_seed(seed = 1234, code, ..., substitute = TRUE, envir = parent.frame())
 - `pos`: integer. position in search to attach at. Default = 2
 - `seed`: numeric. seed to set
 - `...`: additional params to pass. See details.
-- `substitute`: If `[TRUE](base:logical)`, argument `expr` is
-   `[substitute](base)()`:ed, otherwise not.
-- `envir`: The `[environment](base)` in which the expression should be evaluated.
+- `substitute`: If `TRUE`, argument `expr` is
+   `substitute()`:ed, otherwise not.
+- `envir`: The `environment` in which the expression should be evaluated.
 
 ## Value
 

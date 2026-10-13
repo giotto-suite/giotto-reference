@@ -1,4 +1,4 @@
-# `activeSpatUnit-generic` {#activeSpatUnit-generic}
+# `activeSpatUnit-generic`
 
 *Package:* `GiottoClass`  
 *Title:* Active spatial unit

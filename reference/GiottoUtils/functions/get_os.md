@@ -1,4 +1,4 @@
-# `get_os` {#get_os}
+# `get_os`
 
 *Package:* `GiottoUtils`  
 *Title:* get_os

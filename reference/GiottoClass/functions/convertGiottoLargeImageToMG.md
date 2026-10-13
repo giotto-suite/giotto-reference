@@ -1,4 +1,4 @@
-# `convertGiottoLargeImageToMG` {#convertGiottoLargeImageToMG}
+# `convertGiottoLargeImageToMG`
 
 *Package:* `GiottoClass`  
 *Title:* convertGiottoLargeImageToMG

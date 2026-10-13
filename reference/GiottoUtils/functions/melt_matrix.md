@@ -1,4 +1,4 @@
-# `melt_matrix` {#melt_matrix}
+# `melt_matrix`
 
 *Package:* `GiottoUtils`  
 *Title:* Melt a matrix

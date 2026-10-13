@@ -1,4 +1,4 @@
-# `spatialdataToGiotto` {#spatialdataToGiotto}
+# `spatialdataToGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* Convert SpatialData to Giotto
@@ -58,5 +58,5 @@ Giotto object
 Function in beta. Converts a structured SpatialData file into a Giotto object.
 The returned Giotto Object will take default insructions with the
 exception of the python path, which may be customized.
-See `[changeGiottoInstructions]` to modify instructions after creation.
+See [`changeGiottoInstructions`](changeGiottoInstructions.md) to modify instructions after creation.
 

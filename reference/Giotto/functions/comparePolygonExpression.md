@@ -1,4 +1,4 @@
-# `comparePolygonExpression` {#comparePolygonExpression}
+# `comparePolygonExpression`
 
 *Package:* `Giotto`  
 *Title:* Compare gene expression between polygon areas
@@ -33,7 +33,7 @@ comparePolygonExpression(
 ("normalized", "scaled", "custom")
 - `method`: method to use to detect differentially expressed feats
 ("scran", "gini", "mast")
-- `...`: Arguments passed to [Heatmap](ComplexHeatmap)
+- `...`: Arguments passed to Heatmap
 
 ## Value
 

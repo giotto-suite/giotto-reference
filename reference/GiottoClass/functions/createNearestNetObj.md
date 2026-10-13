@@ -1,4 +1,4 @@
-# `createNearestNetObj` {#createNearestNetObj}
+# `createNearestNetObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 nnNetObj

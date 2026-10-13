@@ -1,4 +1,4 @@
-# `aggregateStacksPolygonOverlaps` {#aggregateStacksPolygonOverlaps}
+# `aggregateStacksPolygonOverlaps`
 
 *Package:* `GiottoClass`  
 *Title:* aggregateStacksPolygonOverlaps
@@ -32,10 +32,10 @@ giotto object
 ## See Also
 
 Other aggregate stacks: 
-`[aggregateStacks]()`,
-`[aggregateStacksExpression]()`,
-`[aggregateStacksLocations]()`,
-`[aggregateStacksPolygons]()`
+[`aggregateStacks()`](aggregateStacks.md),
+[`aggregateStacksExpression()`](aggregateStacksExpression.md),
+[`aggregateStacksLocations()`](aggregateStacksLocations.md),
+[`aggregateStacksPolygons()`](aggregateStacksPolygons.md)
 
 ## Examples
 

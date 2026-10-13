@@ -1,4 +1,4 @@
-# `addCellIntMetadata` {#addCellIntMetadata}
+# `addCellIntMetadata`
 
 *Package:* `Giotto`  
 *Title:* addCellIntMetadata

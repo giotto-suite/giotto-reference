@@ -1,4 +1,4 @@
-# `cellProximityEnrichment` {#cellProximityEnrichment}
+# `cellProximityEnrichment`
 
 *Package:* `Giotto`  
 *Title:* cellProximityEnrichment

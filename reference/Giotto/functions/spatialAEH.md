@@ -1,4 +1,4 @@
-# `spatialAEH` {#spatialAEH}
+# `spatialAEH`
 
 *Package:* `Giotto`  
 *Title:* spatialAEH
@@ -31,7 +31,7 @@ spatialAEH(
 - `feat_type`: feature type
 - `spat_unit`: spatial unit
 - `spat_loc_name`: name for spatial locations
-- `SpatialDE_results`: results of `[spatialDE]` function
+- `SpatialDE_results`: results of [`spatialDE`](spatialDE.md) function
 - `name_pattern`: name for the computed spatial patterns
 - `expression_values`: gene expression values to use
 - `pattern_num`: number of spatial patterns to look for

@@ -1,4 +1,4 @@
-# `aes_string2` {#aes_string2}
+# `aes_string2`
 
 *Package:* `GiottoVisuals`  
 *Title:* aes_string2

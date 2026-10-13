@@ -1,4 +1,4 @@
-# `setGiotto,giotto,giottoBinPoints-method` {#setGiotto,giotto,giottoBinPoints-method}
+# `setGiotto,giotto,giottoBinPoints-method`
 
 *Package:* `GiottoClass`  
 *Title:* Set giotto subobjects into giotto object
@@ -54,20 +54,20 @@ giottoSubobject
 ## See Also
 
 Other functions to set data in giotto object: 
-`[setCellMetadata]()`,
-`[setDimReduction]()`,
-`[setExpression]()`,
-`[setFeatureInfo]()`,
-`[setFeatureMetadata]()`,
-`[setGiottoImage]()`,
-`[setMultiomics]()`,
-`[setNearestNetwork]()`,
-`[setPolygonInfo]()`,
-`[setSpatialEnrichment]()`,
-`[setSpatialGrid]()`,
-`[setSpatialLocations]()`,
-`[setSpatialNetwork]()`,
-`[set_multiomics]()`
+[`setCellMetadata()`](setCellMetadata.md),
+[`setDimReduction()`](setDimReduction.md),
+[`setExpression()`](setExpression.md),
+[`setFeatureInfo()`](setFeatureInfo.md),
+[`setFeatureMetadata()`](setFeatureMetadata.md),
+[`setGiottoImage()`](setGiottoImage.md),
+[`setMultiomics()`](setMultiomics.md),
+[`setNearestNetwork()`](setNearestNetwork.md),
+[`setPolygonInfo()`](setPolygonInfo.md),
+[`setSpatialEnrichment()`](setSpatialEnrichment.md),
+[`setSpatialGrid()`](setSpatialGrid.md),
+[`setSpatialLocations()`](setSpatialLocations.md),
+[`setSpatialNetwork()`](setSpatialNetwork.md),
+[`set_multiomics()`](set_multiomics.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `createSpatialDefaultGrid` {#createSpatialDefaultGrid}
+# `createSpatialDefaultGrid`
 
 *Package:* `GiottoClass`  
 *Title:* createSpatialDefaultGrid

@@ -1,4 +1,4 @@
-# `createSpatLocsObj` {#createSpatLocsObj}
+# `createSpatLocsObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 spatLocsObj

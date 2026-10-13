@@ -1,4 +1,4 @@
-# `as.data.table.giottoBinPoints` {#as.data.table.giottoBinPoints}
+# `as.data.table.giottoBinPoints`
 
 *Package:* `GiottoClass`  
 *Title:* Coerce to data.table
@@ -53,10 +53,10 @@ data.table
 ## See Also
 
 Other As coercion functions: 
-`[as.matrix]()`,
-`[as.points]()`,
-`[as.polygons]()`,
-`[r_spatial_conversions]`
+[`as.matrix()`](as.matrix.md),
+[`as.points()`](as.points.md),
+[`as.polygons()`](as.polygons.md),
+[`r_spatial_conversions`](r_spatial_conversions.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `addVisiumPolygons` {#addVisiumPolygons}
+# `addVisiumPolygons`
 
 *Package:* `Giotto`  
 *Title:* Add Visium Polygons to Giotto Object

@@ -1,4 +1,4 @@
-# `annotate_spatlocs_with_spatgrid_3D` {#annotate_spatlocs_with_spatgrid_3D}
+# `annotate_spatlocs_with_spatgrid_3D`
 
 *Package:* `GiottoClass`  
 *Title:* annotate_spatlocs_with_spatgrid_3D

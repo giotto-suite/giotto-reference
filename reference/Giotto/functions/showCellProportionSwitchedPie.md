@@ -1,4 +1,4 @@
-# `showCellProportionSwitchedPie` {#showCellProportionSwitchedPie}
+# `showCellProportionSwitchedPie`
 
 *Package:* `Giotto`  
 *Title:* showCellProportionSwitchedPie

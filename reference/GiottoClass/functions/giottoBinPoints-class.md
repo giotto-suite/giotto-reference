@@ -1,4 +1,4 @@
-# `giottoBinPoints-class` {#giottoBinPoints-class}
+# `giottoBinPoints-class`
 
 *Package:* `GiottoClass`  
 *Title:* Binned point class

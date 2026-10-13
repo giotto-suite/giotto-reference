@@ -1,4 +1,4 @@
-# `get_adj_rescale_img` {#get_adj_rescale_img}
+# `get_adj_rescale_img`
 
 *Package:* `GiottoClass`  
 *Title:* get_adj_rescale_img

@@ -1,4 +1,4 @@
-# `get_img_minmax` {#get_img_minmax}
+# `get_img_minmax`
 
 *Package:* `GiottoClass`  
 *Title:* get_img_minmax

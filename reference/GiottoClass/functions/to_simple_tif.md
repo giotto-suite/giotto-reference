@@ -1,4 +1,4 @@
-# `to_simple_tif` {#to_simple_tif}
+# `to_simple_tif`
 
 *Package:* `GiottoClass`  
 *Title:* Convert Specialized TIF Formats to Basic TIF
@@ -46,5 +46,5 @@ returns the written filepath invisibly
 ## See Also
 
 Other tif utility functions: 
-`[tif_metadata]()`
+[`tif_metadata()`](tif_metadata.md)
 

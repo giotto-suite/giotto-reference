@@ -1,4 +1,4 @@
-# `file_extension` {#file_extension}
+# `file_extension`
 
 *Package:* `GiottoUtils`  
 *Title:* Get file extension

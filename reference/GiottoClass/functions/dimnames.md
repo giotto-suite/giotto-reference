@@ -1,4 +1,4 @@
-# `dimnames` {#dimnames}
+# `dimnames`
 
 *Package:* `GiottoClass`  
 *Title:* Dimnames of an object

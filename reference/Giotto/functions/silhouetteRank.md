@@ -1,4 +1,4 @@
-# `silhouetteRank` {#silhouetteRank}
+# `silhouetteRank`
 
 *Package:* `Giotto`  
 *Title:* silhouetteRank
@@ -13,7 +13,7 @@ Here, rather than L2 Euclidean norm, it uses a rank-transformed,
 exponentially weighted
 function to represent the local physical distance between two cells.
 New multi aggregator implementation can be found at
-`[silhouetteRankTest]`
+[`silhouetteRankTest`](silhouetteRankTest.md)
 
 ## Usage
 

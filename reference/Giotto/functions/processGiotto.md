@@ -1,4 +1,4 @@
-# `processGiotto` {#processGiotto}
+# `processGiotto`
 
 *Package:* `Giotto`  
 *Title:* processGiotto
@@ -36,8 +36,8 @@ giotto object
 
 ## Details
 
-See `[filterGiotto]`, `[normalizeGiotto]`,
-`[addStatistics]`, and `[adjustGiottoMatrix]`. For more
+See [`filterGiotto`](filterGiotto.md), [`normalizeGiotto`](normalizeGiotto.md),
+[`addStatistics`](addStatistics.md), and [`adjustGiottoMatrix`](adjustGiottoMatrix.md). For more
 information about the different parameters in each step. If you do not
 provide them it will use the default values. If no adjustment is required,
 adjust_params must be set to NULL

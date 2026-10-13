@@ -1,4 +1,4 @@
-# `dt_remove_na` {#dt_remove_na}
+# `dt_remove_na`
 
 *Package:* `GiottoUtils`  
 *Title:* dt_remove_na

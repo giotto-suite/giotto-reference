@@ -1,4 +1,4 @@
-# `showPattern3D` {#showPattern3D}
+# `showPattern3D`
 
 *Package:* `Giotto`  
 *Title:* showPattern3D
@@ -51,7 +51,7 @@ showPattern3D(
 - `return_plot`: return plot object
 - `save_plot`: directly save the plot [boolean]
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

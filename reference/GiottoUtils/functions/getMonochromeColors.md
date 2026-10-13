@@ -1,4 +1,4 @@
-# `getMonochromeColors` {#getMonochromeColors}
+# `getMonochromeColors`
 
 *Package:* `GiottoUtils`  
 *Title:* Create color scaling for a single color starting from black
@@ -17,7 +17,7 @@ getMonochromeColors(col, n = 256L, ...)
 
 - `col`: hexadecimal color to scale scale towards
 - `n`: number of colors to request in monochrome palette
-- `...`: Arguments passed on to `[grDevices::colorRampPalette](grDevices:colorRampPalette)`
+- `...`: Arguments passed on to `grDevices::colorRampPalette`
   - **`bias`**: a positive number.  Higher values give more widely spaced
     colors at the high end.
 - **`space`**: a character string; interpolation in RGB or CIE Lab
@@ -34,8 +34,8 @@ character vector
 ## See Also
 
 Other basic color palette functions:
-`[getDistinctColors()](=getDistinctColors)`,
-`[getRainbowColors()](=getRainbowColors)`
+[`getDistinctColors()`](getDistinctColors.md),
+[`getRainbowColors()`](getRainbowColors.md)
 
 ## Examples
 

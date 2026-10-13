@@ -1,4 +1,4 @@
-# `calculateLabelProportions` {#calculateLabelProportions}
+# `calculateLabelProportions`
 
 *Package:* `GiottoClass`  
 *Title:* Calculate Proportions of Labels Per Observation Group

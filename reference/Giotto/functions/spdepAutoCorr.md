@@ -1,4 +1,4 @@
-# `spdepAutoCorr` {#spdepAutoCorr}
+# `spdepAutoCorr`
 
 *Package:* `Giotto`  
 *Title:* Compute spatial auto correlation using spdep

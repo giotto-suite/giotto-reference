@@ -1,4 +1,4 @@
-# `addFeatsPerc` {#addFeatsPerc}
+# `addFeatsPerc`
 
 *Package:* `Giotto`  
 *Title:* addFeatsPerc
@@ -29,7 +29,7 @@ addFeatsPerc(
 - `feat_type`: feature type
 - `expression_values`: expression values to use
 - `feats`: vector of selected features
-- `vector_name`: column name as seen in `[pDataDT]`
+- `vector_name`: column name as seen in [`pDataDT`](reexports.md)
 - `return_gobject`: boolean: return giotto object (default = TRUE)
 
 ## Value

@@ -1,4 +1,4 @@
-# `fiji` {#fiji}
+# `fiji`
 
 *Package:* `Giotto`  
 *Title:* Find Fiji location

@@ -1,4 +1,4 @@
-# `nnDT_to_kNN` {#nnDT_to_kNN}
+# `nnDT_to_kNN`
 
 *Package:* `GiottoClass`  
 *Title:* nnDT_to_kNN

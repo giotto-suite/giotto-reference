@@ -1,4 +1,4 @@
-# `smoothGiottoPolygons` {#smoothGiottoPolygons}
+# `smoothGiottoPolygons`
 
 *Package:* `GiottoClass`  
 *Title:* smoothGiottoPolygons
@@ -33,7 +33,7 @@ Smoothed Giotto polygon object with reduced vertices
 
 ## See Also
 
-`[spline](stats)`
+`spline`
 
 ## Examples
 

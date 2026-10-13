@@ -1,4 +1,4 @@
-# `as.character` {#as.character}
+# `as.character`
 
 *Package:* `GiottoClass`  
 *Title:* Create a text representation of an object

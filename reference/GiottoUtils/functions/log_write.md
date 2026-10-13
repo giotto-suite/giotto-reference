@@ -1,4 +1,4 @@
-# `log_write` {#log_write}
+# `log_write`
 
 *Package:* `GiottoUtils`  
 *Title:* Write to log file

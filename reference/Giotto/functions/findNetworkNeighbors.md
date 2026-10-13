@@ -1,4 +1,4 @@
-# `findNetworkNeighbors` {#findNetworkNeighbors}
+# `findNetworkNeighbors`
 
 *Package:* `Giotto`  
 *Title:* Find network neighbors

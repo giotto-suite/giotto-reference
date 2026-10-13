@@ -1,4 +1,4 @@
-# `findGiniMarkers_one_vs_all` {#findGiniMarkers_one_vs_all}
+# `findGiniMarkers_one_vs_all`
 
 *Package:* `Giotto`  
 *Title:* findGiniMarkers_one_vs_all
@@ -50,7 +50,7 @@ data.table with marker feats
 
 ## See Also
 
-`[findGiniMarkers]`
+[`findGiniMarkers`](findGiniMarkers.md)
 
 ## Examples
 

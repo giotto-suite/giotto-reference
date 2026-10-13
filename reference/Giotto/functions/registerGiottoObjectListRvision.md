@@ -1,4 +1,4 @@
-# `registerGiottoObjectListRvision` {#registerGiottoObjectListRvision}
+# `registerGiottoObjectListRvision`
 
 *Package:* `Giotto`  
 *Title:* registerGiottoObjectListRvision

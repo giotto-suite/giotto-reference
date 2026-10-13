@@ -1,4 +1,4 @@
-# `clusterSpatialCorFeats` {#clusterSpatialCorFeats}
+# `clusterSpatialCorFeats`
 
 *Package:* `Giotto`  
 *Title:* clusterSpatialCorFeats

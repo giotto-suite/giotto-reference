@@ -1,4 +1,4 @@
-# `buffer` {#buffer}
+# `buffer`
 
 *Package:* `GiottoClass`  
 *Title:* Create a buffer around vector geometries

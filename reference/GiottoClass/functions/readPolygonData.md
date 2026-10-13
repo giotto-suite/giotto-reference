@@ -1,4 +1,4 @@
-# `readPolygonData` {#readPolygonData}
+# `readPolygonData`
 
 *Package:* `GiottoClass`  
 *Title:* Read list of polygons information

@@ -1,4 +1,4 @@
-# `objHistory` {#objHistory}
+# `objHistory`
 
 *Package:* `GiottoClass`  
 *Title:* Giotto object history

@@ -1,4 +1,4 @@
-# `spatialNetworkObj-class` {#spatialNetworkObj-class}
+# `spatialNetworkObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 spatialNetworkObj Class

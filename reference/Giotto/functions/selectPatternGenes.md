@@ -1,4 +1,4 @@
-# `selectPatternGenes` {#selectPatternGenes}
+# `selectPatternGenes`
 
 *Package:* `Giotto`  
 *Title:* selectPatternGenes

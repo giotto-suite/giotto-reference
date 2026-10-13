@@ -1,4 +1,4 @@
-# `cor_flex` {#cor_flex}
+# `cor_flex`
 
 *Package:* `GiottoClass`  
 *Title:* cor_flex

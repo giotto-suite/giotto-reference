@@ -1,4 +1,4 @@
-# `combineCellData` {#combineCellData}
+# `combineCellData`
 
 *Package:* `GiottoClass`  
 *Title:* combineCellData
@@ -7,7 +7,7 @@
 
 Produce a table of information about the cells, including
 the geometry and centroids information. This function will be simplified
-in the future with `[spatValues()](=spatValues)`.
+in the future with [`spatValues()`](spatValues.md).
 
 ## Usage
 

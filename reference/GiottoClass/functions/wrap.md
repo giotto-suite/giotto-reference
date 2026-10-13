@@ -1,4 +1,4 @@
-# `wrap` {#wrap}
+# `wrap`
 
 *Package:* `GiottoClass`  
 *Title:* Wrap giotto terra pointer information

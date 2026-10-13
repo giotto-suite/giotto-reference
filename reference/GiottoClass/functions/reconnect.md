@@ -1,4 +1,4 @@
-# `reconnect` {#reconnect}
+# `reconnect`
 
 *Package:* `GiottoClass`  
 *Title:* Reconnect a GiottoClass object

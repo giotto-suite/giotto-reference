@@ -1,4 +1,4 @@
-# `doHMRF_V2` {#doHMRF_V2}
+# `doHMRF_V2`
 
 *Package:* `Giotto`  
 *Title:* doHMRF_V2

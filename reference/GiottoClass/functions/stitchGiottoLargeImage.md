@@ -1,4 +1,4 @@
-# `stitchGiottoLargeImage` {#stitchGiottoLargeImage}
+# `stitchGiottoLargeImage`
 
 *Package:* `GiottoClass`  
 *Title:* Stitch multiple giottoLargeImage objects into a single

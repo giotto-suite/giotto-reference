@@ -1,4 +1,4 @@
-# `updateGiottoObject` {#updateGiottoObject}
+# `updateGiottoObject`
 
 *Package:* `GiottoClass`  
 *Title:* Update giotto object

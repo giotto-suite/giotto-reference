@@ -1,4 +1,4 @@
-# `showSpatialCorFeats` {#showSpatialCorFeats}
+# `showSpatialCorFeats`
 
 *Package:* `Giotto`  
 *Title:* showSpatialCorFeats

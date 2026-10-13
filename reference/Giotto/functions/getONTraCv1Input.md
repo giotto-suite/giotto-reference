@@ -1,4 +1,4 @@
-# `getONTraCv1Input` {#getONTraCv1Input}
+# `getONTraCv1Input`
 
 *Package:* `Giotto`  
 *Title:* getONTraCv1Input

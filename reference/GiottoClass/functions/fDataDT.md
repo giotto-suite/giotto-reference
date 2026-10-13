@@ -1,4 +1,4 @@
-# `fDataDT` {#fDataDT}
+# `fDataDT`
 
 *Package:* `GiottoClass`  
 *Title:* fDataDT

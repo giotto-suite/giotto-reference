@@ -1,4 +1,4 @@
-# `createDimObj` {#createDimObj}
+# `createDimObj`
 
 *Package:* `GiottoClass`  
 *Title:* Create S4 dimObj

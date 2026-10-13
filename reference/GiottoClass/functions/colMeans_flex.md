@@ -1,4 +1,4 @@
-# `colMeans_flex` {#colMeans_flex}
+# `colMeans_flex`
 
 *Package:* `GiottoClass`  
 *Title:* colMeans_flex

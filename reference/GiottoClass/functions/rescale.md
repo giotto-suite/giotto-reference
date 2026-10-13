@@ -1,4 +1,4 @@
-# `rescale` {#rescale}
+# `rescale`
 
 *Package:* `GiottoClass`  
 *Title:* Rescale an object

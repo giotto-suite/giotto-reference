@@ -1,4 +1,4 @@
-# `generate_grid` {#generate_grid}
+# `generate_grid`
 
 *Package:* `GiottoClass`  
 *Title:* Spatial grids

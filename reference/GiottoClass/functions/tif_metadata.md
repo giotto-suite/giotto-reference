@@ -1,4 +1,4 @@
-# `tif_metadata` {#tif_metadata}
+# `tif_metadata`
 
 *Package:* `GiottoClass`  
 *Title:* Read Metadata of a Specialized tif
@@ -56,7 +56,7 @@ list/data.frame/XML depending on `output`
 ## See Also
 
 Other tif utility functions: 
-`[to_simple_tif]()`
+[`to_simple_tif()`](to_simple_tif.md)
 
 ## Examples
 

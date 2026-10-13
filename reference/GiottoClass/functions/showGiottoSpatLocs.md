@@ -1,4 +1,4 @@
-# `showGiottoSpatLocs` {#showGiottoSpatLocs}
+# `showGiottoSpatLocs`
 
 *Package:* `GiottoClass`  
 *Title:* showGiottoSpatLocs
@@ -25,17 +25,17 @@ prints the name and small subset of available data.table
 ## See Also
 
 Other functions to show data in giotto object: 
-`[showGiottoCellMetadata]()`,
-`[showGiottoDimRed]()`,
-`[showGiottoExpression]()`,
-`[showGiottoFeatInfo]()`,
-`[showGiottoFeatMetadata]()`,
-`[showGiottoImageNames]()`,
-`[showGiottoNearestNetworks]()`,
-`[showGiottoSpatEnrichments]()`,
-`[showGiottoSpatGrids]()`,
-`[showGiottoSpatNetworks]()`,
-`[showGiottoSpatialInfo]()`
+[`showGiottoCellMetadata()`](showGiottoCellMetadata.md),
+[`showGiottoDimRed()`](showGiottoDimRed.md),
+[`showGiottoExpression()`](showGiottoExpression.md),
+[`showGiottoFeatInfo()`](showGiottoFeatInfo.md),
+[`showGiottoFeatMetadata()`](showGiottoFeatMetadata.md),
+[`showGiottoImageNames()`](showGiottoImageNames.md),
+[`showGiottoNearestNetworks()`](showGiottoNearestNetworks.md),
+[`showGiottoSpatEnrichments()`](showGiottoSpatEnrichments.md),
+[`showGiottoSpatGrids()`](showGiottoSpatGrids.md),
+[`showGiottoSpatNetworks()`](showGiottoSpatNetworks.md),
+[`showGiottoSpatialInfo()`](showGiottoSpatialInfo.md)
 
 ## Examples
 

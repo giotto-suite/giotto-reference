@@ -1,4 +1,4 @@
-# `createGiottoLargeImageList` {#createGiottoLargeImageList}
+# `createGiottoLargeImageList`
 
 *Package:* `GiottoClass`  
 *Title:* createGiottoLargeImageList
@@ -54,7 +54,7 @@ a list with giottoLargeImage objects
 
 ## Details
 
-See `[createGiottoLargeImage]`
+See [`createGiottoLargeImage`](createGiottoLargeImage.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `create_feat_meta_obj` {#create_feat_meta_obj}
+# `create_feat_meta_obj`
 
 *Package:* `GiottoClass`  
 *Title:* create_feat_meta_obj

@@ -1,4 +1,4 @@
-# `createGiottoPoints` {#createGiottoPoints}
+# `createGiottoPoints`
 
 *Package:* `GiottoClass`  
 *Title:* Create giotto points object

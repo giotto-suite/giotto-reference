@@ -1,4 +1,4 @@
-# `interactiveLandmarkSelection` {#interactiveLandmarkSelection}
+# `interactiveLandmarkSelection`
 
 *Package:* `Giotto`  
 *Title:* Record landmarks by interactive selection
@@ -29,5 +29,5 @@ sets of landmarks between list 1 (from source) and list 2 (from target)
 
 ## See Also
 
-`[calculateAffineMatrixFromLandmarks()](=calculateAffineMatrixFromLandmarks)`
+[`calculateAffineMatrixFromLandmarks()`](calculateAffineMatrixFromLandmarks.md)
 

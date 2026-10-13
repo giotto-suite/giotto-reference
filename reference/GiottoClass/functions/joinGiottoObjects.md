@@ -1,4 +1,4 @@
-# `joinGiottoObjects` {#joinGiottoObjects}
+# `joinGiottoObjects`
 
 *Package:* `GiottoClass`  
 *Title:* Join giotto objects

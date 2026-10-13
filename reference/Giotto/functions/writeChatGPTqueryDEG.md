@@ -1,4 +1,4 @@
-# `writeChatGPTqueryDEG` {#writeChatGPTqueryDEG}
+# `writeChatGPTqueryDEG`
 
 *Package:* `Giotto`  
 *Title:* writeChatGPTqueryDEG

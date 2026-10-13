@@ -1,4 +1,4 @@
-# `calculateOverlapSerial` {#calculateOverlapSerial}
+# `calculateOverlapSerial`
 
 *Package:* `GiottoClass`  
 *Title:* calculateOverlapSerial

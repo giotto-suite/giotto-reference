@@ -1,4 +1,4 @@
-# `findGiniMarkers` {#findGiniMarkers}
+# `findGiniMarkers`
 
 *Package:* `Giotto`  
 *Title:* findGiniMarkers

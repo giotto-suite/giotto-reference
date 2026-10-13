@@ -1,4 +1,4 @@
-# `setMultiomics` {#setMultiomics}
+# `setMultiomics`
 
 *Package:* `GiottoClass`  
 *Title:* Set multiomics integration results
@@ -41,25 +41,25 @@ A giotto object
 ## See Also
 
 Other multiomics accessor functions: 
-`[getMultiomics]()`,
-`[get_multiomics]()`,
-`[set_multiomics]()`
+[`getMultiomics()`](getMultiomics.md),
+[`get_multiomics()`](get_multiomics.md),
+[`set_multiomics()`](set_multiomics.md)
 
 Other functions to set data in giotto object: 
-`[setCellMetadata]()`,
-`[setDimReduction]()`,
-`[setExpression]()`,
-`[setFeatureInfo]()`,
-`[setFeatureMetadata]()`,
-`[setGiotto,giotto,giottoBinPoints-method]`,
-`[setGiottoImage]()`,
-`[setNearestNetwork]()`,
-`[setPolygonInfo]()`,
-`[setSpatialEnrichment]()`,
-`[setSpatialGrid]()`,
-`[setSpatialLocations]()`,
-`[setSpatialNetwork]()`,
-`[set_multiomics]()`
+[`setCellMetadata()`](setCellMetadata.md),
+[`setDimReduction()`](setDimReduction.md),
+[`setExpression()`](setExpression.md),
+[`setFeatureInfo()`](setFeatureInfo.md),
+[`setFeatureMetadata()`](setFeatureMetadata.md),
+[`setGiotto,giotto,giottoBinPoints-method`](setGiotto%2Cgiotto%2CgiottoBinPoints-method.md),
+[`setGiottoImage()`](setGiottoImage.md),
+[`setNearestNetwork()`](setNearestNetwork.md),
+[`setPolygonInfo()`](setPolygonInfo.md),
+[`setSpatialEnrichment()`](setSpatialEnrichment.md),
+[`setSpatialGrid()`](setSpatialGrid.md),
+[`setSpatialLocations()`](setSpatialLocations.md),
+[`setSpatialNetwork()`](setSpatialNetwork.md),
+[`set_multiomics()`](set_multiomics.md)
 
 ## Examples
 

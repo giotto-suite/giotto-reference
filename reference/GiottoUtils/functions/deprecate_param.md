@@ -1,4 +1,4 @@
-# `deprecate_param` {#deprecate_param}
+# `deprecate_param`
 
 *Package:* `GiottoUtils`  
 *Title:* Deprecate a parameter

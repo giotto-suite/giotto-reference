@@ -1,4 +1,4 @@
-# `local_seed` {#local_seed}
+# `local_seed`
 
 *Package:* `GiottoUtils`  
 *Title:* Set a seed local to a call

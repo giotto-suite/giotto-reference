@@ -1,4 +1,4 @@
-# `my_rowMeans` {#my_rowMeans}
+# `my_rowMeans`
 
 *Package:* `GiottoClass`  
 *Title:* my_rowMeans

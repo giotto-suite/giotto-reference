@@ -1,4 +1,4 @@
-# `convert_mgImage_to_array_DT` {#convert_mgImage_to_array_DT}
+# `convert_mgImage_to_array_DT`
 
 *Package:* `GiottoClass`  
 *Title:* convert_mgImage_to_array_DT

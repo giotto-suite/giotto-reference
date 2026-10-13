@@ -1,14 +1,14 @@
-# `createGiottoImage` {#createGiottoImage}
+# `createGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* createGiottoImage
 
 ## Description
 
-**SUPERSEDED** *`[createGiottoLargeImage()](=createGiottoLargeImage)` is preferred for most
+**SUPERSEDED** *[`createGiottoLargeImage()`](createGiottoLargeImage.md) is preferred for most
 uses*. This function may be renamed and/or replaced in the future.
 
-Creates a [giottoImage] that can be added to a Giotto object and/or used to
+Creates a [giottoImage](giottoImage-class.md) that can be added to a Giotto object and/or used to
 add an image to the spatial plotting functions.
 
 ## Usage
@@ -74,8 +74,8 @@ a giottoImage object
 ## Details
 
 image_transformations: transformation options from magick library
-[**flip_x_axis**] flip x-axis (`[image_flop](magick)`)
-[**flip_y_axis**] flip y-axis (`[image_flip](magick)`)
+[**flip_x_axis**] flip x-axis (`image_flop`)
+[**flip_y_axis**] flip y-axis (`image_flip`)
 Example: image_transformations = c(flip_x_axis, flip_y_axis); first flip
 x-axis and then y-axis
 

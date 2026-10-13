@@ -1,4 +1,4 @@
-# `loadGiotto` {#loadGiotto}
+# `loadGiotto`
 
 *Package:* `GiottoClass`  
 *Title:* loadGiotto
@@ -23,7 +23,7 @@ loadGiotto(
 ## Arguments
 
 - `path_to_folder`: path to folder where Giotto object was stored
-with `[saveGiotto]`
+with [`saveGiotto`](saveGiotto.md)
 - `load_params`: additional parameters for loading or reading giotto object
 - `reconnect_giottoImage`: (default = TRUE) whether to attempt
 reconnection of magick based image objects
@@ -38,10 +38,10 @@ Giotto object
 
 ## Details
 
-Works together with `[saveGiotto]` to save and re-load
+Works together with [`saveGiotto`](saveGiotto.md) to save and re-load
 Giotto objects.
 Additional load_params need to be provided as a list and will
-go to `[readRDS](base)` or `[qread](qs)`
+go to `readRDS` or `qread`
 You can set the python path, alternatively it will look for an existing
 Giotto python environment.
 

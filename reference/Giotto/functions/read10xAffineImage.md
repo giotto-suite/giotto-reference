@@ -1,4 +1,4 @@
-# `read10xAffineImage` {#read10xAffineImage}
+# `read10xAffineImage`
 
 *Package:* `Giotto`  
 *Title:* read10xAffineImage

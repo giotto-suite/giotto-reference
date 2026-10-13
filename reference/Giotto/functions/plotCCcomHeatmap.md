@@ -1,4 +1,4 @@
-# `plotCCcomHeatmap` {#plotCCcomHeatmap}
+# `plotCCcomHeatmap`
 
 *Package:* `Giotto`  
 *Title:* plotCCcomHeatmap
@@ -35,8 +35,8 @@ plotCCcomHeatmap(
 ## Arguments
 
 - `gobject`: giotto object
-- `comScores`: communinication scores from `[exprCellCellcom]`
-or `[spatCellCellcom]`
+- `comScores`: communinication scores from [`exprCellCellcom`](exprCellCellcom.md)
+or [`spatCellCellcom`](spatCellCellcom.md)
 - `selected_LR`: selected ligand-receptor combinations
 - `selected_cell_LR`: selected cell-cell combinations for ligand-receptor
 combinations
@@ -53,7 +53,7 @@ or 'sequential' (scaled based on data range)
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters, see
-`[showSaveParameters]`
+[`showSaveParameters`](reexports.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 

@@ -1,4 +1,4 @@
-# `wrap_txt` {#wrap_txt}
+# `wrap_txt`
 
 *Package:* `GiottoUtils`  
 *Title:* Wrap text

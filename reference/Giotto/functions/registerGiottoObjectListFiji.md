@@ -1,4 +1,4 @@
-# `registerGiottoObjectListFiji` {#registerGiottoObjectListFiji}
+# `registerGiottoObjectListFiji`
 
 *Package:* `Giotto`  
 *Title:* registerGiottoObjectListFiji

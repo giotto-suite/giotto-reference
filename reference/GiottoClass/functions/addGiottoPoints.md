@@ -1,4 +1,4 @@
-# `addGiottoPoints` {#addGiottoPoints}
+# `addGiottoPoints`
 
 *Package:* `GiottoClass`  
 *Title:* Add subcellular giotto points object to giotto object
@@ -20,8 +20,8 @@ addGiottoPoints3D(gobject, coords, feat_type = "rna")
 
 - `gobject`: giotto object
 - `gpoints`: list of giotto point objects,
-see `[createGiottoPoints]`
-- `coords`: A [data.frame] or `spatVector` with at least xyz
+see [`createGiottoPoints`](createGiottoPoints.md)
+- `coords`: A data.frame or `spatVector` with at least xyz
 coordinates and feature ids.
 - `feat_type`: a character. The feat_type must previously exist in the
 Giotto object. Default = "rna".

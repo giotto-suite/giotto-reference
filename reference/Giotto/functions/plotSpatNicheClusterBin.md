@@ -1,4 +1,4 @@
-# `plotSpatNicheClusterBin` {#plotSpatNicheClusterBin}
+# `plotSpatNicheClusterBin`
 
 *Package:* `Giotto`  
 *Title:* plotSpatNicheClusterBin

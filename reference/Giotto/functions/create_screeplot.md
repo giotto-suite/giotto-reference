@@ -1,4 +1,4 @@
-# `create_screeplot` {#create_screeplot}
+# `create_screeplot`
 
 *Package:* `Giotto`  
 *Title:* create_screeplot

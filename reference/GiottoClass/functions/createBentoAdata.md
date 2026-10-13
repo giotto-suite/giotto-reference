@@ -1,4 +1,4 @@
-# `createBentoAdata` {#createBentoAdata}
+# `createBentoAdata`
 
 *Package:* `GiottoClass`  
 *Title:* Create bento adata object from gobject

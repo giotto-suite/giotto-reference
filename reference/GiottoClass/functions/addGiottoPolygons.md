@@ -1,4 +1,4 @@
-# `addGiottoPolygons` {#addGiottoPolygons}
+# `addGiottoPolygons`
 
 *Package:* `GiottoClass`  
 *Title:* Add giotto polygons to giotto object
@@ -17,8 +17,8 @@ addGiottoPolygons(gobject, gpolygons)
 
 - `gobject`: giotto object
 - `gpolygons`: list of giotto polygon objects,
-see `[createGiottoPolygonsFromMask]`
-and `[createGiottoPolygonsFromDfr]`
+see [`createGiottoPolygonsFromMask`](createGiottoPolygon.md)
+and [`createGiottoPolygonsFromDfr`](createGiottoPolygon.md)
 
 ## Value
 

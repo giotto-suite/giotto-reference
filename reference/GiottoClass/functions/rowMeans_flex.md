@@ -1,4 +1,4 @@
-# `rowMeans_flex` {#rowMeans_flex}
+# `rowMeans_flex`
 
 *Package:* `GiottoClass`  
 *Title:* rowMeans_flex

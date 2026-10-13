@@ -1,4 +1,4 @@
-# `createSpatialGrid` {#createSpatialGrid}
+# `createSpatialGrid`
 
 *Package:* `GiottoClass`  
 *Title:* createSpatialGrid
@@ -45,7 +45,7 @@ giotto object with updated spatial grid slot
 
 Creates a spatial grid with defined x, y (and z) dimensions.
 The dimension units are based on the provided spatial location units.
-- **default method:** `[createSpatialDefaultGrid]`
+- **default method:** [`createSpatialDefaultGrid`](createSpatialDefaultGrid.md)
 
 ## Examples
 

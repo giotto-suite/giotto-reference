@@ -1,4 +1,4 @@
-# `setNearestNetwork` {#setNearestNetwork}
+# `setNearestNetwork`
 
 *Package:* `GiottoClass`  
 *Title:* Set nearest neighbor network
@@ -47,23 +47,23 @@ giotto object
 ## See Also
 
 Other expression space nearest network accessor functions: 
-`[getNearestNetwork]()`
+[`getNearestNetwork()`](getNearestNetwork.md)
 
 Other functions to set data in giotto object: 
-`[setCellMetadata]()`,
-`[setDimReduction]()`,
-`[setExpression]()`,
-`[setFeatureInfo]()`,
-`[setFeatureMetadata]()`,
-`[setGiotto,giotto,giottoBinPoints-method]`,
-`[setGiottoImage]()`,
-`[setMultiomics]()`,
-`[setPolygonInfo]()`,
-`[setSpatialEnrichment]()`,
-`[setSpatialGrid]()`,
-`[setSpatialLocations]()`,
-`[setSpatialNetwork]()`,
-`[set_multiomics]()`
+[`setCellMetadata()`](setCellMetadata.md),
+[`setDimReduction()`](setDimReduction.md),
+[`setExpression()`](setExpression.md),
+[`setFeatureInfo()`](setFeatureInfo.md),
+[`setFeatureMetadata()`](setFeatureMetadata.md),
+[`setGiotto,giotto,giottoBinPoints-method`](setGiotto%2Cgiotto%2CgiottoBinPoints-method.md),
+[`setGiottoImage()`](setGiottoImage.md),
+[`setMultiomics()`](setMultiomics.md),
+[`setPolygonInfo()`](setPolygonInfo.md),
+[`setSpatialEnrichment()`](setSpatialEnrichment.md),
+[`setSpatialGrid()`](setSpatialGrid.md),
+[`setSpatialLocations()`](setSpatialLocations.md),
+[`setSpatialNetwork()`](setSpatialNetwork.md),
+[`set_multiomics()`](set_multiomics.md)
 
 ## Examples
 

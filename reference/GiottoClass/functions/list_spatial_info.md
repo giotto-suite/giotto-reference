@@ -1,4 +1,4 @@
-# `list_spatial_info` {#list_spatial_info}
+# `list_spatial_info`
 
 *Package:* `GiottoClass`  
 *Title:* list_spatial_info

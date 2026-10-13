@@ -1,4 +1,4 @@
-# `findMastMarkers_one_vs_all` {#findMastMarkers_one_vs_all}
+# `findMastMarkers_one_vs_all`
 
 *Package:* `Giotto`  
 *Title:* findMastMarkers_one_vs_all
@@ -50,7 +50,7 @@ data.table with marker feats
 
 ## See Also
 
-`[findMastMarkers]`
+[`findMastMarkers`](findMastMarkers.md)
 
 ## Examples
 

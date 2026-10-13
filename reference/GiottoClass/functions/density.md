@@ -1,4 +1,4 @@
-# `density` {#density}
+# `density`
 
 *Package:* `GiottoClass`  
 *Title:* Density plot
@@ -7,7 +7,7 @@
 ## Description
 
 Create density plots of the pixel values of a giottoLargeImage. Wrapper
-around `[terra::density()](terra:density)`.
+around `terra::density()`.
 
 ## Usage
 
@@ -19,7 +19,7 @@ density,giottoLargeImage-method(x, show_max = TRUE, ...)
 
 - `x`: giottoLargeImage
 - `show_max`: logical. Plot the set max intensity as a vertical red line
-- `...`: Arguments passed on to `[terra::density](terra:density)`
+- `...`: Arguments passed on to `terra::density`
   - **``**:
 
 ## Value
@@ -28,7 +28,7 @@ density plot
 
 ## See Also
 
-`[hist()](=hist)`
+[`hist()`](hist.md)
 
 ## Examples
 

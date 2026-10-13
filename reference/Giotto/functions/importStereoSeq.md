@@ -1,4 +1,4 @@
-# `importStereoSeq` {#importStereoSeq}
+# `importStereoSeq`
 
 *Package:* `Giotto`  
 *Title:* Import a Stereo-seq assay

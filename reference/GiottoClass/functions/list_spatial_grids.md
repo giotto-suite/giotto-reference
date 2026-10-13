@@ -1,4 +1,4 @@
-# `list_spatial_grids` {#list_spatial_grids}
+# `list_spatial_grids`
 
 *Package:* `GiottoClass`  
 *Title:* list_spatial_grids

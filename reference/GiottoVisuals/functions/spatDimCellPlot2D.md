@@ -1,4 +1,4 @@
-# `spatDimCellPlot2D` {#spatDimCellPlot2D}
+# `spatDimCellPlot2D`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatDimCellPlot2D
@@ -188,7 +188,7 @@ space
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
 
@@ -203,7 +203,7 @@ Description of parameters.
 ## See Also
 
 Other spatial and dimension reduction cell annotation visualizations: 
-`[spatDimCellPlot]()`
+[`spatDimCellPlot()`](spatDimCellPlot.md)
 
 ## Examples
 

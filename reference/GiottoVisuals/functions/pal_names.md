@@ -1,4 +1,4 @@
-# `pal_names` {#pal_names}
+# `pal_names`
 
 *Package:* `GiottoVisuals`  
 *Title:* Color palette names

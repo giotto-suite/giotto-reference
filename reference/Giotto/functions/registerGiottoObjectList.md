@@ -1,4 +1,4 @@
-# `registerGiottoObjectList` {#registerGiottoObjectList}
+# `registerGiottoObjectList`
 
 *Package:* `Giotto`  
 *Title:* registerGiottoObjectList

@@ -1,4 +1,4 @@
-# `estimateAutomatedImageRegistrationWithSIFT` {#estimateAutomatedImageRegistrationWithSIFT}
+# `estimateAutomatedImageRegistrationWithSIFT`
 
 *Package:* `Giotto`  
 *Title:* Estimate Automated ImageRegistration With SIFT

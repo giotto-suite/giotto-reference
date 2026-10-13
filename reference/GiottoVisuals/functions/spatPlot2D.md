@@ -1,4 +1,4 @@
-# `spatPlot2D` {#spatPlot2D}
+# `spatPlot2D`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatPlot
@@ -207,7 +207,7 @@ cell_color parameter
 - `return_plot`: logical. return ggplot object
 - `save_plot`: logical. save the plot
 - `save_param`: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - `theme_param`: list of additional params passed to `ggplot2::theme()`
 - `default_save_name`: default save name for saving, don't change,
 change save_name in save_param
@@ -236,7 +236,7 @@ coord_fix_ratio: set to NULL to use default ggplot parameters
 
 ## See Also
 
-`[spatPlot3D]`
+[`spatPlot3D`](spatPlot2D.md)
 
 ## Examples
 

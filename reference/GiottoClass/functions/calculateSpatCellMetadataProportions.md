@@ -1,4 +1,4 @@
-# `calculateSpatCellMetadataProportions` {#calculateSpatCellMetadataProportions}
+# `calculateSpatCellMetadataProportions`
 
 *Package:* `GiottoClass`  
 *Title:* calculateSpatCellMetadataProportions

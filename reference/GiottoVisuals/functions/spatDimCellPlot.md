@@ -1,4 +1,4 @@
-# `spatDimCellPlot` {#spatDimCellPlot}
+# `spatDimCellPlot`
 
 *Package:* `GiottoVisuals`  
 *Title:* spatDimCellPlot
@@ -16,7 +16,7 @@ spatDimCellPlot(...)
 
 ## Arguments
 
-- `...`: Arguments passed on to `[spatDimCellPlot2D](=spatDimCellPlot2D)`
+- `...`: Arguments passed on to [`spatDimCellPlot2D`](spatDimCellPlot2D.md)
   - **`plot_alignment`**: direction to align plot
 - **`cell_annotation_values`**: numeric cell annotation columns
 - **`sdimx`**: = spatial dimension to use on x-axis
@@ -66,7 +66,7 @@ space
 - **`return_plot`**: logical. return ggplot object
 - **`save_plot`**: logical. save the plot
 - **`save_param`**: list of saving parameters,
-see `[showSaveParameters]`
+see [`showSaveParameters`](showSaveParameters.md)
 - **`default_save_name`**: default save name for saving, don't change,
 change save_name in save_param
 - **`cell_color_gradient`**: character. continuous colors to use. palette to
@@ -121,7 +121,7 @@ Description of parameters.
 ## See Also
 
 Other spatial and dimension reduction cell annotation visualizations: 
-`[spatDimCellPlot2D]()`
+[`spatDimCellPlot2D()`](spatDimCellPlot2D.md)
 
 ## Examples
 

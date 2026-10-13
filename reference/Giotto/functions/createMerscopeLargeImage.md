@@ -1,4 +1,4 @@
-# `createMerscopeLargeImage` {#createMerscopeLargeImage}
+# `createMerscopeLargeImage`
 
 *Package:* `Giotto`  
 *Title:* Create Vizgen MERSCOPE largeImage

@@ -1,4 +1,4 @@
-# `createGiottoStereoSeqObject` {#createGiottoStereoSeqObject}
+# `createGiottoStereoSeqObject`
 
 *Package:* `Giotto`  
 *Title:* Create Stereo-seq Giotto Object
@@ -38,7 +38,7 @@ within the geneExp information. Choose from "geneName" (default), or "geneID"
 - `negative_y`: logical. Map data to negative y spatial values during
 automatic alignment (Default = TRUE). Meaning that origin is in upper left
 instead of lower left.
-from `[createGiottoInstructions]`
+from [`createGiottoInstructions`](reexports.md)
 - `verbose`: logical. Be verbose.
 - `h5_file`: (optional) name to create an on-disk HDF5 file.
 - `instructions`: list of instructions or output result

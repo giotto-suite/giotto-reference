@@ -1,4 +1,4 @@
-# `doHclust` {#doHclust}
+# `doHclust`
 
 *Package:* `Giotto`  
 *Title:* doHclust
@@ -61,7 +61,7 @@ Description on how to use Kmeans clustering method.
 
 ## See Also
 
-`[hclust](stats)`
+`hclust`
 
 ## Examples
 

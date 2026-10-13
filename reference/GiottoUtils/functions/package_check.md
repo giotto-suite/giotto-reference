@@ -1,4 +1,4 @@
-# `package_check` {#package_check}
+# `package_check`
 
 *Package:* `GiottoUtils`  
 *Title:* package_check

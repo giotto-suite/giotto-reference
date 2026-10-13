@@ -1,4 +1,4 @@
-# `createGiottoLargeImage` {#createGiottoLargeImage}
+# `createGiottoLargeImage`
 
 *Package:* `GiottoClass`  
 *Title:* createGiottoLargeImage
@@ -32,7 +32,7 @@ createGiottoLargeImage(
 ## Arguments
 
 - `raster_object`: filepath to an image, a terra `SpatRaster` or, other format
-openable via `[terra::rast()](terra:rast)`
+openable via `terra::rast()`
 - `name`: name for the image
 - `negative_y`: Map image to negative y spatial values if TRUE. Meaning
 that origin is in upper left instead of lower left.

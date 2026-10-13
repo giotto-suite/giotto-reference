@@ -1,4 +1,4 @@
-# `viewHMRFresults2D` {#viewHMRFresults2D}
+# `viewHMRFresults2D`
 
 *Package:* `Giotto`  
 *Title:* viewHMRFresults2D
@@ -37,5 +37,5 @@ spatial plots with HMRF domains
 
 ## See Also
 
-`[spatPlot2D]`
+[`spatPlot2D`](reexports.md)
 

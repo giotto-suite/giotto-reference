@@ -1,4 +1,4 @@
-# `createCrossSection` {#createCrossSection}
+# `createCrossSection`
 
 *Package:* `Giotto`  
 *Title:* createCrossSection

@@ -1,4 +1,4 @@
-# `findMarkers_one_vs_all` {#findMarkers_one_vs_all}
+# `findMarkers_one_vs_all`
 
 *Package:* `Giotto`  
 *Title:* findMarkers_one_vs_all
@@ -67,9 +67,9 @@ clusters.
 
 ## See Also
 
-`[findScranMarkers_one_vs_all]`,
-`[findGiniMarkers_one_vs_all]` and
-`[findMastMarkers_one_vs_all]`
+[`findScranMarkers_one_vs_all`](findScranMarkers_one_vs_all.md),
+[`findGiniMarkers_one_vs_all`](findGiniMarkers_one_vs_all.md) and
+[`findMastMarkers_one_vs_all`](findMastMarkers_one_vs_all.md)
 
 ## Examples
 

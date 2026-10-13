@@ -1,4 +1,4 @@
-# `hexVertices` {#hexVertices}
+# `hexVertices`
 
 *Package:* `GiottoClass`  
 *Title:* Generate regular hexagon vertices
@@ -25,12 +25,12 @@ a data.table of regular hexagon vertices
 
 ## See Also
 
-[generate_grid]
+[generate_grid](generate_grid.md)
 
 Other polygon stamping: 
-`[circleVertices]()`,
-`[polyStamp]()`,
-`[rectVertices]()`
+[`circleVertices()`](circleVertices.md),
+[`polyStamp()`](polyStamp.md),
+[`rectVertices()`](rectVertices.md)
 
 ## Examples
 

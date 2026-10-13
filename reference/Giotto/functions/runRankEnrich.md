@@ -1,4 +1,4 @@
-# `runRankEnrich` {#runRankEnrich}
+# `runRankEnrich`
 
 *Package:* `Giotto`  
 *Title:* runRankEnrich
@@ -69,7 +69,7 @@ and the final enrichment score is then calculated as the sum of top 100 RBPs.
 
 ## See Also
 
-`[makeSignMatrixRank]`
+[`makeSignMatrixRank`](makeSignMatrixRank.md)
 
 ## Examples
 

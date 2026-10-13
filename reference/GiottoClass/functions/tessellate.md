@@ -1,4 +1,4 @@
-# `tessellate` {#tessellate}
+# `tessellate`
 
 *Package:* `GiottoClass`  
 *Title:* Tessellated grid of polygons

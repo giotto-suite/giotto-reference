@@ -1,4 +1,4 @@
-# `determine_cores` {#determine_cores}
+# `determine_cores`
 
 *Package:* `GiottoUtils`  
 *Title:* determine_cores

@@ -1,4 +1,4 @@
-# `str_convenience` {#str_convenience}
+# `str_convenience`
 
 *Package:* `GiottoUtils`  
 *Title:* String convenience functions
@@ -28,7 +28,7 @@ str_reformat(x, ...)
 
 - `x`: string item(s) to format
 - `qchar`: quote character to use. Either 'single' or "double"
-- `...`: additional params to pass to `[strwrap()](=strwrap)`
+- `...`: additional params to pass to `strwrap()`
 
 ## Value
 

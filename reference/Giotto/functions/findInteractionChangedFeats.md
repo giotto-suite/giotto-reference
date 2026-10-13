@@ -1,4 +1,4 @@
-# `findInteractionChangedFeats` {#findInteractionChangedFeats}
+# `findInteractionChangedFeats`
 
 *Package:* `Giotto`  
 *Title:* findInteractionChangedFeats
@@ -10,7 +10,7 @@ Identifies cell-to-cell Interaction Changed Features (ICF),
 i.e. features that are differentially expressed due to proximity to other
 cell types. This function is appropriate for single-cell level data. For
 data from spot-based spatial assays or spatially binned data, see
-`[findICFSpot()](=findICFSpot)`, which runs on top of DWLS results or similar spot-level
+[`findICFSpot()`](findICFSpot.md), which runs on top of DWLS results or similar spot-level
 cell-type enrichment outputs
 
 ## Usage
@@ -113,7 +113,7 @@ the target cell type
 
 ## See Also
 
-`[filterInteractionChangedFeats()](=filterInteractionChangedFeats)` `[findICFSpot()](=findICFSpot)`
+[`filterInteractionChangedFeats()`](filterInteractionChangedFeats.md) [`findICFSpot()`](findICFSpot.md)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# `giotto-class` {#giotto-class}
+# `giotto-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 giotto Class

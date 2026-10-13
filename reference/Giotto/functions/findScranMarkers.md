@@ -1,4 +1,4 @@
-# `findScranMarkers` {#findScranMarkers}
+# `findScranMarkers`
 
 *Package:* `Giotto`  
 *Title:* findScranMarkers
@@ -51,7 +51,7 @@ data.table with marker genes
 ## Details
 
 This is a minimal convenience wrapper around
-the `[findMarkers](scran)` function from the scran package.
+the `findMarkers` function from the scran package.
 
 To perform differential expression between custom selected groups of cells
 you need to specify the cell_ID column to parameter *cluster_column*

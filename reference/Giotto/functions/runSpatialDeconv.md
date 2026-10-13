@@ -1,4 +1,4 @@
-# `runSpatialDeconv` {#runSpatialDeconv}
+# `runSpatialDeconv`
 
 *Package:* `Giotto`  
 *Title:* runSpatialDeconv
@@ -48,7 +48,7 @@ giotto object or deconvolution results
 
 ## See Also
 
-`[runDWLSDeconv]`
+[`runDWLSDeconv`](runDWLSDeconv.md)
 
 ## Examples
 

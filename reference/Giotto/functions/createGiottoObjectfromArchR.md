@@ -1,4 +1,4 @@
-# `createGiottoObjectfromArchR` {#createGiottoObjectfromArchR}
+# `createGiottoObjectfromArchR`
 
 *Package:* `Giotto`  
 *Title:* Create a Giotto object from an ArchR project

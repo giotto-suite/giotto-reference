@@ -1,4 +1,4 @@
-# `overlaps-generic` {#overlaps-generic}
+# `overlaps-generic`
 
 *Package:* `GiottoClass`  
 *Title:* overlaps-generic

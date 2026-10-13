@@ -1,4 +1,4 @@
-# `mergeClusters` {#mergeClusters}
+# `mergeClusters`
 
 *Package:* `Giotto`  
 *Title:* mergeClusters

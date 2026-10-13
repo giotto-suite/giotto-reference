@@ -1,4 +1,4 @@
-# `runNMF` {#runNMF}
+# `runNMF`
 
 *Package:* `Giotto`  
 *Title:* Run Non-Negative Matrix Factorization
@@ -57,7 +57,7 @@ giotto object with updated NMF dimension reduction
 
 ## Details
 
-See `[nmf](RcppML)` for more information about other parameters.
+See `nmf` for more information about other parameters.
 
 ## Examples
 

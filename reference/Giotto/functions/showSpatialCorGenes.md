@@ -1,4 +1,4 @@
-# `showSpatialCorGenes` {#showSpatialCorGenes}
+# `showSpatialCorGenes`
 
 *Package:* `Giotto`  
 *Title:* showSpatialCorGenes

@@ -1,4 +1,4 @@
-# `makeSignMatrixDWLS` {#makeSignMatrixDWLS}
+# `makeSignMatrixDWLS`
 
 *Package:* `Giotto`  
 *Title:* makeSignMatrixDWLS
@@ -6,9 +6,9 @@
 ## Description
 
 Function to convert a matrix within a Giotto object into a
-format that can be used with `[runDWLSDeconv]` for deconvolution.
+format that can be used with [`runDWLSDeconv`](runDWLSDeconv.md) for deconvolution.
 A vector of cell types for parameter `cell_type_vector` can be created
-from the cell metadata (`[pDataDT]`).
+from the cell metadata ([`pDataDT`](reexports.md)).
 
 ## Usage
 
@@ -44,7 +44,7 @@ matrix
 
 ## See Also
 
-`[runDWLSDeconv]`
+[`runDWLSDeconv`](runDWLSDeconv.md)
 
 ## Examples
 

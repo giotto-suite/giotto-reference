@@ -1,4 +1,4 @@
-# `nnNetObj-class` {#nnNetObj-class}
+# `nnNetObj-class`
 
 *Package:* `GiottoClass`  
 *Title:* S4 nnNetObj

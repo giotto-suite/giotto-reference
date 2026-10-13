@@ -1,4 +1,4 @@
-# `special_characters` {#special_characters}
+# `special_characters`
 
 *Package:* `GiottoUtils`  
 *Title:* Special characters

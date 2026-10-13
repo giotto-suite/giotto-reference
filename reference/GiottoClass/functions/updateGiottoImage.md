@@ -1,4 +1,4 @@
-# `updateGiottoImage` {#updateGiottoImage}
+# `updateGiottoImage`
 
 *Package:* `GiottoClass`  
 *Title:* updateGiottoImage
@@ -66,9 +66,9 @@ This function works for all image objects associated with Giotto.
 ## See Also
 
 Other basic image functions: 
-`[addGiottoImage]()`,
-`[plotGiottoImage]()`,
-`[reconnectGiottoImage]()`
+[`addGiottoImage()`](addGiottoImage.md),
+[`plotGiottoImage()`](plotGiottoImage.md),
+[`reconnectGiottoImage()`](reconnectGiottoImage.md)
 
 ## Examples
 

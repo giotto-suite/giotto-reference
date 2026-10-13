@@ -1,4 +1,4 @@
-# `get10Xmatrix_h5` {#get10Xmatrix_h5}
+# `get10Xmatrix_h5`
 
 *Package:* `Giotto`  
 *Title:* get10Xmatrix_h5

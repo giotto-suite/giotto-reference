@@ -1,4 +1,4 @@
-# `edge_distances` {#edge_distances}
+# `edge_distances`
 
 *Package:* `GiottoClass`  
 *Title:* Calculate network edge euclidean distances

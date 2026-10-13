@@ -1,4 +1,4 @@
-# `list_element_exists` {#list_element_exists}
+# `list_element_exists`
 
 *Package:* `GiottoUtils`  
 *Title:* Test if list element exists

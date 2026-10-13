@@ -1,4 +1,4 @@
-# `simulateOneGenePatternGiottoObject` {#simulateOneGenePatternGiottoObject}
+# `simulateOneGenePatternGiottoObject`
 
 *Package:* `Giotto`  
 *Title:* simulateOneGenePatternGiottoObject
