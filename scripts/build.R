@@ -27,6 +27,9 @@ script_dir <- function() {
 ROOT <- normalizePath(file.path(script_dir(), ".."))
 CACHE <- file.path(ROOT, ".cache")
 OUT <- file.path(ROOT, "reference")
+# llms.txt / llms-full.txt are fetched over HTTP by agents, so their links
+# must be absolute.
+RAW_BASE <- "https://raw.githubusercontent.com/giotto-suite/giotto-reference/main"
 
 # ---- config -----------------------------------------------------------------
 
@@ -153,6 +156,57 @@ is_exported <- function(name, aliases, ns) {
     FALSE
 }
 
+# ---- link resolution --------------------------------------------------------
+#
+# \link targets are Rd topics (aliases). LINK_CTX$topics maps, per package,
+# alias -> doc name for every page that will actually be written, so a link
+# resolves only when its target exists in this reference. Unresolved links
+# (other CRAN/Bioc packages, internal topics) render as plain text.
+
+LINK_CTX <- new.env()
+LINK_CTX$pkg <- NULL
+LINK_CTX$topics <- list()
+
+doc_href <- function(name) paste0(utils::URLencode(name, reserved = TRUE), ".md")
+
+resolve_link <- function(node) {
+    opt <- attr(node, "Rd_option")
+    opt <- if (is.null(opt)) NULL else paste0(as.character(opt), collapse = "")
+    cur <- LINK_CTX$pkg
+    if (is.null(opt) || startsWith(opt, "=")) {
+        topic <- if (is.null(opt)) rd_plain(node) else sub("^=", "", opt)
+        search <- unique(c(cur, names(LINK_CTX$topics)))
+    } else {
+        parts <- strsplit(opt, ":", fixed = TRUE)[[1]]
+        search <- parts[1]
+        topic <- if (length(parts) > 1) paste(parts[-1], collapse = ":") else rd_plain(node)
+    }
+    for (p in search) {
+        name <- LINK_CTX$topics[[p]][topic]
+        if (length(name) && !is.na(name)) {
+            if (identical(p, cur)) return(doc_href(name))
+            return(sprintf("../../%s/functions/%s", p, doc_href(name)))
+        }
+    }
+    NULL
+}
+
+# Text of a node with all markup dropped (link labels, code spans, ...).
+rd_plain <- function(node) {
+    tag <- attr(node, "Rd_tag")
+    if (!is.null(tag) && tag %in% c("TEXT", "RCODE", "VERB")) {
+        return(paste0(as.character(node), collapse = ""))
+    }
+    if (is.list(node)) return(paste0(vapply(node, rd_plain, character(1)), collapse = ""))
+    paste0(as.character(node), collapse = "")
+}
+
+find_links <- function(node) {
+    if (identical(attr(node, "Rd_tag"), "\\link")) return(list(node))
+    if (!is.list(node)) return(list())
+    do.call(c, c(list(list()), lapply(node, find_links)))
+}
+
 # ---- Rd -> markdown ---------------------------------------------------------
 #
 # Walk the parse tree from tools::parse_Rd and emit markdown. Handles the
@@ -172,7 +226,15 @@ rd_inline <- function(node) {
         "TEXT" = paste0(as.character(node), collapse = ""),
         "RCODE" = paste0(as.character(node), collapse = ""),
         "VERB" = paste0(as.character(node), collapse = ""),
-        "\\code" = paste0("`", txt(), "`"),
+        "\\code" = {
+            # A link inside a code span would not render, so hoist it:
+            # \code{\link{foo}()} -> [`foo()`](foo.md)
+            links <- find_links(node)
+            if (!length(links)) return(paste0("`", txt(), "`"))
+            code <- paste0("`", rd_plain(node), "`")
+            url <- if (length(links) == 1) resolve_link(links[[1]]) else NULL
+            if (is.null(url)) code else sprintf("[%s](%s)", code, url)
+        },
         "\\samp" = paste0("`", txt(), "`"),
         "\\file" = paste0("`", txt(), "`"),
         "\\pkg" = paste0("**", txt(), "**"),
@@ -188,10 +250,8 @@ rd_inline <- function(node) {
             sprintf("[%s](%s)", label, url)
         },
         "\\link" = {
-            target <- txt()
-            opt <- attr(node, "Rd_option")
-            if (!is.null(opt)) sprintf("[%s](%s)", target, as.character(opt))
-            else sprintf("[%s]", target)
+            url <- resolve_link(node)
+            if (is.null(url)) txt() else sprintf("[%s](%s)", txt(), url)
         },
         "\\eqn" = paste0("`", txt(), "`"),
         "\\deqn" = paste0("\n\n```\n", txt(), "\n```\n\n"),
@@ -284,12 +344,7 @@ rd_arguments <- function(node) {
     Filter(Negate(is.null), rows)
 }
 
-rd_to_md <- function(rd_path, package) {
-    rd <- tryCatch(
-        parse_Rd(rd_path),
-        error = function(e) NULL
-    )
-    if (is.null(rd)) return(NULL)
+rd_to_md <- function(rd, package) {
 
     sections <- list()
     name <- NULL
@@ -319,7 +374,7 @@ rd_to_md <- function(rd_path, package) {
     if (is.null(name)) return(NULL)
 
     md <- c(
-        sprintf("# `%s` {#%s}", name, name),
+        sprintf("# `%s`", name),
         "",
         sprintf("*Package:* `%s`  ", package),
         sprintf("*Title:* %s", title %||% "")
@@ -367,8 +422,44 @@ rd_to_md <- function(rd_path, package) {
 
 # ---- per-package build ------------------------------------------------------
 
-build_package <- function(pkg) {
-    src <- clone_package(pkg)
+# Parse every Rd in a package and keep the pages that will be written.
+# Runs for all packages before any rendering so cross-package links resolve.
+collect_docs <- function(pkg, src) {
+    ns <- parse_namespace(file.path(src, "NAMESPACE"))
+    msg("  %s: %d exports declared (include_internal=%s)",
+        pkg$name, length(ns$exports), pkg$include_internal)
+    rd_files <- list.files(file.path(src, "man"), pattern = "\\.Rd$", full.names = TRUE)
+    docs <- list()
+    skipped_internal <- 0
+    for (rd_path in rd_files) {
+        rd <- tryCatch(parse_Rd(rd_path), error = function(e) NULL)
+        if (is.null(rd)) next
+        tags <- vapply(rd, function(n) attr(n, "Rd_tag") %||% "", character(1))
+        name <- trimws(rd_plain(rd[tags == "\\name"]))
+        if (!nzchar(name)) next
+        aliases <- vapply(rd[tags == "\\alias"], function(n) trimws(rd_plain(n)), character(1))
+        if (!pkg$include_internal && !is_exported(name, aliases, ns)) {
+            skipped_internal <- skipped_internal + 1
+            next
+        }
+        docs[[length(docs) + 1]] <- list(rd = rd, name = name, aliases = aliases)
+    }
+    if (skipped_internal > 0) {
+        msg("  %s: skipped %d non-exported doc page(s)", pkg$name, skipped_internal)
+    }
+    docs
+}
+
+doc_topics <- function(docs) {
+    topics <- character()
+    for (d in docs) {
+        keys <- setdiff(unique(c(d$name, d$aliases)), names(topics))
+        topics[keys] <- d$name
+    }
+    topics
+}
+
+build_package <- function(pkg, src, docs) {
     pkg_out <- file.path(OUT, pkg$name)
     fn_out <- file.path(pkg_out, "functions")
     vg_out <- file.path(pkg_out, "vignettes")
@@ -383,23 +474,12 @@ build_package <- function(pkg) {
         for (k in names(d)) desc[k] <- d[[k]]
     }
 
-    # NAMESPACE → exported-symbols filter
-    ns <- parse_namespace(file.path(src, "NAMESPACE"))
-    msg("  %s: %d exports declared (include_internal=%s)",
-        pkg$name, length(ns$exports), pkg$include_internal)
-
     # function docs
-    rd_files <- list.files(file.path(src, "man"), pattern = "\\.Rd$", full.names = TRUE)
+    LINK_CTX$pkg <- pkg$name
     fn_index <- list()
-    skipped_internal <- 0
-    for (rd in rd_files) {
-        result <- rd_to_md(rd, pkg$name)
+    for (d in docs) {
+        result <- rd_to_md(d$rd, pkg$name)
         if (is.null(result)) next
-        if (!pkg$include_internal &&
-            !is_exported(result$name, result$aliases, ns)) {
-            skipped_internal <- skipped_internal + 1
-            next
-        }
         out_file <- file.path(fn_out, paste0(result$name, ".md"))
         writeLines(result$md, out_file)
         fn_index[[length(fn_index) + 1]] <- list(
@@ -409,9 +489,6 @@ build_package <- function(pkg) {
             aliases = result$aliases,
             file = sub(paste0("^", ROOT, "/"), "", out_file)
         )
-    }
-    if (skipped_internal > 0) {
-        msg("  %s: skipped %d non-exported doc page(s)", pkg$name, skipped_internal)
     }
 
     # vignettes (copy verbatim — .Rmd is already markdown with code chunks)
@@ -486,15 +563,16 @@ build_package <- function(pkg) {
         ""
     )
     for (v in vg_index) {
-        readme <- c(readme, sprintf("- [%s](vignettes/%s)", v$name, basename(v$file)))
+        readme <- c(readme, sprintf("- [%s](%s)", v$name,
+                                    sub(paste0("^reference/", pkg$name, "/"), "", v$file)))
     }
     readme <- c(readme, "",
                 sprintf("## Functions (%d)", length(fn_index)),
                 "")
     for (f in fn_index) {
         readme <- c(readme,
-                    sprintf("- [`%s`](functions/%s.md) — %s",
-                            f$name, f$name, f$title))
+                    sprintf("- [`%s`](functions/%s) — %s",
+                            f$name, doc_href(f$name), f$title))
     }
     writeLines(readme, file.path(pkg_out, "README.md"))
 
@@ -502,6 +580,37 @@ build_package <- function(pkg) {
 }
 
 # ---- top-level indexes ------------------------------------------------------
+
+# In llms-full.txt each function page sits under a "# Package:" heading, so
+# push its headings down a level. Lines inside code fences are R, not headings.
+demote_headings <- function(lines) {
+    in_code <- cumsum(grepl("^```", lines)) %% 2 == 1
+    hd <- !in_code & grepl("^#+ ", lines)
+    lines[hd] <- paste0("#", lines[hd])
+    lines
+}
+
+# Rewrite page-relative links as absolute URLs; `dir` is the page's
+# repo-relative directory.
+absolutize_links <- function(lines, dir) {
+    re <- "\\]\\((?!https?:|mailto:|#)([^)\\s]+)\\)"
+    m <- gregexpr(re, lines, perl = TRUE)
+    regmatches(lines, m) <- lapply(regmatches(lines, m), function(hits) {
+        if (!length(hits)) return(hits)
+        rel <- sub("^\\]\\((.*)\\)$", "\\1", hits)
+        parts <- strsplit(file.path(dir, rel), "/", fixed = TRUE)
+        path <- vapply(parts, function(p) {
+            out <- character()
+            for (seg in p) {
+                if (seg == "..") out <- head(out, -1)
+                else if (seg != ".") out <- c(out, seg)
+            }
+            paste(out, collapse = "/")
+        }, character(1))
+        sprintf("](%s/%s)", RAW_BASE, path)
+    })
+    lines
+}
 
 build_indexes <- function(results) {
     all_fns <- do.call(c, lapply(results, function(r) r$functions))
@@ -519,7 +628,7 @@ build_indexes <- function(results) {
         "|---|---|---|"
     )
     for (f in all_fns) {
-        link <- sprintf("[`%s`](%s)", f$name, f$file)
+        link <- sprintf("[`%s`](%s/functions/%s)", f$name, f$package, doc_href(f$name))
         title <- gsub("\\|", "\\\\|", f$title)
         toc <- c(toc, sprintf("| %s | %s | %s |", f$package, link, title))
     }
@@ -556,12 +665,13 @@ build_indexes <- function(results) {
     for (r in results) {
         llms <- c(llms,
                   sprintf("## %s", r$package),
-                  sprintf("- [Package README](reference/%s/README.md)", r$package))
+                  sprintf("- [Package README](%s/reference/%s/README.md)", RAW_BASE, r$package))
         for (v in r$vignettes) {
-            llms <- c(llms, sprintf("- [Vignette: %s](%s)", v$name, v$file))
+            llms <- c(llms, sprintf("- [Vignette: %s](%s/%s)", v$name, RAW_BASE, v$file))
         }
         for (f in r$functions) {
-            llms <- c(llms, sprintf("- [%s](%s): %s", f$name, f$file, f$title))
+            llms <- c(llms, sprintf("- [%s](%s/reference/%s/functions/%s): %s",
+                                    f$name, RAW_BASE, f$package, doc_href(f$name), f$title))
         }
         llms <- c(llms, "")
     }
@@ -573,6 +683,7 @@ build_indexes <- function(results) {
         full <- c(full, sprintf("\n# Package: %s\n", r$package))
         for (f in r$functions) {
             content <- tryCatch(readLines(file.path(ROOT, f$file)), error = function(e) character())
+            content <- absolutize_links(demote_headings(content), dirname(f$file))
             full <- c(full, "", content, "")
         }
     }
@@ -592,7 +703,11 @@ main <- function() {
     msg("building %d packages: %s", length(pkgs),
         paste(vapply(pkgs, function(p) p$name, character(1)), collapse = ", "))
 
-    results <- lapply(pkgs, build_package)
+    srcs <- lapply(pkgs, clone_package)
+    docs <- Map(collect_docs, pkgs, srcs)
+    LINK_CTX$topics <- setNames(lapply(docs, doc_topics),
+                                vapply(pkgs, function(p) p$name, character(1)))
+    results <- Map(build_package, pkgs, srcs, docs)
     build_indexes(results)
 
     msg("done. wrote %s, llms.txt, llms-full.txt", OUT)
