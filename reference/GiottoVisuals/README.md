@@ -2,7 +2,7 @@
 
 *Source:* https://github.com/giotto-suite/GiottoVisuals (ref: `main`)  
 *Title:* Visuals for the Giotto spatial biology analysis ecosystem  
-*Version:* 0.2.15
+*Version:* 0.2.15.1
 
 Expanded visualization and plotting functionality for Giotto Suite.
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:07:06Z",
+  "generated_at": "2026-10-25T06:07:15Z",
   "packages": [
     {
       "name": "Giotto",
@@ -18,14 +18,14 @@
     {
       "name": "GiottoUtils",
       "title": "Giotto Suite Utilities",
-      "version": "0.2.6",
-      "n_functions": 58,
+      "version": "0.2.9",
+      "n_functions": 59,
       "n_vignettes": 1
     },
     {
       "name": "GiottoVisuals",
       "title": "Visuals for the Giotto spatial biology analysis ecosystem",
-      "version": "0.2.15",
+      "version": "0.2.15.1",
       "n_functions": 76,
       "n_vignettes": 1
     }
@@ -4093,6 +4093,13 @@
     },
     {
       "package": "GiottoUtils",
+      "name": "keep_awake",
+      "title": "keep_awake",
+      "aliases": "keep_awake",
+      "file": "reference/GiottoUtils/functions/keep_awake.md"
+    },
+    {
+      "package": "GiottoUtils",
       "name": "lapply_flex",
       "title": "lapply_flex",
       "aliases": "lapply_flex",
@@ -4291,7 +4298,7 @@
       "package": "GiottoUtils",
       "name": "with",
       "title": "With utilities",
-      "aliases": ["with", "gwith_options", "gwith_package", "gwith_seed"],
+      "aliases": ["with", "gwith_options", "gwith_package", "gwith_seed", "gwith_awake"],
       "file": "reference/GiottoUtils/functions/with.md"
     },
     {

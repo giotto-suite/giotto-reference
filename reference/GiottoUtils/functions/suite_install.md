@@ -24,6 +24,7 @@ suite_install(
   suite_deps = TRUE,
   ref = "main",
   dry_run = FALSE,
+  install_arrow = NULL,
   ...
 )
 ```
@@ -38,6 +39,10 @@ dependency modules
 "disk". These determine which branches to install. See details.
 - `dry_run`: logical. When `TRUE`, only print the install commands instead
 of actually running them.
+- `install_arrow`: logical or `NULL`. Whether to (re)install *arrow* with
+zstd support when `"arrow"` is in `modules` and the installed version is
+missing or lacks zstd. `NULL` (default) errors with the install command,
+`TRUE` runs it, `FALSE` skips it. See the *Non-suite packages* section.
 - `...`: additional params to pass to `remotes::install_github()`
 
 ## Value
@@ -53,7 +58,7 @@ if (FALSE) {
     suite_install("GiottoClass", ref = "dev")
 
     # install the on-disk build set
-    suite_install("GiottoDisk", ref = "disk")
+    suite_install("GiottoDisk", ref = "disk", install_arrow = TRUE)
 
     # install ONLY Giotto, ignoring module dependencies
     # (i.e. GiottoVisuals, GiottoClass, etc)

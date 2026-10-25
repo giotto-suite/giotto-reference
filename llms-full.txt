@@ -36024,6 +36024,66 @@ is_empty_char(c(NA_character_, "non-na")) # example with NA
 
 
 
+## `keep_awake`
+
+*Package:* `GiottoUtils`  
+*Title:* keep_awake
+
+### Description
+
+Prevent the machine from going to sleep during a long computation, and allow
+it again afterwards.
+
+This exists because a system sleep is invisible to every in-process
+measurement. While the machine is asleep wall clock advances and CPU time
+does not, so a step that spans a sleep appears many times slower while doing
+identical work: recorded pipeline timings have been inflated 5-14x this way,
+with CPU-seconds, memory and I/O counters all looking entirely normal.
+
+**Nothing in Giotto holds a sleep assertion unless you call `keep_awake()` or
+[`gwith_awake()`](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/with.md).** Attaching the package changes no power settings.
+
+### Usage
+
+```r
+keep_awake(on = TRUE)
+```
+
+### Arguments
+
+- `on`: logical. `TRUE` holds the assertion, `FALSE` releases it.
+
+### Value
+
+`TRUE` if an assertion is held after the call, otherwise `FALSE`,
+invisibly
+
+### Details
+
+Uses `caffeinate` on macOS and `systemd-inhibit` on Linux; on other platforms,
+or when neither is available, it reports that it cannot help and does nothing.
+No sleep assertion can outlive the R session: on both platforms the helper is
+bound to this process and exits with it. For the same reason, sessions running
+side by side on one machine hold and release independently.
+
+Idempotent within a session — calling it repeatedly with `on = TRUE` leaves a
+single helper. A session only ever tracks and releases the helper it started
+itself, so it cannot report another session's hold as its own.
+
+### See Also
+
+[`gwith_awake()`](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/with.md) to scope it to a block of code
+
+### Examples
+
+```r
+keep_awake(TRUE)
+# ... long pipeline ...
+keep_awake(FALSE)
+```
+
+
+
 ## `lapply_flex`
 
 *Package:* `GiottoUtils`  
@@ -36349,8 +36409,10 @@ package_check(
   pkg_name,
   repository = NULL,
   github_repo = NULL,
-  optional = FALSE,
-  custom_msg = NULL
+  optional = deprecated(),
+  custom_msg = NULL,
+  on_missing = c("error", "warning", "message", "none"),
+  once = FALSE
 )
 ```
 
@@ -36358,23 +36420,38 @@ package_check(
 
 - `pkg_name`: name of package
 - `repository`: where is the package (in format repo:cooltool for CRAN,
-Bioc, and pip repos. format repo:johndoe/cooltool for github or bitbucket)
+Bioc, and pip repos. format repo:johndoe/cooltool for github or bitbucket.
+format r-universe:johndoe/cooltool for the johndoe r-universe, which serves
+binaries, so prefer it over github for packages with compiled code)
 - `github_repo`: name of github repository if needed
-- `optional`: whether the package is optional. If `TRUE`, an error is
-thrown. If `FALSE`, a warning is sent
-and only `message()` will be sent if FALSE.
+- `optional`: html[lifecycle-deprecated.svgoptions: alt='[Deprecated]'](https://lifecycle.r-lib.org/articles/stages.html#deprecated)**[Deprecated]** use `on_missing`.
+`TRUE` is `on_missing = "message"`, `FALSE` is `on_missing = "error"`.
 - `custom_msg`: custom message to be sent instead of default error or
 message
+- `on_missing`: character. What to do when a package is missing:
+`"error"` (default), `"warning"`, `"message"`, or `"none"` to report
+nothing. Every level but `"error"` returns `FALSE`, so the caller can
+fall back. An installed package below a requested version is reported at
+the same level, except that `"error"` reports it as a warning.
+- `once`: logical. When `TRUE`, a warning or message is shown once per
+session for these packages, through `rlang`'s `.frequency = "once"`.
+Errors are always raised.
 
 ### Value
 
-character
+`TRUE` invisibly when every package is installed, otherwise
+`FALSE` invisibly (only reachable when `on_missing` is not `"error"`)
 
 ### Examples
 
 ```r
 package_check("Matrix")
+# use a package when it is there, fall back when it is not
+if (package_check("png", on_missing = "message")) png::readPNG(f)
+# an optional speedup, mentioned once per session
+package_check("GiottoKernels", on_missing = "message", once = TRUE)
 package_check("BiocSingular", repository = "Bioc")
+package_check("sedonadb", repository = "r-universe:apache/sedonadb>=0.4.0")
 # (only expected to work when giottoenv is loaded)
 package_check("leidenalg", repository = "pip:leidenalg")
 
@@ -37158,6 +37235,7 @@ suite_install(
   suite_deps = TRUE,
   ref = "main",
   dry_run = FALSE,
+  install_arrow = NULL,
   ...
 )
 ```
@@ -37172,6 +37250,10 @@ dependency modules
 "disk". These determine which branches to install. See details.
 - `dry_run`: logical. When `TRUE`, only print the install commands instead
 of actually running them.
+- `install_arrow`: logical or `NULL`. Whether to (re)install *arrow* with
+zstd support when `"arrow"` is in `modules` and the installed version is
+missing or lacks zstd. `NULL` (default) errors with the install command,
+`TRUE` runs it, `FALSE` skips it. See the *Non-suite packages* section.
 - `...`: additional params to pass to `remotes::install_github()`
 
 ### Value
@@ -37187,7 +37269,7 @@ if (FALSE) {
     suite_install("GiottoClass", ref = "dev")
 
     # install the on-disk build set
-    suite_install("GiottoDisk", ref = "disk")
+    suite_install("GiottoDisk", ref = "disk", install_arrow = TRUE)
 
     # install ONLY Giotto, ignoring module dependencies
     # (i.e. GiottoVisuals, GiottoClass, etc)
@@ -37422,7 +37504,7 @@ a()
 
 *Package:* `GiottoUtils`  
 *Title:* With utilities
-*Aliases:* `gwith_options`, `gwith_package`, `gwith_seed`
+*Aliases:* `gwith_options`, `gwith_package`, `gwith_seed`, `gwith_awake`
 
 ### Description
 
@@ -37436,6 +37518,8 @@ gwith_options(new, code)
 gwith_package(package, code, pos = 2L)
 
 gwith_seed(seed = 1234, code, ..., substitute = TRUE, envir = parent.frame())
+
+gwith_awake(code)
 ```
 
 ### Arguments
@@ -37457,6 +37541,13 @@ the evaluated value of `code`
 ### Details
 
 `gwith_seed()` : `...` passes to `set.seed()`
+
+`gwith_awake()` : holds a sleep assertion for the duration of `code`, then
+releases it. A system sleep part-way through a long computation inflates its
+wall-clock time while leaving CPU time, memory and I/O counters looking
+normal, so an affected measurement is indistinguishable from a slow one
+without this. See [`keep_awake()`](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/keep_awake.md), which this wraps, for platform support and
+for the `giotto.prevent_sleep` kill switch.
 
 ### Examples
 
@@ -37483,6 +37574,12 @@ identical(a, b)
 # does not alter pre-existing seed
 end_seed <- .Random.seed
 identical(start_seed, end_seed)
+# sleep prevention ##########################
+
+gwith_awake({
+    g <- runPCA(g, feats_to_use = "hvf", ncp = 30)
+    g <- createNearestNetwork(g, dim_reduction_to_use = "pca")
+})
 ```
 
 

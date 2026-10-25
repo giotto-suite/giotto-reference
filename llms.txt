@@ -698,6 +698,7 @@ giottoLargeImage object
 - [handle_warnings](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/handle_warnings.md): Warning handling
 - [init_option](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/init_option.md): Initialize an option
 - [is_empty_char](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/is_empty_char.md): Test if missing or empty character
+- [keep_awake](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/keep_awake.md): keep_awake
 - [lapply_flex](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/lapply_flex.md): lapply_flex
 - [lifecycle_badge](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/lifecycle_badge.md): lifecycle badge
 - [list_element_exists](https://raw.githubusercontent.com/giotto-suite/giotto-reference/main/reference/GiottoUtils/functions/list_element_exists.md): Test if list element exists

@@ -1,6 +1,6 @@
 # Function Reference TOC
 
-Generated 2026-10-18 06:07 UTC. 687 functions across 4 packages.
+Generated 2026-10-25 06:07 UTC. 688 functions across 4 packages.
 
 | Package | Function | Title |
 |---|---|---|
@@ -587,6 +587,7 @@ giottoLargeImage object |
 | GiottoUtils | [`handle_warnings`](GiottoUtils/functions/handle_warnings.md) | Warning handling |
 | GiottoUtils | [`init_option`](GiottoUtils/functions/init_option.md) | Initialize an option |
 | GiottoUtils | [`is_empty_char`](GiottoUtils/functions/is_empty_char.md) | Test if missing or empty character |
+| GiottoUtils | [`keep_awake`](GiottoUtils/functions/keep_awake.md) | keep_awake |
 | GiottoUtils | [`lapply_flex`](GiottoUtils/functions/lapply_flex.md) | lapply_flex |
 | GiottoUtils | [`lifecycle_badge`](GiottoUtils/functions/lifecycle_badge.md) | lifecycle badge |
 | GiottoUtils | [`list_element_exists`](GiottoUtils/functions/list_element_exists.md) | Test if list element exists |

@@ -2,7 +2,7 @@
 
 *Source:* https://github.com/giotto-suite/GiottoUtils (ref: `main`)  
 *Title:* Giotto Suite Utilities  
-*Version:* 0.2.6
+*Version:* 0.2.9
 
 Utility functions and imports for Giotto Suite.
 
@@ -10,7 +10,7 @@ Utility functions and imports for Giotto Suite.
 
 - [print_formatting](vignettes/print_formatting.Rmd)
 
-## Functions (58)
+## Functions (59)
 
 - [`check_github_suite_ver`](functions/check_github_suite_ver.md) — Check for updates to Giotto Suite
 - [`color_tag`](functions/color_tag.md) — Colorize print text
@@ -39,6 +39,7 @@ Utility functions and imports for Giotto Suite.
 - [`handle_warnings`](functions/handle_warnings.md) — Warning handling
 - [`init_option`](functions/init_option.md) — Initialize an option
 - [`is_empty_char`](functions/is_empty_char.md) — Test if missing or empty character
+- [`keep_awake`](functions/keep_awake.md) — keep_awake
 - [`lapply_flex`](functions/lapply_flex.md) — lapply_flex
 - [`lifecycle_badge`](functions/lifecycle_badge.md) — lifecycle badge
 - [`list_element_exists`](functions/list_element_exists.md) — Test if list element exists
